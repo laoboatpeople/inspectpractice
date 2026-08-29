@@ -848,9 +848,9 @@ export default function TheoryPage() {
   const [licenseFilter, setLicenseFilter] = useState<'ALL' | 'B1' | 'B2' | 'E1' | 'P1' | 'M1'>(() => {
     if (typeof window !== 'undefined') {
       const p = new URLSearchParams(window.location.search).get('license');
-      if (p === 'M' || p === 'E' || p === 'S' || p === 'ALL') return p;
+      if (p && ['B1', 'B2', 'E1', 'P1', 'M1', 'ALL'].includes(p)) return p as any;
       const s = sessionStorage.getItem('theory_license');
-      if (s === 'M' || s === 'E' || s === 'S') return s;
+      if (s && ['B1', 'B2', 'E1', 'P1', 'M1'].includes(s)) return s as any;
     }
     return 'ALL';
   });
@@ -1070,7 +1070,7 @@ export default function TheoryPage() {
       {/* Licence rating filter — same pattern as /exams */}
       {!loading && categories.length > 0 && (
         <div className="flex flex-wrap items-center gap-2 mt-4">
-          {(['ALL', 'M', 'E', 'S'] as const).map((r) => (
+          {(['ALL', 'B1', 'B2', 'E1', 'P1', 'M1'] as const).map((r) => (
             <button
               key={r}
               onClick={() => selectLicense(r)}

@@ -273,9 +273,7 @@ export default function StudentExamsPage() {
 
         {/* Name & Description */}
         <h3 className="text-sm font-semibold text-text-primary group-hover:text-blue transition-colors mb-1">
-          {ratingFilter === 'E' ? t('cat_P1Plumbing')
-            : ratingFilter === 'S' ? t('cat_M1Mechanical')
-            : (t(CATEGORY_TRANSLATIONS[category.id] || '') || category.name)}
+          {t(CATEGORY_TRANSLATIONS[category.id] || '') || category.name}
         </h3>
         {category.description && (
           <p className="text-xs text-text-secondary line-clamp-2 mb-4 leading-relaxed">
@@ -327,11 +325,11 @@ export default function StudentExamsPage() {
         </p>
       </div>
 
-      {/* Rating path selector — official TP 14038 exam structure */}
+      {/* Rating path selector — ICC certification structure */}
       {!loading && !error && categories.length > 0 && (
         <div className="mb-8">
           <div className="flex flex-wrap items-center gap-2 mb-4">
-            {(['ALL', 'M', 'E', 'S'] as const).map((r) => (
+            {(['ALL', 'B1', 'B2', 'E1', 'P1', 'M1'] as const).map((r) => (
               <button
                 key={r}
                 onClick={() => selectRating(r)}
@@ -352,15 +350,21 @@ export default function StudentExamsPage() {
               {t('examPathTitle')}
             </h2>
             <p className="text-xs text-text-secondary mb-3">{t('examPathNote')}</p>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 text-xs">
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-xs">
               <span className="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-blue/10 border border-blue/20 text-text-primary">
-                <span className="font-bold text-blue">M</span> {t('examPathM')}
+                <span className="font-bold text-blue">B1</span> {t('examPathB1')}
+              </span>
+              <span className="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-amber/10 border border-amber/20 text-text-primary">
+                <span className="font-bold text-amber">B2</span> {t('examPathB2')}
               </span>
               <span className="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-cyan/10 border border-cyan/20 text-text-primary">
-                <span className="font-bold text-cyan">E</span> {t('examPathE')}
+                <span className="font-bold text-cyan">E1</span> {t('examPathE1')}
+              </span>
+              <span className="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-green/10 border border-green/20 text-text-primary">
+                <span className="font-bold text-green">P1</span> {t('examPathP1')}
               </span>
               <span className="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-purple/10 border border-purple/20 text-text-primary">
-                <span className="font-bold text-purple">S</span> {t('examPathS')}
+                <span className="font-bold text-purple">M1</span> {t('examPathM1')}
               </span>
             </div>
           </div>
