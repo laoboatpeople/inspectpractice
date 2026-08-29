@@ -1,0 +1,15 @@
+[Unit]
+Description=InspectPractice Client Next.js App (port 3013)
+After=network.target
+
+[Service]
+Type=simple
+User=chuck
+WorkingDirectory=/home/chuck/projects/inspectpractice/client
+Environment="NODE_ENV=production"
+Environment="PORT=3013"
+EnvironmentFile=-/home/chuck/projects/inspectpractice/client/.env.production
+ExecStart=/usr/bin/node /home/chuck/projects/inspectpractice/client/node_modules/next/dist/bin/next start -p 3013
+Restart=on-failure
+RestartSec=5
+SyslogIdentifier=inspectpractice-client

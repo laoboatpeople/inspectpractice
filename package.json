@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "test:smoke": "node tests/smoke.mjs"
+  },
+  "dependencies": {
+    "recharts": "^3.8.1"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}

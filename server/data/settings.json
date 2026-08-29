@@ -1,0 +1,25 @@
+{
+  "organization": {
+    "name": "Inspect Practice Inc.",
+    "email": "admin@inspectpractice.ca",
+    "timezone": "America/Toronto"
+  },
+  "examDefaults": {
+    "passingScore": 70,
+    "timeLimit": 60,
+    "questionsPerSimulation": 50,
+    "randomizeOrder": false
+  },
+  "notifications": {
+    "emailNotifications": true,
+    "welcomeEmail": true,
+    "reminderEmails": true,
+    "adminNewUserAlert": true,
+    "adminNotificationEmail": "chuck.onekeo@gmail.com"
+  },
+  "security": {
+    "sessionTimeout": 60,
+    "requireEmailVerification": false,
+    "apiKeys": []
+  }
+}

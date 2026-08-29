@@ -1,0 +1,1402 @@
+[
+  {
+    "subtopic": "Électricité de base",
+    "difficulty": "Facile",
+    "question": "Pendant une recherche de panne sur un circuit d’éclairage cabine 28 VDC, vous mesurez 28 V en amont du disjoncteur et 0 V en aval avec le disjoncteur enclenché. Quelle conclusion est la plus probable?",
+    "options": [
+      "Le disjoncteur est ouvert/intermittent malgré sa position",
+      "La lampe en aval est court-circuitée",
+      "Le retour masse est trop résistant",
+      "L’alternateur ne charge pas"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Une chute complète au travers du disjoncteur indique une non-conduction.",
+    "ref": "TP 14038E - Systèmes électriques"
+  },
+  {
+    "subtopic": "Électricité de base",
+    "difficulty": "Moyen",
+    "question": "Sur un bus avionique, une charge de 15 A est alimentée via un fil certifié 12 A. En AMO, quelle action est conforme avant remise en service?",
+    "options": [
+      "Conserver tel quel si essai bon",
+      "Installer un disjoncteur plus gros",
+      "Remplacer conducteur par calibre approuvé ou réduire charge selon données approuvées",
+      "Ajouter gaine thermique seulement"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Le dimensionnement fil/protection doit respecter les données approuvées.",
+    "ref": "TP 14038E - EWIS/ampacité"
+  },
+  {
+    "subtopic": "Batteries",
+    "difficulty": "Moyen",
+    "question": "Après remplacement d’une batterie Ni-Cd, la température batterie augmente rapidement en charge. Première vérification pertinente?",
+    "options": [
+      "Régulateur/chargeur et sonde température batterie",
+      "Pression pneus",
+      "Calage trim",
+      "Polarisation VOR"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Surchauffe Ni-Cd est souvent liée à régulation de charge/mesure température.",
+    "ref": "TP 14038E - Batteries"
+  },
+  {
+    "subtopic": "Génération AC",
+    "difficulty": "Difficile",
+    "question": "Sur bimoteur, le générateur AC #2 se déconnecte uniquement sous forte charge (galley + anti-givrage). Hypothèse initiale?",
+    "options": [
+      "Protection sous-fréquence/sous-tension mal calibrée sous charge",
+      "Précession gyro",
+      "Fuite PTU",
+      "Compas magnétique"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Défaut corrélé à la charge oriente vers la boucle de régulation/protection générateur.",
+    "ref": "TP 14038E - Génération/contrôle"
+  },
+  {
+    "subtopic": "Distribution bus",
+    "difficulty": "Moyen",
+    "question": "Pannes intermittentes COM1, XPDR et GPS (même bus avionique). Les LRU testent bons au banc. Stratégie efficace?",
+    "options": [
+      "Remplacer COM1 d’abord",
+      "Inspecter alimentation/masse communes, relais bus et connecteurs distribution",
+      "Changer antenne ELT",
+      "Recalibrer jauges carburant"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Pannes multi-équipements suggèrent cause commune d’alimentation/distribution.",
+    "ref": "TP 14038E - Méthodologie dépannage"
+  },
+  {
+    "subtopic": "Protection circuits",
+    "difficulty": "Facile",
+    "question": "Un disjoncteur thermique déclenche en vol mais pas au sol. Quel facteur considérer d’abord?",
+    "options": [
+      "Température/vibration/charge réelles en vol",
+      "Peinture extérieure",
+      "Niveau huile",
+      "Alignement volets"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Conditions vol peuvent révéler surcharge intermittente ou échauffement local.",
+    "ref": "TP 14038E - Protection électrique"
+  },
+  {
+    "subtopic": "EWIS",
+    "difficulty": "Difficile",
+    "question": "Inspection: toron frottant une arête structurelle, isolant intact visuellement. Que faire?",
+    "options": [
+      "Ignorer",
+      "Ruban vinyle et libérer",
+      "Corriger cheminement/protection, inspecter dommages cachés et consigner",
+      "Remplacer disjoncteur"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Le risque d’abrasion future exige correction de cause et inspection documentée.",
+    "ref": "TP 14038E - EWIS"
+  },
+  {
+    "subtopic": "Masse et bonding",
+    "difficulty": "Moyen",
+    "question": "Après peinture, portée VHF réduite. Cause plausible?",
+    "options": [
+      "Bonding antenne-cellule dégradé",
+      "Trop de carburant",
+      "Surpression cabine",
+      "Défaut pitot"
+    ],
+    "correctAnswer": "A",
+    "explanation": "La qualité de masse RF influence l’efficacité de l’antenne.",
+    "ref": "TP 14038E - Bonding/grounding"
+  },
+  {
+    "subtopic": "EMI",
+    "difficulty": "Difficile",
+    "question": "Bruit COM lors activation strobes LED retrofit. Correctif prioritaire?",
+    "options": [
+      "Augmenter volume interphone",
+      "Vérifier conformité EMI kit, blindage/masse et séparation câbles",
+      "Remplacer micro",
+      "Désactiver transpondeur"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Le retrofit peut injecter du bruit; installation et conformité EMI doivent être validées.",
+    "ref": "TP 14038E - CEM"
+  },
+  {
+    "subtopic": "Capteurs moteur",
+    "difficulty": "Moyen",
+    "question": "EGT #3 erratique en turbulence, moteur normal. Où inspecter d’abord?",
+    "options": [
+      "Injecteur carburant",
+      "Connectique/thermocouple EGT et fixation faisceau",
+      "Pompe hydraulique",
+      "Antenne DME"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Signal sensible aux vibrations = connexion/faisceau probable.",
+    "ref": "TP 14038E - Instrumentation moteur"
+  },
+  {
+    "subtopic": "Autopilote/ADC",
+    "difficulty": "Moyen",
+    "question": "ALT SEL oscille ±200 ft, test pitot-statique conforme. Vérification pertinente?",
+    "options": [
+      "Configuration source altitude ARINC vers AFCS",
+      "Usure freins",
+      "Réglage siège",
+      "Densité huile"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Si chaîne pneumatique est bonne, viser l’interface données avioniques.",
+    "ref": "TP 14038E - Interfaces numériques"
+  },
+  {
+    "subtopic": "NAV/ILS",
+    "difficulty": "Moyen",
+    "question": "LOC stable mais glide instable sur 2 récepteurs. Suspect principal?",
+    "options": [
+      "Antenne GS ou coax associé",
+      "Batterie avion",
+      "ELT",
+      "Trim"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Défaut commun en amont des deux récepteurs: antenne/ligne.",
+    "ref": "TP 14038E - ILS dépannage"
+  },
+  {
+    "subtopic": "ADS-B",
+    "difficulty": "Difficile",
+    "question": "Après installation WAAS, rapports ADS-B montrent NIC/NAC intermittents. Action juste?",
+    "options": [
+      "Changer marker beacon",
+      "Valider config source position ADS-B, version logicielle approuvée, câblage data",
+      "Augmenter puissance VHF",
+      "Nettoyer pitot"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Qualité ADS-B dépend de l’intégration source position et configuration.",
+    "ref": "TP 14038E - ADS-B"
+  },
+  {
+    "subtopic": "Autopilote",
+    "difficulty": "Difficile",
+    "question": "Servo roulis chauffe après 20 min AP engagé. Hypothèse initiale?",
+    "options": [
+      "Boucle de commande en chasse (friction/rigging/gain)",
+      "Antenne ADF cassée",
+      "Manque oxygène",
+      "Feux nav"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un servo qui travaille en continu suggère problème boucle de commande.",
+    "ref": "TP 14038E - AFCS"
+  },
+  {
+    "subtopic": "Mesure électrique",
+    "difficulty": "Facile",
+    "question": "Chute de 3 V sur retour masse d’un équipement 28 V sous charge nominale. Interprétation?",
+    "options": [
+      "Acceptable",
+      "Résistance de masse excessive",
+      "Alternateur trop puissant",
+      "Batterie surchargée"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Chute élevée sur masse révèle une connexion/résistance anormale.",
+    "ref": "TP 14038E - Chute de tension"
+  },
+  {
+    "subtopic": "Bus essentiels",
+    "difficulty": "Moyen",
+    "question": "En ligne, une anomalie intermittente touche bus essentiels après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "Inverseur statique",
+    "difficulty": "Difficile",
+    "question": "En ligne, une anomalie intermittente touche inverseur statique après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "TRU",
+    "difficulty": "Facile",
+    "question": "En ligne, une anomalie intermittente touche tru après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "Onduleur",
+    "difficulty": "Moyen",
+    "question": "En ligne, une anomalie intermittente touche onduleur après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "Radio COM",
+    "difficulty": "Difficile",
+    "question": "En ligne, une anomalie intermittente touche radio com après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "NAV RNAV",
+    "difficulty": "Facile",
+    "question": "En ligne, une anomalie intermittente touche nav rnav après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "Radar météo",
+    "difficulty": "Moyen",
+    "question": "En ligne, une anomalie intermittente touche radar météo après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "DME",
+    "difficulty": "Difficile",
+    "question": "En ligne, une anomalie intermittente touche dme après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "ADF",
+    "difficulty": "Facile",
+    "question": "En ligne, une anomalie intermittente touche adf après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "Audio panel",
+    "difficulty": "Moyen",
+    "question": "En ligne, une anomalie intermittente touche audio panel après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "Système anti-givrage électrique",
+    "difficulty": "Difficile",
+    "question": "En ligne, une anomalie intermittente touche système anti-givrage électrique après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "Éclairage externe",
+    "difficulty": "Facile",
+    "question": "En ligne, une anomalie intermittente touche éclairage externe après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "CVR/FDR alimentation",
+    "difficulty": "Moyen",
+    "question": "En ligne, une anomalie intermittente touche cvr/fdr alimentation après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "Sondes pitot chauffées",
+    "difficulty": "Difficile",
+    "question": "En ligne, une anomalie intermittente touche sondes pitot chauffées après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "Circuit de démarrage",
+    "difficulty": "Facile",
+    "question": "En ligne, une anomalie intermittente touche circuit de démarrage après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "GCU",
+    "difficulty": "Moyen",
+    "question": "En ligne, une anomalie intermittente touche gcu après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "Alternateur",
+    "difficulty": "Difficile",
+    "question": "En ligne, une anomalie intermittente touche alternateur après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "Capteurs carburant",
+    "difficulty": "Facile",
+    "question": "En ligne, une anomalie intermittente touche capteurs carburant après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "Bus essentiels",
+    "difficulty": "Moyen",
+    "question": "En ligne, une anomalie intermittente touche bus essentiels après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "Inverseur statique",
+    "difficulty": "Difficile",
+    "question": "En ligne, une anomalie intermittente touche inverseur statique après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "TRU",
+    "difficulty": "Facile",
+    "question": "En ligne, une anomalie intermittente touche tru après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "Onduleur",
+    "difficulty": "Moyen",
+    "question": "En ligne, une anomalie intermittente touche onduleur après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "Radio COM",
+    "difficulty": "Difficile",
+    "question": "En ligne, une anomalie intermittente touche radio com après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "NAV RNAV",
+    "difficulty": "Facile",
+    "question": "En ligne, une anomalie intermittente touche nav rnav après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "Radar météo",
+    "difficulty": "Moyen",
+    "question": "En ligne, une anomalie intermittente touche radar météo après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "DME",
+    "difficulty": "Difficile",
+    "question": "En ligne, une anomalie intermittente touche dme après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "ADF",
+    "difficulty": "Facile",
+    "question": "En ligne, une anomalie intermittente touche adf après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "Audio panel",
+    "difficulty": "Moyen",
+    "question": "En ligne, une anomalie intermittente touche audio panel après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "Système anti-givrage électrique",
+    "difficulty": "Difficile",
+    "question": "En ligne, une anomalie intermittente touche système anti-givrage électrique après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "Éclairage externe",
+    "difficulty": "Facile",
+    "question": "En ligne, une anomalie intermittente touche éclairage externe après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "CVR/FDR alimentation",
+    "difficulty": "Moyen",
+    "question": "En ligne, une anomalie intermittente touche cvr/fdr alimentation après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "Sondes pitot chauffées",
+    "difficulty": "Difficile",
+    "question": "En ligne, une anomalie intermittente touche sondes pitot chauffées après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "Circuit de démarrage",
+    "difficulty": "Facile",
+    "question": "En ligne, une anomalie intermittente touche circuit de démarrage après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "GCU",
+    "difficulty": "Moyen",
+    "question": "En ligne, une anomalie intermittente touche gcu après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "Alternateur",
+    "difficulty": "Difficile",
+    "question": "En ligne, une anomalie intermittente touche alternateur après pluie et lavage. Quel premier axe de dépannage est le plus pertinent en AMO?",
+    "options": [
+      "Remplacer immédiatement l’équipement principal sans test",
+      "Inspecter connecteurs, étanchéité, corrosion, drainage et continuité masse/alimentation selon AMM",
+      "Effacer le défaut sans action car intermittent",
+      "Reconfigurer uniquement l’horloge cockpit"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les pannes intermittentes post-humidité sont souvent liées aux connectiques/étanchéité et au câblage, à confirmer par méthode structurée.",
+    "ref": "TP 14038E - Dépannage environnemental"
+  },
+  {
+    "subtopic": "Fatigue",
+    "difficulty": "Moyen",
+    "question": "Fin de quart de nuit, vous vous sentez diminué avant une tâche critique avionique. Décision appropriée? (Cas AMO 51)",
+    "options": [
+      "Signer vite pour éviter retard",
+      "Transférer formellement avec état exact et documentation",
+      "Demander au pilote de surveiller",
+      "Ignorer la fatigue"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Gestion fatigue: relève structurée et traçabilité avant CRS.",
+    "ref": "TP 14038E - HF maintenance"
+  },
+  {
+    "subtopic": "Relève d’équipe",
+    "difficulty": "Facile",
+    "question": "Quelle pratique réduit le mieux les erreurs à la relève? (Cas AMO 52)",
+    "options": [
+      "Verbal rapide seulement",
+      "Brief structuré + dossier à jour + points de reprise",
+      "Notes non signées",
+      "Attendre appel pilote"
+    ],
+    "correctAnswer": "B",
+    "explanation": "La relève structurée réduit les omissions.",
+    "ref": "TP 14038E - Communication"
+  },
+  {
+    "subtopic": "Pression opérationnelle",
+    "difficulty": "Moyen",
+    "question": "Le superviseur presse une libération alors qu’une étape EWIS reste incomplète. Action AME? (Cas AMO 53)",
+    "options": [
+      "Signer et compléter plus tard",
+      "Refuser CRS jusqu’à exécution/attestation complète",
+      "Déléguer au dispatch",
+      "Supprimer la tâche"
+    ],
+    "correctAnswer": "B",
+    "explanation": "La conformité prime sur la pression de temps.",
+    "ref": "TP 14038E; RAC 571"
+  },
+  {
+    "subtopic": "Données techniques",
+    "difficulty": "Moyen",
+    "question": "Un collègue utilise une révision CMM périmée. Action immédiate? (Cas AMO 54)",
+    "options": [
+      "Ignorer",
+      "Stopper la tâche, appliquer révision en vigueur et évaluer impact",
+      "Corriger après livraison",
+      "Signer à sa place"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les données contrôlées doivent être à jour.",
+    "ref": "TP 14038E - Contrôle documentaire"
+  },
+  {
+    "subtopic": "Culture juste",
+    "difficulty": "Facile",
+    "question": "Après erreur de câblage sans conséquence, meilleure approche? (Cas AMO 55)",
+    "options": [
+      "Blâme public",
+      "Rapport, analyse causes latentes, actions préventives",
+      "Pas de trace",
+      "Sanction automatique"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Le signalement alimente la prévention.",
+    "ref": "TP 14038E - SGS"
+  },
+  {
+    "subtopic": "Interruptions",
+    "difficulty": "Difficile",
+    "question": "Durant dépannage complexe, vous subissez plusieurs interruptions. Contre-mesure robuste? (Cas AMO 56)",
+    "options": [
+      "Reprendre de mémoire",
+      "Point d’arrêt/checklist de reprise + vérification indépendante étapes critiques",
+      "Accélérer",
+      "Sauter tests intermédiaires"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les interruptions favorisent les omissions; les barrières procédurales réduisent le risque.",
+    "ref": "TP 14038E - TEM maintenance"
+  },
+  {
+    "subtopic": "MEL",
+    "difficulty": "Difficile",
+    "question": "Équipement inop potentiellement MEL. Avant CRS, exigence clé? (Cas AMO 57)",
+    "options": [
+      "Valider conditions/limitations MEL, procédures O/M et annotation technique",
+      "Accord verbal commandant",
+      "Test continuité seul",
+      "Aucune pour vol court"
+    ],
+    "correctAnswer": "A",
+    "explanation": "La libération sous MEL exige conformité documentaire et opérationnelle complète.",
+    "ref": "TP 14038E - MEL/CDL"
+  },
+  {
+    "subtopic": "Conscience situationnelle",
+    "difficulty": "Moyen",
+    "question": "Après une pause, vous reprenez un test de continuité sur faisceau critique sans marqueur d’étape. Quelle pratique évite l’erreur de reprise?",
+    "options": [
+      "Continuer au point estimé",
+      "Revenir au dernier point vérifié/documenté et refaire la séquence critique",
+      "Demander au pilote",
+      "Sauter l’étape déjà probable"
+    ],
+    "correctAnswer": "B",
+    "explanation": "La reprise sûre exige un point de référence vérifié, pas la mémoire.",
+    "ref": "TP 14038E - Gestion interruptions"
+  },
+  {
+    "subtopic": "Assertivité",
+    "difficulty": "Moyen",
+    "question": "Un junior suspecte un couple de serrage incorrect sur connecteur critique. Action attendue? (Cas AMO 59)",
+    "options": [
+      "Se taire",
+      "Signaler et faire vérifier selon AMM",
+      "Corriger sans trace",
+      "Noter après vol"
+    ],
+    "correctAnswer": "B",
+    "explanation": "L’assertivité est essentielle à la sécurité.",
+    "ref": "TP 14038E - CRM maintenance"
+  },
+  {
+    "subtopic": "Inspection indépendante",
+    "difficulty": "Facile",
+    "question": "Quelle tâche mérite le plus une inspection indépendante? (Cas AMO 60)",
+    "options": [
+      "Nettoyage vitrage",
+      "Reconnexion circuit critique de vol",
+      "Remplissage eau",
+      "Pose étiquette"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les tâches critiques demandent un second regard.",
+    "ref": "TP 14038E - Inspection indépendante"
+  },
+  {
+    "subtopic": "Fatigue",
+    "difficulty": "Moyen",
+    "question": "Fin de quart de nuit, vous vous sentez diminué avant une tâche critique avionique. Décision appropriée? (Cas AMO 61)",
+    "options": [
+      "Signer vite pour éviter retard",
+      "Transférer formellement avec état exact et documentation",
+      "Demander au pilote de surveiller",
+      "Ignorer la fatigue"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Gestion fatigue: relève structurée et traçabilité avant CRS.",
+    "ref": "TP 14038E - HF maintenance"
+  },
+  {
+    "subtopic": "Relève d’équipe",
+    "difficulty": "Facile",
+    "question": "Quelle pratique réduit le mieux les erreurs à la relève? (Cas AMO 62)",
+    "options": [
+      "Verbal rapide seulement",
+      "Brief structuré + dossier à jour + points de reprise",
+      "Notes non signées",
+      "Attendre appel pilote"
+    ],
+    "correctAnswer": "B",
+    "explanation": "La relève structurée réduit les omissions.",
+    "ref": "TP 14038E - Communication"
+  },
+  {
+    "subtopic": "Pression opérationnelle",
+    "difficulty": "Moyen",
+    "question": "Le superviseur presse une libération alors qu’une étape EWIS reste incomplète. Action AME? (Cas AMO 63)",
+    "options": [
+      "Signer et compléter plus tard",
+      "Refuser CRS jusqu’à exécution/attestation complète",
+      "Déléguer au dispatch",
+      "Supprimer la tâche"
+    ],
+    "correctAnswer": "B",
+    "explanation": "La conformité prime sur la pression de temps.",
+    "ref": "TP 14038E; RAC 571"
+  },
+  {
+    "subtopic": "Données techniques",
+    "difficulty": "Moyen",
+    "question": "Un collègue utilise une révision CMM périmée. Action immédiate? (Cas AMO 64)",
+    "options": [
+      "Ignorer",
+      "Stopper la tâche, appliquer révision en vigueur et évaluer impact",
+      "Corriger après livraison",
+      "Signer à sa place"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les données contrôlées doivent être à jour.",
+    "ref": "TP 14038E - Contrôle documentaire"
+  },
+  {
+    "subtopic": "Culture juste",
+    "difficulty": "Facile",
+    "question": "Après erreur de câblage sans conséquence, meilleure approche? (Cas AMO 65)",
+    "options": [
+      "Blâme public",
+      "Rapport, analyse causes latentes, actions préventives",
+      "Pas de trace",
+      "Sanction automatique"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Le signalement alimente la prévention.",
+    "ref": "TP 14038E - SGS"
+  },
+  {
+    "subtopic": "Interruptions",
+    "difficulty": "Difficile",
+    "question": "Durant dépannage complexe, vous subissez plusieurs interruptions. Contre-mesure robuste? (Cas AMO 66)",
+    "options": [
+      "Reprendre de mémoire",
+      "Point d’arrêt/checklist de reprise + vérification indépendante étapes critiques",
+      "Accélérer",
+      "Sauter tests intermédiaires"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les interruptions favorisent les omissions; les barrières procédurales réduisent le risque.",
+    "ref": "TP 14038E - TEM maintenance"
+  },
+  {
+    "subtopic": "MEL",
+    "difficulty": "Difficile",
+    "question": "Équipement inop potentiellement MEL. Avant CRS, exigence clé? (Cas AMO 67)",
+    "options": [
+      "Valider conditions/limitations MEL, procédures O/M et annotation technique",
+      "Accord verbal commandant",
+      "Test continuité seul",
+      "Aucune pour vol court"
+    ],
+    "correctAnswer": "A",
+    "explanation": "La libération sous MEL exige conformité documentaire et opérationnelle complète.",
+    "ref": "TP 14038E - MEL/CDL"
+  },
+  {
+    "subtopic": "Coordination travaux",
+    "difficulty": "Moyen",
+    "question": "Deux équipes travaillent même zone (EWIS/hydraulique). Risque HF principal? (Cas AMO 68)",
+    "options": [
+      "Confusion de configuration et dommages collatéraux",
+      "Excès carburant",
+      "Erreur catering",
+      "Baisse GPS satellite"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Travaux simultanés exigent coordination stricte.",
+    "ref": "TP 14038E - Coordination"
+  },
+  {
+    "subtopic": "Assertivité",
+    "difficulty": "Moyen",
+    "question": "Un junior suspecte un couple de serrage incorrect sur connecteur critique. Action attendue? (Cas AMO 69)",
+    "options": [
+      "Se taire",
+      "Signaler et faire vérifier selon AMM",
+      "Corriger sans trace",
+      "Noter après vol"
+    ],
+    "correctAnswer": "B",
+    "explanation": "L’assertivité est essentielle à la sécurité.",
+    "ref": "TP 14038E - CRM maintenance"
+  },
+  {
+    "subtopic": "Inspection indépendante",
+    "difficulty": "Facile",
+    "question": "Quelle tâche mérite le plus une inspection indépendante? (Cas AMO 70)",
+    "options": [
+      "Nettoyage vitrage",
+      "Reconnexion circuit critique de vol",
+      "Remplissage eau",
+      "Pose étiquette"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les tâches critiques demandent un second regard.",
+    "ref": "TP 14038E - Inspection indépendante"
+  },
+  {
+    "subtopic": "Fatigue",
+    "difficulty": "Moyen",
+    "question": "Fin de quart de nuit, vous vous sentez diminué avant une tâche critique avionique. Décision appropriée? (Cas AMO 71)",
+    "options": [
+      "Signer vite pour éviter retard",
+      "Transférer formellement avec état exact et documentation",
+      "Demander au pilote de surveiller",
+      "Ignorer la fatigue"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Gestion fatigue: relève structurée et traçabilité avant CRS.",
+    "ref": "TP 14038E - HF maintenance"
+  },
+  {
+    "subtopic": "Prise de décision AMO",
+    "difficulty": "Difficile",
+    "question": "BITE transpondeur = PASS, mais défaut récurrent en air humide. Quelle décision est la plus solide?",
+    "options": [
+      "Clore définitivement",
+      "Poursuivre investigation environnementale (coax/connecteurs/étanchéité) avant CRS final",
+      "Remplacer au hasard",
+      "Ignorer car intermittent"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Un BITE PASS n’écarte pas un défaut intermittent dépendant de l’environnement.",
+    "ref": "TP 14038E - Dépannage intermittent"
+  },
+  {
+    "subtopic": "Pression opérationnelle",
+    "difficulty": "Moyen",
+    "question": "Le superviseur presse une libération alors qu’une étape EWIS reste incomplète. Action AME? (Cas AMO 73)",
+    "options": [
+      "Signer et compléter plus tard",
+      "Refuser CRS jusqu’à exécution/attestation complète",
+      "Déléguer au dispatch",
+      "Supprimer la tâche"
+    ],
+    "correctAnswer": "B",
+    "explanation": "La conformité prime sur la pression de temps.",
+    "ref": "TP 14038E; RAC 571"
+  },
+  {
+    "subtopic": "Données techniques",
+    "difficulty": "Moyen",
+    "question": "Un collègue utilise une révision CMM périmée. Action immédiate? (Cas AMO 74)",
+    "options": [
+      "Ignorer",
+      "Stopper la tâche, appliquer révision en vigueur et évaluer impact",
+      "Corriger après livraison",
+      "Signer à sa place"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les données contrôlées doivent être à jour.",
+    "ref": "TP 14038E - Contrôle documentaire"
+  },
+  {
+    "subtopic": "Culture juste",
+    "difficulty": "Facile",
+    "question": "Après erreur de câblage sans conséquence, meilleure approche? (Cas AMO 75)",
+    "options": [
+      "Blâme public",
+      "Rapport, analyse causes latentes, actions préventives",
+      "Pas de trace",
+      "Sanction automatique"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Le signalement alimente la prévention.",
+    "ref": "TP 14038E - SGS"
+  },
+  {
+    "subtopic": "Interruptions",
+    "difficulty": "Difficile",
+    "question": "Durant dépannage complexe, vous subissez plusieurs interruptions. Contre-mesure robuste? (Cas AMO 76)",
+    "options": [
+      "Reprendre de mémoire",
+      "Point d’arrêt/checklist de reprise + vérification indépendante étapes critiques",
+      "Accélérer",
+      "Sauter tests intermédiaires"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les interruptions favorisent les omissions; les barrières procédurales réduisent le risque.",
+    "ref": "TP 14038E - TEM maintenance"
+  },
+  {
+    "subtopic": "MEL",
+    "difficulty": "Difficile",
+    "question": "Équipement inop potentiellement MEL. Avant CRS, exigence clé? (Cas AMO 77)",
+    "options": [
+      "Valider conditions/limitations MEL, procédures O/M et annotation technique",
+      "Accord verbal commandant",
+      "Test continuité seul",
+      "Aucune pour vol court"
+    ],
+    "correctAnswer": "A",
+    "explanation": "La libération sous MEL exige conformité documentaire et opérationnelle complète.",
+    "ref": "TP 14038E - MEL/CDL"
+  },
+  {
+    "subtopic": "Coordination travaux",
+    "difficulty": "Moyen",
+    "question": "Deux équipes travaillent même zone (EWIS/hydraulique). Risque HF principal? (Cas AMO 78)",
+    "options": [
+      "Confusion de configuration et dommages collatéraux",
+      "Excès carburant",
+      "Erreur catering",
+      "Baisse GPS satellite"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Travaux simultanés exigent coordination stricte.",
+    "ref": "TP 14038E - Coordination"
+  },
+  {
+    "subtopic": "Assertivité",
+    "difficulty": "Moyen",
+    "question": "Un junior suspecte un couple de serrage incorrect sur connecteur critique. Action attendue? (Cas AMO 79)",
+    "options": [
+      "Se taire",
+      "Signaler et faire vérifier selon AMM",
+      "Corriger sans trace",
+      "Noter après vol"
+    ],
+    "correctAnswer": "B",
+    "explanation": "L’assertivité est essentielle à la sécurité.",
+    "ref": "TP 14038E - CRM maintenance"
+  },
+  {
+    "subtopic": "Inspection indépendante",
+    "difficulty": "Facile",
+    "question": "Quelle tâche mérite le plus une inspection indépendante? (Cas AMO 80)",
+    "options": [
+      "Nettoyage vitrage",
+      "Reconnexion circuit critique de vol",
+      "Remplissage eau",
+      "Pose étiquette"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les tâches critiques demandent un second regard.",
+    "ref": "TP 14038E - Inspection indépendante"
+  },
+  {
+    "subtopic": "Fatigue",
+    "difficulty": "Moyen",
+    "question": "Fin de quart de nuit, vous vous sentez diminué avant une tâche critique avionique. Décision appropriée? (Cas AMO 81)",
+    "options": [
+      "Signer vite pour éviter retard",
+      "Transférer formellement avec état exact et documentation",
+      "Demander au pilote de surveiller",
+      "Ignorer la fatigue"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Gestion fatigue: relève structurée et traçabilité avant CRS.",
+    "ref": "TP 14038E - HF maintenance"
+  },
+  {
+    "subtopic": "Relève d’équipe",
+    "difficulty": "Facile",
+    "question": "Quelle pratique réduit le mieux les erreurs à la relève? (Cas AMO 82)",
+    "options": [
+      "Verbal rapide seulement",
+      "Brief structuré + dossier à jour + points de reprise",
+      "Notes non signées",
+      "Attendre appel pilote"
+    ],
+    "correctAnswer": "B",
+    "explanation": "La relève structurée réduit les omissions.",
+    "ref": "TP 14038E - Communication"
+  },
+  {
+    "subtopic": "Pression opérationnelle",
+    "difficulty": "Moyen",
+    "question": "Le superviseur presse une libération alors qu’une étape EWIS reste incomplète. Action AME? (Cas AMO 83)",
+    "options": [
+      "Signer et compléter plus tard",
+      "Refuser CRS jusqu’à exécution/attestation complète",
+      "Déléguer au dispatch",
+      "Supprimer la tâche"
+    ],
+    "correctAnswer": "B",
+    "explanation": "La conformité prime sur la pression de temps.",
+    "ref": "TP 14038E; RAC 571"
+  },
+  {
+    "subtopic": "Données techniques",
+    "difficulty": "Moyen",
+    "question": "Un collègue utilise une révision CMM périmée. Action immédiate? (Cas AMO 84)",
+    "options": [
+      "Ignorer",
+      "Stopper la tâche, appliquer révision en vigueur et évaluer impact",
+      "Corriger après livraison",
+      "Signer à sa place"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les données contrôlées doivent être à jour.",
+    "ref": "TP 14038E - Contrôle documentaire"
+  },
+  {
+    "subtopic": "Culture juste",
+    "difficulty": "Facile",
+    "question": "Après erreur de câblage sans conséquence, meilleure approche? (Cas AMO 85)",
+    "options": [
+      "Blâme public",
+      "Rapport, analyse causes latentes, actions préventives",
+      "Pas de trace",
+      "Sanction automatique"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Le signalement alimente la prévention.",
+    "ref": "TP 14038E - SGS"
+  },
+  {
+    "subtopic": "Interruptions",
+    "difficulty": "Difficile",
+    "question": "Durant dépannage complexe, vous subissez plusieurs interruptions. Contre-mesure robuste? (Cas AMO 86)",
+    "options": [
+      "Reprendre de mémoire",
+      "Point d’arrêt/checklist de reprise + vérification indépendante étapes critiques",
+      "Accélérer",
+      "Sauter tests intermédiaires"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les interruptions favorisent les omissions; les barrières procédurales réduisent le risque.",
+    "ref": "TP 14038E - TEM maintenance"
+  },
+  {
+    "subtopic": "MEL",
+    "difficulty": "Difficile",
+    "question": "Équipement inop potentiellement MEL. Avant CRS, exigence clé? (Cas AMO 87)",
+    "options": [
+      "Valider conditions/limitations MEL, procédures O/M et annotation technique",
+      "Accord verbal commandant",
+      "Test continuité seul",
+      "Aucune pour vol court"
+    ],
+    "correctAnswer": "A",
+    "explanation": "La libération sous MEL exige conformité documentaire et opérationnelle complète.",
+    "ref": "TP 14038E - MEL/CDL"
+  },
+  {
+    "subtopic": "Coordination travaux",
+    "difficulty": "Moyen",
+    "question": "Deux équipes travaillent même zone (EWIS/hydraulique). Risque HF principal? (Cas AMO 88)",
+    "options": [
+      "Confusion de configuration et dommages collatéraux",
+      "Excès carburant",
+      "Erreur catering",
+      "Baisse GPS satellite"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Travaux simultanés exigent coordination stricte.",
+    "ref": "TP 14038E - Coordination"
+  },
+  {
+    "subtopic": "Assertivité",
+    "difficulty": "Moyen",
+    "question": "Un junior suspecte un couple de serrage incorrect sur connecteur critique. Action attendue? (Cas AMO 89)",
+    "options": [
+      "Se taire",
+      "Signaler et faire vérifier selon AMM",
+      "Corriger sans trace",
+      "Noter après vol"
+    ],
+    "correctAnswer": "B",
+    "explanation": "L’assertivité est essentielle à la sécurité.",
+    "ref": "TP 14038E - CRM maintenance"
+  },
+  {
+    "subtopic": "Traçabilité",
+    "difficulty": "Moyen",
+    "question": "Vous remplacez un composant avionique mais oubliez le numéro de série dans la fiche. Que faire avant CRS?",
+    "options": [
+      "Signer puis compléter plus tard",
+      "Mettre à jour immédiatement la traçabilité et vérifier le dossier de maintenance",
+      "Supprimer la ligne",
+      "Reporter au prochain check"
+    ],
+    "correctAnswer": "B",
+    "explanation": "La traçabilité complète est requise pour la conformité et l’audit.",
+    "ref": "TP 14038E - Dossiers techniques"
+  },
+  {
+    "subtopic": "Fatigue",
+    "difficulty": "Moyen",
+    "question": "Fin de quart de nuit, vous vous sentez diminué avant une tâche critique avionique. Décision appropriée? (Cas AMO 91)",
+    "options": [
+      "Signer vite pour éviter retard",
+      "Transférer formellement avec état exact et documentation",
+      "Demander au pilote de surveiller",
+      "Ignorer la fatigue"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Gestion fatigue: relève structurée et traçabilité avant CRS.",
+    "ref": "TP 14038E - HF maintenance"
+  },
+  {
+    "subtopic": "Relève d’équipe",
+    "difficulty": "Facile",
+    "question": "Quelle pratique réduit le mieux les erreurs à la relève? (Cas AMO 92)",
+    "options": [
+      "Verbal rapide seulement",
+      "Brief structuré + dossier à jour + points de reprise",
+      "Notes non signées",
+      "Attendre appel pilote"
+    ],
+    "correctAnswer": "B",
+    "explanation": "La relève structurée réduit les omissions.",
+    "ref": "TP 14038E - Communication"
+  },
+  {
+    "subtopic": "Pression opérationnelle",
+    "difficulty": "Moyen",
+    "question": "Le superviseur presse une libération alors qu’une étape EWIS reste incomplète. Action AME? (Cas AMO 93)",
+    "options": [
+      "Signer et compléter plus tard",
+      "Refuser CRS jusqu’à exécution/attestation complète",
+      "Déléguer au dispatch",
+      "Supprimer la tâche"
+    ],
+    "correctAnswer": "B",
+    "explanation": "La conformité prime sur la pression de temps.",
+    "ref": "TP 14038E; RAC 571"
+  },
+  {
+    "subtopic": "Données techniques",
+    "difficulty": "Moyen",
+    "question": "Un collègue utilise une révision CMM périmée. Action immédiate? (Cas AMO 94)",
+    "options": [
+      "Ignorer",
+      "Stopper la tâche, appliquer révision en vigueur et évaluer impact",
+      "Corriger après livraison",
+      "Signer à sa place"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les données contrôlées doivent être à jour.",
+    "ref": "TP 14038E - Contrôle documentaire"
+  },
+  {
+    "subtopic": "Culture juste",
+    "difficulty": "Facile",
+    "question": "Après erreur de câblage sans conséquence, meilleure approche? (Cas AMO 95)",
+    "options": [
+      "Blâme public",
+      "Rapport, analyse causes latentes, actions préventives",
+      "Pas de trace",
+      "Sanction automatique"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Le signalement alimente la prévention.",
+    "ref": "TP 14038E - SGS"
+  },
+  {
+    "subtopic": "Interruptions",
+    "difficulty": "Difficile",
+    "question": "Durant dépannage complexe, vous subissez plusieurs interruptions. Contre-mesure robuste? (Cas AMO 96)",
+    "options": [
+      "Reprendre de mémoire",
+      "Point d’arrêt/checklist de reprise + vérification indépendante étapes critiques",
+      "Accélérer",
+      "Sauter tests intermédiaires"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les interruptions favorisent les omissions; les barrières procédurales réduisent le risque.",
+    "ref": "TP 14038E - TEM maintenance"
+  },
+  {
+    "subtopic": "MEL",
+    "difficulty": "Difficile",
+    "question": "Équipement inop potentiellement MEL. Avant CRS, exigence clé? (Cas AMO 97)",
+    "options": [
+      "Valider conditions/limitations MEL, procédures O/M et annotation technique",
+      "Accord verbal commandant",
+      "Test continuité seul",
+      "Aucune pour vol court"
+    ],
+    "correctAnswer": "A",
+    "explanation": "La libération sous MEL exige conformité documentaire et opérationnelle complète.",
+    "ref": "TP 14038E - MEL/CDL"
+  },
+  {
+    "subtopic": "Coordination travaux",
+    "difficulty": "Moyen",
+    "question": "Deux équipes travaillent même zone (EWIS/hydraulique). Risque HF principal? (Cas AMO 98)",
+    "options": [
+      "Confusion de configuration et dommages collatéraux",
+      "Excès carburant",
+      "Erreur catering",
+      "Baisse GPS satellite"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Travaux simultanés exigent coordination stricte.",
+    "ref": "TP 14038E - Coordination"
+  },
+  {
+    "subtopic": "Assertivité",
+    "difficulty": "Moyen",
+    "question": "Un junior suspecte un couple de serrage incorrect sur connecteur critique. Action attendue? (Cas AMO 99)",
+    "options": [
+      "Se taire",
+      "Signaler et faire vérifier selon AMM",
+      "Corriger sans trace",
+      "Noter après vol"
+    ],
+    "correctAnswer": "B",
+    "explanation": "L’assertivité est essentielle à la sécurité.",
+    "ref": "TP 14038E - CRM maintenance"
+  },
+  {
+    "subtopic": "Inspection indépendante",
+    "difficulty": "Facile",
+    "question": "Quelle tâche mérite le plus une inspection indépendante? (Cas AMO 100)",
+    "options": [
+      "Nettoyage vitrage",
+      "Reconnexion circuit critique de vol",
+      "Remplissage eau",
+      "Pose étiquette"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les tâches critiques demandent un second regard.",
+    "ref": "TP 14038E - Inspection indépendante"
+  }
+]

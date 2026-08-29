@@ -1,0 +1,1740 @@
+[
+  {
+    "id": "f9b237c9-b554-4fbc-96d5-6d71ae01e21a",
+    "options": [
+      "A. Confirmation bias",
+      "B. Overconfidence bias",
+      "C. Anchoring bias",
+      "D. Hindsight bias"
+    ],
+    "options_fr": "[\"A. Biais de confirmation\", \"B. Biais d'excès de confiance\", \"C. Biais d'ancrage\", \"D. Biais rétrospectif\"]",
+    "correctAnswer": "B. Overconfidence bias"
+  },
+  {
+    "id": "6fbc9b37-324a-437a-8f75-0b59aad30c3b",
+    "options": [
+      "Incorrect cable tension",
+      "Binding in a pulley or bellcrank",
+      "Worn control surface hinges",
+      "Misaligned control rod"
+    ],
+    "options_fr": "[\"A) Tension de câble incorrecte\", \"B) Coincement dans une poulie ou un renvoi d'angle\", \"C) Charnières de surface de commande usées\", \"D) Bielle de commande désalignée\"]",
+    "correctAnswer": "A"
+  },
+  {
+    "id": "71e6f31e-6f9a-4569-bd96-fd027ac39dc9",
+    "options": [
+      "A misadjusted stall warning system sensitivity.",
+      "Excessive G-loading causing airflow separation.",
+      "Turbulence causing momentary angle of attack changes.",
+      "A faulty stall warning vane or angle of attack sensor."
+    ],
+    "options_fr": "[\"A) Un mauvais réglage de la sensibilité du système d'avertissement de décrochage.\", \"B) Une charge G excessive provoquant un décollement de l'écoulement d'air.\", \"C) De la turbulence provoquant des changements momentanés de l'angle d'attaque.\", \"D) Une palette d'avertissement de décrochage ou un capteur d'angle d'attaque défectueux.\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "73a2e4e5-c559-49a9-b7e1-dbba2c3f824f",
+    "options": [
+      "0.030 inch",
+      "0.050 inch",
+      "0.020 inch",
+      "0.010 inch"
+    ],
+    "options_fr": "[\"A) 0,030 pouce\", \"B) 0,050 pouce\", \"C) 0,020 pouce\", \"D) 0,010 pouce\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "756c31e5-6613-46e0-8141-799f0b9cf3dc",
+    "options": [
+      "Cyanoacrylate adhesive",
+      "Polyester resin",
+      "Epoxy adhesive",
+      "Fabric cement (dope)"
+    ],
+    "options_fr": "[\"A) Adhésif cyanoacrylate\", \"B) Résine polyester\", \"C) Adhésif époxy\", \"D) Ciment pour tissu (dope)\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "76fab658-5d28-4741-9a6e-aa28e70ca7f3",
+    "options": [
+      "Apply a thin coat of epoxy primer before cementing",
+      "Roughen the surface with 80-grit sandpaper and clean with MEK",
+      "Heat the surface to 150°F with a heat gun",
+      "Wipe with a clean dry cloth only"
+    ],
+    "options_fr": "[\"A) Appliquer une fine couche d'apprêt époxy avant le collage\", \"B) Rugosifier la surface avec du papier abrasif grain 80 et nettoyer avec du MEK\", \"C) Chauffer la surface à 150 °F avec un pistolet thermique\", \"D) Essuyer uniquement avec un chiffon propre et sec\"]",
+    "correctAnswer": "B"
+  },
+  {
+    "id": "7851dbc6-2aed-4303-a2b8-03c9ef5d4fdd",
+    "options": [
+      "Excessive paint thickness",
+      "Incorrect drying time between coats",
+      "Contamination on the surface before painting",
+      "Incompatible paint layers"
+    ],
+    "options_fr": "[\"A) Épaisseur de peinture excessive\", \"B) Temps de séchage incorrect entre les couches\", \"C) Contamination de la surface avant la peinture\", \"D) Couches de peinture incompatibles\"]",
+    "correctAnswer": "A"
+  },
+  {
+    "id": "7aa075bd-9b17-403c-be15-f3a7c3dfbb1c",
+    "options": [
+      "To regulate system pressure",
+      "To allow fluid flow in one direction only",
+      "To isolate a component",
+      "To filter contaminants"
+    ],
+    "options_fr": "[\"A) Réguler la pression du système\", \"B) Permettre l'écoulement du fluide dans un seul sens\", \"C) Isoler un composant\", \"D) Filtrer les contaminants\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "8015e5f7-3ddd-4995-8864-2519a1f3a51d",
+    "options": [
+      "Replace all bolts with new ones and re-torque.",
+      "Document the under-torque and leave as is if within 10%.",
+      "Perform a detailed inspection of the trunnion and bolts for cracks.",
+      "Re-torque the bolts to the specified value and return to service."
+    ],
+    "options_fr": "[\"A) Remplacer tous les boulons par des neufs et les resserrer.\", \"B) Documenter le sous-serré et laisser en l'état si dans les 10%.\", \"C) Effectuer une inspection détaillée du tourillon et des boulons pour détecter les fissures.\", \"D) Resserrer les boulons à la valeur spécifiée et remettre en service.\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "81b12c35-2ada-46fa-94c9-70cee2e044d8",
+    "options": [
+      "Drill stop-drill holes and return to service.",
+      "Replace the side brace link with a new part.",
+      "Submit a Major Repair report before performing any work.",
+      "Weld the crack per the manufacturer's instructions and perform NDT."
+    ],
+    "options_fr": "[\"A) Percer des trous d'arrêt et remettre en service.\", \"B) Remplacer la biellette de contreventement latéral par une pièce neuve.\", \"C) Soumettre un rapport de réparation majeure avant d'effectuer tout travail.\", \"D) Souder la fissure conformément aux instructions du fabricant et effectuer un END.\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "84afa1b9-3773-4c2f-8602-cc09b37dc506",
+    "options": [
+      "Apply de-icing fluid and remove all ice from the wing.",
+      "Document the ice and return to service if the aircraft has an ice protection system.",
+      "Perform a tactile inspection to ensure no damage underneath.",
+      "Leave the ice as it will shed during takeoff."
+    ],
+    "options_fr": "[\"A) Appliquer du liquide de dégivrage et retirer toute la glace de l'aile.\", \"B) Documenter la glace et remettre en service si l'aéronef est équipé d'un système de protection contre le givre.\", \"C) Effectuer une inspection tactile pour s'assurer qu'il n'y a pas de dommages en dessous.\", \"D) Laisser la glace car elle se détachera au décollage.\"]",
+    "correctAnswer": "A"
+  },
+  {
+    "id": "f56f0e54-d787-4479-85fb-dcb4bb947c5f",
+    "options": [
+      "A. Memory retention",
+      "B. Situational awareness",
+      "C. Physical strength",
+      "D. Visual acuity"
+    ],
+    "options_fr": "[\"A. Rétention de la mémoire\", \"B. Conscience de la situation\", \"C. Force physique\", \"D. Acuité visuelle\"]",
+    "correctAnswer": "B. Situational awareness"
+  },
+  {
+    "id": "8bdd5ae9-387e-4492-9af1-1ac31e25a471",
+    "options": [
+      "Incorrect spray gun pressure",
+      "Paint was applied too thickly",
+      "Paint was applied too thinly",
+      "High humidity"
+    ],
+    "options_fr": "[\"A) Pression du pistolet incorrecte\", \"B) Peinture appliquée trop épaisse\", \"C) Peinture appliquée trop fine\", \"D) Humidité élevée\"]",
+    "correctAnswer": "A"
+  },
+  {
+    "id": "1af11bac-3fc1-49e0-b37f-f683cf7c7968",
+    "options": [
+      "Moisture contamination during cure",
+      "Insufficient mixing of the adhesive",
+      "Excessive clamping pressure",
+      "Surface was not primed"
+    ],
+    "options_fr": "[\"A) Contamination par l'humidité pendant le durcissement\", \"B) Mélange insuffisant de l'adhésif\", \"C) Pression de serrage excessive\", \"D) La surface n'a pas été apprêtée\"]",
+    "correctAnswer": "B"
+  },
+  {
+    "id": "fd36537b-a03e-48d5-89f3-e20ec7f180a5",
+    "options": [
+      "Acrylic (PMMA)",
+      "Nylon",
+      "Polycarbonate",
+      "Polyethylene"
+    ],
+    "options_fr": "[\"A) Acrylique (PMMA)\", \"B) Nylon\", \"C) Polycarbonate\", \"D) Polyéthylène\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "439aa066-5404-407d-a172-c4d538315a0f",
+    "options": [
+      "Magnetic particle inspection",
+      "Radiography",
+      "Dye penetrant inspection",
+      "Ultrasonic inspection"
+    ],
+    "options_fr": "[\"A) Inspection par particules magnétiques\", \"B) Radiographie\", \"C) Inspection par ressuage\", \"D) Inspection par ultrasons\"]",
+    "correctAnswer": "A"
+  },
+  {
+    "id": "39798391-88d0-4132-b274-6f3fe40e232a",
+    "options": [
+      "Inadequate preheat",
+      "Using 4043 filler rod",
+      "Excessive travel speed",
+      "Using 5356 filler rod"
+    ],
+    "options_fr": "[\"A) Préchauffage inadéquat\", \"B) Utilisation d'une baguette d'apport 4043\", \"C) Vitesse de déplacement excessive\", \"D) Utilisation d'une baguette d'apport 5356\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "8fbc45e4-315c-450a-95e4-d2476a7a801c",
+    "options": [
+      "Apply heat to soften the resin and re-bond",
+      "Inject epoxy into the delamination and clamp",
+      "Sand the surface and apply a gel coat",
+      "Remove the damaged area and perform a scarf repair"
+    ],
+    "options_fr": "[\"A) Appliquer de la chaleur pour ramollir la résine et recoller\", \"B) Injecter de l'époxy dans le délaminage et serrer\", \"C) Poncer la surface et appliquer un gel coat\", \"D) Retirer la zone endommagée et effectuer une réparation en biseau\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "e9297bd2-bf56-4149-9778-1301f08849ea",
+    "options": [
+      "To provide deeper penetration",
+      "To reduce heat input",
+      "To clean the aluminum surface (cathodic cleaning)",
+      "To prevent weld cracking"
+    ],
+    "options_fr": "[\"A) Obtenir une pénétration plus profonde\", \"B) Réduire l'apport de chaleur\", \"C) Nettoyer la surface de l'aluminium (nettoyage cathodique)\", \"D) Empêcher la fissuration de la soudure\"]",
+    "correctAnswer": "A"
+  },
+  {
+    "id": "8ce1ea26-ce71-42b2-90aa-95ff04ef75d6",
+    "options": [
+      "50-70 in-lb",
+      "80-100 in-lb",
+      "30-40 in-lb",
+      "100-120 in-lb"
+    ],
+    "options_fr": "[\"A) 30-40 in-lb\", \"B) 50-70 in-lb\", \"C) 80-100 in-lb\", \"D) 100-120 in-lb\"]",
+    "correctAnswer": "A"
+  },
+  {
+    "id": "ba4973ae-d2d5-4426-9b05-b8798613225c",
+    "options": [
+      "Torque the nut to the specified value and then back off 1/4 turn",
+      "Use a washer under the nut to prevent galling",
+      "Ensure the bolt extends at least one full thread past the nut",
+      "Apply thread-locking compound to the bolt"
+    ],
+    "options_fr": "[\"A) Serrer l'écrou au couple spécifié, puis desserrer d'1/4 de tour\", \"B) Utiliser une rondelle sous l'écrou pour éviter le grippage\", \"C) S'assurer que le boulon dépasse d'au moins un filet complet au-delà de l'écrou\", \"D) Appliquer un produit de freinage sur le boulon\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "f8f07fc0-6a0d-4223-934a-10f1572065ec",
+    "options": [
+      "Damaged landing gear actuator",
+      "Misadjusted downlock switch",
+      "Incorrect rigging of the downlock mechanism",
+      "Low hydraulic fluid level"
+    ],
+    "options_fr": "[\"A) Actionneur de train d'atterrissage endommagé\", \"B) Interrupteur de verrouillage sorti mal ajusté\", \"C) Mauvais réglage du mécanisme de verrouillage sorti\", \"D) Niveau de liquide hydraulique bas\"]",
+    "correctAnswer": "B"
+  },
+  {
+    "id": "1caff7c4-573f-425c-be93-e1be4494fbe9",
+    "options": [
+      "Attach a metal tag to the cable",
+      "Use a permanent marker to write the part number on the cable",
+      "No identification is required if the cable is the same length",
+      "Etch the part number into the cable surface"
+    ],
+    "options_fr": "[\"A) Attacher une étiquette métallique au câble\", \"B) Utiliser un marqueur permanent pour écrire le numéro de pièce sur le câble\", \"C) Aucune identification n'est requise si le câble a la même longueur\", \"D) Graver le numéro de pièce sur la surface du câble\"]",
+    "correctAnswer": "A"
+  },
+  {
+    "id": "f6b0a5e4-3eba-4fa4-9ca0-f334551f3fa3",
+    "options": [
+      "To provide a smooth surface for the paint",
+      "All of the above",
+      "To improve paint adhesion",
+      "To remove all traces of oil, grease, and corrosion"
+    ],
+    "options_fr": "[\"A) Fournir une surface lisse pour la peinture.\", \"B) Améliorer l'adhérence de la peinture.\", \"C) Éliminer toute trace d'huile, de graisse et de corrosion.\", \"D) Toutes les réponses ci-dessus.\"]",
+    "correctAnswer": "A"
+  },
+  {
+    "id": "4f994da3-fb4d-4ac0-81d3-310d34b2d589",
+    "options": [
+      "To increase the strength of the rib stitching",
+      "To prevent the stitching from cutting into the fabric",
+      "To act as a moisture barrier",
+      "To provide a smooth surface for the final fabric coat"
+    ],
+    "options_fr": "[\"A) Augmenter la résistance des coutures de nervures\", \"B) Empêcher les coutures de couper la toile\", \"C) Agir comme barrière contre l'humidité\", \"D) Fournir une surface lisse pour la couche finale de toile\"]",
+    "correctAnswer": "A"
+  },
+  {
+    "id": "a4ba4785-7281-4f42-a5ca-fac3d4ee946a",
+    "options": [
+      "Lubricate the cable to reduce further wear",
+      "Replace the cable",
+      "Replace the fairlead with a larger one",
+      "No action required if the cable is within tension limits"
+    ],
+    "options_fr": "[\"A) Lubrifier le câble pour réduire l'usure supplémentaire\", \"B) Remplacer le câble\", \"C) Remplacer le passe-fil par un plus grand\", \"D) Aucune action requise si le câble est dans les limites de tension\"]",
+    "correctAnswer": "B"
+  },
+  {
+    "id": "e864b344-4c60-4d40-a578-ad4147835480",
+    "options": [
+      "Insert the pin and bend one end over the nut and the other around the bolt head",
+      "Insert the pin and bend both ends over the nut",
+      "Insert the pin and bend one end over the bolt and the other over the nut",
+      "Insert the pin and bend both ends around the bolt shank"
+    ],
+    "options_fr": "[\"A) Insérer la goupille et plier une extrémité sur l'écrou et l'autre autour de la tête du boulon\", \"B) Insérer la goupille et plier les deux extrémités sur l'écrou\", \"C) Insérer la goupille et plier une extrémité sur le boulon et l'autre sur l'écrou\", \"D) Insérer la goupille et plier les deux extrémités autour de la tige du boulon\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "aa0ee764-5e80-4588-91b8-a9d110326ddd",
+    "options": [
+      "Low temperature during application",
+      "High humidity during application",
+      "Dope was applied too thickly",
+      "Insufficient thinner in the dope"
+    ],
+    "options_fr": "[\"A) Basse température lors de l'application\", \"B) Humidité élevée lors de l'application\", \"C) La dope a été appliquée trop épaisse\", \"D) Diluant insuffisant dans la dope\"]",
+    "correctAnswer": "B"
+  },
+  {
+    "id": "fdceb77e-c37a-473b-bc5d-9197496c40a1",
+    "options": [
+      "2 inches",
+      "3 inches",
+      "1 inch",
+      "4 inches"
+    ],
+    "options_fr": "[\"A) 2 pouces\", \"B) 3 pouces\", \"C) 1 pouce\", \"D) 4 pouces\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "449c8428-4ea7-4b01-b9cc-176e1628cabf",
+    "options": [
+      "To provide a smooth surface for the fabric",
+      "To prevent the fabric from tearing at the rib stitching",
+      "To increase the strength of the wing structure",
+      "To act as a moisture barrier"
+    ],
+    "options_fr": "[\"A) Fournir une surface lisse pour la toile\", \"B) Empêcher la toile de se déchirer au niveau des coutures de nervure\", \"C) Augmenter la résistance de la structure de l'aile\", \"D) Agir comme une barrière contre l'humidité\"]",
+    "correctAnswer": "B"
+  },
+  {
+    "id": "7a1dcc1b-0993-4753-9391-3d7b45ab5ae0",
+    "options": [
+      "Acrylic lacquer",
+      "Polyurethane paint with metallic flakes",
+      "Radome-compatible paint (non-metallic)",
+      "Epoxy paint with aluminum powder"
+    ],
+    "options_fr": "[\"A) Laque acrylique\", \"B) Peinture polyuréthane avec paillettes métalliques\", \"C) Peinture compatible radôme (non métallique)\", \"D) Peinture époxy avec poudre d'aluminium\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "9a453c81-d756-41fc-a555-ee1d48dd6d91",
+    "options": [
+      "To fill minor surface imperfections",
+      "To chemically bond to the aluminum surface",
+      "To provide a smooth surface for the topcoat",
+      "To prevent corrosion"
+    ],
+    "options_fr": "[\"A) Remplir les petites imperfections de surface\", \"B) Assurer une liaison chimique avec la surface en aluminium\", \"C) Fournir une surface lisse pour la couche de finition\", \"D) Prévenir la corrosion\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "af1b8bcb-ae20-4672-a7fd-450d37554987",
+    "options": [
+      "Replace the entire aileron covering",
+      "Sew the tear and apply a finishing tape",
+      "Apply a coat of dope and a layer of fiberglass cloth",
+      "Apply a fabric patch over the tear"
+    ],
+    "options_fr": "[\"A) Remplacer tout le revêtement de l'aileron\", \"B) Coudre la déchirure et appliquer un ruban de finition\", \"C) Appliquer une couche de dope et une couche de tissu en fibre de verre\", \"D) Appliquer une pièce de toile sur la déchirure\"]",
+    "correctAnswer": "B"
+  },
+  {
+    "id": "3381ebdf-c211-417c-bbfc-f97381515a10",
+    "options": [
+      "Enamel",
+      "Epoxy",
+      "Acrylic lacquer",
+      "Polyurethane"
+    ],
+    "options_fr": "[\"A) Émail\", \"B) Époxy\", \"C) Laque acrylique\", \"D) Polyuréthane\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "7566c5d6-1ba0-4673-ba6d-9ef261f63913",
+    "options": [
+      "Use compressed air to blow off dust",
+      "Wipe with a solvent-soaked rag",
+      "All of the above are acceptable",
+      "Wash with soap and water, then rinse with clean water"
+    ],
+    "options_fr": "[\"A) Utiliser de l'air comprimé pour enlever la poussière\", \"B) Essuyer avec un chiffon imbibé de solvant\", \"C) Toutes les réponses ci-dessus sont acceptables\", \"D) Laver avec du savon et de l'eau, puis rincer à l'eau claire\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "ac32c3a5-3a1a-4230-ae02-98116f6b9b0a",
+    "options": [
+      "Paint was applied too thickly",
+      "Incorrect spray gun distance or pressure",
+      "High humidity during application",
+      "Paint was applied too thinly"
+    ],
+    "options_fr": "[\"A) La peinture a été appliquée trop épaisse\", \"B) Distance ou pression du pistolet incorrecte\", \"C) Humidité élevée pendant l'application\", \"D) La peinture a été appliquée trop mince\"]",
+    "correctAnswer": "B"
+  },
+  {
+    "id": "d54bf105-9740-4677-970f-aa236c4c8109",
+    "options": [
+      "Excessive paint thickness",
+      "Contamination on the surface",
+      "Moisture or solvent trapped under the paint",
+      "Incompatible paint layers"
+    ],
+    "options_fr": "[\"A) Épaisseur de peinture excessive\", \"B) Contamination de la surface\", \"C) Humidité ou solvant piégé sous la peinture\", \"D) Couches de peinture incompatibles\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "421fc1fc-fef9-4ef4-adf4-7ec75110e86d",
+    "options": [
+      "Paint, sand, clean, prime",
+      "Clean, sand, prime, paint",
+      "Sand, clean, prime, paint",
+      "Prime, sand, clean, paint"
+    ],
+    "options_fr": "[\"A) Peinture, ponçage, nettoyage, apprêt\", \"B) Nettoyage, ponçage, apprêt, peinture\", \"C) Ponçage, nettoyage, apprêt, peinture\", \"D) Apprêt, ponçage, nettoyage, peinture\"]",
+    "correctAnswer": "B"
+  },
+  {
+    "id": "a1bf745f-3f2e-4522-9c29-d576ac154eb9",
+    "options": [
+      "All of the above",
+      "Any paint that is compatible with the existing paint",
+      "A paint that is resistant to fading",
+      "A paint that contrasts with the background"
+    ],
+    "options_fr": "[\"A) Toutes les réponses ci-dessus\", \"B) Toute peinture compatible avec la peinture existante\", \"C) Une peinture résistante à la décoloration\", \"D) Une peinture qui contraste avec le fond\"]",
+    "correctAnswer": "B"
+  },
+  {
+    "id": "f091f994-97bd-467d-a868-3a960d7543f5",
+    "options": [
+      "To store hydraulic fluid",
+      "To provide a head pressure for the pump",
+      "To allow for fluid expansion and contraction",
+      "All of the above"
+    ],
+    "options_fr": "[\"A) Stocker le fluide hydraulique\", \"B) Fournir une pression d'alimentation à la pompe\", \"C) Permettre la dilatation et la contraction du fluide\", \"D) Toutes les réponses ci-dessus\"]",
+    "correctAnswer": "B"
+  },
+  {
+    "id": "57ef4584-fbf8-4579-afde-6dd4b0c7c93c",
+    "options": [
+      "To enhance gloss",
+      "All of the above",
+      "To protect the color coat",
+      "To provide UV protection"
+    ],
+    "options_fr": "[\"A) Améliorer la brillance\", \"B) Protéger la couche de couleur\", \"C) Fournir une protection UV\", \"D) Toutes les réponses ci-dessus\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "00e26640-b523-428e-bc61-8edf903c47f7",
+    "options": [
+      "Check the level with the system depressurized",
+      "Check the level with the system pressurized",
+      "Check the level with the system operating",
+      "Check the level with the reservoir cap open"
+    ],
+    "options_fr": "[\"A) Vérifier le niveau avec le système dépressurisé\", \"B) Vérifier le niveau avec le système sous pression\", \"C) Vérifier le niveau avec le système en fonctionnement\", \"D) Vérifier le niveau avec le bouchon du réservoir ouvert\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "4b44555f-5bb3-48b0-9d1c-3ca15aa523e3",
+    "options": [
+      "Low system pressure",
+      "Worn actuator seals",
+      "Air in the actuator",
+      "Internal leakage in the actuator"
+    ],
+    "options_fr": "[\"A) Pression basse du système\", \"B) Joints d'actionneur usés\", \"C) Air dans l'actionneur\", \"D) Fuite interne dans l'actionneur\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "af712d2c-208d-4c28-bc15-cc6d8179f68f",
+    "options": [
+      "MS flareless fittings",
+      "AN flared fittings",
+      "O-ring boss fittings",
+      "Quick-disconnect fittings"
+    ],
+    "options_fr": "[\"A) Raccords sans évasement MS\", \"B) Raccords évasés AN\", \"C) Raccords à joint torique\", \"D) Raccords à déconnexion rapide\"]",
+    "correctAnswer": "B"
+  },
+  {
+    "id": "f8c63c62-0ece-4b09-a9c0-81035ce4e57c",
+    "options": [
+      "Corrosion inside the system",
+      "Internal failure of a pump or actuator",
+      "Normal wear of hydraulic components",
+      "Contaminated fluid from a previous repair"
+    ],
+    "options_fr": "[\"A) Corrosion à l'intérieur du système\", \"B) Défaillance interne d'une pompe ou d'un actionneur\", \"C) Usure normale des composants hydrauliques\", \"D) Fluide contaminé provenant d'une réparation antérieure\"]",
+    "correctAnswer": "B"
+  },
+  {
+    "id": "3fb377c5-3cdd-4740-b4e6-f4537f891e60",
+    "options": [
+      "External heat source",
+      "Faulty temperature gauge",
+      "System is operating at high pressure for an extended period",
+      "Low fluid level"
+    ],
+    "options_fr": "[\"A) Source de chaleur externe\", \"B) Jauge de température défectueuse\", \"C) Le système fonctionne à haute pression pendant une période prolongée\", \"D) Niveau de fluide bas\"]",
+    "correctAnswer": "A"
+  },
+  {
+    "id": "6f9e9b79-c0c5-48ab-bbf4-aac31c75f630",
+    "options": [
+      "Faulty control valve",
+      "External leak at the actuator",
+      "Low system pressure",
+      "Internal leakage across the piston seals"
+    ],
+    "options_fr": "[\"A) Vanne de commande défectueuse\", \"B) Fuite externe au niveau de l'actionneur\", \"C) Pression système basse\", \"D) Fuite interne à travers les joints du piston\"]",
+    "correctAnswer": "B"
+  },
+  {
+    "id": "85b6ef2b-61bc-4223-a25b-da7d30acb27a",
+    "options": [
+      "Nitrile gloves",
+      "Latex gloves",
+      "Leather gloves",
+      "Cotton gloves"
+    ],
+    "options_fr": "[\"A) Gants en nitrile\", \"B) Gants en latex\", \"C) Gants en cuir\", \"D) Gants en coton\"]",
+    "correctAnswer": "B"
+  },
+  {
+    "id": "c56ea14c-86e2-48c9-a3bc-07e3074192b6",
+    "options": [
+      "Use a hydrometer",
+      "Use a viscometer",
+      "Use a thermometer",
+      "Use a pressure gauge"
+    ],
+    "options_fr": "[\"A) Utiliser un hydromètre\", \"B) Utiliser un viscosimètre\", \"C) Utiliser un thermomètre\", \"D) Utiliser un manomètre\"]",
+    "correctAnswer": "B"
+  },
+  {
+    "id": "efb9d9c8-141f-4a0f-ab23-e74bbba7857b",
+    "options": [
+      "Tighten all fittings",
+      "Prime the pump with fluid",
+      "All of the above",
+      "Check the pump rotation direction"
+    ],
+    "options_fr": "[\"A) Serrer tous les raccords\", \"B) Amorcer la pompe avec du fluide\", \"C) Vérifier le sens de rotation de la pompe\", \"D) Toutes les réponses ci-dessus\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "566175a9-6b43-4c58-ad7a-da6728e2d72c",
+    "options": [
+      "Pressure relief valve setting",
+      "Pump rotation direction",
+      "Condition of the drive coupling",
+      "Fluid level in the reservoir"
+    ],
+    "options_fr": "[\"A) Le réglage de la soupape de décharge de pression\", \"B) Le sens de rotation de la pompe\", \"C) L'état de l'accouplement d'entraînement\", \"D) Le niveau de liquide dans le réservoir\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "7e9485f1-e997-4541-bb0d-a6bf09508522",
+    "options": [
+      "Replace the torque link with a new or serviceable part.",
+      "Drill stop-drill holes at the crack tips and return to service.",
+      "Submit a Major Repair report and continue operation.",
+      "Weld the crack per AC 43.13-1B."
+    ],
+    "options_fr": "[\"A) Remplacer la biellette de couple par une pièce neuve ou en état de service.\", \"B) Percer des trous d'arrêt aux extrémités de la fissure et remettre en service.\", \"C) Soumettre un rapport de réparation majeure et poursuivre l'exploitation.\", \"D) Souder la fissure conformément à la AC 43.13-1B.\"]",
+    "correctAnswer": "A"
+  },
+  {
+    "id": "9136e571-8946-4f33-80ed-fc2f8906415e",
+    "options": [
+      "Worn gear door actuator seals.",
+      "Misadjusted gear door uplock.",
+      "Faulty gear door sequence valve.",
+      "Low hydraulic fluid level."
+    ],
+    "options_fr": "[\"A) Joints d'actionneur de trappe usés.\", \"B) Niveau de fluide hydraulique bas.\", \"C) Vanne de séquence de trappe défectueuse.\", \"D) Verrou de trappe mal ajusté.\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "966462dd-8119-42b4-b012-046be23abd4b",
+    "options": [
+      "A clogged air filter in the bleed air supply line.",
+      "Incorrect nozzle alignment or blockage.",
+      "Low engine bleed air pressure at high power settings.",
+      "A faulty pressure regulator in the cabin pressurization system."
+    ],
+    "options_fr": "[\"A) Un filtre à air obstrué dans la conduite d'air de prélèvement.\", \"B) Un mauvais alignement ou un blocage de la buse.\", \"C) Une faible pression d'air de prélèvement moteur à des régimes élevés.\", \"D) Un régulateur de pression défectueux dans le système de pressurisation cabine.\"]",
+    "correctAnswer": "B"
+  },
+  {
+    "id": "18283649-9214-43e7-96fa-e94d8fcd0eb0",
+    "options": [
+      "Service the strut with hydraulic fluid and check for leaks.",
+      "Clean the area and return to service with a logbook entry.",
+      "Perform a functional test of the strut and check for proper damping.",
+      "Replace the oleo strut seals immediately."
+    ],
+    "options_fr": "[\"A) Remplir le vérin de liquide hydraulique et vérifier les fuites.\", \"B) Nettoyer la zone et remettre en service avec une inscription au carnet de route.\", \"C) Effectuer un essai fonctionnel du vérin et vérifier l'amortissement.\", \"D) Remplacer immédiatement les joints du vérin oléopneumatique.\"]",
+    "correctAnswer": "B"
+  },
+  {
+    "id": "5648fcd9-add0-43e7-8d0c-f7d9fb24b3ab",
+    "options": [
+      "Trim the cracked edges and apply sealant.",
+      "Apply a cold patch repair kit per the manufacturer's instructions.",
+      "Replace the entire boot assembly.",
+      "Document the cracks and return to service if no air leakage."
+    ],
+    "options_fr": "[\"A) Couper les bords fissurés et appliquer un mastic.\", \"B) Appliquer un kit de réparation à froid conformément aux instructions du fabricant.\", \"C) Remplacer l'ensemble de la botte.\", \"D) Documenter les fissures et remettre en service s'il n'y a pas de fuite d'air.\"]",
+    "correctAnswer": "B"
+  },
+  {
+    "id": "d25fdf32-500a-4bf6-963e-a1d845bd8f30",
+    "options": [
+      "A faulty landing gear position indicator switch.",
+      "A misadjusted throttle position switch.",
+      "A stuck landing gear squat switch.",
+      "An electrical short in the warning horn circuit."
+    ],
+    "options_fr": "[\"A) Un interrupteur de position du train d'atterrissage défectueux.\", \"B) Un interrupteur de position de manette des gaz mal ajusté.\", \"C) Un interrupteur de compression du train d'atterrissage bloqué.\", \"D) Un court-circuit électrique dans le circuit de l'avertisseur.\"]",
+    "correctAnswer": "A"
+  },
+  {
+    "id": "925be40b-06ba-4ce9-a7f8-0a2ae0bf9b63",
+    "options": [
+      "Wash primer",
+      "Epoxy primer",
+      "Zinc chromate primer",
+      "Etch primer"
+    ],
+    "options_fr": "[\"A) Apprêt de lavage\", \"B) Apprêt époxy\", \"C) Apprêt au chromate de zinc\", \"D) Apprêt de mordançage\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "e7590cef-d1fb-45fc-afdd-2c5f9ad057c4",
+    "options": [
+      "A) Blue marker beacon with a continuous tone at 1300 Hz.",
+      "B) White marker beacon with a series of dots at 400 Hz.",
+      "C) Amber marker beacon with a continuous tone at 3000 Hz.",
+      "D) Green marker beacon with a series of dashes at 400 Hz."
+    ],
+    "options_fr": "[\"A) Balise de repère bleue avec un son continu à 1300 Hz.\", \"B) Balise de repère blanche avec une série de points à 400 Hz.\", \"C) Balise de repère ambre avec un son continu à 3000 Hz.\", \"D) Balise de repère verte avec une série de traits à 400 Hz.\"]",
+    "correctAnswer": "A) Blue marker beacon with a continuous tone at 1300 Hz."
+  },
+  {
+    "id": "f52e9571-da7e-449b-8cf8-47efb9bf1bae",
+    "options": [
+      "Route the hose with a slight slack to allow for movement",
+      "Route the hose tightly against structure to prevent chafing",
+      "Route the hose as short as possible",
+      "Route the hose with a 90-degree bend at each end"
+    ],
+    "options_fr": "[\"A) Acheminer le flexible avec un léger mou pour permettre le mouvement.\", \"B) Acheminer le flexible serré contre la structure pour éviter le frottement.\", \"C) Acheminer le flexible aussi court que possible.\", \"D) Acheminer le flexible avec un coude à 90 degrés à chaque extrémité.\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "98827f83-e0aa-442d-b178-82df35b1c13e",
+    "options": [
+      "Loose connection at the rudder horn",
+      "Excessive cable tension",
+      "Worn control cable",
+      "Worn rudder hinge bearings"
+    ],
+    "options_fr": "[\"A) Connexion desserrée au niveau de la corne de palonnier\", \"B) Tension excessive des câbles\", \"C) Câble de commande usé\", \"D) Roulements de charnière du palonnier usés\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "98980a0e-7f1c-42bd-ba9e-6e804cfd76b9",
+    "options": [
+      "Verify hydraulic system pressure.",
+      "Replace the indicator light bulb.",
+      "Check the landing gear position indicator switches.",
+      "Adjust the gear uplock mechanism."
+    ],
+    "options_fr": "[\"A) Vérifier la pression du système hydraulique.\", \"B) Remplacer l'ampoule du voyant indicateur.\", \"C) Vérifier les interrupteurs de position du train d'atterrissage.\", \"D) Régler le mécanisme de verrouillage en position haute.\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "9ca1d716-9514-4ca5-b925-5d4a07d77c6d",
+    "options": [
+      "Improper joint preparation",
+      "Too high amperage setting",
+      "Insufficient shielding gas flow",
+      "Contaminated filler rod"
+    ],
+    "options_fr": "[\"A) Préparation inadéquate du joint\", \"B) Réglage d'ampérage trop élevé\", \"C) Débit de gaz de protection insuffisant\", \"D) Bagette d'apport contaminée\"]",
+    "correctAnswer": "B"
+  },
+  {
+    "id": "f5659813-9ee3-4a06-9b75-acebfb74750e",
+    "options": [
+      "The titanium is work-hardened",
+      "Proper shielding gas coverage",
+      "Excessive heat input and possible contamination",
+      "The weld is properly annealed"
+    ],
+    "options_fr": "[\"A) Le titane est écroui.\", \"B) Une bonne couverture de gaz de protection.\", \"C) Un apport de chaleur excessif et une contamination possible.\", \"D) La soudure est correctement recuite.\"]",
+    "correctAnswer": "B"
+  },
+  {
+    "id": "a1f906bd-4d45-44a8-8cd1-af7a704db44c",
+    "options": [
+      "Baseball stitch",
+      "Running stitch",
+      "Lock stitch",
+      "Blanket stitch"
+    ],
+    "options_fr": "[\"A) Point de base-ball\", \"B) Point avant\", \"C) Point de chaînette\", \"D) Point de surfil\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "a34d3246-3062-4ef1-8739-b3b054799df2",
+    "options": [
+      "Drill a small hole at the end of the crack to stop propagation",
+      "Re-swage the terminal with a different die",
+      "Apply a layer of sealant over the crack",
+      "Replace the cable assembly"
+    ],
+    "options_fr": "[\"A) Percer un petit trou à l'extrémité de la fissure pour arrêter sa propagation\", \"B) Ressertir l'embout avec une matrice différente\", \"C) Appliquer une couche de mastic sur la fissure\", \"D) Remplacer l'ensemble du câble\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "066addf4-0612-4b67-af53-bd4bec85201b",
+    "options": [
+      "To attach inspection plates",
+      "To act as static ports",
+      "To provide ventilation for the wing interior",
+      "To allow moisture to drain from the wing"
+    ],
+    "options_fr": "[\"A) Fixer les plaques d'inspection\", \"B) Servir de prises statiques\", \"C) Assurer la ventilation de l'intérieur de l'aile\", \"D) Permettre à l'humidité de s'écouler de l'aile\"]",
+    "correctAnswer": "B"
+  },
+  {
+    "id": "0ad01034-2b76-4f9f-8f8d-51cdf2e0a0d4",
+    "options": [
+      "Worn brake linings.",
+      "A faulty anti-skid valve.",
+      "Air in the brake hydraulic system.",
+      "A leaking brake master cylinder."
+    ],
+    "options_fr": "[\"A) Garnitures de frein usées.\", \"B) Air dans le système hydraulique de frein.\", \"C) Une fuite du maître-cylindre de frein.\", \"D) Une vanne anti-blocage défectueuse.\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "0be66f26-01a8-416e-be56-58b11cdae237",
+    "options": [
+      "8 inches in diameter",
+      "6 inches in diameter",
+      "10 inches in diameter",
+      "4 inches in diameter"
+    ],
+    "options_fr": "[\"A) 4 pouces de diamètre\", \"B) 6 pouces de diamètre\", \"C) 8 pouces de diamètre\", \"D) 10 pouces de diamètre\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "10429969-6215-4e30-8ba5-30b0dd629798",
+    "options": [
+      "Faulty master cylinder",
+      "Low brake fluid level",
+      "Worn brake pads",
+      "Air in the brake system"
+    ],
+    "options_fr": "[\"A) Air dans le système de freinage\", \"B) Niveau de liquide de frein bas\", \"C) Plaquettes de frein usées\", \"D) Maître-cylindre défectueux\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "11edf928-0c41-40d3-822a-b8438d213199",
+    "options": [
+      "Measure tension at the midpoint of the longest unsupported span",
+      "Measure tension at any point along the cable",
+      "Measure tension at the pulley closest to the control surface",
+      "Measure tension at the cable end fitting"
+    ],
+    "options_fr": "[\"A) Mesurer la tension au point médian de la plus longue portée non soutenue\", \"B) Mesurer la tension à n'importe quel point le long du câble\", \"C) Mesurer la tension à la poulie la plus proche de la surface de commande\", \"D) Mesurer la tension au raccord d'extrémité du câble\"]",
+    "correctAnswer": "A"
+  },
+  {
+    "id": "127277f4-1535-40bf-8a66-eef347f4b645",
+    "options": [
+      "Remove the rotted fabric and patch the area",
+      "Clean the area and apply a coat of dope",
+      "Replace the entire wing covering",
+      "Apply a fungicide to the area"
+    ],
+    "options_fr": "[\"A) Enlever la toile pourrie et rapiécer la zone\", \"B) Nettoyer la zone et appliquer une couche de dope\", \"C) Remplacer tout le revêtement de l'aile\", \"D) Appliquer un fongicide sur la zone\"]",
+    "correctAnswer": "A"
+  },
+  {
+    "id": "1925be50-ddde-47c6-a6a9-65b2dd099ac3",
+    "options": [
+      "Defer the defect per the MEL and return the aircraft to service.",
+      "Tighten the actuator fitting until the leak stops.",
+      "Clean the area, perform a functional test, and monitor during the next maintenance interval.",
+      "Replace the actuator immediately and perform a full hydraulic system flush."
+    ],
+    "options_fr": "[\"A) Différer le défaut conformément au MEL et remettre l'aéronef en service.\", \"B) Serrer le raccord de l'actionneur jusqu'à ce que la fuite cesse.\", \"C) Nettoyer la zone, effectuer un essai fonctionnel et surveiller lors du prochain intervalle de maintenance.\", \"D) Remplacer immédiatement l'actionneur et effectuer une purge complète du système hydraulique.\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "30fcaa89-2634-41a3-ac84-3989ffdde4eb",
+    "options": [
+      "Replace the entire wing covering",
+      "Sew the tear closed with a lock stitch",
+      "Apply a coat of dope to seal the tear",
+      "Apply a fabric patch over the tear"
+    ],
+    "options_fr": "[\"A) Remplacer tout le revêtement de l'aile\", \"B) Coudre la déchirure avec un point de verrouillage\", \"C) Appliquer une couche de dope pour sceller la déchirure\", \"D) Appliquer une pièce de toile sur la déchirure\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "3386c889-f47d-456c-bce7-6b081e91e46a",
+    "options": [
+      "Wash the surface with water",
+      "Lightly sand the surface with fine sandpaper",
+      "Apply a coat of primer",
+      "Apply a coat of thinner to soften the first coat"
+    ],
+    "options_fr": "[\"A) Laver la surface avec de l'eau\", \"B) Poncer légèrement la surface avec du papier de verre fin\", \"C) Appliquer une couche d'apprêt\", \"D) Appliquer une couche de diluant pour ramollir la première couche\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "366d5760-b872-4430-a8d3-7c48f4499b9e",
+    "options": [
+      "Keep fire extinguishers nearby",
+      "Wear a respirator",
+      "All of the above",
+      "Ensure adequate ventilation"
+    ],
+    "options_fr": "[\"A) Garder des extincteurs à proximité\", \"B) Porter un respirateur\", \"C) Assurer une ventilation adéquate\", \"D) Toutes les réponses ci-dessus\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "36978a2a-95d0-42a1-889b-957626e1f2af",
+    "options": [
+      "The epoxy was mixed in the wrong ratio",
+      "The ambient temperature was too high during cure",
+      "The surface was not roughened or chemically etched",
+      "The epoxy was too old"
+    ],
+    "options_fr": "[\"A) L'époxyde a été mélangé dans un mauvais rapport\", \"B) La température ambiante était trop élevée pendant le durcissement\", \"C) La surface n'a pas été rugosifiée ou décapée chimiquement\", \"D) L'époxyde était trop vieux\"]",
+    "correctAnswer": "A"
+  },
+  {
+    "id": "37b7b5b3-d5df-4bf8-97ee-72c38d6cce02",
+    "options": [
+      "Clogged filter",
+      "Faulty pressure switch",
+      "Air in the system",
+      "A leak in the system"
+    ],
+    "options_fr": "[\"A) Filtre obstrué\", \"B) Pressostat défectueux\", \"C) Air dans le système\", \"D) Fuite dans le système\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "3b3dddea-7e06-4a6a-9f3f-0c5751e520d6",
+    "options": [
+      "Apply the base coat and then the hardener separately",
+      "Mix the two parts and apply immediately",
+      "Apply the paint with a brush only",
+      "Mix the two parts and allow a pot life before application"
+    ],
+    "options_fr": "[\"A) Appliquer la couche de base et le durcisseur séparément\", \"B) Mélanger les deux parties et appliquer immédiatement\", \"C) Appliquer la peinture uniquement au pinceau\", \"D) Mélanger les deux parties et laisser reposer avant application\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "3c4ed355-4681-4513-850a-55f062986215",
+    "options": [
+      "Hot-melt adhesive applied with a glue gun",
+      "Epoxy adhesive with no surface preparation",
+      "Solvent cementing using a compatible solvent",
+      "Cyanoacrylate adhesive applied to a glossy surface"
+    ],
+    "options_fr": "[\"A) Adhésif thermofusible appliqué avec un pistolet à colle\", \"B) Adhésif époxy sans préparation de surface\", \"C) Cimentage par solvant utilisant un solvant compatible\", \"D) Adhésif cyanoacrylate appliqué sur une surface brillante\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "3d03fe8e-8b57-414f-b3d0-37a76a2d278e",
+    "options": [
+      "High fluid viscosity",
+      "Worn pump bearings",
+      "Air in the pump inlet",
+      "Low fluid level in the reservoir"
+    ],
+    "options_fr": "[\"A) Viscosité élevée du fluide\", \"B) Roulements de pompe usés\", \"C) Air à l'entrée de la pompe\", \"D) Niveau de fluide bas dans le réservoir\"]",
+    "correctAnswer": "A"
+  },
+  {
+    "id": "4377a499-695b-4860-8bff-a3b1bf0bc5b5",
+    "options": [
+      "Adjust the stall warning activation angle per the maintenance manual.",
+      "Replace the stall warning computer.",
+      "Verify continuity of the stick shaker motor circuit.",
+      "Check the stall warning vane or lift transducer for freedom of movement."
+    ],
+    "options_fr": "[\"A) Remplacer l'ordinateur d'avertissement de décrochage.\", \"B) Vérifier la liberté de mouvement de la palette d'avertissement de décrochage ou du capteur de portance.\", \"C) Ajuster l'angle d'activation de l'avertissement de décrochage conformément au manuel de maintenance.\", \"D) Vérifier la continuité du circuit du moteur du secoueur de manche.\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "4ebc7f1b-5e27-4c0b-9d23-b51c7b1193cc",
+    "options": [
+      "To provide trim capability",
+      "To improve aerodynamic balance",
+      "To reduce control forces",
+      "To increase roll rate"
+    ],
+    "options_fr": "[\"A) Assurer la capacité de compensation\", \"B) Améliorer l'équilibre aérodynamique\", \"C) Réduire les efforts de commande\", \"D) Augmenter la vitesse de roulis\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "4f09dc05-cc52-4040-90dc-294a88fd01b7",
+    "options": [
+      "A failed heating element in the windshield.",
+      "An open circuit in the power supply wire.",
+      "A faulty temperature controller.",
+      "A broken wire in the windshield temperature sensor circuit."
+    ],
+    "options_fr": "[\"A) Un élément chauffant défaillant dans le pare-brise.\", \"B) Un circuit ouvert dans le fil d'alimentation électrique.\", \"C) Un régulateur de température défectueux.\", \"D) Un fil cassé dans le circuit du capteur de température du pare-brise.\"]",
+    "correctAnswer": "A"
+  },
+  {
+    "id": "537be628-dc35-4629-a0bf-d2ebc67b22f5",
+    "options": [
+      "Use a high-temperature paint",
+      "Avoid painting the component",
+      "Use a water-based paint",
+      "Apply a chromate conversion coating before painting"
+    ],
+    "options_fr": "[\"A) Utiliser une peinture haute température.\", \"B) Éviter de peindre le composant.\", \"C) Utiliser une peinture à base d'eau.\", \"D) Appliquer une couche de conversion au chromate avant la peinture.\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "5cb7533d-c283-4a09-a002-a6c347f10713",
+    "options": [
+      "The reading will be higher than the actual torque applied",
+      "The reading will be lower than the actual torque applied",
+      "The reading will be accurate",
+      "The reading will be inaccurate and should not be used"
+    ],
+    "options_fr": "[\"A) La lecture sera plus élevée que le couple réel appliqué\", \"B) La lecture sera plus faible que le couple réel appliqué\", \"C) La lecture sera précise\", \"D) La lecture sera inexacte et ne devrait pas être utilisée\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "5fda382d-6a0a-4b43-98ab-4c8c30cc010d",
+    "options": [
+      "To select between two pressure sources",
+      "To regulate flow to an actuator",
+      "To relieve excess pressure",
+      "To prevent reverse flow"
+    ],
+    "options_fr": "[\"A) Sélectionner entre deux sources de pression\", \"B) Réguler le débit vers un actionneur\", \"C) Soulager l'excès de pression\", \"D) Empêcher le reflux\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "6220a2a2-80bc-453c-bade-61d624fb3cb8",
+    "options": [
+      "Collect it in a container and dispose of as hazardous waste",
+      "Burn it in an approved incinerator",
+      "Reuse it in the system after filtering",
+      "Pour it down a drain"
+    ],
+    "options_fr": "[\"A) Le collecter dans un conteneur et l'éliminer comme déchet dangereux\", \"B) Le brûler dans un incinérateur approuvé\", \"C) Le réutiliser dans le système après filtration\", \"D) Le verser dans un drain\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "62563e93-a0ad-4db3-84c5-e5797a7a72f9",
+    "options": [
+      "1/16 inch",
+      "1/8 inch",
+      "1/2 inch",
+      "1/4 inch"
+    ],
+    "options_fr": "[\"A) 1/16 pouce\", \"B) 1/8 pouce\", \"C) 1/2 pouce\", \"D) 1/4 pouce\"]",
+    "correctAnswer": "B"
+  },
+  {
+    "id": "64993e77-c367-4d5f-afcd-147b159f554f",
+    "options": [
+      "Leave as-is if the tank passes a pressure test",
+      "Increase weld amperage to re-fuse the area",
+      "Grind out the porous area and re-weld using proper technique",
+      "Apply sealant over the porous area"
+    ],
+    "options_fr": "[\"A) Laisser en l'état si le réservoir réussit un essai de pression\", \"B) Augmenter l'ampérage de soudage pour refusionner la zone\", \"C) Meuler la zone poreuse et ressouder en utilisant une technique appropriée\", \"D) Appliquer un mastic sur la zone poreuse\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "e4b41db3-c9fc-4c22-81c6-2d1074021f5f",
+    "options": [
+      "To increase the fabric's tensile strength",
+      "To improve the fabric's resistance to UV radiation",
+      "To remove wrinkles from the fabric",
+      "To seal the fabric pores"
+    ],
+    "options_fr": "[\"A) Augmenter la résistance à la traction de la toile\", \"B) Améliorer la résistance de la toile aux rayons UV\", \"C) Éliminer les plis de la toile\", \"D) Sceller les pores de la toile\"]",
+    "correctAnswer": "B"
+  },
+  {
+    "id": "5f20636f-3d46-4d3d-b8b2-70d09bf410f4",
+    "options": [
+      "1/8 inch",
+      "3/32 inch",
+      "5/32 inch",
+      "1/16 inch"
+    ],
+    "options_fr": "[\"A) 1/8 pouce\", \"B) 3/32 pouce\", \"C) 5/32 pouce\", \"D) 1/16 pouce\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "1beb3b53-8ee1-4e84-b3fc-f08aeea47a01",
+    "options": [
+      "Grade A cotton",
+      "Nylon",
+      "Fiberglass",
+      "Polyester (e.g., Dacron)"
+    ],
+    "options_fr": "[\"A) Coton de qualité A\", \"B) Nylon\", \"C) Fibre de verre\", \"D) Polyester (p. ex., Dacron)\"]",
+    "correctAnswer": "A"
+  },
+  {
+    "id": "a969561d-c82d-4f80-bb8e-aad9495133d0",
+    "options": [
+      "Use a vacuum pump to remove air from the system",
+      "Operate the system at high pressure to force air out",
+      "Apply pressure to the reservoir and open the bleed valve",
+      "Open the bleed valve and operate the system until fluid flows without bubbles"
+    ],
+    "options_fr": "[\"A) Utiliser une pompe à vide pour retirer l'air du système\", \"B) Faire fonctionner le système à haute pression pour forcer l'air à sortir\", \"C) Appliquer une pression au réservoir et ouvrir la vanne de purge\", \"D) Ouvrir la vanne de purge et faire fonctionner le système jusqu'à ce que le fluide s'écoule sans bulles\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "253d5a22-e796-4ec4-b912-5f939c63dd27",
+    "options": [
+      "Use a different size sleeve",
+      "Apply a layer of tape over the sleeve",
+      "Replace the sleeve and re-swage",
+      "Accept the sleeve if it passes a pull test"
+    ],
+    "options_fr": "[\"A) Utiliser une douille de taille différente\", \"B) Appliquer une couche de ruban adhésif sur la douille\", \"C) Remplacer la douille et ressertir\", \"D) Accepter la douille si elle réussit un test de traction\"]",
+    "correctAnswer": "A"
+  },
+  {
+    "id": "67375b53-e265-4479-b0d9-3a64536766cb",
+    "options": [
+      "To isolate a failed component",
+      "To filter contaminants from the fluid",
+      "To prevent over-pressurization of the system",
+      "To provide a visual indication of pressure"
+    ],
+    "options_fr": "[\"A) Isoler un composant défaillant\", \"B) Filtrer les contaminants du fluide\", \"C) Empêcher la surpression du système\", \"D) Fournir une indication visuelle de la pression\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "a4541ef6-c043-4a3b-990b-50312388bd75",
+    "options": [
+      "The dope was applied too thickly",
+      "The dope was incompatible with the fabric",
+      "The fabric was not properly shrunk before doping",
+      "The dope was applied in high humidity"
+    ],
+    "options_fr": "[\"A) L'enduit a été appliqué trop épais\", \"B) L'enduit était incompatible avec le tissu\", \"C) Le tissu n'a pas été correctement rétracté avant l'enduction\", \"D) L'enduit a été appliqué par forte humidité\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "a99e5ae2-c194-420e-9d29-1a15f2a0b026",
+    "options": [
+      "Running stitch",
+      "Baseball stitch",
+      "Blanket stitch",
+      "Lock stitch"
+    ],
+    "options_fr": "[\"A) Point avant\", \"B) Point de baseball\", \"C) Point de couverture\", \"D) Point de verrouillage\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "aa3f21de-bddb-4be9-bb57-d97ccd092da6",
+    "options": [
+      "To increase the strength of the seam",
+      "To prevent the seam from unraveling",
+      "To provide a smooth surface for painting",
+      "To act as a moisture seal"
+    ],
+    "options_fr": "[\"A) Augmenter la résistance de la couture\", \"B) Empêcher la couture de s'effilocher\", \"C) Fournir une surface lisse pour la peinture\", \"D) Agir comme un joint d'étanchéité à l'humidité\"]",
+    "correctAnswer": "B"
+  },
+  {
+    "id": "3fbeb2db-b739-4d06-b70c-269470b3f3f7",
+    "options": [
+      "An intermittent electrical fault in the warning horn circuit.",
+      "A misadjusted throttle position switch.",
+      "Low hydraulic fluid level in the landing gear system.",
+      "A faulty squat switch on the landing gear."
+    ],
+    "options_fr": "[\"A) Un défaut électrique intermittent dans le circuit de l'avertisseur sonore.\", \"B) Un interrupteur de position de manette des gaz mal ajusté.\", \"C) Un faible niveau de liquide hydraulique dans le système de train d'atterrissage.\", \"D) Un interrupteur de compression défectueux sur le train d'atterrissage.\"]",
+    "correctAnswer": "B"
+  },
+  {
+    "id": "b230a89c-7cf5-432d-a68c-737e77f13513",
+    "options": [
+      "Replace the door actuator seals.",
+      "Lubricate the door hinge points.",
+      "Adjust the door uplock hook mechanism.",
+      "Check hydraulic system pressure and sequence valve operation."
+    ],
+    "options_fr": "[\"A) Remplacer les joints du vérin de porte.\", \"B) Lubrifier les points d'articulation de la porte.\", \"C) Ajuster le mécanisme de crochet de verrouillage de la porte.\", \"D) Vérifier la pression du système hydraulique et le fonctionnement de la vanne de séquence.\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "b2835965-ed04-4741-906c-5d8ced5f6a68",
+    "options": [
+      "To control the order of operation of multiple actuators",
+      "To filter contaminants",
+      "To prevent reverse flow",
+      "To regulate system pressure"
+    ],
+    "options_fr": "[\"A) Contrôler l'ordre de fonctionnement de plusieurs actionneurs\", \"B) Filtrer les contaminants\", \"C) Empêcher le reflux\", \"D) Réguler la pression du système\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "eaf5ac11-0ca3-48c3-b364-28a98e12e345",
+    "options": [
+      "To prevent the epoxy from dripping",
+      "To protect the patch from UV radiation",
+      "To reduce the cure time of the epoxy",
+      "To provide a textured surface for secondary bonding"
+    ],
+    "options_fr": "[\"A) Empêcher l'époxy de couler\", \"B) Protéger le patch des rayons UV\", \"C) Réduire le temps de durcissement de l'époxy\", \"D) Fournir une surface texturée pour un collage secondaire\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "ba0be342-eb00-4e66-b94b-e18b1c8b4292",
+    "options": [
+      "To smooth the surface",
+      "To remove dust and lint from the surface",
+      "To clean the surface with solvent",
+      "To apply a thin layer of primer"
+    ],
+    "options_fr": "[\"A) Lisser la surface\", \"B) Enlever la poussière et les peluches de la surface\", \"C) Nettoyer la surface avec un solvant\", \"D) Appliquer une fine couche d'apprêt\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "7f579f49-ca6d-4219-80a9-97b6dc2f3dde",
+    "options": [
+      "The trim tab is rigged too far up",
+      "The elevator is rigged too far up",
+      "The trim tab is rigged too far down",
+      "The elevator is rigged too far down"
+    ],
+    "options_fr": "[\"A) La compensation est réglée trop vers le haut.\", \"B) La profondeur est réglée trop vers le haut.\", \"C) La compensation est réglée trop vers le bas.\", \"D) La profondeur est réglée trop vers le bas.\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "fae73b92-e9e5-482a-890d-94e2261ea937",
+    "options": [
+      "Clean the sensing element terminals and re-test.",
+      "Adjust the system sensitivity per the maintenance manual.",
+      "Note the reading in the logbook and continue operation.",
+      "Replace the sensing element."
+    ],
+    "options_fr": "[\"A) Nettoyer les bornes de l'élément de détection et refaire l'essai.\", \"B) Ajuster la sensibilité du système selon le manuel d'entretien.\", \"C) Noter la lecture dans le carnet de route et poursuivre l'exploitation.\", \"D) Remplacer l'élément de détection.\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "bccd16e2-1391-47c9-a901-09c317d0d273",
+    "options": [
+      "Worn pump",
+      "Air in the system",
+      "Faulty pressure relief valve",
+      "Clogged pump inlet filter"
+    ],
+    "options_fr": "[\"A) Pompe usée\", \"B) Air dans le système\", \"C) Soupape de décharge défectueuse\", \"D) Filtre d'entrée de pompe obstrué\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "ede6b964-67fb-43bf-ba1e-7f1dd197a2c4",
+    "options": [
+      "Use a lightweight paint",
+      "Apply thin coats to minimize weight gain",
+      "Avoid painting the trailing edge",
+      "Re-balance the control surface after painting"
+    ],
+    "options_fr": "[\"A) Utiliser une peinture légère\", \"B) Appliquer des couches minces pour minimiser le gain de poids\", \"C) Éviter de peindre le bord de fuite\", \"D) Rééquilibrer la surface de commande après la peinture\"]",
+    "correctAnswer": "A"
+  },
+  {
+    "id": "c13ea358-31fc-41b3-affe-dbce73cb6ba7",
+    "options": [
+      "To provide additional clamping force",
+      "To indicate the nut is properly torqued",
+      "To act as a secondary locking device",
+      "To prevent the nut from loosening due to vibration"
+    ],
+    "options_fr": "[\"A) Fournir une force de serrage supplémentaire\", \"B) Indiquer que l'écrou est correctement serré\", \"C) Agir comme un dispositif de verrouillage secondaire\", \"D) Empêcher l'écrou de se desserrer sous l'effet des vibrations\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "cc100177-e8f7-4017-89c7-40bd5b474d1f",
+    "options": [
+      "Air in the hydraulic system",
+      "Low hydraulic fluid level",
+      "Worn hydraulic pump",
+      "Faulty pressure relief valve"
+    ],
+    "options_fr": "[\"A) Air dans le système hydraulique\", \"B) Niveau de liquide hydraulique bas\", \"C) Pompe hydraulique usée\", \"D) Soupape de décharge défectueuse\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "d0f241af-6e99-4afc-afb3-5ec295712f2a",
+    "options": [
+      "Internal leakage in a component",
+      "External leak in a line",
+      "Thermal expansion of the fluid",
+      "Faulty pressure gauge"
+    ],
+    "options_fr": "[\"A) Fuite interne dans un composant\", \"B) Fuite externe dans une conduite\", \"C) Dilatation thermique du fluide\", \"D) Manomètre défectueux\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "d252fcf7-e0d6-4849-b38e-8db3d2e7e5fc",
+    "options": [
+      "Apply one thick coat and sand after drying",
+      "Apply the dope with a roller",
+      "Apply multiple thin coats, sanding between each coat",
+      "Apply the dope with a spray gun in one heavy coat"
+    ],
+    "options_fr": "[\"A) Appliquer une couche épaisse et poncer après séchage\", \"B) Appliquer l'enduit avec un rouleau\", \"C) Appliquer plusieurs couches minces en ponçant entre chaque couche\", \"D) Appliquer l'enduit avec un pistolet en une seule couche épaisse\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "91bdf3cc-d8f8-46d5-bbde-e53c84382629",
+    "options": [
+      "To provide easier access for inspection",
+      "To improve aerodynamic smoothness",
+      "To reduce the risk of corrosion",
+      "To prevent the bolts from backing out due to vibration"
+    ],
+    "options_fr": "[\"A) Pour améliorer la douceur aérodynamique\", \"B) Pour réduire le risque de corrosion\", \"C) Pour fournir un accès plus facile pour l'inspection\", \"D) Pour empêcher les boulons de se desserrer en raison des vibrations\"]",
+    "correctAnswer": "D"
+  },
+  {
+    "id": "4427a9a3-84fd-4c66-a153-397b37c975e4",
+    "options": [
+      "Replace the bolts with the correct length bolts",
+      "Use a thinner nut to allow for the extra length",
+      "Cut the bolts to the correct length",
+      "Use a stack of washers to take up the excess length"
+    ],
+    "options_fr": "[\"A) Remplacer les boulons par des boulons de longueur correcte\", \"B) Utiliser un écrou plus mince pour compenser la longueur supplémentaire\", \"C) Couper les boulons à la longueur correcte\", \"D) Utiliser une pile de rondelles pour compenser l'excès de longueur\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "e8997853-a40f-47b8-b79b-7286abc7426e",
+    "options": [
+      "Mineral-based fluid (MIL-H-5606)",
+      "Water-glycol fluid",
+      "Phosphate ester fluid (Skydrol)",
+      "Vegetable-based fluid"
+    ],
+    "options_fr": "[\"A) Fluide à base minérale (MIL-H-5606)\", \"B) Fluide eau-glycol\", \"C) Fluide ester phosphorique (Skydrol)\", \"D) Fluide à base végétale\"]",
+    "correctAnswer": "C"
+  },
+  {
+    "id": "ef4860a5-8c66-442c-8664-39022a5c2fc7",
+    "options": [
+      "Use a copper backing bar to dissipate heat",
+      "Preheat the part to 600°F",
+      "Keep a Class D fire extinguisher nearby",
+      "Use argon-helium shielding gas mixture"
+    ],
+    "options_fr": "[\"A) Utiliser une barre de support en cuivre pour dissiper la chaleur\", \"B) Préchauffer la pièce à 600 °F\", \"C) Garder un extincteur de classe D à proximité\", \"D) Utiliser un mélange de gaz de protection argon-hélium\"]",
+    "correctAnswer": "A"
+  },
+  {
+    "id": "f1d0a3e4-028f-40f1-9c1f-18b4370134c4",
+    "options": [
+      "Apply a generous coat of primer to the weld zone",
+      "Remove all paint and corrosion products from the area",
+      "Preheat the entire skin to 400°F",
+      "Clamp the skin tightly to a steel backup bar"
+    ],
+    "options_fr": "[\"A) Appliquer une couche généreuse d'apprêt sur la zone de soudure\", \"B) Enlever toute la peinture et les produits de corrosion de la zone\", \"C) Préchauffer l'ensemble du revêtement à 400 °F\", \"D) Serrer fermement le revêtement contre une barre d'appui en acier\"]",
+    "correctAnswer": "B"
+  },
+  {
+    "id": "fb478f7b-ce71-4909-9138-74093d33ee8c",
+    "options": [
+      "To provide a return path for fluid",
+      "To store hydraulic fluid",
+      "To remove contaminants from the fluid",
+      "To regulate system pressure"
+    ],
+    "options_fr": "[\"A) Fournir un chemin de retour pour le fluide\", \"B) Stocker le fluide hydraulique\", \"C) Éliminer les contaminants du fluide\", \"D) Réguler la pression du système\"]",
+    "correctAnswer": "A"
+  },
+  {
+    "id": "5abca4ea-4587-4c66-8d69-122e9f5e13f6",
+    "options": [
+      "A. Improved focus due to heightened awareness",
+      "B. Reduced attention to detail and increased error rate",
+      "C. Enhanced problem-solving abilities",
+      "D. No effect, as stress only affects physical tasks"
+    ],
+    "options_fr": "[\"A. Amélioration de la concentration due à une vigilance accrue\", \"B. Réduction de l'attention aux détails et augmentation du taux d'erreurs\", \"C. Amélioration des capacités de résolution de problèmes\", \"D. Aucun effet, car le stress n'affecte que les tâches physiques\"]",
+    "correctAnswer": "B. Reduced attention to detail and increased error rate"
+  },
+  {
+    "id": "7b272046-d882-475f-9c0e-2533bb1dd79a",
+    "options": [
+      "A. Choose the best option",
+      "B. Estimate the need to act",
+      "C. Do the action",
+      "D. Evaluate the outcome"
+    ],
+    "options_fr": "[\"A. Choisir la meilleure option\", \"B. Estimer le besoin d'agir\", \"C. Faire l'action\", \"D. Évaluer le résultat\"]",
+    "correctAnswer": "B. Estimate the need to act"
+  },
+  {
+    "id": "8ba99373-9ae9-4df2-9b88-76e26aed7c54",
+    "options": [
+      "A. Accept the lead's judgment to avoid conflict and continue with the test.",
+      "B. Document the noise in the maintenance records and proceed, as it may be normal.",
+      "C. Stop the task and insist on further investigation, escalating to a supervisor if necessary.",
+      "D. Consult the aircraft maintenance manual to determine if the noise is normal, but do not delay the test."
+    ],
+    "options_fr": "[\"A. Accepter le jugement du technicien principal pour éviter les conflits et continuer l'essai.\", \"B. Documenter le bruit dans les dossiers de maintenance et poursuivre, car il est peut-être normal.\", \"C. Arrêter la tâche et insister pour une enquête plus approfondie, en faisant remonter l'information à un superviseur si nécessaire.\", \"D. Consulter le manuel de maintenance de l'aéronef pour déterminer si le bruit est normal, mais ne pas retarder l'essai.\"]",
+    "correctAnswer": "C. Stop the task and insist on further investigation, escalating to a supervisor if necessary."
+  },
+  {
+    "id": "84f213e4-df03-4609-ae2f-13f1b5d87ef0",
+    "options": [
+      "A. Continue working and take short breaks to stay awake, as the task is almost complete.",
+      "B. Stop the task, take a power nap of 20-30 minutes if possible, and then reassess fitness for duty.",
+      "C. Drink energy drinks to maintain alertness until the task is finished.",
+      "D. Speed up the work to finish quickly and then rest."
+    ],
+    "options_fr": "[\"A. Continuer à travailler et prendre de courtes pauses pour rester éveillé, car la tâche est presque terminée.\", \"B. Arrêter la tâche, faire une sieste de 20 à 30 minutes si possible, puis réévaluer son aptitude au travail.\", \"C. Boire des boissons énergisantes pour maintenir la vigilance jusqu'à la fin de la tâche.\", \"D. Accélérer le travail pour terminer rapidement puis se reposer.\"]",
+    "correctAnswer": "B. Stop the task, take a power nap of 20-30 minutes if possible, and then reassess fitness for duty."
+  },
+  {
+    "id": "4ebde0ea-9eef-49cb-a00f-197742a78f04",
+    "options": [
+      "A. Stress due to workload",
+      "B. Complacency",
+      "C. Fatigue",
+      "D. Lack of communication"
+    ],
+    "options_fr": "[\"A. Stress dû à la charge de travail\", \"B. Complaisance\", \"C. Fatigue\", \"D. Manque de communication\"]",
+    "correctAnswer": "B. Complacency"
+  },
+  {
+    "id": "e2126771-6a02-48c2-b61b-1c8454c7cb4f",
+    "options": [
+      "A. Sign off the aircraft and report the leak after the flight",
+      "B. Defer the leak using the minimum equipment list (MEL) if applicable",
+      "C. Ignore the pressure and ground the aircraft until the leak is properly investigated",
+      "D. Tighten the nearest bolt to reduce the leak temporarily"
+    ],
+    "options_fr": "[\"A. Signer la mainlevée de l'aéronef et signaler la fuite après le vol\", \"B. Reporter la fuite en utilisant la liste d'équipement minimal (LEM) si applicable\", \"C. Ignorer la pression et clouer l'aéronef au sol jusqu'à ce que la fuite soit correctement examinée\", \"D. Serrer le boulon le plus proche pour réduire temporairement la fuite\"]",
+    "correctAnswer": "C. Ignore the pressure and ground the aircraft until the leak is properly investigated"
+  },
+  {
+    "id": "ed6c1a1f-05b0-40c8-9d9a-ed6343908ec8",
+    "options": [
+      "A) One red rotating beacon on the top of the fuselage and one green position light on the right wingtip.",
+      "B) A red flashing anti-collision light and both red and green position lights.",
+      "C) Only the navigation (position) lights are required at night.",
+      "D) A white strobe light on the tail and a red beacon on the belly."
+    ],
+    "options_fr": "[\"A) Un phare rotatif rouge sur le dessus du fuselage et un feu de position vert sur l'extrémité de l'aile droite.\", \"B) Un feu anticollision rouge clignotant et les feux de position rouge et vert.\", \"C) Seuls les feux de navigation (position) sont requis la nuit.\", \"D) Un feu stroboscopique blanc sur la queue et un phare rouge sur le ventre.\"]",
+    "correctAnswer": "B) A red flashing anti-collision light and both red and green position lights."
+  },
+  {
+    "id": "0f1149bc-872d-4b80-b1bf-c9c5274bf7a9",
+    "options": [
+      "A) 200 feet AGL, based on barometric altitude.",
+      "B) 200 feet AGL, based on radio altimeter output.",
+      "C) 100 feet AGL, based on radio altimeter output.",
+      "D) 50 feet AGL, based on radar altitude."
+    ],
+    "options_fr": "[\"A) 200 pieds AGL, basée sur l'altitude barométrique.\", \"B) 200 pieds AGL, basée sur la sortie de l'altimètre radio.\", \"C) 100 pieds AGL, basée sur la sortie de l'altimètre radio.\", \"D) 50 pieds AGL, basée sur l'altitude radar.\"]",
+    "correctAnswer": "B) 200 feet AGL, based on radio altimeter output."
+  },
+  {
+    "id": "0541f556-5b8f-407d-939e-e9a421546747",
+    "options": [
+      "A) Regularly topping off the battery with distilled water.",
+      "B) Performing a capacity check and ensuring proper cell voltage balancing during charging.",
+      "C) Storing the battery in a freezer when not in use.",
+      "D) Replacing the battery only when the voltage drops below 18 volts."
+    ],
+    "options_fr": "[\"A) Remplir régulièrement la batterie avec de l'eau distillée.\", \"B) Effectuer une vérification de capacité et assurer un équilibrage adéquat de la tension des cellules pendant la charge.\", \"C) Entreposer la batterie dans un congélateur lorsqu'elle n'est pas utilisée.\", \"D) Remplacer la batterie seulement lorsque la tension descend sous 18 volts.\"]",
+    "correctAnswer": "B) Performing a capacity check and ensuring proper cell voltage balancing during charging."
+  },
+  {
+    "id": "1b77ab56-4988-41f6-b3d0-9da6d9e69611",
+    "options": [
+      "A) The pilot must follow the RA unless it would jeopardize safety, and must notify ATC as soon as possible after the maneuver.",
+      "B) The pilot must immediately disregard the RA and follow ATC instructions.",
+      "C) The pilot may ignore the RA if the aircraft is in visual meteorological conditions.",
+      "D) The pilot must reduce vertical speed to zero and wait for ATC clearance."
+    ],
+    "options_fr": "[\"A) Le pilote doit suivre le RA à moins que cela ne compromette la sécurité, et doit aviser le contrôle de la circulation aérienne (ATC) dès que possible après la manœuvre.\", \"B) Le pilote doit immédiatement ignorer le RA et suivre les instructions de l'ATC.\", \"C) Le pilote peut ignorer le RA si l'aéronef est en conditions météorologiques de vol à vue.\", \"D) Le pilote doit réduire la vitesse verticale à zéro et attendre l'autorisation de l'ATC.\"]",
+    "correctAnswer": "A) The pilot must follow the RA unless it would jeopardize safety, and must notify ATC as soon as possible after the maneuver."
+  },
+  {
+    "id": "7994aec1-61cb-4a23-a41a-9a4c343232a7",
+    "options": [
+      "A) To convert DC power to AC power at a variable frequency.",
+      "B) To maintain a constant generator speed of 12,000 RPM regardless of engine speed.",
+      "C) To regulate the generator output voltage to 115 VAC.",
+      "D) To provide emergency power when the generator fails."
+    ],
+    "options_fr": "[\"A) Convertir le courant continu (CC) en courant alternatif (CA) à une fréquence variable.\", \"B) Maintenir une vitesse constante de la génératrice à 12 000 tr/min, quelle que soit la vitesse du moteur.\", \"C) Réguler la tension de sortie de la génératrice à 115 VCA.\", \"D) Fournir une alimentation d'urgence lorsque la génératrice tombe en panne.\"]",
+    "correctAnswer": "B) To maintain a constant generator speed of 12,000 RPM regardless of engine speed."
+  },
+  {
+    "id": "30a6ec51-6c75-4e01-bb6c-3ab800557c4e",
+    "options": [
+      "A. Au moins un filetage complet doit dépasser de l'écrou après le serrage final.",
+      "B. Au moins deux filetages complets doivent dépasser de l'écrou après le serrage final.",
+      "C. Le boulon doit être affleurant à l'écrou après le serrage final.",
+      "D. Aucun filetage ne doit dépasser ; l'écrou doit être en butée."
+    ],
+    "options_fr": "[\"A. Au moins un filetage complet doit dépasser de l'écrou après le serrage final.\", \"B. Au moins deux filetages complets doivent dépasser de l'écrou après le serrage final.\", \"C. Le boulon doit être affleurant à l'écrou après le serrage final.\", \"D. Aucun filetage ne doit dépasser ; l'écrou doit être en butée.\"]",
+    "correctAnswer": "A. Au moins un filetage complet doit dépasser de l'écrou après le serrage final."
+  },
+  {
+    "id": "4bdf5dd4-93a3-47b5-a22b-4ad88f24f3dd",
+    "options": [
+      "A. La partie repliée doit être coupée à 1/8 de pouce de la tête du boulon.",
+      "B. La partie repliée doit envelopper complètement l'écrou.",
+      "C. La partie repliée doit être insérée dans l'écrou pour éviter le desserrage.",
+      "D. La partie repliée doit être pliée à 90 degrés et laissée libre."
+    ],
+    "options_fr": "[\"A. La partie repliée doit être coupée à 1/8 de pouce de la tête du boulon.\", \"B. La partie repliée doit envelopper complètement l'écrou.\", \"C. La partie repliée doit être insérée dans l'écrou pour éviter le desserrage.\", \"D. La partie repliée doit être pliée à 90 degrés et laissée libre.\"]",
+    "correctAnswer": "A. La partie repliée doit être coupée à 1/8 de pouce de la tête du boulon."
+  },
+  {
+    "id": "7a1ff639-4add-465f-b42e-0b50dad3eb90",
+    "options": [
+      "A. 3 à 6 tours par pouce de longueur de fil.",
+      "B. 6 à 8 tours par pouce de longueur de fil.",
+      "C. 10 à 12 tours par pouce de longueur de fil.",
+      "D. 1 à 2 tours par pouce de longueur de fil."
+    ],
+    "options_fr": "[\"A. 3 à 6 tours par pouce de longueur de fil.\", \"B. 6 à 8 tours par pouce de longueur de fil.\", \"C. 10 à 12 tours par pouce de longueur de fil.\", \"D. 1 à 2 tours par pouce de longueur de fil.\"]",
+    "correctAnswer": "B. 6 à 8 tours par pouce de longueur de fil."
+  },
+  {
+    "id": "a9f14bdd-6baa-47f6-b7e7-e7d26e835dc1",
+    "options": [
+      "A. 15 minutes.",
+      "B. 30 minutes.",
+      "C. 1 heure.",
+      "D. 2 heures."
+    ],
+    "options_fr": "[\"A. 15 minutes.\", \"B. 30 minutes.\", \"C. 1 heure.\", \"D. 2 heures.\"]",
+    "correctAnswer": "B. 30 minutes."
+  },
+  {
+    "id": "acbe3d56-cbf3-4b30-828e-ab75c1531944",
+    "options": [
+      "A. Aucune correction n'est nécessaire car la rallonge n'affecte pas le couple.",
+      "B. Réduire la valeur de couple de 10 %.",
+      "C. Augmenter la valeur de couple de 5 %.",
+      "D. Utiliser un facteur de correction basé sur le rapport des longueurs."
+    ],
+    "options_fr": "[\"A. Aucune correction n'est nécessaire car la rallonge n'affecte pas le couple.\", \"B. Réduire la valeur de couple de 10 %.\", \"C. Augmenter la valeur de couple de 5 %.\", \"D. Utiliser un facteur de correction basé sur le rapport des longueurs.\"]",
+    "correctAnswer": "D. Utiliser un facteur de correction basé sur le rapport des longueurs."
+  },
+  {
+    "id": "cab2ae44-4d16-46f7-ab3a-79daf5852e8a",
+    "options": [
+      "A. 0,010 à 0,020 pouce.",
+      "B. 0,030 à 0,060 pouce.",
+      "C. 0,100 à 0,150 pouce.",
+      "D. 0,200 à 0,250 pouce."
+    ],
+    "options_fr": "[\"A. 0,010 à 0,020 pouce.\", \"B. 0,030 à 0,060 pouce.\", \"C. 0,100 à 0,150 pouce.\", \"D. 0,200 à 0,250 pouce.\"]",
+    "correctAnswer": "B. 0,030 à 0,060 pouce."
+  },
+  {
+    "id": "dc9f1487-601c-494f-8f6d-ca66ee152ac7",
+    "options": [
+      "A. Appliquer la force sur la bague extérieure du roulement.",
+      "B. Appliquer la force sur la bague intérieure du roulement.",
+      "C. Appliquer la force uniformément sur les deux bagues simultanément.",
+      "D. Utiliser un maillet en caoutchouc pour frapper le roulement en place."
+    ],
+    "options_fr": "[\"A. Appliquer la force sur la bague extérieure du roulement.\", \"B. Appliquer la force sur la bague intérieure du roulement.\", \"C. Appliquer la force uniformément sur les deux bagues simultanément.\", \"D. Utiliser un maillet en caoutchouc pour frapper le roulement en place.\"]",
+    "correctAnswer": "B. Appliquer la force sur la bague intérieure du roulement."
+  },
+  {
+    "id": "d4d0c50e-aa4b-4984-a92a-1594b96c1d17",
+    "options": [
+      "A) Perform a stop-drill operation at the crack tip and monitor it during the next inspection interval.",
+      "B) Obtain an approved engineering order or repair design from the aircraft manufacturer or a Transport Canada designated engineering representative.",
+      "C) Replace the entire wing skin panel regardless of the crack length.",
+      "D) Weld the crack shut and blend the surface with a doubler patch."
+    ],
+    "options_fr": "[\"A) Effectuer une opération de perçage d'arrêt à l'extrémité de la fissure et la surveiller lors du prochain intervalle d'inspection.\", \"B) Obtenir un ordre technique approuvé ou une conception de réparation du fabricant de l'aéronef ou d'un représentant en ingénierie désigné de Transports Canada.\", \"C) Remplacer tout le panneau de peau de l'aile, quelle que soit la longueur de la fissure.\", \"D) Souder la fissure et lisser la surface avec une plaque de renfort.\"]",
+    "correctAnswer": "B) Obtain an approved engineering order or repair design from the aircraft manufacturer or a Transport Canada designated engineering representative."
+  },
+  {
+    "id": "3a14995d-6c79-4675-bd32-9ac5440b56ab",
+    "options": [
+      "A. Pilot",
+      "B. Aircraft",
+      "C. Environment",
+      "D. External pressures"
+    ],
+    "options_fr": "[\"A. Pilote\", \"B. Aéronef\", \"C. Environnement\", \"D. Pressions externes\"]",
+    "correctAnswer": "D. External pressures"
+  },
+  {
+    "id": "3a9e5757-c98c-46ac-90df-e5016af24f73",
+    "options": [
+      "A. Evaluate the options",
+      "B. Detect the change",
+      "C. Choose the best option",
+      "D. Identify the problem"
+    ],
+    "options_fr": "[\"A. Évaluer les options\", \"B. Détecter le changement\", \"C. Choisir la meilleure option\", \"D. Identifier le problème\"]",
+    "correctAnswer": "B. Detect the change"
+  },
+  {
+    "id": "5acd07c3-f26c-45f7-96d3-cd32eb9e58b5",
+    "options": [
+      "A. Ignore the shortcut to avoid conflict and maintain team morale, as long as the task is completed on time.",
+      "B. Immediately stop the task, address the deviation privately with the team member, and reinforce the correct procedure.",
+      "C. Assign the team member to a different, less critical task for the rest of the shift.",
+      "D. Report the team member to management without discussing the issue first, to ensure accountability."
+    ],
+    "options_fr": "[\"A. Ignorer le raccourci pour éviter les conflits et maintenir le moral de l'équipe, tant que la tâche est terminée à temps.\", \"B. Arrêter immédiatement la tâche, aborder la dérogation en privé avec le membre de l'équipe et renforcer la procédure correcte.\", \"C. Assigner le membre de l'équipe à une autre tâche moins critique pour le reste du quart de travail.\", \"D. Signaler le membre de l'équipe à la direction sans discuter du problème d'abord, pour assurer la responsabilisation.\"]",
+    "correctAnswer": "B. Immediately stop the task, address the deviation privately with the team member, and reinforce the correct procedure."
+  },
+  {
+    "id": "70dfafda-ced4-45bb-a28f-fb9f5c3c1cf8",
+    "options": [
+      "A. Yerkes-Dodson law",
+      "B. Pareto principle",
+      "C. Murphy's law",
+      "D. Hawthorne effect"
+    ],
+    "options_fr": "[\"A. Loi de Yerkes-Dodson\", \"B. Principe de Pareto\", \"C. Loi de Murphy\", \"D. Effet Hawthorne\"]",
+    "correctAnswer": "A. Yerkes-Dodson law"
+  },
+  {
+    "id": "6cbae854-d151-4507-8ac9-09c55406179b",
+    "options": [
+      "A. Fatigue",
+      "B. Communication breakdown",
+      "C. Complacency",
+      "D. Stress"
+    ],
+    "options_fr": "[\"A. Fatigue\", \"B. Rupture de communication\", \"C. Complaisance\", \"D. Stress\"]",
+    "correctAnswer": "B. Communication breakdown"
+  },
+  {
+    "id": "31c340d7-9b8f-44c6-adc9-02f6f1adaaed",
+    "options": [
+      "A) Flight control computers.",
+      "B) Cabin entertainment and galley power.",
+      "C) Primary flight displays.",
+      "D) Engine fire detection system."
+    ],
+    "options_fr": "[\"A) Les calculateurs de commandes de vol.\", \"B) Le divertissement en cabine et l'alimentation de la cuisine.\", \"C) Les écrans de vol principaux.\", \"D) Le système de détection d'incendie moteur.\"]",
+    "correctAnswer": "B) Cabin entertainment and galley power."
+  },
+  {
+    "id": "c038686b-abb3-4435-9b18-51b1dadec5aa",
+    "options": [
+      "A) Engine bleed air directly from the compressor section.",
+      "B) Ram air from outside the aircraft, often filtered and ducted.",
+      "C) Recirculated cabin air passed through a refrigeration unit.",
+      "D) Liquid coolant circulated from a central reservoir."
+    ],
+    "options_fr": "[\"A) L'air de prélèvement moteur directement de la section du compresseur.\", \"B) L'air dynamique de l'extérieur de l'aéronef, souvent filtré et canalisé.\", \"C) L'air de cabine recyclé passé à travers une unité de réfrigération.\", \"D) Un liquide de refroidissement circulé à partir d'un réservoir central.\"]",
+    "correctAnswer": "B) Ram air from outside the aircraft, often filtered and ducted."
+  },
+  {
+    "id": "37800c3a-6d1e-40b7-9c19-15305c4b65b0",
+    "options": [
+      "A) When fewer than five satellites are in view with acceptable geometry.",
+      "B) When the aircraft is within 200 NM of the North Pole.",
+      "C) When the WAAS signal is active and providing corrections.",
+      "D) When the GPS receiver has detected a clock error."
+    ],
+    "options_fr": "[\"A) Lorsque moins de cinq satellites sont en vue avec une géométrie acceptable.\", \"B) Lorsque l'aéronef se trouve à moins de 200 NM du pôle Nord.\", \"C) Lorsque le signal WAAS est actif et fournit des corrections.\", \"D) Lorsque le récepteur GPS a détecté une erreur d'horloge.\"]",
+    "correctAnswer": "A) When fewer than five satellites are in view with acceptable geometry."
+  },
+  {
+    "id": "32227be5-7429-4433-9f0b-5af3455d9482",
+    "options": [
+      "A) By measuring the phase difference between the transmitted and received signals.",
+      "B) By measuring the time delay between the transmitted interrogation and the received reply, then dividing by two.",
+      "C) By comparing the frequency shift of the returned signal.",
+      "D) By counting the number of pulses returned per second."
+    ],
+    "options_fr": "[\"A) En mesurant la différence de phase entre les signaux transmis et reçus.\", \"B) En mesurant le délai entre l'interrogation transmise et la réponse reçue, puis en divisant par deux.\", \"C) En comparant le décalage de fréquence du signal retourné.\", \"D) En comptant le nombre d'impulsions retournées par seconde.\"]",
+    "correctAnswer": "B) By measuring the time delay between the transmitted interrogation and the received reply, then dividing by two."
+  },
+  {
+    "id": "41cdea89-f157-474f-839f-d0a2912c938a",
+    "options": [
+      "A) It generates the symbols for the attitude indicator only.",
+      "B) It converts sensor data (e.g., attitude, heading) into video signals for the display units.",
+      "C) It powers the display backlighting and dimming circuits.",
+      "D) It stores flight plans and navigation databases."
+    ],
+    "options_fr": "[\"A) Il génère les symboles pour l'indicateur d'attitude uniquement.\", \"B) Il convertit les données des capteurs (par exemple, l'attitude, le cap) en signaux vidéo pour les unités d'affichage.\", \"C) Il alimente les circuits de rétroéclairage et de gradation de l'affichage.\", \"D) Il stocke les plans de vol et les bases de données de navigation.\"]",
+    "correctAnswer": "B) It converts sensor data (e.g., attitude, heading) into video signals for the display units."
+  },
+  {
+    "id": "fa13a5ba-5001-40ef-9c17-90f0b8fdaaec",
+    "options": [
+      "A. Follow the experienced technician's interpretation to save time and avoid conflict.",
+      "B. Consult the aircraft maintenance manual and, if necessary, escalate to a supervisor or engineering for clarification.",
+      "C. Have both technicians perform the task their own way and compare results.",
+      "D. Use a vote among the team to decide which interpretation to follow."
+    ],
+    "options_fr": "[\"A. Suivre l'interprétation du technicien expérimenté pour gagner du temps et éviter les conflits.\", \"B. Consulter le manuel de maintenance de l'aéronef et, si nécessaire, faire remonter le problème à un superviseur ou au service d'ingénierie pour clarification.\", \"C. Demander aux deux techniciens d'effectuer la tâche à leur manière et de comparer les résultats.\", \"D. Utiliser un vote parmi l'équipe pour décider quelle interprétation suivre.\"]",
+    "correctAnswer": "B. Consult the aircraft maintenance manual and, if necessary, escalate to a supervisor or engineering for clarification."
+  },
+  {
+    "id": "0ad44401-fe9e-4ff5-83ea-c68ec4d4ddc8",
+    "options": [
+      "A. Proceed with the inspection, as it is a critical task and the aircraft needs to be returned to service quickly.",
+      "B. Inform the supervisor of their fatigue level and request a rest period or reassignment of the task to a fresh technician.",
+      "C. Take a 15-minute coffee break and continue, as caffeine can temporarily overcome fatigue effects.",
+      "D. Complete the inspection but double-check all steps to compensate for potential fatigue-related errors."
+    ],
+    "options_fr": "[\"A. Procéder à l'inspection, car il s'agit d'une tâche critique et l'aéronef doit être remis en service rapidement.\", \"B. Informer le superviseur de son niveau de fatigue et demander une période de repos ou la réaffectation de la tâche à un technicien reposé.\", \"C. Prendre une pause-café de 15 minutes et continuer, car la caféine peut temporairement surmonter les effets de la fatigue.\", \"D. Effectuer l'inspection mais revérifier toutes les étapes pour compenser les erreurs potentielles liées à la fatigue.\"]",
+    "correctAnswer": "B. Inform the supervisor of their fatigue level and request a rest period or reassignment of the task to a fresh technician."
+  },
+  {
+    "id": "5c46b0e8-fd60-4aa2-9962-ddbdf1a9955c",
+    "options": [
+      "A. Stress due to time pressure",
+      "B. Complacency and overconfidence",
+      "C. Lack of communication with the team",
+      "D. Fatigue from repetitive tasks"
+    ],
+    "options_fr": "[\"A. Stress dû à la pression du temps\", \"B. Complaisance et excès de confiance\", \"C. Manque de communication avec l'équipe\", \"D. Fatigue due à des tâches répétitives\"]",
+    "correctAnswer": "B. Complacency and overconfidence"
+  },
+  {
+    "id": "c3ded7b4-a85c-4d18-a4f4-473a7ec76fdf",
+    "options": [
+      "A. Use the makeshift tool as approved by the supervisor, since it is a quick fix.",
+      "B. Refuse to use the makeshift tool and explain that only approved tools are allowed per the maintenance manual.",
+      "C. Use the tool but document the deviation in the logbook.",
+      "D. Suggest ordering the correct tool and delay the task, but only if the supervisor agrees."
+    ],
+    "options_fr": "[\"A. Utiliser l'outil de fortune tel qu'approuvé par le superviseur, car c'est une solution rapide.\", \"B. Refuser d'utiliser l'outil de fortune et expliquer que seuls les outils approuvés sont autorisés selon le manuel de maintenance.\", \"C. Utiliser l'outil mais documenter la dérogation dans le carnet de route.\", \"D. Suggérer de commander l'outil correct et de retarder la tâche, mais seulement si le superviseur est d'accord.\"]",
+    "correctAnswer": "B. Refuse to use the makeshift tool and explain that only approved tools are allowed per the maintenance manual."
+  },
+  {
+    "id": "dacc4459-56df-4dfb-a85c-e42f9ddf9a5d",
+    "options": [
+      "A. The incoming technician did not ask for clarification",
+      "B. The outgoing technician did not use effective communication and documentation",
+      "C. The shift handover was too short",
+      "D. The hydraulic leak was not critical, so the omission is acceptable"
+    ],
+    "options_fr": "[\"A. Le technicien entrant n'a pas demandé de clarification\", \"B. Le technicien sortant n'a pas utilisé une communication et une documentation efficaces\", \"C. Le changement de quart était trop court\", \"D. La fuite hydraulique n'était pas critique, donc l'omission est acceptable\"]",
+    "correctAnswer": "B. The outgoing technician did not use effective communication and documentation"
+  },
+  {
+    "id": "86a5b435-376d-491f-ae52-4e964186c6c0",
+    "options": [
+      "A. Sign the release and perform the test later, as the aircraft is not scheduled to fly for several hours.",
+      "B. Do not sign the release, perform the test immediately, and document the correction.",
+      "C. Ask a colleague to perform the test and sign for it, since the technician is busy.",
+      "D. Note the omission in the logbook but sign the release, as the test may not be critical."
+    ],
+    "options_fr": "[\"A. Signer la mainlevée et effectuer l'essai plus tard, car l'aéronef n'est pas prévu pour voler avant plusieurs heures.\", \"B. Ne pas signer la mainlevée, effectuer l'essai immédiatement et documenter la correction.\", \"C. Demander à un collègue d'effectuer l'essai et de signer pour celui-ci, puisque le technicien est occupé.\", \"D. Noter l'omission dans le carnet de route mais signer la mainlevée, car l'essai n'est peut-être pas critique.\"]",
+    "correctAnswer": "B. Do not sign the release, perform the test immediately, and document the correction."
+  },
+  {
+    "id": "7870ce8d-7e7e-4fd4-ac24-62910ed884a6",
+    "options": [
+      "A. Follow the supervisor's instruction to maintain team harmony",
+      "B. Report the issue to the supervisor and if not resolved, escalate to higher authority or Transport Canada",
+      "C. Document the issue but do not take further action",
+      "D. Fix the issue quietly without reporting to avoid conflict"
+    ],
+    "options_fr": "[\"A. Suivre les instructions du superviseur pour maintenir l'harmonie de l'équipe\", \"B. Signaler le problème au superviseur et, s'il n'est pas résolu, faire remonter l'information à une autorité supérieure ou à Transports Canada\", \"C. Documenter le problème mais ne pas prendre d'autres mesures\", \"D. Corriger le problème discrètement sans le signaler pour éviter les conflits\"]",
+    "correctAnswer": "B. Report the issue to the supervisor and if not resolved, escalate to higher authority or Transport Canada"
+  },
+  {
+    "id": "4ca06dc4-7231-401c-9299-64618482ed02",
+    "options": [
+      "A) To measure the hardness of the rod material after heat treatment",
+      "B) To detect surface and subsurface cracks caused by fatigue stress",
+      "C) To verify the rod's dimensional tolerances against manufacturer specifications",
+      "D) To check for corrosion pitting in the bearing journals"
+    ],
+    "options_fr": "[\"A) Mesurer la dureté du matériau de la bielle après le traitement thermique\", \"B) Détecter les fissures superficielles et sous-jacentes causées par la fatigue\", \"C) Vérifier les tolérances dimensionnelles de la bielle par rapport aux spécifications du fabricant\", \"D) Vérifier la corrosion par piqûres dans les portées de palier\"]",
+    "correctAnswer": "B) To detect surface and subsurface cracks caused by fatigue stress"
+  },
+  {
+    "id": "59f6faed-72aa-4882-acb0-9de560280534",
+    "options": [
+      "A. Nettoyer et regraisser le roulement sans le démonter.",
+      "B. Remplacer le roulement immédiatement.",
+      "C. Effectuer un test de vibration avec un équipement NDT.",
+      "D. Continuer la rotation pour évaluer si le bruit disparaît."
+    ],
+    "options_fr": "[\"A. Nettoyer et regraisser le roulement sans le démonter.\", \"B. Remplacer le roulement immédiatement.\", \"C. Effectuer un test de vibration avec un équipement NDT.\", \"D. Continuer la rotation pour évaluer si le bruit disparaît.\"]",
+    "correctAnswer": "B. Remplacer le roulement immédiatement."
+  },
+  {
+    "id": "e0f97e89-2433-4cd4-8eb0-8d2ef783af57",
+    "options": [
+      "A. Serrer le boulon en continu jusqu'à ce que la clé déclenche, puis arrêter immédiatement.",
+      "B. Serrer le boulon par incréments de 20 lb·pi, en vérifiant après chaque incrément.",
+      "C. Serrer le boulon jusqu'à ce qu'il soit ferme, puis utiliser la clé pour un dernier quart de tour.",
+      "D. Serrer le boulon à 80 lb·pi, puis compléter à 100 lb·pi lentement."
+    ],
+    "options_fr": "[\"A. Serrer le boulon en continu jusqu'à ce que la clé déclenche, puis arrêter immédiatement.\", \"B. Serrer le boulon par incréments de 20 lb·pi, en vérifiant après chaque incrément.\", \"C. Serrer le boulon jusqu'à ce qu'il soit ferme, puis utiliser la clé pour un dernier quart de tour.\", \"D. Serrer le boulon à 80 lb·pi, puis compléter à 100 lb·pi lentement.\"]",
+    "correctAnswer": "A. Serrer le boulon en continu jusqu'à ce que la clé déclenche, puis arrêter immédiatement."
+  },
+  {
+    "id": "ff1b47b2-3cab-4192-9596-904330bd1e68",
+    "options": [
+      "A. Aucune action n'est nécessaire car le jeu est dans les limites de sécurité.",
+      "B. Réduire le jeu en serrant l'écrou de réglage jusqu'à ce qu'il soit dans les tolérances.",
+      "C. Remplacer le roulement car il est hors tolérance.",
+      "D. Ajouter une cale d'épaisseur pour compenser le jeu excessif."
+    ],
+    "options_fr": "[\"A. Aucune action n'est nécessaire car le jeu est dans les limites de sécurité.\", \"B. Réduire le jeu en serrant l'écrou de réglage jusqu'à ce qu'il soit dans les tolérances.\", \"C. Remplacer le roulement car il est hors tolérance.\", \"D. Ajouter une cale d'épaisseur pour compenser le jeu excessif.\"]",
+    "correctAnswer": "C. Remplacer le roulement car il est hors tolérance."
+  }
+]

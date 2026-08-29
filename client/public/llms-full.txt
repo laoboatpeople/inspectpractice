@@ -1,0 +1,96 @@
+# Inspect Practice — Full Content Corpus
+> Comprehensive Transport Canada AME (Aircraft Maintenance Engineer) exam preparation platform.
+> Covers TP14038E + License M (Airframe & Powerplant), E (Electronics), S (Structures).
+
+## Platform Overview
+
+Inspect Practice is an AI-powered exam preparation platform for aspiring Aircraft Maintenance Engineers in Canada. The platform provides 2,500+ practice questions covering the full Transport Canada AME curriculum, adaptive difficulty, timed simulation exams, AI tutor explanations, and detailed progress tracking.
+
+### Features
+- 2,500+ AME practice questions covering all Transport Canada standards (TP14038E)
+- Adaptive difficulty that adjusts to your performance based on weak areas
+- Timed simulation exams that mirror the actual Transport Canada licensing test
+- AI Tutor with instant explanations for every question
+- Detailed progress tracking and weak area identification by category
+- Bilingual platform (English and French)
+- Mobile-responsive web app — works on any device, no app download
+
+### Pricing
+- Free plan: 1 category, limited questions
+- Monthly plan: $19.99 CAD — full access to all categories
+- Lifetime plan: $99.99 CAD — permanent access
+- Satisfaction guaranteed with free trial and no lock-in
+
+## License Categories
+
+### License M — Maintenance (Airframe & Powerplant)
+- Covers airframe structures, systems, powerplant theory, and maintenance practices
+- Most common AME category
+- Requires 48 months of apprenticeship
+- Focus: engines, hydraulics, landing gear, flight controls, propellers
+
+### License E — Electronics (Avionics)
+- Covers aircraft electrical systems, instruments, navigation systems, and communication equipment
+- Requires 36 months of apprenticeship (with approved training)
+- Focus: avionics, wiring, circuit analysis, radio systems, radar
+
+### License S — Structures
+- Covers sheet metal, composites, welding, NDT, and structural repairs
+- Requires 36 months of apprenticeship (with approved training)
+- Focus: structural analysis, materials, corrosion control, bonding
+
+## Key Facts
+
+### CARS Exam (Canadian Aviation Regulations)
+- 100-150 multiple-choice questions
+- Passing grade: 60%
+- Covers: general provisions, aircraft maintenance standards, airworthiness, certification, safety management
+- Part of Transport Canada TP14038E standard
+
+### Salary Information
+- Entry-level AME: $45,000–$60,000 CAD/year
+- Mid-career: $60,000–$80,000 CAD/year
+- Senior AME (with multiple ratings): $80,000–$100,000+ CAD/year
+- Top-earning sectors: airlines, MRO facilities, helicopter operations
+
+### Canadian Employment
+- Over 50,000 AMEs employed across Canada
+- Key employers: Air Canada, WestJet, Bombardier, CAE, field maintenance operators
+- Growing demand due to retirements and fleet expansion
+
+## How to Get Your AME License (6 Steps)
+1. Choose your category: M (Airframe & Powerplant), E (Electronics), or S (Structures)
+2. Complete Transport Canada-approved training at an accredited school
+3. Study with Inspect Practice to identify weak areas and build confidence
+4. Pass the CARS exam (Canadian Aviation Regulations) with 60%+
+5. Pass your category-specific technical exam
+6. Complete required apprenticeship hours and apply to Transport Canada
+
+## FAQ
+
+### How do I start studying for the AME exam?
+Sign up for Inspect Practice — free tier provides access to one full category with practice questions. Use the AI tutor for instant explanations on any question you struggle with.
+
+### What is TP14038E?
+TP14038E is Transport Canada's standard publication for AME exam requirements. It defines the regulatory knowledge (CARS) and technical knowledge required for each license category.
+
+### How long is the AME exam?
+The CARS exam is typically 2-3 hours for 100-150 questions. Category technical exams vary by discipline.
+
+### Can I retake the AME exam if I fail?
+Yes. Transport Canada allows exam retakes. Inspect Practice helps you focus on your exact weak areas to improve your score before your next attempt.
+
+### Do I need to go to school to become an AME?
+You can either complete an approved training program (18-24 months) or work through a 48-month apprenticeship. Many successful AMEs combine both paths.
+
+## Links
+- Main: https://inspectpractice.com
+- Français: https://inspectpractice.com/fr
+- Blog EN: https://inspectpractice.com/blog
+- Blog FR: https://inspectpractice.com/fr/blog
+- Practice Questions: https://inspectpractice.com/free-ame-practice-questions
+- Study Checklist: https://inspectpractice.com/study-checklist
+- AME Resources: https://inspectpractice.com/ame-resources
+- Complete AME Guide: https://inspectpractice.com/ame-licensing-guide
+- Contact: https://inspectpractice.com/contact
+- Pricing: https://inspectpractice.com/pricing

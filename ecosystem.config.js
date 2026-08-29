@@ -1,0 +1,41 @@
+module.exports = {
+  apps: [
+    {
+      name: 'inspectpractice',
+      script: './dist/src/index.js',
+      cwd: '/home/chuck/projects/inspectpractice/server',
+      instances: 1,
+      autorestart: true,
+      max_restarts: 10,
+      min_uptime: '10s',
+      max_memory_restart: '500M',
+      env: {
+        NODE_ENV: 'production',
+        PORT: 4000,
+      },
+      error_file: './logs/err.log',
+      out_file: './logs/out.log',
+      log_file: './logs/combined.log',
+      time: true,
+    },
+    {
+      name: 'inspectpractice-frontend',
+      script: './node_modules/.bin/next',
+      args: 'start -p 3002',
+      cwd: '/home/chuck/projects/inspectpractice/client',
+      instances: 1,
+      autorestart: true,
+      max_restarts: 10,
+      min_uptime: '10s',
+      max_memory_restart: '500M',
+      env: {
+        NODE_ENV: 'production',
+        PORT: 3002,
+        NEXT_PUBLIC_API_URL: 'https://inspectpractice.com',
+      },
+      error_file: './logs/frontend-err.log',
+      out_file: './logs/frontend-out.log',
+      time: true,
+    },
+  ],
+};

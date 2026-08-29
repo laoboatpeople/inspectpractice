@@ -1,0 +1,342 @@
+// ============================================================
+// Inspect Practice — Prisma Schema
+// PostgreSQL with Prisma ORM
+// ============================================================
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ------------------------------------------------------------
+// Enums
+// ------------------------------------------------------------
+
+enum Role {
+  ADMIN
+  INSTRUCTOR
+  STUDENT
+}
+
+enum Plan {
+  FREE
+  MONTHLY
+  YEARLY
+  LIFETIME
+}
+
+enum SubStatus {
+  ACTIVE
+  PAST_DUE
+  CANCELLED
+}
+
+enum QType {
+  MCQ
+  TRUEFALSE
+  WRITTEN
+}
+
+enum Difficulty {
+  EASY
+  MEDIUM
+  HARD
+}
+
+enum QStatus {
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+// ------------------------------------------------------------
+// Core Models
+// ------------------------------------------------------------
+
+/// User — Admin, Instructor, or Student
+model User {
+  id           String   @id @default(uuid())
+  email        String   @unique
+  passwordHash String   @map("password_hash")
+  name         String
+  role         Role     @default(STUDENT)
+  isActive     Boolean  @default(true) @map("is_active")
+  lastActiveAt DateTime? @map("last_active_at")
+  createdAt    DateTime @default(now()) @map("created_at")
+  updatedAt    DateTime @updatedAt     @map("updated_at")
+
+  // Relations
+  subscriptions     Subscription[]
+  examAttempts      ExamAttempt[]
+  activities        ActivityLog[]
+  approvedQuestions Question[]   @relation("ApprovedBy")
+  chatSessions      ChatSession[]
+  tutorFeedback     TutorFeedback[]
+
+  @@map("users")
+}
+
+/// Subscription — one per user, tracks billing
+model Subscription {
+  id                 String    @id @default(uuid())
+  userId             String    @map("user_id")
+  plan               Plan
+  status             SubStatus @default(ACTIVE)
+  stripeCustomerId   String?   @map("stripe_customer_id")
+  stripeSubId        String?   @map("stripe_sub_id")
+  currentPeriodStart DateTime  @map("current_period_start")
+  currentPeriodEnd   DateTime  @map("current_period_end")
+  createdAt          DateTime  @default(now()) @map("created_at")
+
+  // Relations
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("subscriptions")
+}
+
+/// Exam — e.g. TC-AME M1, M2, M3, M4, S1
+model Exam {
+  id          String   @id @default(uuid())
+  code        String   @unique
+  name        String
+  name_fr     String?
+  description String?
+  description_fr String?
+  country     String   @default("CA")
+  licenseType String   @default("TC-AME")
+  isActive    Boolean  @default(true) @map("is_active")
+  timeLimit            Int       @default(60)
+  passingScore         Float     @default(70.0)
+  questionsPerSimulation Int     @default(50)
+  randomizeOrder       Boolean   @default(true)
+  displayOrder         Int       @default(0) @map("display_order")
+  createdAt   DateTime @default(now()) @map("created_at")
+
+  // Relations
+  chapters  Chapter[]
+  questions Question[]
+  attempts  ExamAttempt[]
+  content   Content[]
+  chatSessions ChatSession[]
+
+  @@map("exams")
+}
+
+/// Chapter — belongs to one Exam
+model Chapter {
+  id            String   @id @default(uuid())
+  examId        String   @map("exam_id")
+  number        Int
+  name          String
+  name_fr       String?
+  theoryContent String?  @map("theory_content")
+  theoryContentFr String? @map("theory_content_fr")
+  isActive      Boolean  @default(true) @map("is_active")
+  syllabusRef   String?  @map("syllabus_ref")
+  licenseScope  String?  @default("SHARED") @map("license_scope")
+
+  // Relations
+  exam      Exam       @relation(fields: [examId], references: [id], onDelete: Cascade)
+  questions Question[]
+  content   Content[]
+  tutorFeedback TutorFeedback[]
+
+  @@unique([examId, number])
+  @@map("chapters")
+}
+
+/// Question — AI-generated or manually authored
+model Question {
+  id            String     @id @default(uuid())
+  examId        String     @map("exam_id")
+  chapterId     String     @map("chapter_id")
+  type          QType
+  difficulty    Difficulty
+  question      String
+  question_fr   String?
+  options       String[]
+  options_fr    String?
+  correctAnswer String     @map("correct_answer")
+  explanation   String
+  explanation_fr String?
+
+  status   QStatus @default(PENDING)
+  aiSource String? @map("ai_source")
+
+  createdAt    DateTime  @default(now()) @map("created_at")
+  approvedAt   DateTime?             @map("approved_at")
+  approvedById String?               @map("approved_by_id")
+
+  // Relations
+  exam       Exam                  @relation(fields: [examId], references: [id], onDelete: Cascade)
+  chapter    Chapter               @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+  approvedBy User?                 @relation("ApprovedBy", fields: [approvedById], references: [id])
+  answers    ExamAttemptQuestion[]
+
+  @@index([examId, status])
+  @@index([chapterId])
+  @@map("questions")
+}
+
+/// ExamAttempt — one completed simulation per user per exam
+model ExamAttempt {
+  id             String   @id @default(uuid())
+  userId         String   @map("user_id")
+  examId         String   @map("exam_id")
+  score          Float
+  totalQuestions Int      @map("total_questions")
+  correctCount   Int      @map("correct_count")
+  timeSpent      Int
+  completedAt    DateTime @default(now()) @map("completed_at")
+
+  // Relations
+  user    User                     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  exam    Exam                     @relation(fields: [examId], references: [id])
+  answers ExamAttemptQuestion[]
+
+  @@index([userId])
+  @@index([examId])
+  @@map("exam_attempts")
+}
+
+/// ExamAttemptQuestion — individual answer within an attempt
+model ExamAttemptQuestion {
+  id         String  @id @default(uuid())
+  attemptId  String  @map("attempt_id")
+  questionId String  @map("question_id")
+  userAnswer String  @map("user_answer")
+  isCorrect  Boolean @map("is_correct")
+
+  // Relations
+  attempt  ExamAttempt @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  question Question    @relation(fields: [questionId], references: [id])
+
+  @@index([attemptId])
+  @@map("exam_attempt_questions")
+}
+
+/// Content — uploaded PDF textbooks / reference material
+model Content {
+  id         String   @id @default(uuid())
+  filename   String
+  filepath   String
+  examId     String?  @map("exam_id")
+  chapterId  String?  @map("chapter_id")
+  pages      Int
+  embeddings Json?
+  uploadedAt DateTime @default(now()) @map("uploaded_at")
+
+  // Relations
+  exam    Exam?    @relation(fields: [examId], references: [id])
+  chapter Chapter? @relation(fields: [chapterId], references: [id])
+
+  @@map("content")
+}
+
+/// ActivityLog — audit trail
+model ActivityLog {
+  id        String   @id @default(uuid())
+  userId    String?  @map("user_id")
+  action    String
+  details   Json?
+  ipAddress String?  @map("ip_address")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  // Relations
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([userId])
+  @@index([createdAt])
+  @@map("activity_logs")
+}
+
+// ------------------------------------------------------------
+// Chat — Student AI tutor conversations
+// ------------------------------------------------------------
+
+model ChatSession {
+  id        String   @id @default(uuid())
+  userId    String   @map("user_id")
+  examId    String?  @map("exam_id")
+  topic     String?
+  source    String   @default("tutor")     // "tutor" | "admin-questions"
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt     @map("updated_at")
+
+  // Relations
+  user    User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  exam    Exam?         @relation(fields: [examId], references: [id], onDelete: SetNull)
+  messages ChatMessage[]
+
+  @@index([userId])
+  @@map("chat_sessions")
+}
+
+model ChatMessage {
+  id        String   @id @default(uuid())
+  sessionId String   @map("session_id")
+  role      String   // 'user' or 'assistant'
+  content   String
+  metadata  Json?
+  createdAt DateTime @default(now()) @map("created_at")
+
+  // Relations
+  session ChatSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  feedback TutorFeedback[]
+
+  @@index([sessionId])
+  @@map("chat_messages")
+}
+
+/// TutorFeedback — thumbs up/down + optional comment on an AI tutor message
+model TutorFeedback {
+  id            String      @id @default(uuid())
+  chatMessageId String?     @map("chat_message_id")
+  userId        String      @map("user_id")
+  chapterId     String?     @map("chapter_id")
+  source        String      @default("tutor") // 'tutor' | 'theory'
+  rating        String      // 'up' | 'down'
+  comment       String?
+  createdAt     DateTime    @default(now()) @map("created_at")
+
+  // Relations
+  message ChatMessage? @relation(fields: [chatMessageId], references: [id], onDelete: Cascade)
+  chapter Chapter?     @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+  user    User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([chatMessageId, userId])
+  @@unique([chapterId, userId])
+  @@index([userId])
+  @@map("tutor_feedback")
+}
+
+/// ContactMessage — submissions from the public contact form
+model ContactMessage {
+  id         String   @id @default(uuid())
+  name       String
+  email      String
+  message    String
+  direction  String   @default("inbound")
+  source     String   @default("contact_form")
+  subject    String?
+  repliedAt  DateTime? @map("replied_at")
+  replyText  String?   @map("reply_text")
+  repliedBy  String?   @map("replied_by")  // admin user id who replied
+  createdAt  DateTime  @default(now()) @map("created_at")
+  updatedAt  DateTime  @updatedAt     @map("updated_at")
+
+  @@map("contact_messages")
+}
+
+model NewsletterSubscription {
+  id           String   @id @default(uuid())
+  email        String   @unique
+  status       String   @default("ACTIVE")
+  subscribedAt DateTime @default(now())
+
+  @@map("newsletter_subscriptions")
+}

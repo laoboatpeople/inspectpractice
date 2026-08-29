@@ -1,0 +1,139 @@
+{
+  "timestamp": "2026-05-08T14:28:31.253Z",
+  "source": "tp14038e-exhaustive-2026-05-08-v2",
+  "targetSource": "tp14038e-exhaustive-2026-05-08-v2",
+  "totalRowsBefore": 300,
+  "totalRowsUpdated": 300,
+  "totalRowsAfter": 300,
+  "qualityGates": {
+    "updatedRowsExactly300": true,
+    "allRowsAtTargetSource": true,
+    "allStatusPending": true,
+    "coveragePreserved100": true
+  },
+  "uniqueness": {
+    "exactDuplicateQuestions": 0,
+    "exactUniquenessRate": 100,
+    "fuzzyNearDuplicatePairs_jaccard_ge_0_85": 0
+  },
+  "distribution": {
+    "difficultyBefore": {
+      "MEDIUM": 120,
+      "EASY": 120,
+      "HARD": 60
+    },
+    "difficultyAfter": {
+      "MEDIUM": 120,
+      "EASY": 120,
+      "HARD": 60
+    },
+    "chapterBefore": {
+      "Standard Practices, Documentation, Tools & NDT": 50,
+      "Powerplant & Propulsion": 50,
+      "CARs, Standards, Certification & Maintenance Release": 50,
+      "Human Factors, SMS & Operational Decision Making": 50,
+      "Airframe Structures & Systems": 50,
+      "Electrical, Avionics & Instrumentation": 50
+    },
+    "chapterAfter": {
+      "Airframe Structures & Systems": 50,
+      "Powerplant & Propulsion": 50,
+      "Standard Practices, Documentation, Tools & NDT": 50,
+      "Human Factors, SMS & Operational Decision Making": 50,
+      "Electrical, Avionics & Instrumentation": 50,
+      "CARs, Standards, Certification & Maintenance Release": 50
+    }
+  },
+  "sample10": [
+    {
+      "id": "0067fcf3-c058-42da-be0b-800818077ad3",
+      "chapter": "Airframe Structures & Systems",
+      "difficulty": "MEDIUM",
+      "question": "Avant la remise en service, dans le cadre d'une MEL active, un TEA traite un cas lié à « Fuel tank entry and safety procedures ». Quelle décision est la PLUS conforme techniquement et réglementairement en maîtrisant le risque opérationnel pour prioriser la conformité réglementaire ?",
+      "correctAnswer": "Réaliser la maintenance avec données approuvées à jour, exécuter les inspections indépendantes ou essais fonctionnels exigés, compléter les inscriptions réglementaires, puis effectuer la remise en service dans le périmètre de privilège TEA.",
+      "status": "PENDING",
+      "aiSource": "tp14038e-exhaustive-2026-05-08-v2"
+    },
+    {
+      "id": "00a4823d-8306-4d8e-9457-13e5afe4e9a3",
+      "chapter": "Powerplant & Propulsion",
+      "difficulty": "MEDIUM",
+      "question": "Durant un contrôle fonctionnel post-maintenance, avec un historique de défaut intermittent, un TEA traite un cas lié à « Borescope findings and serviceability decisions ». Quelle décision est la PLUS conforme techniquement et réglementairement avec une traçabilité documentaire complète pour garantir la validité des privilèges de certification ?",
+      "correctAnswer": "Confirmer la configuration de l'aéronef et la révision des manuels, appliquer la procédure approuvée, consigner les résultats et limites, et ne prononcer la remise en service qu'une fois toutes les vérifications obligatoires closes.",
+      "status": "PENDING",
+      "aiSource": "tp14038e-exhaustive-2026-05-08-v2"
+    },
+    {
+      "id": "00c9b264-02ab-4560-80e8-243c6cf0f2bd",
+      "chapter": "Standard Practices, Documentation, Tools & NDT",
+      "difficulty": "MEDIUM",
+      "question": "Lors d'une visite de transit, avec exigence d'inspection indépendante, un TEA traite un cas lié à « Ground handling and jacking safety ». Quelle décision est la PLUS conforme techniquement et réglementairement en maîtrisant le risque opérationnel pour protéger la navigabilité démontrée ?",
+      "correctAnswer": "Vérifier l'applicabilité des données approuvées en vigueur, exécuter la tâche selon la méthode publiée, documenter l'intervention dans les dossiers techniques, puis autoriser la remise en service seulement après contrôles requis satisfaisants.",
+      "status": "PENDING",
+      "aiSource": "tp14038e-exhaustive-2026-05-08-v2"
+    },
+    {
+      "id": "012032dd-3b35-443c-9dce-593122006c0a",
+      "chapter": "Human Factors, SMS & Operational Decision Making",
+      "difficulty": "MEDIUM",
+      "question": "Après une maintenance planifiée, après intervention multi-équipes, un TEA traite un cas lié à « Ethical decision-making and regulatory compliance ». Quelle décision est la PLUS conforme techniquement et réglementairement en maîtrisant le risque opérationnel pour garantir la validité des privilèges de certification ?",
+      "correctAnswer": "Valider d'abord l'autorité de certification et la publication applicable, traiter l'écart selon la procédure approuvée, tracer la preuve de conformité, et maintenir l'aéronef indisponible jusqu'à clôture complète des exigences techniques.",
+      "status": "PENDING",
+      "aiSource": "tp14038e-exhaustive-2026-05-08-v2"
+    },
+    {
+      "id": "012c2d16-577b-4f47-a47e-fdffcc41d2e2",
+      "chapter": "Powerplant & Propulsion",
+      "difficulty": "EASY",
+      "question": "Après une maintenance planifiée, après une inspection non-routinière, un TEA traite un cas lié à « Engine vibration analysis and balancing actions ». Quelle décision est la PLUS conforme techniquement et réglementairement avec une traçabilité documentaire complète pour protéger la navigabilité démontrée ?",
+      "correctAnswer": "Vérifier l'applicabilité des données approuvées en vigueur, exécuter la tâche selon la méthode publiée, documenter l'intervention dans les dossiers techniques, puis autoriser la remise en service seulement après contrôles requis satisfaisants.",
+      "status": "PENDING",
+      "aiSource": "tp14038e-exhaustive-2026-05-08-v2"
+    },
+    {
+      "id": "014cdf63-bbe2-4b8b-82b4-7724d597c88f",
+      "chapter": "Powerplant & Propulsion",
+      "difficulty": "MEDIUM",
+      "question": "Pendant une recherche de panne, dans le cadre d'une MEL active, un TEA traite un cas lié à « Magneto timing and ignition troubleshooting ». Quelle décision est la PLUS conforme techniquement et réglementairement en appliquant les données approuvées à jour pour assurer la continuité de traçabilité technique ?",
+      "correctAnswer": "Vérifier l'applicabilité des données approuvées en vigueur, exécuter la tâche selon la méthode publiée, documenter l'intervention dans les dossiers techniques, puis autoriser la remise en service seulement après contrôles requis satisfaisants.",
+      "status": "PENDING",
+      "aiSource": "tp14038e-exhaustive-2026-05-08-v2"
+    },
+    {
+      "id": "037d2bf8-3bbe-4a09-acd2-4edb1863ea56",
+      "chapter": "Electrical, Avionics & Instrumentation",
+      "difficulty": "EASY",
+      "question": "Lors d'une visite de transit, avec un historique de défaut intermittent, un TEA traite un cas lié à « Circuit protection analysis (CB/fuse logic) ». Quelle décision est la PLUS conforme techniquement et réglementairement sans dépasser les privilèges de certification pour réduire le risque de remise en service prématurée ?",
+      "correctAnswer": "Appliquer strictement les données approuvées et les exigences CARs/MPM, enregistrer l'action de maintenance avec traçabilité complète des pièces et essais, puis signer uniquement quand la conformité et l'état de navigabilité sont démontrés.",
+      "status": "PENDING",
+      "aiSource": "tp14038e-exhaustive-2026-05-08-v2"
+    },
+    {
+      "id": "03a4998e-dfc4-4081-b85d-9c469175aed7",
+      "chapter": "Airframe Structures & Systems",
+      "difficulty": "EASY",
+      "question": "Pendant une recherche de panne, avec exigence d'inspection indépendante, un TEA traite un cas lié à « Pressurization fault isolation from indications ». Quelle décision est la PLUS conforme techniquement et réglementairement sans dépasser les privilèges de certification pour garantir la validité des privilèges de certification ?",
+      "correctAnswer": "Valider d'abord l'autorité de certification et la publication applicable, traiter l'écart selon la procédure approuvée, tracer la preuve de conformité, et maintenir l'aéronef indisponible jusqu'à clôture complète des exigences techniques.",
+      "status": "PENDING",
+      "aiSource": "tp14038e-exhaustive-2026-05-08-v2"
+    },
+    {
+      "id": "044b3ba5-38e8-47bf-9ad9-5b753993a551",
+      "chapter": "Electrical, Avionics & Instrumentation",
+      "difficulty": "MEDIUM",
+      "question": "Après une maintenance planifiée, dans un créneau horaire contraint en escale, un TEA traite un cas lié à « Pitot-static system leak test interpretation ». Quelle décision est la PLUS conforme techniquement et réglementairement en appliquant les données approuvées à jour pour protéger la navigabilité démontrée ?",
+      "correctAnswer": "Vérifier l'applicabilité des données approuvées en vigueur, exécuter la tâche selon la méthode publiée, documenter l'intervention dans les dossiers techniques, puis autoriser la remise en service seulement après contrôles requis satisfaisants.",
+      "status": "PENDING",
+      "aiSource": "tp14038e-exhaustive-2026-05-08-v2"
+    },
+    {
+      "id": "05905a14-fdf5-4d1d-a6e3-6079614aa261",
+      "chapter": "Powerplant & Propulsion",
+      "difficulty": "EASY",
+      "question": "Pendant une recherche de panne, dans un créneau horaire contraint en escale, un TEA traite un cas lié à « Post-maintenance run-up and release criteria ». Quelle décision est la PLUS conforme techniquement et réglementairement sans dépasser les privilèges de certification pour protéger la navigabilité démontrée ?",
+      "correctAnswer": "Valider d'abord l'autorité de certification et la publication applicable, traiter l'écart selon la procédure approuvée, tracer la preuve de conformité, et maintenir l'aéronef indisponible jusqu'à clôture complète des exigences techniques.",
+      "status": "PENDING",
+      "aiSource": "tp14038e-exhaustive-2026-05-08-v2"
+    }
+  ]
+}

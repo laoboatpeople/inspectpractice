@@ -1,0 +1,1402 @@
+[
+  {
+    "subtopic": "Structures métalliques",
+    "difficulty": "Moyen",
+    "question": "Après un atterrissage dur signalé sur un Cessna 208, l’inspection visuelle révèle une légère ride de tôle au voisinage de la lisse inférieure du fuselage, sans peinture craquelée. Quelle action de maintenance est la plus appropriée avant remise en service?",
+    "options": [
+      "Appliquer un mastic structural et libérer l’avion",
+      "Effectuer une inspection détaillée selon SRM avec contrôle d’alignement et NDT local si requis",
+      "Remplacer immédiatement tout le panneau de fuselage",
+      "Ignorer la ride car aucune fissure n’est visible"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Une ride de tôle après surcharge peut indiquer un flambage local et une perte de capacité portante. La pratique AME est d’appliquer la procédure SRM: inspection détaillée, vérification dimensionnelle et NDT ciblé avant toute décision de réparation ou de remplacement.",
+    "ref": "TP 14038E – Cellules/structures; FAA AC 43.13-1B ch. 4"
+  },
+  {
+    "subtopic": "Corrosion",
+    "difficulty": "Facile",
+    "question": "Lors d’une visite 100 h sur un hydravion exploité en milieu salin, vous trouvez une poudre blanche autour de rivets en alliage d’aluminium sur l’intrados d’aile. Quelle décision est correcte?",
+    "options": [
+      "Nettoyer, traiter la corrosion et restaurer la protection de surface selon SRM/CMM",
+      "Percer tous les rivets du panneau immédiatement",
+      "Repeindre seulement la zone sans enlever les produits de corrosion",
+      "Appliquer du WD-40 et refermer"
+    ],
+    "correctAnswer": "A",
+    "explanation": "La corrosion de surface/exfoliation débutante doit être éliminée, neutralisée et suivie d’une protection conforme au manuel. La peinture seule masque le défaut sans le corriger.",
+    "ref": "TP 14038E – Corrosion; FAA AC 43.13-1B ch. 6"
+  },
+  {
+    "subtopic": "Commandes de vol",
+    "difficulty": "Moyen",
+    "question": "Après remplacement d’un câble d’aileron, le pilote rapporte un effort anormalement élevé vers la droite. La tension du câble est dans la plage, mais l’aileron droit n’atteint pas la butée. Cause probable?",
+    "options": [
+      "Tension excessive du câble de profondeur",
+      "Mauvais réglage des butées/guignol entraînant débattement asymétrique",
+      "Défaut de compas magnétique",
+      "Pression pneu train avant insuffisante"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Un débattement incomplet avec tension correcte oriente vers un problème de réglage de butée, de guignol ou de synchronisation de tringlerie, pas vers des systèmes non liés.",
+    "ref": "TP 14038E – Commandes de vol; FAA 14 CFR Part 43 App D"
+  },
+  {
+    "subtopic": "Train d’atterrissage",
+    "difficulty": "Moyen",
+    "question": "Sur un train rentrant hydraulique, la jambe gauche monte lentement et la pompe cycle plus longtemps que d’habitude. Aucun suintement externe visible. Quelle vérification prioritaire?",
+    "options": [
+      "Tester l’ampoule du voyant de train",
+      "Contrôler pression système et fuite interne au vérin/valve sélectrice",
+      "Gonfler les pneus principaux à la pression max",
+      "Remplacer le transpondeur"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Un temps de cycle allongé sans fuite externe suggère une fuite interne (bypass) ou une pression insuffisante. Le dépannage doit cibler pression, clapets et étanchéité interne.",
+    "ref": "TP 14038E – Trains; FAA AC 43.13-1B ch. 9"
+  },
+  {
+    "subtopic": "Hydraulique cellule",
+    "difficulty": "Difficile",
+    "question": "Après maintenance sur volets hydrauliques, les volets dérivent lentement vers la position rentrée moteur coupé. Quelle action est la plus pertinente?",
+    "options": [
+      "Augmenter la viscosité du fluide avec additif non approuvé",
+      "Vérifier l’étanchéité interne de la valve de maintien et des joints de vérin",
+      "Ajuster la compensation de profondeur",
+      "Installer un ressort de rappel plus fort"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Une dérive volets moteur coupé indique généralement une fuite interne dans la valve de verrouillage/maintien ou dans le vérin. Les additifs non approuvés sont interdits.",
+    "ref": "TP 14038E – Systèmes hydrauliques; FAA AC 43.13-1B ch. 12"
+  },
+  {
+    "subtopic": "Pneumatique",
+    "difficulty": "Facile",
+    "question": "Sur un avion pressurisé léger, la pressurisation maximale n’atteint plus la valeur normale et un sifflement est audible près de la porte cabine. Première étape logique?",
+    "options": [
+      "Augmenter la consigne de pressurisation au-delà des limites AFM",
+      "Faire une recherche de fuite (seal porte, clapets) avec méthode approuvée",
+      "Remplacer les sièges passagers",
+      "Neutraliser l’alarme cabine"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Le symptôme localisé avec bruit de fuite impose d’abord une recherche de fuite et contrôle des joints/clapets avant tout réglage de consigne.",
+    "ref": "TP 14038E – Pressurisation; FAA AC 43.13-1B ch. 8"
+  },
+  {
+    "subtopic": "Systèmes carburant cellule",
+    "difficulty": "Moyen",
+    "question": "Un moteur s’arrête brièvement en virage à gauche avec réservoirs presque bas. Aucune contamination trouvée au puisard. Quelle cause cellule est la plus probable?",
+    "options": [
+      "Défaillance altimètre",
+      "Prise d’air du circuit carburant ou clapet anti-déjaugeage défectueux",
+      "Huile trop visqueuse",
+      "Bougie usée"
+    ],
+    "correctAnswer": "B",
+    "explanation": "L’arrêt en virage avec bas niveau est typique d’un désamorçage lié au pick-up, baffle ou mise à l’air, surtout sans eau détectée.",
+    "ref": "TP 14038E – Carburant; FAA AC 43.13-1B ch. 11"
+  },
+  {
+    "subtopic": "Systèmes électriques cellule",
+    "difficulty": "Moyen",
+    "question": "Après remplacement d’un alternateur, l’ampèremètre indique une charge élevée persistante malgré batterie pleine. Quelle panne doit être suspectée en priorité?",
+    "options": [
+      "Régulateur de tension mal calibré ou défectueux",
+      "Gyro horizon bloqué",
+      "Pitot obstrué",
+      "Relais de démarreur collé mécaniquement"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Une charge élevée durable après recharge initiale pointe vers un régulateur qui laisse la tension trop haute, causant surcharge batterie.",
+    "ref": "TP 14038E – Électricité; FAA AC 43.13-1B ch. 11"
+  },
+  {
+    "subtopic": "Protection foudre",
+    "difficulty": "Difficile",
+    "question": "Après impact foudre probable, les communications VHF sont faibles et intermittentes; visuellement, traces de brûlure près d’un static wick. Quelle inspection est indiquée?",
+    "options": [
+      "Seulement remplacer le micro cockpit",
+      "Inspection continuité bonding/masse, antenne coaxiale et dommages composites selon SRM",
+      "Recharger l’extincteur cabine",
+      "Ajuster ralenti moteur"
+    ],
+    "correctAnswer": "B",
+    "explanation": "La foudre peut endommager chemins de masse, bondings et coax antenne. Une inspection structure/systèmes selon SRM est nécessaire.",
+    "ref": "TP 14038E – Électricité/structure; FAA AC 20-53B"
+  },
+  {
+    "subtopic": "Dégivrage",
+    "difficulty": "Moyen",
+    "question": "Le pilote note que la botte dégivrante aile droite se gonfle plus tard que la gauche. Pression pneumatique correcte en sortie pompe. Où chercher d’abord?",
+    "options": [
+      "Filtre carburant principal",
+      "Distributeur/valve temporisation et lignes vers botte droite",
+      "Compas de route",
+      "Servo de trim profondeur"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Un décalage d’une seule botte avec pression source correcte suggère restriction de ligne ou dysfonction distributeur sur cette voie.",
+    "ref": "TP 14038E – Protection givrage; FAA AC 43.13-1B"
+  },
+  {
+    "subtopic": "Assemblage riveté",
+    "difficulty": "Facile",
+    "question": "Lors du remplacement d’un rivet plein sur peau mince, le nouveau rivet présente une tête de fermeture excentrée et inclinée. Que faire?",
+    "options": [
+      "Le laisser si la tenue semble bonne",
+      "Le déposer et remplacer avec support/bucking correct pour respecter critères d’acceptation",
+      "Ajouter de la colle structurale pour compenser",
+      "Percer plus gros sans évaluation"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Une tête mal formée peut réduire la résistance et initier des fissures. Il faut refaire le rivet conformément aux tolérances.",
+    "ref": "TP 14038E – Réparations structurales; FAA AC 43.13-1B ch. 4"
+  },
+  {
+    "subtopic": "Composites",
+    "difficulty": "Difficile",
+    "question": "Sur un radôme composite, vous détectez un délaminage en sonnant la zone après impact oiseau. Quelle décision est correcte?",
+    "options": [
+      "Percer des trous de détente et voler",
+      "Évaluer l’étendue par NDT (tap test/UT) et réparer selon SRM radôme",
+      "Appliquer une couche épaisse de peinture",
+      "Remplacer l’antenne ELT"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les composites exigent une évaluation non destructive de l’étendue avant réparation structurale approuvée.",
+    "ref": "TP 14038E – Matériaux composites; FAA AC 43.13-1B ch. 3"
+  },
+  {
+    "subtopic": "Équilibrage gouvernes",
+    "difficulty": "Moyen",
+    "question": "Après repeinture de profondeur, une vibration apparaît à haute vitesse. Quelle vérification prioritaire?",
+    "options": [
+      "Calage magnétos",
+      "Équilibrage massique de la gouverne selon limites constructeur",
+      "Température EGT",
+      "Réglage du siège pilote"
+    ],
+    "correctAnswer": "B",
+    "explanation": "La masse ajoutée par peinture peut sortir la gouverne de sa plage d’équilibrage et provoquer flutter.",
+    "ref": "TP 14038E – Commandes de vol; FAA AC 43.13-1B ch. 2"
+  },
+  {
+    "subtopic": "Freins",
+    "difficulty": "Facile",
+    "question": "Le pilote signale que l’avion tire à gauche au freinage. Les pneus sont conformes. Quelle cause probable côté droit?",
+    "options": [
+      "Plaquettes contaminées/hydraulique avec air dans ligne droite",
+      "Émetteur VOR défectueux",
+      "Mauvaise fréquence COM",
+      "Volet gauche trop sorti"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un frein droit faible (air, contamination, fuite interne) crée une traction opposée vers la gauche.",
+    "ref": "TP 14038E – Train et freins; FAA AC 43.13-1B ch. 9"
+  },
+  {
+    "subtopic": "Roues/pneus",
+    "difficulty": "Facile",
+    "question": "Usure en facettes (flat spotting) répétée sur pneu principal. Quelle action préventive est la plus pertinente?",
+    "options": [
+      "Augmenter pression au-delà du manuel",
+      "Vérifier technique de freinage, anti-skid et équilibrage roue/frein",
+      "Changer marque d’huile moteur",
+      "Régler compas"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Le flat spotting est souvent lié aux blocages roue/freinage brutal ou anti-skid déficient; la prévention passe par ces vérifications.",
+    "ref": "TP 14038E – Trains; FAA AC 43.13-1B ch. 9"
+  },
+  {
+    "subtopic": "Portes et issues",
+    "difficulty": "Moyen",
+    "question": "Une porte cargo donne un message intermittent “DOOR UNSAFE” en turbulence, alors que le verrouillage mécanique est correct. Que cibler?",
+    "options": [
+      "Capteur de proximité/microcontact et réglage d’alignement",
+      "Pompe carburant auxiliaire",
+      "Indicateur OAT",
+      "Radiobalise"
+    ],
+    "correctAnswer": "A",
+    "explanation": "L’alarme intermittente avec verrouillage réel correct est typique d’un capteur de position mal ajusté ou faisceau intermittent.",
+    "ref": "TP 14038E – Systèmes d’alerte; FAA Part 43 troubleshooting"
+  },
+  {
+    "subtopic": "Conditionnement d’air",
+    "difficulty": "Moyen",
+    "question": "Température cabine reste élevée malgré commande COLD. Pression pack nominale. Cause probable?",
+    "options": [
+      "Bypass valve ou mélangeur d’air bloqué",
+      "Roue avant sous-gonflée",
+      "Filtre huile colmaté",
+      "Antenne DME cassée"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Si la source est correcte, le défaut se situe souvent dans la vanne de mélange/bypass ou son actionneur.",
+    "ref": "TP 14038E – Pneumatique/air conditionné; FAA ATA 21 maintenance"
+  },
+  {
+    "subtopic": "Oxygène",
+    "difficulty": "Moyen",
+    "question": "Après remplissage d’un système O2, une baisse de pression est observée en 24 h. Aucune odeur ni bruit fort. Quelle méthode recommandée?",
+    "options": [
+      "Utiliser flamme pour détecter fuite",
+      "Recherche fuite avec solution approuvée compatible O2 et contrôle raccords",
+      "Serrer tous raccords au maximum sans couple",
+      "Purger complètement et ignorer"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Le système oxygène exige produits compatibles, méthode propre et couples prescrits; flamme/huile sont dangereux.",
+    "ref": "TP 14038E – Oxygène; FAA AC 43.13-1B ch. 15"
+  },
+  {
+    "subtopic": "Avionique installation",
+    "difficulty": "Difficile",
+    "question": "Après installation d’un GPS, interférences apparaissent sur COM2 uniquement quand strobe ON. Que suspecter?",
+    "options": [
+      "Mauvais blindage/cheminement câbles et bonding insuffisant",
+      "Compression cylindre basse",
+      "Volet de capot mal fermé",
+      "Défaut de pitot"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Le bruit corrélé au strobe indique couplage EMI; il faut vérifier masses, blindages, séparation des faisceaux.",
+    "ref": "TP 14038E – Électricité/avionique; FAA AC 43.13-2B"
+  },
+  {
+    "subtopic": "Inspection NDT",
+    "difficulty": "Difficile",
+    "question": "Une zone autour d’un trou de fixation train montre criques de peinture en étoile. Avant réparation, quel contrôle est le plus approprié sur aluminium?",
+    "options": [
+      "Magnétoscopie",
+      "Courants de Foucault ou ressuage selon accessibilité",
+      "Mesure pH carburant",
+      "Test compression moteur"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Pour l’aluminium, les fissures de surface autour trous sont bien détectées par ET ou PT; magnétoscopie est pour matériaux ferromagnétiques.",
+    "ref": "TP 14038E – Inspection; FAA AC 43.13-1B ch. 5"
+  },
+  {
+    "subtopic": "Bonds de masse",
+    "difficulty": "Moyen",
+    "question": "Après remplacement d’un panneau d’accès, des décharges statiques radio augmentent en pluie. Quelle omission probable?",
+    "options": [
+      "Absence de strap de bonding entre panneau et structure",
+      "Niveau huile trop haut",
+      "Mélange trop riche au ralenti",
+      "Horloge cockpit arrêtée"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un bonding inadéquat élève la résistance de chemin de masse et favorise bruit statique.",
+    "ref": "TP 14038E – Électricité cellule; FAA AC 43.13-1B"
+  },
+  {
+    "subtopic": "Pitot-statique",
+    "difficulty": "Moyen",
+    "question": "Après peinture, l’anémomètre sous-indique à toutes vitesses. Quelle cause cellule est plausible?",
+    "options": [
+      "Pitot partiellement obstrué par résidu de peinture",
+      "Bougie encrassée",
+      "Injecteur bouché",
+      "Frein parking serré"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Une obstruction pitot réduit la pression dynamique mesurée et fausse l’indication vitesse.",
+    "ref": "TP 14038E – Instruments; FAA 14 CFR 91.411/413 practices"
+  },
+  {
+    "subtopic": "Drainage carburant",
+    "difficulty": "Facile",
+    "question": "Des traces d’eau récurrentes apparaissent au puisard aile droite après pluie. Que vérifier d’abord?",
+    "options": [
+      "Bouchon de remplissage et joint d’étanchéité du réservoir droit",
+      "Réglage hélice",
+      "Pot d’échappement",
+      "Balance gouverne"
+    ],
+    "correctAnswer": "A",
+    "explanation": "L’infiltration par bouchon/joint dégradé est une cause fréquente d’eau répétitive dans un seul réservoir.",
+    "ref": "TP 14038E – Carburant cellule; FAA AC 43.13-1B"
+  },
+  {
+    "subtopic": "Réparations toile",
+    "difficulty": "Moyen",
+    "question": "Sur une gouverne entoilée, une coupure traverse deux nervures. Quelle approche est correcte?",
+    "options": [
+      "Patch adhésif non aviation",
+      "Réparation de toile selon manuel (type tissu, colle, tension, finition) et contrôle équilibrage",
+      "Coudre rapidement et peindre",
+      "Ignorer car petite"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les réparations de surfaces entoilées sont réglementées par procédés approuvés et peuvent affecter l’équilibrage.",
+    "ref": "TP 14038E – Revêtements; FAA AC 43.13-1B ch. 2"
+  },
+  {
+    "subtopic": "Trappe train",
+    "difficulty": "Difficile",
+    "question": "Après remplacement d’actionneur de trappe train, un bruit de battement apparaît en croisière. Quelle cause probable?",
+    "options": [
+      "Jeu de tringlerie/mauvais réglage de séquencement laissant trappe non verrouillée",
+      "Huile moteur trop chaude",
+      "Débitmètre carburant faux",
+      "DME hors service"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un mauvais réglage de séquence peut laisser la trappe en position flottante, créant battement aérodynamique.",
+    "ref": "TP 14038E – Trains rentrants; FAA ATA 32 maintenance"
+  },
+  {
+    "subtopic": "Extincteurs",
+    "difficulty": "Facile",
+    "question": "À l’inspection périodique, la bouteille extincteur cabine affiche pression hors plage verte. Action?",
+    "options": [
+      "La secouer puis réinstaller",
+      "Retirer du service et entretenir/remplacer selon CMM et date de maintenance",
+      "Percer un évent",
+      "Repeindre le manomètre"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Un extincteur hors plage n’est pas conforme et doit être maintenu selon données approuvées.",
+    "ref": "TP 14038E – Équipement de sécurité; CARs maintenance practices"
+  },
+  {
+    "subtopic": "Anti-skid",
+    "difficulty": "Difficile",
+    "question": "Le système anti-skid se désactive au toucher de frein gauche uniquement. Quelle piste privilégier?",
+    "options": [
+      "Capteur vitesse roue gauche/câblage ou transducteur de valve associé",
+      "Alticodeur erroné",
+      "Pompe vide faible",
+      "Sonde OAT"
+    ],
+    "correctAnswer": "A",
+    "explanation": "La panne localisée à une roue indique capteur, câblage ou canal valve de cette roue.",
+    "ref": "TP 14038E – Freins anti-skid; FAA ATA 32"
+  },
+  {
+    "subtopic": "Pressurisation",
+    "difficulty": "Difficile",
+    "question": "En montée, le taux de montée cabine reste nul jusqu’à 10 000 ft puis augmente brusquement. Quel composant peut coller?",
+    "options": [
+      "Outflow valve bloquée quasi ouverte",
+      "Sélecteur de phares",
+      "Démarreur électrique",
+      "Régulateur hélice"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Une vanne d’extraction coincée ouverte empêche l’établissement progressif du différentiel jusqu’à changement brutal.",
+    "ref": "TP 14038E – Pressurisation; FAA ATA 21"
+  },
+  {
+    "subtopic": "Vibrations cellule",
+    "difficulty": "Moyen",
+    "question": "Une vibration apparaît seulement volets 15°. Les roues sont équilibrées et moteur lisse. Zone à inspecter?",
+    "options": [
+      "Jeu des rails/chariots de volets et synchronisation gauche-droite",
+      "Magnéto droite",
+      "Injecteur no.3",
+      "Batterie"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Une vibration corrélée à position volets pointe vers mécanisme volets plutôt que groupe motopropulseur.",
+    "ref": "TP 14038E – Commandes hypersustentatrices; FAA troubleshooting"
+  },
+  {
+    "subtopic": "Protection incendie nacelle",
+    "difficulty": "Moyen",
+    "question": "Le test de boucle de détection incendie moteur droit échoue, gauche OK. Première vérification utile?",
+    "options": [
+      "Continuité/résistance de boucle droite et connecteurs zone chaude",
+      "Pression pneu avant",
+      "Niveau oxygène équipage",
+      "Éclairage cabine"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un échec d’une seule boucle impose contrôle électrique local de la boucle et connectique.",
+    "ref": "TP 14038E – Détection incendie; FAA ATA 26"
+  },
+  {
+    "subtopic": "Moteur piston – allumage",
+    "difficulty": "Moyen",
+    "question": "Lors du run-up, la chute RPM sur magnétos est normale à gauche mais excessive à droite avec moteur rugueux. Les bougies sont neuves. Quelle piste est la plus probable?",
+    "options": [
+      "Fil d’allumage ou magnéto droite hors tolérance de calage",
+      "Défaut pitot",
+      "Frein gauche collé",
+      "Vanne de pressurisation"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Une chute excessive sur un seul circuit d’allumage oriente vers le faisceau ou la magnéto correspondante.",
+    "ref": "TP 14038E – Groupes motopropulseurs; FAA AC 43.13-1B ch. 8"
+  },
+  {
+    "subtopic": "Moteur piston – carburateur",
+    "difficulty": "Facile",
+    "question": "Par temps humide, un moteur équipé carburateur perd progressivement de la puissance en croisière puis récupère après application carb heat. Diagnostic?",
+    "options": [
+      "Détonation",
+      "Givrage carburateur",
+      "Panne alternateur",
+      "Fuite statique"
+    ],
+    "correctAnswer": "B",
+    "explanation": "La perte graduelle avec récupération carb heat est caractéristique du givrage carburateur.",
+    "ref": "TP 14038E – Moteurs à pistons; FAA PHAK icing section"
+  },
+  {
+    "subtopic": "Injection",
+    "difficulty": "Moyen",
+    "question": "Sur moteur à injection, démarrage à chaud difficile avec odeur d’essence et noyage apparent. Action recommandée?",
+    "options": [
+      "Procédure démarrage à chaud constructeur (mixture/boost pump/throttle) et vérif pression résiduelle",
+      "Plein riche et pompe continue 30 s",
+      "Couper master",
+      "Ajouter additif non approuvé"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Le vapor lock et enrichissement excessif exigent la procédure spécifique constructeur; les actions empiriques aggravent souvent le noyage.",
+    "ref": "TP 14038E – Alimentation moteur; FAA Lycoming/Continental maintenance guidance"
+  },
+  {
+    "subtopic": "Lubrification",
+    "difficulty": "Moyen",
+    "question": "Température huile élevée avec pression normale après longue montée. Quelle vérification prioritaire?",
+    "options": [
+      "Bouchage partiel refroidisseur huile ou débit d’air insuffisant",
+      "Calage hélice",
+      "Pression pneus",
+      "Compas"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Pression normale avec T° élevée suggère échange thermique insuffisant plutôt qu’une panne de pompe immédiate.",
+    "ref": "TP 14038E – Lubrification; FAA AC 43.13-1B"
+  },
+  {
+    "subtopic": "Hélice à pas variable",
+    "difficulty": "Difficile",
+    "question": "Le régime hélice reste élevé malgré commande de réduction RPM; la pression huile moteur est normale. Cause probable?",
+    "options": [
+      "Fuite interne gouverneur hélice ou piston de moyeu",
+      "Alternateur faible",
+      "Pompe vide cassée",
+      "Pitot bouché"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Sur hélice à vitesse constante, un défaut gouverneur/moyeu empêche la variation de pas malgré huile moteur correcte.",
+    "ref": "TP 14038E – Hélices; FAA AC 20-37E"
+  },
+  {
+    "subtopic": "Turbine – démarrage",
+    "difficulty": "Difficile",
+    "question": "Au démarrage turbomoteur, ITT grimpe rapidement vers limite avant stabilisation N1. Décision immédiate?",
+    "options": [
+      "Poursuivre pour nettoyer les injecteurs",
+      "Interrompre le démarrage (hot start), effectuer inspection selon manuel",
+      "Couper seulement avionique",
+      "Augmenter carburant"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Un hot start menace la section chaude; l’action correcte est un abort immédiat et inspection.",
+    "ref": "TP 14038E – Turbines; FAA ATA 72 troubleshooting"
+  },
+  {
+    "subtopic": "Turbine – compresseur",
+    "difficulty": "Moyen",
+    "question": "Une baisse progressive de couple et hausse EGT à puissance constante sur turboprop indique souvent: ",
+    "options": [
+      "Encrassement/érosion compresseur réduisant débit d’air",
+      "Capteur de train",
+      "Fuite pitot",
+      "Défaut cabine"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Moins d’air au compresseur force une EGT plus haute pour même puissance demandée.",
+    "ref": "TP 14038E – Turbines; FAA engine trend monitoring"
+  },
+  {
+    "subtopic": "Échappement piston",
+    "difficulty": "Moyen",
+    "question": "En inspection, des traces noires apparaissent à la jonction collecteur/cylindre et CO cabine est signalé en vol. Action?",
+    "options": [
+      "Resserrer sommairement et libérer",
+      "Retirer du service, réparer fuite échappement et vérifier étanchéité chauffage cabine",
+      "Désactiver détecteur CO",
+      "Changer huile"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Les fuites échappement sont critiques (CO, incendie, brûlure soupape) et exigent correction avant vol.",
+    "ref": "TP 14038E – Échappement/chauffage; FAA AC 43.13-1B"
+  },
+  {
+    "subtopic": "Analyse moteur",
+    "difficulty": "Difficile",
+    "question": "La tendance montre CHT cylindre #3 systématiquement 30°C au-dessus des autres après entretien. Cause plausible?",
+    "options": [
+      "Baffle de refroidissement mal positionné près cylindre #3",
+      "Batterie faible",
+      "ADF inop",
+      "Frein parking"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Une distribution d’air de refroidissement inadéquate localisée explique un CHT isolé élevé.",
+    "ref": "TP 14038E – Refroidissement moteur; FAA engine troubleshooting guides"
+  },
+  {
+    "subtopic": "FADEC",
+    "difficulty": "Difficile",
+    "question": "Sur moteur FADEC, message intermittent “Channel B fail” sans perte de puissance. Quelle maintenance prudente?",
+    "options": [
+      "Effacer message et ignorer",
+      "Télécharger les codes défaut, vérifier alimentation/masse et connecteurs canal B avant remplacement",
+      "Débrancher canal A",
+      "Ajuster richesse manuelle"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Le diagnostic FADEC repose sur données de fault history et vérifications électriques ciblées avant remplacement coûteux.",
+    "ref": "TP 14038E – Commande moteur électronique; FAA ATA 73/74"
+  },
+  {
+    "subtopic": "Démarreur",
+    "difficulty": "Facile",
+    "question": "Le démarreur entraîne lentement moteur froid; tension batterie chute fortement. Quelle cause première probable?",
+    "options": [
+      "Résistance élevée câbles/connexions ou batterie fatiguée",
+      "Récepteur GPS",
+      "Clapet cabine",
+      "Indicateur VVI"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Une forte chute tension au lancement indique souvent batterie faible ou connexions à haute résistance.",
+    "ref": "TP 14038E – Systèmes électriques moteur; FAA AC 43.13-1B"
+  },
+  {
+    "subtopic": "Magnétos",
+    "difficulty": "Moyen",
+    "question": "Après calage magnétos, retour de flamme au démarrage est observé. Quelle erreur classique?",
+    "options": [
+      "Calage trop avancé",
+      "Mélange trop pauvre en croisière",
+      "Pression hydraulique basse",
+      "Fuite pitot"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un allumage trop avancé peut provoquer kickback/backfire au démarrage.",
+    "ref": "TP 14038E – Allumage; FAA ignition timing practices"
+  },
+  {
+    "subtopic": "Soupapes",
+    "difficulty": "Difficile",
+    "question": "Un cylindre présente compression faible avec souffle à l’échappement durant test différentiel. Interprétation?",
+    "options": [
+      "Segment racleur usé uniquement",
+      "Soupape d’échappement fuyarde/brûlée probable",
+      "Pompe huile cassée",
+      "Défaut alternateur"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Un bruit d’air à l’échappement pendant leak-down pointe vers soupape échappement non étanche.",
+    "ref": "TP 14038E – Cylindres et soupapes; FAA AC 43.13-1B"
+  },
+  {
+    "subtopic": "Carburant turbine",
+    "difficulty": "Moyen",
+    "question": "Moteur turbine hésite à l’accélération rapide; pression carburant oscille. Vérification prioritaire?",
+    "options": [
+      "Filtre carburant/FCU et présence d’air dans ligne",
+      "Usure pneu",
+      "Transpondeur code",
+      "ELT batterie"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Une réponse transitoire mauvaise avec pression instable oriente vers alimentation carburant (restriction/air/FCU).",
+    "ref": "TP 14038E – Système carburant turbine; FAA ATA 73"
+  },
+  {
+    "subtopic": "Inverseur de poussée",
+    "difficulty": "Difficile",
+    "question": "Après atterrissage, inverseur gauche ne se déploie pas alors que droit fonctionne. Quel élément cibler d’abord?",
+    "options": [
+      "Interverrouillage squat switch/capteurs de position et circuit hydraulique gauche",
+      "Mélange cylindre",
+      "Antenne VHF",
+      "Compas"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Le déploiement dépend conditions wow/interlocks et actionnement côté concerné.",
+    "ref": "TP 14038E – Propulsion turbine; FAA ATA 78"
+  },
+  {
+    "subtopic": "Vibrations hélice",
+    "difficulty": "Moyen",
+    "question": "Une vibration 1/rev apparaît après changement d’hélice, surtout à 2200 RPM. Action correcte?",
+    "options": [
+      "Effectuer track and balance dynamique de l’hélice",
+      "Changer alternateur",
+      "Purger freins",
+      "Remplacer altimètre"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Une vibration 1/rev est typiquement liée à l’équilibrage/piste hélice.",
+    "ref": "TP 14038E – Hélices; FAA AC 20-37E"
+  },
+  {
+    "subtopic": "Détonation/préallumage",
+    "difficulty": "Difficile",
+    "question": "Après montée forte puissance, CHT et EGT montent anormalement avec bruit métallique léger. Quelle mesure immédiate en exploitation?",
+    "options": [
+      "Enrichir mélange et réduire puissance pour éviter détonation",
+      "Appauvrir davantage",
+      "Couper alternateur",
+      "Sortir volets"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Les signes évoquent détonation/préallumage; il faut enrichir/refroidir et réduire charge thermique.",
+    "ref": "TP 14038E – Exploitation moteur; FAA engine operation handbooks"
+  },
+  {
+    "subtopic": "Turbochargeur",
+    "difficulty": "Moyen",
+    "question": "Le manifold pressure ne dépasse plus la valeur atmosphérique sur moteur turbo. Cause probable?",
+    "options": [
+      "Wastegate bloquée ouverte ou fuite admission",
+      "Panne gyroscope",
+      "Frein usé",
+      "Fuite pitot"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Si la suralimentation ne se fait pas, la wastegate ouverte ou une fuite d’admission est typique.",
+    "ref": "TP 14038E – Suralimentation; FAA AC 43.13-1B"
+  },
+  {
+    "subtopic": "Refroidissement turbine",
+    "difficulty": "Difficile",
+    "question": "Après vol poussiéreux, EGT au décollage augmente de façon générale sans autre alarme. Première action maintenance?",
+    "options": [
+      "Inspection/ lavage compresseur selon manuel",
+      "Remplacer FADEC d’emblée",
+      "Changer huile avionique",
+      "Ignorer variation"
+    ],
+    "correctAnswer": "A",
+    "explanation": "L’encrassement compresseur réduit rendement et augmente EGT; le wash est une action standard conditionnelle.",
+    "ref": "TP 14038E – Turbines maintenance; FAA engine wash procedures"
+  },
+  {
+    "subtopic": "APU",
+    "difficulty": "Moyen",
+    "question": "APU démarre puis s’arrête après 20 s avec indication basse pression huile APU. Vérification initiale?",
+    "options": [
+      "Niveau huile APU, capteur pression et filtre selon AMM",
+      "Train avant",
+      "HF radio",
+      "Pitot heat"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un auto-shutdown lié à huile demande d’abord validation niveau/capteur/circuit lubrification.",
+    "ref": "TP 14038E – APU; FAA ATA 49"
+  },
+  {
+    "subtopic": "Cellule - accumulation glace",
+    "difficulty": "Moyen",
+    "question": "Sur un appareil équipé de détecteur de givre, l’alarme ICE reste active après dégivrage visuel complet. Quelle vérification est la plus pertinente?",
+    "options": [
+      "Contrôler la sonde de détection, son chauffage et le câblage associé",
+      "Augmenter la pression des pneus",
+      "Recaler la magnéto",
+      "Changer la fréquence COM"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Une alarme persistante malgré conditions claires indique souvent un défaut sonde/chauffage.",
+    "ref": "TP 14038E protection givrage"
+  },
+  {
+    "subtopic": "Cellule - train",
+    "difficulty": "Moyen",
+    "question": "Le voyant “gear unsafe” s’allume seulement en virage à droite, train sorti et verrouillé au sol. Quel défaut intermittent est probable?",
+    "options": [
+      "Microcontact de verrouillage avec faux contact ou jeu mécanique",
+      "Fuite échappement",
+      "Défaut ELT",
+      "Batterie faible"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un symptôme lié aux charges latérales pointe vers capteur/harnais de verrouillage.",
+    "ref": "TP 14038E train rentrant"
+  },
+  {
+    "subtopic": "Cellule - câblage",
+    "difficulty": "Moyen",
+    "question": "Après lavage sous pression, le pilote signale un clignotement des feux anti-collision. Quelle cause est la plus plausible?",
+    "options": [
+      "Infiltration d’eau dans connecteur ou boîtier de commande",
+      "Huile moteur chaude",
+      "Mauvais QNH",
+      "Usure bougies"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Le lavage peut provoquer des défauts intermittents dans les connecteurs non étanches.",
+    "ref": "TP 14038E électricité cellule"
+  },
+  {
+    "subtopic": "Cellule - pressurisation",
+    "difficulty": "Difficile",
+    "question": "La cabine tient le différentiel en croisière mais le perd rapidement en descente avec outflow commandée. Que suspecter?",
+    "options": [
+      "Clapet de sécurité ou joint de porte qui fuit sous gradient variable",
+      "Calage hélice",
+      "Transpondeur",
+      "Usure pneus"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Une fuite peut n’apparaître qu’à certaines pressions différentielles.",
+    "ref": "TP 14038E pressurisation"
+  },
+  {
+    "subtopic": "Cellule - freins",
+    "difficulty": "Moyen",
+    "question": "Après remplacement plaquettes, la pédale devient spongieuse après quelques freinages. Quelle action corrective?",
+    "options": [
+      "Purge complète du circuit et vérification présence d’air/échauffement",
+      "Réglage compas",
+      "Ajustement mixture",
+      "Nettoyage pitot"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Une pédale spongieuse indique généralement de l’air résiduel dans le circuit.",
+    "ref": "TP 14038E freins"
+  },
+  {
+    "subtopic": "Cellule - gouvernes",
+    "difficulty": "Difficile",
+    "question": "Une gouverne revient lentement au neutre après déflexion manuelle. Les câbles sont lubrifiés. Quel contrôle approfondi?",
+    "options": [
+      "Alignement des charnières et friction des paliers/bagues",
+      "Niveau carburant",
+      "Voltage bus",
+      "Température huile"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Le retour lent signale friction mécanique dans les articulations.",
+    "ref": "TP 14038E commandes de vol"
+  },
+  {
+    "subtopic": "Cellule - carburant",
+    "difficulty": "Moyen",
+    "question": "Un réservoir prend moins de carburant que d’habitude et refoule prématurément au pistolet. Cause probable?",
+    "options": [
+      "Évent du réservoir partiellement obstrué",
+      "Usure alternateur",
+      "Défaut VOR",
+      "Manque oxygène"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un évent obstrué empêche l’évacuation d’air pendant le remplissage.",
+    "ref": "TP 14038E carburant cellule"
+  },
+  {
+    "subtopic": "Cellule - corrosion",
+    "difficulty": "Moyen",
+    "question": "Sous un plancher cabine, vous trouvez corrosion filiforme sous peinture intacte. Quelle approche?",
+    "options": [
+      "Décapage local, arrêt de corrosion, remise en protection et contrôle humidité source",
+      "Repeindre directement",
+      "Rincer à l’eau puis fermer",
+      "Ignorer"
+    ],
+    "correctAnswer": "A",
+    "explanation": "La corrosion filiforme progresse sous coating; il faut traiter la cause et la zone.",
+    "ref": "TP 14038E corrosion"
+  },
+  {
+    "subtopic": "Cellule - ventilation",
+    "difficulty": "Facile",
+    "question": "Le débit d’air cabine est faible à toutes positions de commande, sans anomalie moteur. Quel contrôle de base?",
+    "options": [
+      "Filtre/prise d’air ventilation et volets de distribution",
+      "Tension magnéto",
+      "Pompe injection",
+      "Roue avant"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Restriction mécanique du circuit d’air est la cause habituelle.",
+    "ref": "TP 14038E conditionnement"
+  },
+  {
+    "subtopic": "Cellule - inspection",
+    "difficulty": "Difficile",
+    "question": "Après dépassement de masse atterrissage, aucune déformation évidente n’est vue. Que faire?",
+    "options": [
+      "Appliquer inspection spéciale surcharge selon AMM/SRM avant libération",
+      "Remettre en service immédiatement",
+      "Changer uniquement les pneus",
+      "Effacer l’événement"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Les dommages peuvent être non visibles; une inspection spéciale est exigée.",
+    "ref": "TP 14038E inspections spéciales"
+  },
+  {
+    "subtopic": "Moteur - contamination huile",
+    "difficulty": "Moyen",
+    "question": "Une augmentation rapide de consommation d’huile s’accompagne de fumée bleue en décélération. Piste probable?",
+    "options": [
+      "Usure guides/joints de soupapes ou segments",
+      "Fuite pitot",
+      "DME",
+      "Train"
+    ],
+    "correctAnswer": "A",
+    "explanation": "La fumée bleue à la décélération oriente vers passage d’huile en chambre.",
+    "ref": "TP 14038E moteurs piston"
+  },
+  {
+    "subtopic": "Moteur - échappement",
+    "difficulty": "Moyen",
+    "question": "Un cylindre montre EGT plus élevée et CHT normale après changement de joint d’échappement. Que vérifier?",
+    "options": [
+      "Prise d’air parasite en amont sonde EGT ou fuite échappement locale",
+      "Frein de parc",
+      "Transpondeur",
+      "Antenne GPS"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Une fuite peut fausser lecture EGT sans surchauffe réelle du cylindre.",
+    "ref": "TP 14038E instrumentation moteur"
+  },
+  {
+    "subtopic": "Moteur - carburant",
+    "difficulty": "Difficile",
+    "question": "Sur turboprop, le moteur s’éteint au roulage après ravitaillement; redémarrage possible puis rechute. Vérification clé?",
+    "options": [
+      "Présence d’eau/contamination et purge complète points bas",
+      "Batterie ELT",
+      "Capot train",
+      "Trim"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Après ravitaillement, la contamination carburant est une cause critique à exclure.",
+    "ref": "TP 14038E carburant turbine"
+  },
+  {
+    "subtopic": "Moteur - allumage",
+    "difficulty": "Moyen",
+    "question": "Ratés moteur uniquement en montée sous forte charge, run-up normal au sol. Quelle cause possible?",
+    "options": [
+      "Isolement faisceau HT qui fuit à haute pression cylindre",
+      "Défaut VHF",
+      "Climatisation",
+      "Anti-skid"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Les fuites d’allumage se manifestent davantage sous pression élevée en montée.",
+    "ref": "TP 14038E allumage"
+  },
+  {
+    "subtopic": "Moteur - turbo",
+    "difficulty": "Difficile",
+    "question": "MP oscille rapidement autour de la consigne sur moteur turbo en croisière. Quel composant cibler?",
+    "options": [
+      "Commande wastegate/régulateur turbo instable",
+      "Gyro horizon",
+      "Pitot",
+      "Freins"
+    ],
+    "correctAnswer": "A",
+    "explanation": "L’oscillation de MP est typique d’un contrôle wastegate instable.",
+    "ref": "TP 14038E suralimentation"
+  },
+  {
+    "subtopic": "Moteur - turbine",
+    "difficulty": "Moyen",
+    "question": "Après maintenance injecteurs, démarrage turbine avec dépassement mineur EGT puis normal. Quelle erreur est plausible?",
+    "options": [
+      "Réglage carburant de démarrage trop riche ou atomisation inégale",
+      "Pneu sous-gonflé",
+      "ADF",
+      "Porte cargo"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un enrichissement excessif au light-off élève l’EGT transitoire.",
+    "ref": "TP 14038E démarrage turbine"
+  },
+  {
+    "subtopic": "Moteur - hélice",
+    "difficulty": "Moyen",
+    "question": "L’hélice met beaucoup de temps à feather en essai. Où orienter le diagnostic?",
+    "options": [
+      "Accumulateur/vanne de feather ou pression d’huile de commande",
+      "Sonde OAT",
+      "VOR",
+      "Éclairage"
+    ],
+    "correctAnswer": "A",
+    "explanation": "La temporisation excessive indique déficit du circuit de mise en drapeau.",
+    "ref": "TP 14038E hélices"
+  },
+  {
+    "subtopic": "Cellule - volets",
+    "difficulty": "Moyen",
+    "question": "Les volets atteignent 30° à gauche mais s’arrêtent à 25° à droite. Quelle vérification immédiate?",
+    "options": [
+      "Butée ou tringlerie côté droit hors réglage",
+      "Capteur CHT",
+      "Magnéto",
+      "Alticodeur"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Une asymétrie de fin de course indique d’abord une limitation mécanique locale.",
+    "ref": "TP 14038E commandes"
+  },
+  {
+    "subtopic": "Cellule - glace",
+    "difficulty": "Moyen",
+    "question": "Le chauffage pare-brise droit provoque une disjonction après 10 secondes, gauche normal. Quelle piste?",
+    "options": [
+      "Court-circuit partiel de l’élément chauffant droit",
+      "Pompe carburant",
+      "Pression pneus",
+      "Compas"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un déclenchement rapide unilatéral est cohérent avec défaut de charge locale.",
+    "ref": "TP 14038E électricité"
+  },
+  {
+    "subtopic": "Cellule - portes",
+    "difficulty": "Facile",
+    "question": "La poignée de porte cabine devient dure en fermeture et marque le cadre. Action correcte?",
+    "options": [
+      "Réaligner gâche/charnières et lubrifier selon AMM",
+      "Forcer la fermeture",
+      "Raboter la poignée",
+      "Ignorer"
+    ],
+    "correctAnswer": "A",
+    "explanation": "La dureté signale un désalignement qui use le mécanisme.",
+    "ref": "TP 14038E cellule"
+  },
+  {
+    "subtopic": "Cellule - sondes",
+    "difficulty": "Moyen",
+    "question": "L’alarme de décrochage se déclenche trop tôt après peinture du bord d’attaque. Cause plausible?",
+    "options": [
+      "Palette/sonde de décrochage mal recalée ou partiellement obstruée",
+      "Pression huile basse",
+      "Usure pneu",
+      "Panne VOR"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Le capteur de stalle est sensible à la géométrie locale.",
+    "ref": "TP 14038E avertisseurs"
+  },
+  {
+    "subtopic": "Cellule - structure",
+    "difficulty": "Difficile",
+    "question": "Une réparation de peau montre des rivets qui travaillent (smoking rivets) après 20 h. Que conclure?",
+    "options": [
+      "Jeu/charge mal répartie, reprise de réparation nécessaire",
+      "Peinture incompatible",
+      "Mauvaise huile",
+      "Gyro HS"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Les smoking rivets indiquent micro-mouvement et charge inadéquate.",
+    "ref": "TP 14038E structures"
+  },
+  {
+    "subtopic": "Cellule - hydraulique",
+    "difficulty": "Moyen",
+    "question": "Le niveau réservoir hydraulique baisse sans fuite visible externe. Quelle hypothèse technique?",
+    "options": [
+      "Fuite interne vers actuateur/accumulateur ou extension thermique mal interprétée",
+      "ADF défectueux",
+      "Boussole",
+      "Bougies"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Une perte apparente sans trace externe nécessite vérif internes et conditions de mesure.",
+    "ref": "TP 14038E hydraulique"
+  },
+  {
+    "subtopic": "Cellule - pressurisation",
+    "difficulty": "Moyen",
+    "question": "Le contrôleur cabine répond lentement aux changements de consigne. Quelle inspection?",
+    "options": [
+      "Ligne de référence statique cabine et mécanisme contrôleur",
+      "Magnéto",
+      "Frein parking",
+      "ELT"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Une réponse lente vient souvent de restriction pneumatique de commande.",
+    "ref": "TP 14038E pressurisation"
+  },
+  {
+    "subtopic": "Cellule - carburant",
+    "difficulty": "Moyen",
+    "question": "Le débit carburant indiqué est erratique uniquement en turbulence. Cause plausible?",
+    "options": [
+      "Connecteur/transducteur de débit avec faux contact",
+      "Rivet lâche aile",
+      "Oxydation bougies",
+      "Variomètre"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Le caractère vibratoire oriente vers câblage/capteur.",
+    "ref": "TP 14038E instruments carburant"
+  },
+  {
+    "subtopic": "Cellule - anticorrosion",
+    "difficulty": "Facile",
+    "question": "Après lavage alcalin, quelles précautions évitent la corrosion galvanique?",
+    "options": [
+      "Rinçage complet, séchage et restauration des protections",
+      "Stockage humide fermé",
+      "Graissage des pneus seulement",
+      "Aucune"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Le résidu chimique et l’humidité favorisent la corrosion.",
+    "ref": "TP 14038E corrosion"
+  },
+  {
+    "subtopic": "Cellule - freins",
+    "difficulty": "Moyen",
+    "question": "Le frein gauche chauffe anormalement au roulage sans action pilote. Quel défaut probable?",
+    "options": [
+      "Piston étrier grippé ou compensation maître-cylindre insuffisante",
+      "Défaut GPS",
+      "Basse tension VHF",
+      "Sonde EGT"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un frein qui traîne vient d’un retour incomplet hydraulique/mécanique.",
+    "ref": "TP 14038E freins"
+  },
+  {
+    "subtopic": "Moteur - allumage",
+    "difficulty": "Moyen",
+    "question": "Le moteur cale au ralenti chaud mais tourne bien à 1800 RPM. Quelle piste?",
+    "options": [
+      "Réglage ralenti/idle mixture trop pauvre",
+      "Panne alternateur",
+      "Capteur train",
+      "Pitot"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un ralenti instable à chaud est souvent un réglage de mélange de ralenti.",
+    "ref": "TP 14038E moteurs piston"
+  },
+  {
+    "subtopic": "Moteur - lubrification",
+    "difficulty": "Moyen",
+    "question": "La pression huile est élevée au démarrage froid puis revient lentement. Quand s’inquiéter?",
+    "options": [
+      "Si dépassement persistant hors limite, vérifier soupape régulation et viscosité",
+      "Toujours normal sans limite",
+      "Jamais surveiller",
+      "Changer radio"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Une hausse transitoire est attendue, mais hors limite persistante exige inspection.",
+    "ref": "TP 14038E lubrification"
+  },
+  {
+    "subtopic": "Moteur - admission",
+    "difficulty": "Moyen",
+    "question": "Sifflement d’admission et EGT globalement élevés apparaissent après remplacement d’un joint. Cause probable?",
+    "options": [
+      "Fuite d’admission créant mélange pauvre",
+      "Fuite hydraulique train",
+      "Pneu usé",
+      "ADF"
+    ],
+    "correctAnswer": "A",
+    "explanation": "L’air parasite appauvrit le mélange et peut augmenter EGT.",
+    "ref": "TP 14038E admission"
+  },
+  {
+    "subtopic": "Moteur - carburant",
+    "difficulty": "Difficile",
+    "question": "Un moteur injecté montre un pic EGT très brusque sur un cylindre en montée puis normalisation. Quelle cause intermittente?",
+    "options": [
+      "Injecteur partiellement bouché puis débloqué",
+      "Batterie faible",
+      "Rivet lâche",
+      "Pression cabine"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Une restriction intermittente d’injecteur produit ce comportement.",
+    "ref": "TP 14038E injection"
+  },
+  {
+    "subtopic": "Moteur - turbine",
+    "difficulty": "Moyen",
+    "question": "Le démarrage turbine présente un “hung start” (N1 stagne bas). Vérification prioritaire?",
+    "options": [
+      "Énergie démarreur/air de démarrage et débit carburant initial",
+      "Compas",
+      "Feu nav",
+      "Trim"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un hung start vient d’un déficit de rotation ou de carburant.",
+    "ref": "TP 14038E démarrage turbine"
+  },
+  {
+    "subtopic": "Moteur - hélice",
+    "difficulty": "Moyen",
+    "question": "En descente, le régime varie par à-coups avec commande fixe. Piste?",
+    "options": [
+      "Gouverneur d’hélice contamination ou instabilité",
+      "Frein droit",
+      "Altimètre",
+      "ELT"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Les à-coups de RPM avec commande stable orientent vers gouverneur.",
+    "ref": "TP 14038E hélices"
+  },
+  {
+    "subtopic": "Moteur - échappement",
+    "difficulty": "Facile",
+    "question": "Une odeur de gaz est détectée uniquement chauffage cabine ON. Action immédiate?",
+    "options": [
+      "Couper chauffage cabine et inspecter échangeur/échappement",
+      "Ouvrir volets",
+      "Couper strobes",
+      "Recalibrer VOR"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Suspicion CO: isoler la source et inspecter avant vol.",
+    "ref": "TP 14038E échappement"
+  },
+  {
+    "subtopic": "Moteur - vibration",
+    "difficulty": "Difficile",
+    "question": "Vibration augmente avec pression admission mais pas avec RPM seul. Quelle origine probable?",
+    "options": [
+      "Combustion/couple moteur plutôt qu’équilibrage hélice",
+      "Usure pneus",
+      "DME",
+      "Portes"
+    ],
+    "correctAnswer": "A",
+    "explanation": "La dépendance à la charge moteur pointe vers combustion/montage moteur.",
+    "ref": "TP 14038E diagnostic vibrations"
+  },
+  {
+    "subtopic": "Moteur - montage",
+    "difficulty": "Moyen",
+    "question": "Après remplacement silentblocs, une vibration nouvelle apparaît au ralenti. Quelle erreur possible?",
+    "options": [
+      "Précharge/alignement incorrect des supports moteur",
+      "Bougie froide",
+      "Batterie",
+      "Sonde OAT"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Des supports mal montés transmettent les vibrations au bâti.",
+    "ref": "TP 14038E installation moteur"
+  },
+  {
+    "subtopic": "Moteur - turbine huile",
+    "difficulty": "Difficile",
+    "question": "Sur turbomoteur, pression huile normale mais température huile grimpe rapidement. Où concentrer l’inspection?",
+    "options": [
+      "Refroidisseur huile et by-pass de refroidissement",
+      "Capteur volets",
+      "HF radio",
+      "Train"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Le problème ressemble à un défaut de dissipation thermique.",
+    "ref": "TP 14038E turbine lubrification"
+  },
+  {
+    "subtopic": "Moteur - check post-maintenance",
+    "difficulty": "Facile",
+    "question": "Après remplacement d’une durite carburant, quel contrôle est essentiel au point fixe?",
+    "options": [
+      "Inspection visuelle fuite sous pression à différents régimes",
+      "Essai radio uniquement",
+      "Contrôle pneus seulement",
+      "Aucun"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Le contrôle d’étanchéité dynamique est indispensable.",
+    "ref": "TP 14038E pratiques de maintenance"
+  },
+  {
+    "subtopic": "Cellule - câbles",
+    "difficulty": "Moyen",
+    "question": "Un câble de commande frotte un passe-cloison après remplacement gaine. Correction?",
+    "options": [
+      "Recentrer avec guide/passe-fil et reprendre routage",
+      "Ajouter graisse seulement",
+      "Laisser, ça se fera",
+      "Couper le câble"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Le frottement accélère l’usure et peut conduire à rupture.",
+    "ref": "TP 14038E commandes de vol"
+  },
+  {
+    "subtopic": "Cellule - issue secours",
+    "difficulty": "Facile",
+    "question": "Le témoin d’issue secours reste allumé après fermeture correcte. Première étape?",
+    "options": [
+      "Vérifier alignement du contact de position",
+      "Changer pompe hydraulique",
+      "Ajuster magnéto",
+      "Refaire plein"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Les témoins de porte dépendent du capteur et de son alignement.",
+    "ref": "TP 14038E alerting"
+  },
+  {
+    "subtopic": "Cellule - train",
+    "difficulty": "Moyen",
+    "question": "Après remplacement amortisseur oléo, l’avion penche légèrement d’un côté. Cause probable?",
+    "options": [
+      "Charge d’azote/huile non conforme sur la jambe concernée",
+      "Erreur COM",
+      "VHF bruit",
+      "Sonde CHT"
+    ],
+    "correctAnswer": "A",
+    "explanation": "La hauteur de jambe dépend du service oléo correct.",
+    "ref": "TP 14038E train"
+  },
+  {
+    "subtopic": "Cellule - vibration cabine",
+    "difficulty": "Moyen",
+    "question": "Un ronflement apparaît à certaines vitesses et disparaît volets sortis. Zone probable?",
+    "options": [
+      "Panneau/trappe en résonance aérodynamique",
+      "Allumage",
+      "Injecteurs",
+      "Batterie"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Le caractère vitesse/aéro pointe vers cellule externe.",
+    "ref": "TP 14038E cellule diagnostics"
+  },
+  {
+    "subtopic": "Moteur - capteurs",
+    "difficulty": "Moyen",
+    "question": "L’indication couple turbine chute brièvement alors que performance ressentie reste normale. Que suspecter d’abord?",
+    "options": [
+      "Capteur couple ou son câblage",
+      "Perte compresseur réelle",
+      "Fuite carburant massive",
+      "Défaillance hélice"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Incohérence indication/performance suggère chaîne de mesure.",
+    "ref": "TP 14038E instrumentation moteur"
+  },
+  {
+    "subtopic": "Moteur - carburant",
+    "difficulty": "Moyen",
+    "question": "Sur moteur piston, pression carburant basse au décollage mais normale en croisière. Vérif prioritaire?",
+    "options": [
+      "Pompe électrique boost et alimentation au décollage",
+      "ADF",
+      "Pression cabine",
+      "Roue"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Le décollage nécessite débit maximal; faiblesse boost apparaît surtout à ce régime.",
+    "ref": "TP 14038E carburant moteur"
+  },
+  {
+    "subtopic": "Moteur - inspection",
+    "difficulty": "Facile",
+    "question": "Après dépassement EGT ponctuel sur turbine, quelle action minimale?",
+    "options": [
+      "Appliquer inspection section chaude selon AMM et consigner l’événement",
+      "Ignorer si moteur tourne",
+      "Changer uniquement filtre huile",
+      "Réinitialiser FADEC"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Les dépassements EGT nécessitent inspection guidée par manuel.",
+    "ref": "TP 14038E turbines"
+  },
+  {
+    "subtopic": "Cellule - joints",
+    "difficulty": "Facile",
+    "question": "Un filet d’air froid est ressenti au niveau d’un hublot en croisière, sans alarme cabine. Quelle correction prioritaire?",
+    "options": [
+      "Inspecter joint et serrage du cadre de hublot selon AMM",
+      "Changer l’alternateur",
+      "Régler les freins",
+      "Nettoyer pitot"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un défaut d’étanchéité local du hublot explique ce symptôme.",
+    "ref": "TP 14038E cellule"
+  },
+  {
+    "subtopic": "Cellule - masse électrique",
+    "difficulty": "Moyen",
+    "question": "Des anomalies avioniques apparaissent seulement lorsque la pompe hydraulique électrique démarre. Quelle cause probable?",
+    "options": [
+      "Retour de masse inadéquat ou chute de tension transitoire sur bus",
+      "Usure pneus",
+      "Fuite échappement",
+      "Erreur altimètre"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Une forte charge peut révéler une faiblesse de masse ou de distribution électrique.",
+    "ref": "TP 14038E électricité"
+  },
+  {
+    "subtopic": "Moteur - huile",
+    "difficulty": "Moyen",
+    "question": "Après vidange, la pression huile monte normalement mais chute en virage prolongé à droite. Que vérifier?",
+    "options": [
+      "Niveau réel d’huile, prise d’aspiration et anti-déjaugeage carter",
+      "Sonde OAT",
+      "VOR",
+      "Portes"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un défaut d’alimentation huile en attitude spécifique peut provoquer chute transitoire.",
+    "ref": "TP 14038E lubrification"
+  },
+  {
+    "subtopic": "Moteur - allumage",
+    "difficulty": "Facile",
+    "question": "Une bougie présente dépôt plombé important et ratés à bas régime. Action correcte?",
+    "options": [
+      "Nettoyer/remplacer bougie et vérifier pratiques de richesse au roulage",
+      "Augmenter pression pneus",
+      "Changer DME",
+      "Aucune"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Le plombage est lié au fonctionnement riche prolongé; la bougie doit être remise en état conforme.",
+    "ref": "TP 14038E moteurs piston"
+  },
+  {
+    "subtopic": "Turbine - performance",
+    "difficulty": "Difficile",
+    "question": "À ISA+20, le moteur atteint la limite ITT avant la puissance habituelle alors que le couplemètre est valide. Quelle analyse initiale?",
+    "options": [
+      "Dégradation marge thermique (compresseur/injecteurs/section chaude) à investiguer selon trend",
+      "Capot train",
+      "Batterie faible",
+      "Alticodeur"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Limiter ITT avant couple cible indique perte d’efficacité moteur nécessitant diagnostic de performance.",
+    "ref": "TP 14038E suivi performance turbine"
+  }
+]

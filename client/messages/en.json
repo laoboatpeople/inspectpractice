@@ -1,0 +1,449 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "howItWorks": "How it Works",
+    "pricing": "Pricing",
+    "testimonials": "Testimonials",
+    "getStarted": "Get Started",
+    "signIn": "Sign In"
+  },
+  "hero": {
+    "badge": "ICC B1 · B2 · E1 · P1 · M1",
+    "headline1": "Pass Your ICC Building Inspector Exam",
+    "headline2": "with AI That Curates Questions to Your Weak Spots",
+    "subheadline": "Inspect Practice covers the full ICC certification curriculum — Residential Building Inspector (B1), Commercial (B2), Electrical (E1), Plumbing (P1) and Mechanical (M1) — with AI that learns what you struggle with and serves you the right practice questions. Open-book code navigation drills plus thousands of exam-style questions, on any device.",
+    "bullets": {
+      "aiExams": "AI curates questions to your weak areas",
+      "anywhere": "Study anywhere",
+      "platforms": "Available on all devices",
+      "transportCanada": "B1, B2, E1, P1 & M1 certifications"
+    },
+    "downloadApp": "Start Free",
+    "watchDemo": "Watch Demo",
+    "valueProp": "2,500+ ICC-aligned questions across B1, B2, E1, P1 & M1",
+    "trustedBy": "Trusted by building inspectors across the U.S.",
+    "appRating": "User Rating",
+    "passRate": "Pass Rate"
+  },
+  "whyMobile": {
+    "title": "Train Anytime, Anywhere",
+    "subtitle": "Start on desktop, continue from anywhere — your progress syncs automatically.",
+    "cards": {
+      "anywhere": {
+        "title": "Practice Anywhere",
+        "desc": "Turn commute time, lunch breaks, or any idle moment into productive study sessions."
+      },
+      "fastSessions": {
+        "title": "Fast Daily Study Sessions",
+        "desc": "Micro-learning designed for busy schedules. Finish a session in as little as 10 minutes."
+      },
+      "aiGeneration": {
+        "title": "AI Tutor — Your Personal Instructor",
+        "desc": "Stuck on a question? Get instant, simplified explanations from our AI Tutor. Understand concepts, not just answers."
+      },
+      "tracking": {
+        "title": "Progress Tracking",
+        "desc": "Track your knowledge gaps and monitor improvement over time with detailed analytics."
+      },
+      "shifts": {
+        "title": "Learn Between Shifts & Classes",
+        "desc": "Study on your own schedule. Short, focused sessions fit any routine."
+      },
+      "retention": {
+        "title": "Better Retention Through Repetition",
+        "desc": "Spaced repetition and adaptive learning help you remember more, longer."
+      }
+    }
+  },
+  "features": {
+    "title": "Everything You Need to Pass",
+    "subtitle": "Powerful tools built for serious building inspectors.",
+    "exams": {
+      "title": "Realistic Practice Exams",
+      "desc": "Simulate real ICC open-book exams for B1 (IRC), B2 (IBC), E1 (NEC + IRC electrical), P1 (IPC + IRC plumbing), and M1 (IMC + IRC mechanical) — all with timed, chapter-based practice tests."
+    },
+    "analytics": {
+      "title": "Performance Analytics",
+      "desc": "Visual dashboards track your progress, identify weak areas, and measure improvement."
+    },
+    "studySystem": {
+      "title": "Smart Study System",
+      "desc": "Adaptive learning paths that adjust to your performance and focus on what you need most."
+    },
+    "difficulty": {
+      "title": "Adaptive Difficulty",
+      "desc": "Questions adjust to your skill level — easy when you're learning, harder as you improve."
+    },
+    "explanations": {
+      "title": "Instant Explanations",
+      "desc": "Every answer comes with a detailed explanation so you understand the 'why' behind each question."
+    },
+    "curation": {
+      "title": "AI Question Curation",
+      "desc": "The AI learns your weak areas from every quiz and curates your next session to drill exactly what you need most."
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Start practicing in under a minute.",
+    "step1": "Tell the AI your code chapter",
+    "step1Desc": "Pick your certification and code chapter (IRC, IBC, NEC, IPC, or IMC) — the AI maps your curriculum instantly.",
+    "step2": "AI curates questions for your weak spots",
+    "step2Desc": "Our AI analyses your past performance and serves questions that target exactly what you need to work on.",
+    "step3": "Practice, improve, track everything",
+    "step3Desc": "Each session adapts in real time. Watch your weak areas shrink as the AI refines your study path."
+  },
+  "appPreview": {
+    "title": "See It in Action",
+    "subtitle": "A seamless, premium experience built for building inspectors.",
+    "quizTitle": "Quiz Practice",
+    "aiTitle": "AI Generator",
+    "analyticsTitle": "Analytics",
+    "reviewTitle": "Review Mode",
+    "correct": "Correct!",
+    "generating": "Generating questions...",
+    "chapterLabel": "Chapter 4 - Foundations",
+    "yourProgress": "Your Progress",
+    "accuracy": "Accuracy",
+    "speed": "Speed",
+    "good": "Good",
+    "needsReview": "Needs Review",
+    "tapToReview": "Tap to review explanation",
+    "wingSparExplanation": "IRC R403 requires footings to extend below the local frost line.",
+    "hydraulicExplanation": "IRC R312 guard height requirement for elevated balconies.",
+    "plusTwelve": "+12% from last week",
+    "mockupChapter": "Chapter 4 - Foundations",
+    "mockupQuestion": "What is the minimum footing depth in a region where the local frost line is 42 inches?",
+    "questionLabel": "QUESTION {current}/{total}",
+    "answers": {
+      "a": "A. The local frost line depth (42 in.)",
+      "b": "B. 24 inches in all cases",
+      "c": "C. 36 inches regardless",
+      "d": "D. Inspector discretion"
+    }
+  },
+  "ai": {
+    "title": "Powered by AI",
+    "subtitle": "Next-generation technology built for code inspection training.",
+    "gpt": "GPT-powered question generation",
+    "adaptive": "Adaptive difficulty adjustment",
+    "explanations": "Instant detailed explanations",
+    "personalized": "Personalized learning paths",
+    "smart": "Smart exam preparation",
+    "curated": "AI-curated question matching — questions selected based on your weak areas and performance history"
+  },
+  "builtFor": {
+    "title": "Built for Building Inspectors & Code Professionals",
+    "subtitle": "Whether you're new to inspection, a home inspector adding credentials, or a municipal employee — Inspect Practice meets you where you are.",
+    "student": "New Inspectors",
+    "studentDesc": "Career changers and newcomers preparing for their first ICC certification.",
+    "apprentice": "Home Inspectors",
+    "homeInspectorDesc": "Home inspectors adding ICC credentials for rental and compliance work.",
+    "schools": "Training Programs",
+    "schoolsDesc": "Institutions and departments looking for a modern, scalable training tool.",
+    "tc": "ICC Exam Prep",
+    "tcDesc": "Candidates preparing for ICC B1, B2, E1, P1 & M1 written exams."
+  },
+  "testimonials": {
+    "title": "What Inspectors Are Saying",
+    "subtitle": "Real stories from real code professionals.",
+    "cards": {
+      "t1": {
+        "quote": "The code navigation drills are a game changer. I found answers in the IRC faster and passed B1 on my first try.",
+        "name": "Marcus Thompson",
+        "role": "Residential Building Inspector, Texas"
+      },
+      "t2": {
+        "quote": "Between site inspections and family, I never had time to study. The AI tutor quizzes me on exactly what I keep missing.",
+        "name": "Sophie Lavoie",
+        "role": "Home Inspector, Florida"
+      },
+      "t3": {
+        "quote": "The open-book format is the hardest part. Knowing where to look in the code is everything — this platform teaches you that.",
+        "name": "James Okafor",
+        "role": "Code Enforcement Officer, Ohio"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Start free. Upgrade when you're ready to go all in.",
+    "free": {
+      "name": "Free",
+      "price": "$0",
+      "period": "forever",
+      "desc": "Try before you buy.",
+      "feature1": "1 ICC certification category",
+      "feature2": "Basic stats tracking",
+      "feature3": "Standard explanations",
+      "feature4": "50 messages AI Tutor"
+    },
+    "pro": {
+      "name": "Pro Monthly",
+      "price": "$29.99",
+      "period": "/month",
+      "desc": "Everything you need to pass.",
+      "feature1": "All 5 certifications (B1, B2, E1, P1, M1)",
+      "feature2": "Timed simulation exams",
+      "feature3": "Review & analytics dashboard",
+      "feature4": "Unlimited AI Tutor"
+    },
+    "yearly": {
+      "name": "Pro Yearly",
+      "price": "$99",
+      "period": "/year",
+      "desc": "2 months free vs Monthly. Best value for serious ICC candidates.",
+      "badge": "Best Value",
+      "feature1": "All 5 certifications (B1, B2, E1, P1, M1)",
+      "feature2": "Timed simulation exams",
+      "feature3": "Review & analytics dashboard",
+      "feature4": "Unlimited AI Tutor"
+    },
+    "lifetime": {
+      "name": "Lifetime",
+      "price": "$199",
+      "period": "one-time",
+      "desc": "Pay once, access forever.",
+      "feature1": "Everything in Pro Monthly",
+      "feature2": "All future updates included",
+      "feature3": "Lifetime access — no recurring fees"
+    },
+    "cta": "Get Started"
+  },
+  "finalCta": {
+    "headline": "Ready to pass your ICC exam faster?",
+    "subheadline": "Join the next generation of building inspectors training with AI.",
+    "startFree": "Start Free",
+    "viewPricing": "View Pricing"
+  },
+  "footer": {
+    "tagline": "AI-powered ICC exam preparation for the next generation of building inspectors.",
+    "product": "Product",
+    "company": "Company",
+    "legal": "Legal",
+    "home": "Home",
+    "features": "Features",
+    "pricing": "Pricing",
+    "about": "About",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "careers": "Careers",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© 2026 Inspect Practice. All rights reserved."
+  },
+  "app": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "exams": "Exams",
+      "tutor": "AI Tutor",
+      "subscription": "Subscription",
+      "profile": "Profile"
+    },
+    "sidebar": {
+      "language": "Language",
+      "signout": "Sign out"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "subtitle": "Your study overview",
+      "examsAvailable": "Exams Available",
+      "totalAttempts": "Total Attempts",
+      "averageScore": "Average Score",
+      "studyStreak": "Study Streak",
+      "examsSubtitle": "Total exam categories",
+      "attemptsSubtitle": "All-time attempts",
+      "scoreContext": "Based on {count} attempt",
+      "scoreContextPlural": "Based on {count} attempts",
+      "streakSubtitle": "Keep it going!",
+      "performanceTitle": "Exam Performance",
+      "bestScore": "Best",
+      "lastScore": "Last",
+      "yet": "yet",
+      "mostAttempted": "Most Attempted",
+      "strength": "Strength",
+      "weakness": "Weakness",
+      "practicedCount": "{practiced} of {total} practiced",
+      "noData": "No data yet",
+      "trending": "Trending",
+      "recentAttempts": "Recent Attempts",
+      "exam": "Exam",
+      "score": "Score",
+      "passed": "Passed",
+      "date": "Date",
+      "failed": "Failed",
+      "viewAll": "View all attempts",
+      "noAttempts": "No attempts yet",
+      "noAttemptsDesc": "Start practicing with your first exam to track your progress and build your study streak.",
+      "startPracticing": "Start Practicing",
+      "errorTitle": "Something went wrong",
+      "tryAgain": "Try again",
+      "loading": "Loading..."
+    },
+    "profile": {
+      "title": "Profile",
+      "subtitle": "Manage your account and settings",
+      "personalInfo": "Personal Information",
+      "edit": "Edit",
+      "save": "Save",
+      "saving": "Saving...",
+      "cancel": "Cancel",
+      "role": "Role",
+      "memberSince": "Member since",
+      "status": "Status",
+      "active": "Active",
+      "inactive": "Inactive",
+      "subscription": "Subscription",
+      "freePlan": "Free Plan",
+      "monthlyPlan": "Monthly Plan",
+      "lifetimePlan": "Lifetime Plan",
+      "activeStatus": "Active",
+      "noSubscription": "No active subscription",
+      "upgradePlan": "Upgrade Plan",
+      "manageBilling": "Manage Billing",
+      "loading": "Loading...",
+      "studyStats": "Study Statistics",
+      "exams": "Exams",
+      "attempts": "Attempts",
+      "avgScore": "Avg Score",
+      "passRate": "Pass Rate",
+      "security": "Security",
+      "changePassword": "Change password",
+      "currentPassword": "Current password",
+      "newPassword": "New password",
+      "confirmPassword": "Confirm new password",
+      "updatePassword": "Update Password",
+      "passwordUpdated": "Password updated successfully",
+      "pwTooShort": "New password must be at least 8 characters",
+      "pwMismatch": "Passwords do not match",
+      "namePlaceholder": "Full name",
+      "emailPlaceholder": "Email address",
+      "errorTitle": "Something went wrong",
+      "couldNotLoad": "Could not load profile",
+      "tryAgain": "Try again",
+      "unableToConnect": "Unable to connect to server",
+      "failedToChange": "Failed to change password",
+      "failedToUpdate": "Failed to update profile",
+      "profileUpdated": "Profile updated",
+      "nameTooShort": "Name must be at least 2 characters",
+      "invalidEmail": "Please enter a valid email"
+    },
+    "subscription": {
+      "title": "Subscription",
+      "subtitle": "Choose the plan that fits your study needs",
+      "free": "Free",
+      "monthly": "Monthly",
+      "lifetime": "Lifetime",
+      "freeDesc": "Get started with basic exam practice",
+      "monthlyDesc": "Unlock full exam preparation",
+      "lifetimeDesc": "Never pay again — full access forever",
+      "bestValue": "Best Value",
+      "currentPlan": "Current Plan",
+      "subscribe": "Subscribe",
+      "redirecting": "Redirecting...",
+      "freePlan": "Free Plan",
+      "errorTitle": "Something went wrong",
+      "tryAgain": "Try again",
+      "footer": "All plans include access to Inspect Practice exam preparation. Subscription automatically renews for Monthly plan. Cancel anytime.",
+      "features": {
+        "oneCategory": "1 exam category",
+        "basicStats": "Basic stats tracking",
+        "standardExplanations": "Standard explanations",
+        "unlimitedExams": "Unlimited practice exams",
+        "detailedExplanations": "Detailed answer explanations",
+        "unlimitedQuiz": "Unlimited quiz questions",
+        "allCategories": "All exam categories",
+        "fullAiTutor": "Unlimited AI Tutor"
+      }
+    },
+    "tutor": {
+      "title": "AI Tutor",
+      "newChat": "New Chat",
+      "sessions": "Sessions",
+      "chatHistory": "Chat History",
+      "noConversations": "No conversations yet",
+      "startNewChat": "Start New Chat",
+      "deleteSession": "Delete session",
+      "messages": "messages",
+      "sendPlaceholder": "Ask a question about the IRC, IBC, NEC, IPC or IMC...",
+      "sendPlaceholderExam": "Ask about this exam topic...",
+      "somethingWentWrong": "Something went wrong",
+      "tryAgain": "Try again",
+      "emptyTitle": "AI Tutor",
+      "emptyDesc": "Ask questions about building codes, get explanations on exam questions, or practice specific concepts with your AI study assistant."
+    },
+    "exams": {
+      "title": "Exam Categories",
+      "subtitle": "Select an exam category to start practicing or reviewing chapters.",
+      "noExams": "No exams available",
+      "noExamsDesc": "No exam categories are available yet. Check back later or contact support.",
+      "retry": "Retry",
+      "chapters": "chapters",
+      "chapter": "chapter",
+      "questions": "questions",
+      "question": "question",
+      "min": "min",
+      "pass": "pass",
+      "errorTitle": "Something went wrong",
+      "tryAgain": "Try again"
+    },
+    "examDetail": {
+      "backToExams": "Back to Exams",
+      "unknownExam": "Unknown Exam",
+      "passLabel": "Pass:",
+      "minLabel": "min",
+      "practiceQuiz": "Practice Quiz",
+      "practiceDesc": "Test your knowledge with 10 random questions from all {count} chapters.",
+      "difficulty": "Difficulty:",
+      "easy": "Easy",
+      "easyDesc": "Basic recall questions",
+      "medium": "Medium",
+      "mediumDesc": "Applied knowledge",
+      "hard": "Hard",
+      "hardDesc": "Complex scenarios",
+      "startPractice": "Start Practice Quiz",
+      "chapters": "Chapters",
+      "totalLabel": "({count} total)",
+      "questionsCount": "questions",
+      "questionSingular": "question",
+      "noChapters": "No chapters available",
+      "noChaptersDesc": "Chapters are being configured for this exam.",
+      "chapterNum": "Chapter {number}",
+      "failedToLoad": "Failed to load exam details"
+    }
+  },
+  "legal": {
+    "title": "Legal",
+    "lastUpdated": "Last Updated: May 15, 2026",
+    "page": {
+      "privacy": {
+        "title": "Privacy Policy",
+        "content": [
+          "At Inspect Practice (\"we,\" \"our,\" or \"us\"), we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our web application for International Code Council (ICC) building inspector exam preparation.",
+          "**Information We Collect:** We collect personal information you provide directly, such as your name, email address, and payment information when you create an account or subscribe to our services. We also automatically collect certain information when you use our platform, including device information, IP address, browser type, and usage data such as exam attempts, scores, and study patterns.",
+          "**How We Use Your Information:** We use your information to provide, maintain, and improve our ICC exam preparation services; to process transactions and manage your subscription; to send you technical notices, updates, and support messages; to monitor and analyze usage trends; and to personalize your learning experience.",
+          "**Data Sharing and Disclosure:** We do not sell your personal information. We may share your data with trusted third-party service providers who assist us in operating our platform (such as payment processors and cloud hosting providers), as required by law, or to protect our rights and the safety of our users.",
+          "**Data Security:** We implement industry-standard security measures including encryption in transit (TLS 1.3) and at rest, secure authentication, and regular security audits to protect your personal information. However, no method of transmission over the Internet is 100% secure.",
+          "**Your Rights:** Depending on your jurisdiction, you may have the right to access, correct, delete, or port your personal data. You can manage your account settings or contact us at privacy@inspectpractice.com to exercise these rights.",
+          "**Retention:** We retain your personal information for as long as your account is active or as needed to provide you services, and for a reasonable period thereafter for legitimate business purposes or as required by law.",
+          "**Cookies:** We use essential cookies for authentication and security, analytics cookies to understand platform usage, and functional cookies to remember your preferences. You can control cookie settings through your browser."
+        ]
+      },
+      "terms": {
+        "title": "Terms of Service",
+        "content": [
+          "Welcome to Inspect Practice. By accessing or using our website and web application, you agree to be bound by these Terms of Service (\"Terms\"). If you do not agree with any part of these Terms, you must not use our services.",
+          "**Use of Service:** Inspect Practice provides an AI-powered exam preparation platform for building inspectors pursuing International Code Council (ICC) certifications (B1, B2, E1, P1, M1). You must be at least 18 years of age or have parental consent to use our services. You are responsible for maintaining the confidentiality of your account credentials.",
+          "**Subscriptions and Payments:** Certain features require a paid subscription. Fees are billed in advance on a monthly or annual basis as selected. All fees are non-refundable except as expressly stated in our refund policy. We reserve the right to change our pricing with 30 days notice. Automatic renewal occurs unless cancelled before the renewal date.",
+          "**Intellectual Property:** All content, features, and functionality of Inspect Practice — including exam questions, AI-generated materials, analytics, user interface, and proprietary algorithms — are owned by Inspect Practice and protected by Canadian and international intellectual property laws. You may not reproduce, distribute, modify, or create derivative works without our express written consent.",
+          "**Disclaimer of Warranties:** Inspect Practice is provided \"as is\" without warranty of any kind. While we strive for accuracy, exam content is for educational purposes and does not guarantee passage of ICC certification exams. We are not affiliated with or endorsed by the International Code Council.",
+          "**Disclaimer of Warranties:** Inspect Practice is provided \"as is\" without warranty of any kind. While we strive for accuracy, exam content is for educational purposes and does not guarantee passage of ICC certification exams. We are not affiliated with or endorsed by the International Code Council.",
+          "**Governing Law:** These Terms shall be governed by and construed in accordance with the laws of the State of Illinois and the federal laws of the United States applicable therein. Any disputes shall be resolved in the courts of Illinois.",
+          "**Governing Law:** These Terms shall be governed by and construed in accordance with the laws of the Province of Ontario and the federal laws of Canada applicable therein. Any disputes shall be resolved in the courts of Ontario.",
+          "**Changes to Terms:** We reserve the right to modify these Terms at any time. We will notify users of material changes via email or platform notice. Continued use after changes constitutes acceptance of the new Terms."
+        ]
+      }
+    }
+  }
+}

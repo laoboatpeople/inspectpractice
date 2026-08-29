@@ -1,0 +1,15 @@
+[Unit]
+Description=InspectPractice Express API (port 4013)
+After=network.target
+
+[Service]
+Type=simple
+User=chuck
+WorkingDirectory=/home/chuck/projects/inspectpractice/server
+Environment="NODE_ENV=production"
+Environment="PORT=4013"
+EnvironmentFile=-/home/chuck/projects/inspectpractice/server/.env
+ExecStart=/usr/bin/node /home/chuck/projects/inspectpractice/server/dist/src/index.js
+Restart=on-failure
+RestartSec=5
+SyslogIdentifier=inspectpractice-api

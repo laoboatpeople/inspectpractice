@@ -1,0 +1,108 @@
+# Inspect Practice — AME Exam Preparation
+> AI-powered exam preparation for Transport Canada Aircraft Maintenance Engineer (AME) licensing.
+> Covers TP14038E + License M (Airframe & Powerplant), E (Electronics), S (Structures).
+
+## Landing Page
+- Inspect Practice: https://inspectpractice.com
+- Inspect Practice (FR): https://inspectpractice.com/fr
+
+## Key Pages (EN)
+- FAQ: https://inspectpractice.com/faq
+- About: https://inspectpractice.com/about
+- Pricing: https://inspectpractice.com/pricing
+- Contact: https://inspectpractice.com/contact
+- Study Checklist: https://inspectpractice.com/study-checklist
+- AME Resources: https://inspectpractice.com/ame-resources
+- Free Practice Questions: https://inspectpractice.com/free-ame-practice-questions
+
+## Key Pages (FR)
+- FAQ: https://inspectpractice.com/fr/faq
+- About: https://inspectpractice.com/fr/about
+- Pricing: https://inspectpractice.com/fr/pricing
+- Contact: https://inspectpractice.com/fr/contact
+- Study Checklist: https://inspectpractice.com/fr/study-checklist
+- AME Resources: https://inspectpractice.com/fr/ame-resources
+- Free Practice Questions: https://inspectpractice.com/fr/free-ame-practice-questions
+
+## Blog Articles (EN)
+- AME License Canada Guide: https://inspectpractice.com/blog/ame-license-canada
+- CARS Exam Guide: https://inspectpractice.com/blog/cars-exam-guide
+- M1 vs M2 AME Rating: https://inspectpractice.com/blog/m1-vs-m2-ame-rating
+- AI AME Exam Preparation: https://inspectpractice.com/blog/ai-ame-exam-preparation
+- TP14038E Syllabus Guide: https://inspectpractice.com/blog/tp14038e-syllabus
+- AME Licence M-E-S Comparison: https://inspectpractice.com/blog/ame-licence-m-e-s-comparison
+- AME Salary Canada: https://inspectpractice.com/blog/ame-salary-canada
+- AME Exam Study Guide: https://inspectpractice.com/blog/ame-exam-study-guide
+- Aviation Maintenance Glossary: https://inspectpractice.com/blog/aviation-maintenance-glossary
+- AME Exam Structure: https://inspectpractice.com/blog/ame-exam-structure
+- AME Apprentice Guide: https://inspectpractice.com/blog/ame-apprentice-guide
+- CARS Exam Deep Dive: https://inspectpractice.com/blog/cars-exam-deep-dive
+- CARS Exam Difficulty: https://inspectpractice.com/blog/cars-exam-difficulty
+- AME Exam Study Plan: https://inspectpractice.com/blog/ame-exam-study-plan
+- AME E & S Rating Comparison: https://inspectpractice.com/blog/ame-e-s-m-rating-comparison
+- AME Study Mistakes: https://inspectpractice.com/blog/ame-study-mistakes
+- AME Career Guide Canada: https://inspectpractice.com/blog/ame-career-guide-canada
+- AME Exam Study Resources: https://inspectpractice.com/blog/ame-exam-study-resources
+- AME Study Techniques: https://inspectpractice.com/blog/ame-study-techniques
+- AME Apprentice Logbook Guide: https://inspectpractice.com/blog/ame-apprentice-logbook
+- Aviation Human Factors: https://inspectpractice.com/blog/aviation-human-factors
+- AME Salary Quebec: https://inspectpractice.com/blog/salaire-tea-quebec
+- CARS Exam FAQ: https://inspectpractice.com/blog/cars-exam-faq
+- Standards Exam FAQ: https://inspectpractice.com/blog/standards-exam-faq
+- Airframe Exam FAQ: https://inspectpractice.com/blog/airframe-exam-faq
+- Powerplant Exam FAQ: https://inspectpractice.com/blog/powerplant-exam-faq
+- Electrical Exam FAQ: https://inspectpractice.com/blog/electrical-exam-faq
+- Human Factors Exam FAQ: https://inspectpractice.com/blog/human-factors-exam-faq
+- AME Exam Pass Rates: https://inspectpractice.com/blog/ame-exam-pass-rates
+- AME Practice Test Comparison: https://inspectpractice.com/blog/ame-practice-test-comparison
+- AME Job Outlook: https://inspectpractice.com/blog/ame-job-outlook
+- AME Sample Questions: https://inspectpractice.com/blog/ame-sample-questions
+- AME Schools Canada: https://inspectpractice.com/blog/ame-schools-canada
+- Devenir TEA Canada: https://inspectpractice.com/blog/devenir-tea-canada
+- Examen TEA Transports Canada: https://inspectpractice.com/blog/examen-tea-transports-canada
+- NDI/NDT AME Guide: https://inspectpractice.com/blog/ndi-ndt-ame-guide
+- AME License Timeline: https://inspectpractice.com/blog/ame-license-timeline
+- Complete AME Licensing Guide: https://inspectpractice.com/ame-licensing-guide
+
+## Blog Articles (FR)
+- Guide permis AME Canada: https://inspectpractice.com/fr/blog/ame-license-canada
+- Guide examen CARS: https://inspectpractice.com/fr/blog/cars-exam-guide
+- M1 vs M2 Mention AME: https://inspectpractice.com/fr/blog/m1-vs-m2-ame-rating
+- Préparation IA examens AME: https://inspectpractice.com/fr/blog/ai-ame-exam-preparation
+- Programme TP14038E: https://inspectpractice.com/fr/blog/tp14038e-syllabus
+- Licence M vs E vs S: https://inspectpractice.com/fr/blog/ame-licence-m-e-s-comparison
+- Salaire TEA Canada: https://inspectpractice.com/fr/blog/ame-salary-canada
+- Guide d'étude AME: https://inspectpractice.com/fr/blog/ame-exam-study-guide
+- Glossaire maintenance aéronautique: https://inspectpractice.com/fr/blog/aviation-maintenance-glossary
+- Structure examens AME: https://inspectpractice.com/fr/blog/ame-exam-structure
+- Guide apprenti AME: https://inspectpractice.com/fr/blog/ame-apprentice-guide
+- Examen RAC approfondi: https://inspectpractice.com/fr/blog/cars-exam-deep-dive
+- Difficulté examen CARS: https://inspectpractice.com/fr/blog/cars-exam-difficulty
+- Plan d'étude examen AME: https://inspectpractice.com/fr/blog/ame-exam-study-plan
+- Comparaison mentions AME E & S: https://inspectpractice.com/fr/blog/ame-e-s-m-rating-comparison
+- Erreurs d'étude AME: https://inspectpractice.com/fr/blog/ame-study-mistakes
+- Guide carrière AME Canada: https://inspectpractice.com/fr/blog/ame-career-guide-canada
+- Ressources d'étude examen AME: https://inspectpractice.com/fr/blog/ame-exam-study-resources
+- Techniques d'étude AME: https://inspectpractice.com/fr/blog/ame-study-techniques
+- Guide carnet de bord apprenti AME: https://inspectpractice.com/fr/blog/ame-apprentice-logbook
+- Facteurs humains aviation AME: https://inspectpractice.com/fr/blog/aviation-human-factors
+- Salaire TEA Québec: https://inspectpractice.com/fr/blog/salaire-tea-quebec
+- FAQ examen RAC: https://inspectpractice.com/fr/blog/cars-exam-faq
+- FAQ examen Normes: https://inspectpractice.com/fr/blog/standards-exam-faq
+- FAQ examen Cellule: https://inspectpractice.com/fr/blog/airframe-exam-faq
+- FAQ examen Groupe Motopropulseur: https://inspectpractice.com/fr/blog/powerplant-exam-faq
+- FAQ examen Électrique: https://inspectpractice.com/fr/blog/electrical-exam-faq
+- FAQ examen Facteurs Humains: https://inspectpractice.com/fr/blog/human-factors-exam-faq
+- Taux de réussite examens AME: https://inspectpractice.com/fr/blog/ame-exam-pass-rates
+- Comparaison tests de pratique AME: https://inspectpractice.com/fr/blog/ame-practice-test-comparison
+- Perspectives d'emploi CMA: https://inspectpractice.com/fr/blog/ame-job-outlook
+- Exemples questions examen CMA: https://inspectpractice.com/fr/blog/ame-sample-questions
+- Meilleures écoles CMA Canada: https://inspectpractice.com/fr/blog/ame-schools-canada
+- Devenir TEA Canada: https://inspectpractice.com/fr/blog/devenir-tea-canada
+- Examen TEA Transports Canada: https://inspectpractice.com/fr/blog/examen-tea-transports-canada
+- Guide NDI/NDT AME: https://inspectpractice.com/fr/blog/ndi-ndt-ame-guide
+- Calendrier licence AME: https://inspectpractice.com/fr/blog/ame-license-timeline
+- Guide complet de la licence TEA: https://inspectpractice.com/fr/guide-licence-ame
+
+## App
+- App Login: https://inspectpractice.com/app
