@@ -8,7 +8,6 @@ export const metadata: Metadata = {
     canonical: 'https://inspectpractice.com/terms',
     languages: {
       en: 'https://inspectpractice.com/terms',
-      fr: 'https://inspectpractice.com/fr/terms',
     },
   },
   openGraph: {

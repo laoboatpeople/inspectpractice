@@ -32,7 +32,7 @@ const NAV_ITEMS = [
 export default function AppLayout({ children }: { children: React.ReactNode }) {
   const router = useRouter();
   const pathname = usePathname();
-  const { locale, toggleLocale, t } = useLocale();
+  const { locale, t } = useLocale();
   const [user, setUser] = useState<UserProfile | null>(null);
   const [loading, setLoading] = useState(true);
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -224,9 +224,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
               <div className="flex items-center gap-2.5 text-sm text-[#F59E0B] min-w-0">
                 <Eye size={16} className="flex-shrink-0" />
                 <span className="truncate">
-                  {locale === 'fr'
-                    ? `Mode visualisation — vous voyez le tableau de bord de ${impersonation.name} (${impersonation.email})`
-                    : `View-as mode — viewing ${impersonation.name}'s dashboard (${impersonation.email})`}
+                  {`View-as mode — viewing ${impersonation.name}'s dashboard (${impersonation.email})`}
                 </span>
               </div>
               <button
@@ -234,7 +232,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
                 className="flex-shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-[#F59E0B] hover:bg-[#D97706] text-white transition-colors"
               >
                 <X size={13} />
-                {locale === 'fr' ? 'Quitter le mode' : 'Exit view-as'}
+                {'Exit view-as'}
               </button>
             </div>
           )}

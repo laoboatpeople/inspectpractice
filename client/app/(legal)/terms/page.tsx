@@ -1,15 +1,12 @@
 'use client';
 
-import { useLocale } from "@/src/contexts/LocaleContext";
 import en from "../../../messages/en.json";
-import fr from "../../../messages/fr.json";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { BreadcrumbListJsonLd } from '@/components/seo/JsonLd';
 
 export default function TermsPage() {
-  const { locale } = useLocale();
-  const msgs: Record<string, unknown> = locale === 'en' ? en : fr;
+  const msgs: Record<string, unknown> = en;
 
   const tm = (key: string) => {
     const keys = key.split('.');
@@ -50,7 +47,6 @@ export default function TermsPage() {
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
             <img src="/logo/logo-main.png?v=3" alt="Inspect Practice" className="h-8 w-auto" />
-            <span className="font-bold text-xl">Inspect Practice</span>
           </Link>
           <Link
             href="/"

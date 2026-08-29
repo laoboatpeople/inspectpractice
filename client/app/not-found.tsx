@@ -15,7 +15,6 @@ export default function NotFound() {
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
             <img src="/logo/logo-main.png?v=3" alt="Inspect Practice" className="h-7 w-auto" />
-            <span className="font-bold text-lg">Inspect Practice</span>
           </Link>
         </div>
       </nav>

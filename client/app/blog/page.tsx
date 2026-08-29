@@ -12,7 +12,6 @@ export const metadata: Metadata = {
     canonical: 'https://inspectpractice.com/blog',
     languages: {
       en: 'https://inspectpractice.com/blog',
-      fr: 'https://inspectpractice.com/fr/blog',
     },
   },
   openGraph: {
@@ -132,7 +131,6 @@ export default function BlogIndexPage() {
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2">
             <img src="/logo/logo-main.png?v=3" alt="Inspect Practice" className="h-7 w-auto" />
-            <span className="font-bold text-lg">Inspect Practice</span>
           </a>
           <div className="flex items-center gap-4">
             <a href="/" className="text-sm text-[#94A3B8] hover:text-white transition-colors">← Back to Home</a>

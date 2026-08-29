@@ -719,7 +719,7 @@ export default function QuizPage() {
                           const optionsList = (q.options || []).map((opt, oi) => `  ${optionLetters[oi] ?? oi + 1}) ${opt}`).join('\n');
                           const userLetter = userIdx >= 0 ? (optionLetters[userIdx] ?? String(userIdx + 1)) : '—';
                           const correctLetter = q.correctIndex >= 0 ? (optionLetters[q.correctIndex] ?? String(q.correctIndex + 1)) : '—';
-                          const isFr = locale === 'fr';
+                          const isFr = false;
                           const examLabel = isFr ? 'Examen:' : 'Exam:';
                           const chapterLabel = isFr ? 'Chapitre:' : 'Chapter:';
                           const naLabel = isFr ? 'Non spécifié' : 'Not specified';

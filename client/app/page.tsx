@@ -9,7 +9,6 @@ export const metadata: Metadata = {
     canonical: 'https://inspectpractice.com',
     languages: {
       en: 'https://inspectpractice.com',
-      fr: 'https://inspectpractice.com/fr',
     },
   },
   openGraph: {

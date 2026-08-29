@@ -40,7 +40,7 @@ function getInitials(name: string): string {
 }
 
 function formatDate(dateStr: string, locale: string): string {
-  return new Date(dateStr).toLocaleDateString(locale === 'fr' ? 'fr-CA' : 'en-US', {
+  return new Date(dateStr).toLocaleDateString('en-US', {
     month: 'long',
     day: 'numeric',
     year: 'numeric',
@@ -610,25 +610,21 @@ export default function ProfilePage() {
       </SectionCard>
 
       {/* Delete Account */}
-      <SectionCard title={locale === 'fr' ? 'Supprimer le compte' : 'Delete Account'} icon={<XCircle size={16} />} delay={0.4}>
+      <SectionCard title={'Delete Account'} icon={<XCircle size={16} />} delay={0.4}>
         <p className="text-sm text-text-secondary mb-3">
-          {locale === 'fr'
-            ? 'Supprimer votre compte efface définitivement toutes vos données, quiz, sessions et abonnements. Cette action est irréversible.'
-            : 'Deleting your account permanently removes all your data, quizzes, sessions, and subscriptions. This action is irreversible.'}
+          {'Deleting your account permanently removes all your data, quizzes, sessions, and subscriptions. This action is irreversible.'}
         </p>
         {!showDeleteConfirm ? (
           <button
             onClick={() => setShowDeleteConfirm(true)}
             className="px-4 py-2 rounded-btn bg-red/10 border border-red/30 text-red text-sm font-medium hover:bg-red/20 transition-colors"
           >
-            {locale === 'fr' ? 'Supprimer mon compte' : 'Delete my account'}
+            {'Delete my account'}
           </button>
         ) : (
           <div className="space-y-3 p-4 rounded-btn bg-red/5 border border-red/20">
             <p className="text-sm text-red font-semibold">
-              {locale === 'fr'
-                ? 'Êtes-vous absolument sûr ? Cette action ne peut pas être annulée.'
-                : 'Are you absolutely sure? This cannot be undone.'}
+              {'Are you absolutely sure? This cannot be undone.'}
             </p>
             {deleteError && (
               <p className="text-sm text-red">{deleteError}</p>
@@ -639,9 +635,7 @@ export default function ProfilePage() {
                 disabled={deleting}
                 className="px-4 py-2 rounded-btn bg-red text-white text-sm font-medium hover:bg-red/90 transition-colors disabled:opacity-50"
               >
-                {deleting
-                  ? (locale === 'fr' ? 'Suppression...' : 'Deleting...')
-                  : (locale === 'fr' ? 'Oui, supprimer définitivement' : 'Yes, permanently delete')}
+                {deleting ? 'Deleting...' : 'Yes, permanently delete'}
               </button>
               <button
                 onClick={() => {
@@ -651,7 +645,7 @@ export default function ProfilePage() {
                 disabled={deleting}
                 className="px-4 py-2 rounded-btn bg-card border border-border text-text-secondary text-sm hover:text-text-primary transition-colors disabled:opacity-50"
               >
-                {locale === 'fr' ? 'Annuler' : 'Cancel'}
+                {'Delete my account'}
               </button>
             </div>
           </div>

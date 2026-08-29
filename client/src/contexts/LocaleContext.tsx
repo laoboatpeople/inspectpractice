@@ -19,25 +19,14 @@ const STORAGE_KEY = "inspectpractice:locale";
 export function LocaleProvider({ children }: { children: ReactNode }) {
   const [locale, setLocaleState] = useState<Locale>("en");
 
-  // Restore persisted locale on mount (client-side only)
-  useEffect(() => {
-    const stored = localStorage.getItem(STORAGE_KEY);
-    if (stored === "en" || stored === "fr") {
-      setLocaleState(stored);
-    }
-  }, []);
+  // English-only site: locale is always "en" (no persistence, no toggle)
 
-  const setLocale = useCallback((newLocale: Locale) => {
-    setLocaleState(newLocale);
-    localStorage.setItem(STORAGE_KEY, newLocale);
+  const setLocale = useCallback((_newLocale: Locale) => {
+    setLocaleState("en");
   }, []);
 
   const toggleLocale = useCallback(() => {
-    setLocaleState((prev) => {
-      const next = prev === "en" ? "fr" : "en";
-      localStorage.setItem(STORAGE_KEY, next);
-      return next;
-    });
+    setLocaleState("en");
   }, []);
 
   return (

@@ -11,7 +11,6 @@ export const metadata: Metadata = {
     canonical: 'https://inspectpractice.com/blog/icc-exam-structure',
     languages: {
       en: 'https://inspectpractice.com/blog/icc-exam-structure',
-      fr: 'https://inspectpractice.com/fr/blog/icc-exam-structure',
     },
   },
   openGraph: {
@@ -59,10 +58,7 @@ export default function IccExamStructurePage() {
         <nav className="border-b border-white/5 bg-[#0A0E1A]/80 backdrop-blur-md">
           <div className="max-w-3xl mx-auto px-6 py-4 flex items-center justify-between">
             <a href="/" className="flex items-center gap-2">
-              <div className="w-7 h-7 rounded bg-gradient-to-br from-[#3B82F6] to-[#06B6D4] flex items-center justify-center">
-                <span className="text-white text-[10px] font-bold">IP</span>
-              </div>
-              <span className="font-bold text-lg">Inspect Practice</span>
+              <img src="/logo/logo-main.png?v=3" alt="Inspect Practice" className="h-7 w-auto" />
             </a>
             <div className="flex items-center gap-4">
               <a href="/blog" className="text-sm text-[#94A3B8] hover:text-white transition-colors">← Blog</a>

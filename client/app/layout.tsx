@@ -11,7 +11,6 @@ export const metadata: Metadata = {
     canonical: 'https://inspectpractice.com',
     languages: {
       en: 'https://inspectpractice.com',
-      fr: 'https://inspectpractice.com/fr',
     },
   },
   other: {
@@ -39,7 +38,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang={locale}>
       <head>
         <link rel="alternate" hrefLang="en" href="https://inspectpractice.com" />
-        <link rel="alternate" hrefLang="fr" href="https://inspectpractice.com/fr" />
         <link rel="alternate" hrefLang="x-default" href="https://inspectpractice.com" />
       </head>
       <body>

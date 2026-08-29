@@ -9,7 +9,6 @@ export const metadata: Metadata = {
     canonical: 'https://inspectpractice.com/about',
     languages: {
       en: 'https://inspectpractice.com/about',
-      fr: 'https://inspectpractice.com/fr/about',
     },
   },
   openGraph: {
@@ -45,7 +44,6 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2">
             <img src="/logo/logo-main.png?v=3" alt="Inspect Practice" className="h-7 w-auto" />
-            <span className="font-bold text-lg">Inspect Practice</span>
           </a>
           <a href="/" className="text-sm text-[#94A3B8] hover:text-white transition-colors">
             ← Back to Home

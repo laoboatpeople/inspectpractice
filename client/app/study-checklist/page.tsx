@@ -10,7 +10,6 @@ export const metadata: Metadata = {
     canonical: 'https://inspectpractice.com/study-checklist',
     languages: {
       en: 'https://inspectpractice.com/study-checklist',
-      fr: 'https://inspectpractice.com/fr',
     },
   },
   openGraph: {

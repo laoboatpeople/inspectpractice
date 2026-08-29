@@ -34,7 +34,6 @@ export default function MarketingLandingPage() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <img src="/logo/logo-main.png?v=3" alt="Inspect Practice" className="h-9 w-auto" />
-            <span className="font-bold text-xl">Inspect Practice</span>
           </div>
           <div className="hidden md:flex items-center gap-8">
             <a href="#features" className="text-sm text-[#94A3B8] hover:text-white transition-colors">{tm("nav.features")}</a>
@@ -578,7 +577,6 @@ export default function MarketingLandingPage() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <img src="/logo/logo-main.png?v=3" alt="Inspect Practice" className="h-8 w-auto" />
-                <span className="font-bold text-xl">Inspect Practice</span>
               </div>
               <p className="text-sm text-[#94A3B8]">
                 {tm("footer.tagline")}

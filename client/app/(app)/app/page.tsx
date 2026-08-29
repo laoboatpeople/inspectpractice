@@ -108,7 +108,7 @@ function StatCard({ title, value, icon, subtitle, color }: StatCardProps) {
 
 function PerformanceSection({ byExam }: { byExam: ExamPerformance[] }) {
   const { t, locale } = useLocale();
-  const fr = locale === 'fr';
+  const fr = false;
   return (
     <motion.div
       initial={{ opacity: 0, y: 16 }}
@@ -208,7 +208,7 @@ function timeAgo(iso: string, t: (path: string, vars?: Record<string, string | n
 
 function RecentAttemptsSection({ attempts }: { attempts: UserExamAttempt[] }) {
   const { t, locale } = useLocale();
-  const fr = locale === 'fr';
+  const fr = false;
   return (
     <motion.div
       initial={{ opacity: 0, y: 16 }}
@@ -276,7 +276,7 @@ function ChapterAnalysis({
   needsReview: ChapterStat[];
 }) {
   const { t, locale } = useLocale();
-  const fr = locale === 'fr';
+  const fr = false;
 
   const chapterLabel = (c: ChapterStat) =>
     `${fr ? c.examNameFr : c.examName} > ${fr ? c.chapterNameFr : c.chapterName}`;
@@ -400,7 +400,7 @@ function ChapterDonut({ percentage }: { percentage: number }) {
 
 function ChapterPerformanceSection({ chapterPerformance }: { chapterPerformance: ChapterStat[] }) {
   const { t, locale } = useLocale();
-  const fr = locale === 'fr';
+  const fr = false;
   if (chapterPerformance.length === 0) return null;
   const sorted = [...chapterPerformance].sort((a, b) => b.percentage - a.percentage);
   return (
@@ -485,7 +485,7 @@ export default function DashboardPage() {
   const [resetting, setResetting] = useState(false);
   const [resetError, setResetError] = useState<string | null>(null);
   const { t, locale } = useLocale();
-  const fr = locale === 'fr';
+  const fr = false;
 
   function loadStats() {
     setLoading(true);

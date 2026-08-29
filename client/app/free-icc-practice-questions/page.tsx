@@ -10,7 +10,6 @@ export const metadata: Metadata = {
     canonical: 'https://inspectpractice.com/free-icc-practice-questions',
     languages: {
       en: 'https://inspectpractice.com/free-icc-practice-questions',
-      fr: 'https://inspectpractice.com/fr',
     },
   },
   openGraph: {

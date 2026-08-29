@@ -177,7 +177,7 @@ function MessageBubble({
               isUser ? 'text-blue-200' : 'text-text-tertiary'
             }`}
           >
-            {new Date(message.createdAt).toLocaleTimeString(locale === 'fr' ? 'fr-CA' : 'en-US', {
+            {new Date(message.createdAt).toLocaleTimeString('en-US', {
               hour: '2-digit',
               minute: '2-digit',
             })}
