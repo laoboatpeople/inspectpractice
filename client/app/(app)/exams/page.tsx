@@ -154,18 +154,18 @@ export default function StudentExamsPage() {
   const [categories, setCategories] = useState<StudentExamCategory[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [ratingFilter, setRatingFilter] = useState<'ALL' | 'M' | 'E' | 'S'>(() => {
+  const [ratingFilter, setRatingFilter] = useState<'ALL' | 'B1' | 'B2' | 'E1' | 'P1' | 'M1'>(() => {
     if (typeof window !== 'undefined') {
       const p = new URLSearchParams(window.location.search).get('rating');
-      if (p === 'M' || p === 'E' || p === 'S' || p === 'ALL') return p;
+      if (p && ['B1', 'B2', 'E1', 'P1', 'M1', 'ALL'].includes(p)) return p as any;
       const s = sessionStorage.getItem('exams_rating');
-      if (s === 'M' || s === 'E' || s === 'S') return s;
+      if (s && ['B1', 'B2', 'E1', 'P1', 'M1'].includes(s)) return s as any;
     }
     return 'ALL';
   });
 
   // Persist rating filter in URL (?rating=) + sessionStorage so it survives back-navigation
-  const selectRating = (r: 'ALL' | 'M' | 'E' | 'S') => {
+  const selectRating = (r: 'ALL' | 'B1' | 'B2' | 'E1' | 'P1' | 'M1') => {
     setRatingFilter(r);
     if (r === 'ALL') sessionStorage.removeItem('exams_rating');
     else sessionStorage.setItem('exams_rating', r);
@@ -175,14 +175,15 @@ export default function StudentExamsPage() {
     window.history.replaceState(null, '', url.toString());
   };
 
-  // Official exam path per licence rating (TP 14038): M1/M2 = SPM+AF+PP+REGS, E = SPE+Electronics+REGS, S = SPS+Structures+REGS
+  // Official exam path per ICC certification: B1/B2/E1/P1/M1 map to their ICC-* exam code
   const matchesRating = useCallback((code: string): boolean => {
     if (ratingFilter === 'ALL') return true;
-    const common = ['ICC-B1'];
-    if (common.includes(code)) return true;
-    if (ratingFilter === 'M') return code.startsWith('ICC-B2');
-    if (ratingFilter === 'E') return code.startsWith('ICC-E1');
-    return code.startsWith('ICC-P1') || code.startsWith('ICC-M1');
+    if (ratingFilter === 'B1') return code.startsWith('ICC-B1');
+    if (ratingFilter === 'B2') return code.startsWith('ICC-B2');
+    if (ratingFilter === 'E1') return code.startsWith('ICC-E1');
+    if (ratingFilter === 'P1') return code.startsWith('ICC-P1');
+    if (ratingFilter === 'M1') return code.startsWith('ICC-M1');
+    return true;
   }, [ratingFilter]);
 
   const fetchCategories = useCallback(async () => {
@@ -340,7 +341,7 @@ export default function StudentExamsPage() {
                     : 'bg-card border border-border text-text-secondary hover:border-blue/40 hover:text-text-primary'
                 }`}
               >
-                {r === 'ALL' ? t('ratingAll') : r === 'M' ? t('ratingM') : r === 'E' ? t('ratingE') : t('ratingS')}
+                {r === 'ALL' ? t('ratingAll') : r}
               </button>
             ))}
           </div>

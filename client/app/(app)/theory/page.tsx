@@ -26,6 +26,7 @@ import {
   ClipboardList,
   ThumbsUp,
   ThumbsDown,
+  Droplets,
 } from 'lucide-react';
 import { useLocale } from '@/src/contexts/LocaleContext';
 import { submitTheoryFeedback, getTheoryFeedback } from '@/lib/student-api';
@@ -56,7 +57,7 @@ interface TheoryCategory {
   chapters: TheoryChapter[];
 }
 
-type SectionColor = 'blue' | 'amber' | 'cyan' | 'purple';
+type SectionColor = 'blue' | 'amber' | 'cyan' | 'purple' | 'green';
 
 const SECTION_STYLES: Record<SectionColor, { bg: string; border: string; text: string; bar: string; icon: React.ReactNode }> = {
   blue: {
@@ -71,6 +72,10 @@ const SECTION_STYLES: Record<SectionColor, { bg: string; border: string; text: s
     bg: 'bg-cyan/10', border: 'border-cyan/20', text: 'text-cyan', bar: 'bg-cyan',
     icon: <Cpu size={20} />,
   },
+  green: {
+    bg: 'bg-green/10', border: 'border-green/20', text: 'text-green', bar: 'bg-green',
+    icon: <Droplets size={20} />,
+  },
   purple: {
     bg: 'bg-purple/10', border: 'border-purple/20', text: 'text-purple', bar: 'bg-purple',
     icon: <Shield size={20} />,
@@ -82,6 +87,7 @@ const COLOR_MAP: Record<SectionColor, string> = {
   amber: 'amber',
   cyan: 'cyan',
   purple: 'purple',
+  green: 'green',
 };
 
 // ─── Simple Markdown Renderer ─────────────────────────────
@@ -839,7 +845,7 @@ export default function TheoryPage() {
   const searchInputRef = useRef<HTMLInputElement>(null);
 
   // ─── Licence rating filter (same pattern as /exams) ────
-  const [licenseFilter, setLicenseFilter] = useState<'ALL' | 'M' | 'E' | 'S'>(() => {
+  const [licenseFilter, setLicenseFilter] = useState<'ALL' | 'B1' | 'B2' | 'E1' | 'P1' | 'M1'>(() => {
     if (typeof window !== 'undefined') {
       const p = new URLSearchParams(window.location.search).get('license');
       if (p === 'M' || p === 'E' || p === 'S' || p === 'ALL') return p;
@@ -850,7 +856,7 @@ export default function TheoryPage() {
   });
 
   // Persist licence filter in URL (?license=) + sessionStorage so it survives back-navigation
-  const selectLicense = (r: 'ALL' | 'M' | 'E' | 'S') => {
+  const selectLicense = (r: 'ALL' | 'B1' | 'B2' | 'E1' | 'P1' | 'M1') => {
     setLicenseFilter(r);
     if (r === 'ALL') sessionStorage.removeItem('theory_license');
     else sessionStorage.setItem('theory_license', r);
@@ -1074,7 +1080,7 @@ export default function TheoryPage() {
                   : 'bg-card border border-border text-text-secondary hover:border-blue/40 hover:text-text-primary'
               }`}
             >
-              {r === 'ALL' ? t('ratingAll') : r === 'M' ? t('ratingM') : r === 'E' ? t('ratingE') : t('ratingS')}
+              {r === 'ALL' ? t('ratingAll') : r}
             </button>
           ))}
         </div>

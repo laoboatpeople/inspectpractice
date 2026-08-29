@@ -240,9 +240,9 @@ export const translations = {
 
     // Rating path selector
     ratingAll: 'All exams',
-    ratingM: 'Licence M (M1/M2)',
-    ratingE: 'Licence E',
-    ratingS: 'Licence S',
+    ratingM: 'B1 — Residential Building',
+    ratingE: 'B2 — Commercial Building',
+    ratingS: 'E1 — Residential Electrical',
     examPathTitle: 'How many exams do you need?',
     examPathM: 'B1 — 1 exam: IRC (60 questions)',
     examPathE: 'E1 — 1 exam: NEC + IRC electrical',
@@ -660,9 +660,9 @@ export const translations = {
 
     // Rating path selector
     ratingAll: 'Tous les examens',
-    ratingM: 'Licence M (M1/M2)',
-    ratingE: 'Licence E',
-    ratingS: 'Licence S',
+    ratingM: 'B1 — Residential Building',
+    ratingE: 'B2 — Commercial Building',
+    ratingS: 'E1 — Residential Electrical',
     examPathTitle: 'Combien d\'examens te faut-il ?',
     examPathM: 'M1/M2 — 4 examens : SPM, AF, PP et REGS',
     examPathE: 'E — 3 examens : SPE, Electronics et REGS',
