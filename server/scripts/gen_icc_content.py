@@ -145,7 +145,9 @@ def main():
                 if not all(k in q for k in ("question", "options", "answer", "explanation")): continue
                 if not isinstance(q["options"], list) or len(q["options"]) != 4: continue
                 if q["answer"] not in "abcd": continue
-                if q["difficulty"] not in ("EASY", "MEDIUM", "HARD"): q["difficulty"] = "MEDIUM"
+                diff = q.get("difficulty", "MEDIUM")
+                if diff not in ("EASY", "MEDIUM", "HARD"): diff = "MEDIUM"
+                q["difficulty"] = diff
                 all_q.append(q)
             print(f"    +{len(batch)} -> {len(all_q)}/{per_chapter}", flush=True)
 
