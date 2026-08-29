@@ -18,7 +18,6 @@ import TestimonialCard from "@/components/marketing/TestimonialCard";
 import PricingCard from "@/components/marketing/PricingCard";
 
 export default function MarketingLandingPage() {
-    const [showCountryModal, setShowCountryModal] = useState(false);
   const msgs: Record<string, unknown> = en;
   const tm = (key: string) => {
     const keys = key.split('.');
@@ -32,23 +31,9 @@ export default function MarketingLandingPage() {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-[#0A0E1A]/80 border-b border-white/5">
         {/* Mini top banner — exam selector modal (Europe EASA / USA FAA cross-promo) */}
-        <button
-          type="button"
-          onClick={() => setShowCountryModal(true)}
-          className="block w-full bg-gradient-to-r from-[#4C7FBF] to-[#4FA3E3] hover:from-[#0891B2] hover:to-[#2563EB] transition-colors"
-        >
-          <div className="max-w-7xl mx-auto px-6 py-2 text-center">
-            <span className="text-xs md:text-sm font-medium text-[#0A0E1A]">
-              Preparing for EUROPE EASA or USA FAA A&amp;P written exams?{" "}
-              <strong>Select your program →</strong>
-            </span>
-          </div>
-        </button>
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#C8102E] to-[#4C7FBF] flex items-center justify-center">
-              <HardHat className="w-5 h-5 text-white" />
-            </div>
+            <img src="/logo/logo-main.png?v=2" alt="Inspect Practice" className="h-9 w-auto" />
             <span className="font-bold text-xl">Inspect Practice</span>
           </div>
           <div className="hidden md:flex items-center gap-8">
@@ -63,12 +48,6 @@ export default function MarketingLandingPage() {
           <div className="flex items-center gap-3">
             <a href="/auth/login" className="px-4 py-2 bg-[#C8102E] hover:bg-[#2563EB] rounded-lg text-sm font-medium transition-colors">
               {tm("nav.signIn")}
-            </a>
-            <a
-              href="/fr"
-              className="px-3 py-1 rounded-full bg-white/10 border border-white/20 hover:bg-white/20 text-sm font-medium transition-colors"
-            >
-              FR
             </a>
           </div>
         </div>
@@ -676,101 +655,6 @@ export default function MarketingLandingPage() {
           </div>
         </div>
       </footer>
-
-      {/* Country/Program Selector Modal */}
-      {showCountryModal && (
-        <div
-          className="fixed inset-0 z-[100] flex items-center justify-center bg-black/80 backdrop-blur-sm p-4"
-          onClick={() => setShowCountryModal(false)}
-        >
-          <div
-            className="relative w-full max-w-lg bg-[#0A0E1A] rounded-2xl border border-white/10 p-6 md:p-8 shadow-2xl"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <button
-              type="button"
-              onClick={() => setShowCountryModal(false)}
-              className="absolute top-4 right-4 text-[#94A3B8] hover:text-white transition-colors"
-              aria-label="Close exam selector"
-            >
-              <X size={20} />
-            </button>
-
-            <h2 className="text-xl md:text-2xl font-bold text-white mb-2">
-              Which exam are you preparing for?
-            </h2>
-            <p className="text-sm text-[#94A3B8] mb-6">
-              Inspect Practice operates dedicated preparation platforms for each certification.
-              Select your exam to continue to the right program.
-            </p>
-
-            <div className="grid gap-3">
-              {/* Europe EASA */}
-              <a
-                href="https://skylicence.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex items-center gap-4 rounded-xl border border-white/10 bg-white/5 p-4 hover:border-[#FFCC00]/60 hover:bg-white/10 transition-colors"
-              >
-                <div className="flex-shrink-0 w-11 h-11 rounded-lg bg-[#FFCC00]/15 flex items-center justify-center">
-                  <Plane size={20} className="text-[#FFCC00]" />
-                </div>
-                <div className="flex-1 min-w-0">
-                  <div className="flex items-center gap-2 mb-0.5">
-                    <span className="text-sm font-semibold text-white">
-                      Preparing for the EUROPE EASA Part-66 Exam
-                    </span>
-                    <span className="text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded bg-[#FFCC00]/20 text-[#FFCC00]">
-                      Europe
-                    </span>
-                  </div>
-                  <p className="text-xs text-[#94A3B8] leading-relaxed">
-                    Complete preparation for EASA Part-66 module exams — categories A, B1, B2
-                    and B3, with 4,500+ practice questions and an AI tutor.
-                  </p>
-                </div>
-                <ChevronRight size={18} className="text-[#94A3B8] group-hover:text-[#FFCC00] flex-shrink-0 transition-colors" />
-              </a>
-
-              {/* USA FAA A&P */}
-              <a
-                href="https://skylicense.cloud"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex items-center gap-4 rounded-xl border border-white/10 bg-white/5 p-4 hover:border-[#4C7FBF]/60 hover:bg-white/10 transition-colors"
-              >
-                <div className="flex-shrink-0 w-11 h-11 rounded-lg bg-[#4C7FBF]/15 flex items-center justify-center">
-                  <Plane size={20} className="text-[#4C7FBF]" />
-                </div>
-                <div className="flex-1 min-w-0">
-                  <div className="flex items-center gap-2 mb-0.5">
-                    <span className="text-sm font-semibold text-white">
-                      Preparing for the USA FAA A&amp;P Exam
-                    </span>
-                    <span className="text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded bg-[#4C7FBF]/20 text-[#4C7FBF]">
-                      USA
-                    </span>
-                  </div>
-                  <p className="text-xs text-[#94A3B8] leading-relaxed">
-                    Complete preparation for the FAA Airframe &amp; Powerplant written tests —
-                    General, Airframe and Powerplant, with 1,600+ practice questions and an
-                    AI tutor.
-                  </p>
-                </div>
-                <ChevronRight size={18} className="text-[#94A3B8] group-hover:text-[#4C7FBF] flex-shrink-0 transition-colors" />
-              </a>
-            </div>
-
-            <p className="text-xs text-[#64748B] mt-5 text-center">
-              Not sure which one applies to you?{" "}
-              <a href="/contact" className="text-[#4FA3E3] hover:underline">
-                Contact us
-              </a>{" "}
-              and we will point you in the right direction.
-            </p>
-          </div>
-        </div>
-      )}
 
       {/* Video Demo Modal */}
     </div>

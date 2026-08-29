@@ -193,15 +193,6 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
               </div>
             </div>
             <button
-              onClick={toggleLocale}
-              className="flex items-center gap-2 w-full px-3 py-2 rounded-lg text-sm text-text-secondary hover:text-blue hover:bg-blue/5 transition-colors mb-1"
-            >
-              <span className="text-xs font-mono w-5 h-5 flex items-center justify-center rounded border border-border">
-                {locale === 'fr' ? 'FR' : 'EN'}
-              </span>
-              <span>{t('language')}</span>
-            </button>
-            <button
               onClick={handleLogout}
               className="flex items-center gap-2 w-full px-3 py-2 rounded-lg text-sm text-text-secondary hover:text-red hover:bg-red/5 transition-colors"
             >

@@ -3,12 +3,17 @@ import type { NextRequest } from 'next/server';
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
-  const isFr = pathname.startsWith('/fr');
+
+  // English-only site: redirect any /fr/* URL to its EN equivalent
+  if (pathname.startsWith('/fr')) {
+    const enPath = pathname.replace(/^\/fr/, '') || '/';
+    return NextResponse.redirect(new URL(enPath, request.url));
+  }
 
   // Set locale on the request so RootLayout can read it via headers()
-  // and set <html lang="fr"> server-side
+  // and set <html lang="en"> server-side
   const requestHeaders = new Headers(request.headers);
-  requestHeaders.set('x-locale', isFr ? 'fr' : 'en');
+  requestHeaders.set('x-locale', 'en');
 
   // Only intercept /admin/* routes for auth check
   if (!pathname.startsWith('/admin')) {
