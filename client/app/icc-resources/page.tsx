@@ -199,7 +199,6 @@ export default function IccResourcesPage() {
             </a>
             <div className="flex items-center gap-4">
               <a href="/faq" className="text-sm text-[#94A3B8] hover:text-white transition-colors">← FAQ</a>
-              <a href="/fr" className="px-3 py-1 rounded-full bg-white/10 border border-white/20 hover:bg-white/20 text-sm font-medium transition-colors">FR</a>
             </div>
           </div>
         </nav>

@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { ArrowLeft, Plane } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 import { BreadcrumbListJsonLd } from '@/components/seo/JsonLd';
 
 export const metadata: Metadata = {
@@ -84,9 +84,7 @@ export default function FrenchTermsPage() {
         <nav className="border-b border-white/10">
           <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
             <Link href="/fr" className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#C8102E] to-[#4C7FBF] flex items-center justify-center">
-                <Plane className="w-5 h-5 text-white" />
-              </div>
+              <img src="/logo/logo-main.png?v=3" alt="Inspect Practice" className="h-8 w-auto" />
               <span className="font-bold text-xl">Inspect Practice</span>
             </Link>
             <Link

@@ -67,7 +67,7 @@ export default async function TheoryChapterPage({ params }: { params: Promise<{ 
       <header className="border-b border-white/5 bg-[#061C33]/80 backdrop-blur-md sticky top-0 z-40">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2" aria-label="InspectPractice home">
-            <img src="/logo/logo-main.png?v=2" alt="InspectPractice" className="h-7 w-auto" />
+            <img src="/logo/logo-main.png?v=3" alt="InspectPractice" className="h-7 w-auto" />
           </Link>
           <nav className="flex items-center gap-4 text-sm">
             <Link href="/theory" className="text-[#D6EAF7] hover:text-[#F6FBFF] transition-colors">All Chapters</Link>

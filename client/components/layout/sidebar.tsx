@@ -60,7 +60,7 @@ export function Sidebar({ mobileOpen, onClose }: { mobileOpen?: boolean; onClose
       {/* Logo */}
       <div className="flex items-center justify-between gap-3 px-5 py-5 border-b border-border">
         <Link href="/app" className="flex items-center gap-3 group">
-          <img src="/logo/logo-main.png?v=2" alt="Inspect Practice" className="h-9 w-auto flex-shrink-0" />
+          <img src="/logo/logo-main.png?v=3" alt="Inspect Practice" className="h-9 w-auto flex-shrink-0" />
           <div>
             <p className="text-sm font-semibold text-text-primary leading-none group-hover:text-blue transition-colors">Inspect Practice</p>
             <p className="text-[10px] text-text-tertiary mt-0.5">ICC Exam Prep</p>

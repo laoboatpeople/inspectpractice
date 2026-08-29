@@ -260,9 +260,7 @@ export default function FreePracticeQuestionsClient() {
       <nav className="border-b border-white/5 bg-[#0A0E1A]/80 backdrop-blur-md">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2">
-            <div className="w-7 h-7 rounded bg-gradient-to-br from-[#C8102E] to-[#4C7FBF] flex items-center justify-center">
-              <span className="text-white text-[10px] font-bold">IP</span>
-            </div>
+            <img src="/logo/logo-main.png?v=3" alt="Inspect Practice" className="h-7 w-auto" />
             <span className="font-bold text-lg">Inspect Practice</span>
           </a>
           <a href="/blog" className="text-sm text-[#94A3B8] hover:text-white transition-colors">

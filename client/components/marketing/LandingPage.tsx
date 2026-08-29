@@ -7,7 +7,7 @@ import {
   Sparkles, FileText, BarChart3, Brain, Users, 
   TrendingUp, MessageCircle, Plane, Smartphone, Monitor, 
   Clock, Target, Zap, ChevronRight, Play, Shield,
-  Linkedin, Instagram, Check, Briefcase, LogIn, X, HardHat
+  Linkedin, Instagram, Check, Briefcase, LogIn, X
 } from "lucide-react";
 import AppMockup from "@/components/marketing/AppMockup";
 import NewsletterSection from "@/components/marketing/NewsletterSection";
@@ -33,7 +33,7 @@ export default function MarketingLandingPage() {
         {/* Mini top banner — exam selector modal (Europe EASA / USA FAA cross-promo) */}
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <img src="/logo/logo-main.png?v=2" alt="Inspect Practice" className="h-9 w-auto" />
+            <img src="/logo/logo-main.png?v=3" alt="Inspect Practice" className="h-9 w-auto" />
             <span className="font-bold text-xl">Inspect Practice</span>
           </div>
           <div className="hidden md:flex items-center gap-8">
@@ -577,9 +577,7 @@ export default function MarketingLandingPage() {
           <div className="grid md:grid-cols-4 gap-8 mb-12">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#C8102E] to-[#4C7FBF] flex items-center justify-center">
-                  <HardHat className="w-5 h-5 text-white" />
-                </div>
+                <img src="/logo/logo-main.png?v=3" alt="Inspect Practice" className="h-8 w-auto" />
                 <span className="font-bold text-xl">Inspect Practice</span>
               </div>
               <p className="text-sm text-[#94A3B8]">
