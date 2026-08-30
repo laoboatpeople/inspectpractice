@@ -675,7 +675,7 @@ export default function MarketingLandingPage() {
               controls
               autoPlay
               playsInline
-              src="/videos/inspectpractice-demo-en.mp4?v=2"
+              src="/videos/inspectpractice-demo-en.mp4?v=3"
             />
             <div className="px-4 pb-3 pt-2 text-center">
               <span className="text-xs text-[#94A3B8]">
