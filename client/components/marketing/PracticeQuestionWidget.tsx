@@ -185,7 +185,7 @@ export default function PracticeQuestionWidget() {
 
   return (
     <section className="py-20 px-6 relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-[#4C7FBF]/5 via-transparent to-[#C8102E]/5" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#176B87]/5 via-transparent to-[#176B87]/5" />
       <div className="relative z-10 max-w-3xl mx-auto">
         {/* Heading */}
         <motion.div
@@ -197,11 +197,11 @@ export default function PracticeQuestionWidget() {
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-3">
             🔥{' '}
-            <span className="bg-gradient-to-r from-[#C8102E] to-[#4C7FBF] bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-[#176B87] to-[#176B87] bg-clip-text text-transparent">
               {isFr ? 'Essayez une vraie question ICC' : 'Try a Real ICC Question'}
             </span>
           </h2>
-          <p className="text-[#94A3B8] max-w-xl mx-auto">
+          <p className="text-[#586A73] max-w-xl mx-auto">
             {isFr
               ? 'Découvrez comment Inspect Practice vous prépare aux examens ICC à livre ouvert. Sélectionnez votre réponse ci-dessous pour tester vos connaissances.'
               : 'See how Inspect Practice prepares you for ICC open-book exams. Select your answer below to test your knowledge.'}
@@ -214,20 +214,20 @@ export default function PracticeQuestionWidget() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
           viewport={{ once: true }}
-          className="rounded-2xl border border-white/10 bg-gradient-to-br from-[#1A2035] to-[#0A0E1A] p-6 md:p-8 shadow-xl"
+          className="rounded-2xl border border-[#DCE4E7] bg-white shadow-[0_8px_24px_rgba(7,29,43,0.07)] p-6 md:p-8"
         >
           {/* Topic badge */}
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-[#C8102E]/20 text-[#C8102E] text-xs font-bold">
+            <span className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-[#176B87]/20 text-[#176B87] text-xs font-bold">
               ?
             </span>
-            <span className="text-xs font-semibold text-[#C8102E] uppercase tracking-wider">
+            <span className="text-xs font-semibold text-[#176B87] uppercase tracking-wider">
               {question.topic}
             </span>
           </div>
 
           {/* Question stem */}
-          <p className="text-sm md:text-base text-[#F8FAFC] font-medium leading-relaxed mb-6">
+          <p className="text-sm md:text-base text-[#102631] font-medium leading-relaxed mb-6">
             {question.stem}
           </p>
 
@@ -235,17 +235,17 @@ export default function PracticeQuestionWidget() {
           <div className="space-y-3">
             {question.options.map((opt, idx) => {
               let optionStyle =
-                'border border-white/10 bg-white/[0.03] hover:border-[#C8102E]/30 hover:bg-white/[0.06]';
+                'border border-[#DCE4E7] bg-white hover:border-[#176B87]/40 hover:bg-[#F4F7F8]';
 
               if (!answered) {
                 optionStyle =
-                  'border border-white/10 bg-white/[0.03] hover:border-[#C8102E]/30 hover:bg-white/[0.06] cursor-pointer';
+                  'border border-[#DCE4E7] bg-white hover:border-[#176B87]/40 hover:bg-[#F4F7F8] cursor-pointer';
               } else if (idx === question.correctIndex) {
                 optionStyle = 'border border-green bg-green/10';
               } else if (idx === selectedIndex && !isCorrect) {
                 optionStyle = 'border border-red bg-red/10';
               } else {
-                optionStyle = 'border border-white/5 bg-white/[0.02] opacity-50';
+                optionStyle = 'border border-[#DCE4E7] bg-[#F4F7F8] opacity-50';
               }
 
               return (
@@ -262,12 +262,12 @@ export default function PracticeQuestionWidget() {
                           ? 'bg-green text-white'
                           : answered && idx === selectedIndex && !isCorrect
                           ? 'bg-red text-white'
-                          : 'bg-white/10 text-[#94A3B8]'
+                          : 'bg-white/10 text-[#586A73]'
                       }`}
                     >
                       {String.fromCharCode(65 + idx)}
                     </span>
-                    <span className="text-sm md:text-sm text-[#94A3B8] leading-relaxed">
+                    <span className="text-sm md:text-sm text-[#586A73] leading-relaxed">
                       {opt}
                     </span>
                     {answered && idx === question.correctIndex && (
@@ -303,11 +303,11 @@ export default function PracticeQuestionWidget() {
                     ? (isFr ? '✅ Correct !' : '✅ Correct!')
                     : (isFr ? '❌ Pas tout à fait.' : '❌ Not quite.')}
                 </p>
-                <p className="text-xs md:text-sm text-[#94A3B8] leading-relaxed">
+                <p className="text-xs md:text-sm text-[#586A73] leading-relaxed">
                   {question.explanation}
                 </p>
                 {question.ref && (
-                  <p className="text-xs text-[#64748B] mt-2 italic">
+                  <p className="text-xs text-[#7A8B94] mt-2 italic">
                     {isFr ? 'Référence : ' : 'Reference: '}{question.ref}
                   </p>
                 )}
@@ -317,14 +317,14 @@ export default function PracticeQuestionWidget() {
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
                 <a
                   href="/auth/register"
-                  className="group inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-[#C8102E] to-[#4C7FBF] text-white text-sm font-semibold hover:shadow-[0_0_25px_rgba(59,130,246,0.3)] transition-all duration-300"
+                  className="group inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-[#176B87] to-[#176B87] text-white text-sm font-semibold hover:shadow-[0_0_25px_rgba(23,107,135,0.3)] transition-all duration-300"
                 >
                   {isFr ? 'Envie d\'en voir plus ? → Commencer gratuitement' : 'Want to see more? → Start Free'}
                   <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </a>
                 <a
                   href={isFr ? '/fr/blog' : 'https://inspectpractice.com/free-icc-practice-questions'}
-                  className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl border border-white/10 hover:bg-white/5 text-[#94A3B8] hover:text-white text-sm font-medium transition-all duration-300"
+                  className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl border border-[#DCE4E7] hover:bg-[#F4F7F8] text-[#586A73] hover:text-[#102631] text-sm font-medium transition-all duration-300"
                 >
                   📄 {isFr ? 'Télécharger les questions ICC gratuites' : 'Download Free ICC questions'}
                 </a>

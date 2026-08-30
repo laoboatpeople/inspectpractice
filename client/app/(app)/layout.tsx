@@ -9,7 +9,7 @@ import {
   BookMarked,
   MessageSquare,
   CreditCard,
-  Plane,
+  Building2,
   LogOut,
   User,
   ChevronRight,
@@ -105,9 +105,9 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-primary flex items-center justify-center">
+      <div className="min-h-screen bg-secondary flex items-center justify-center">
         <div className="flex flex-col items-center gap-3">
-          <Plane size={32} className="text-blue animate-pulse" />
+          <Building2 size={32} className="text-blue animate-pulse" />
           <p className="text-text-secondary text-sm">{t('loading')}</p>
         </div>
       </div>
@@ -117,7 +117,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
   if (!user) return null;
 
   return (
-    <div className="min-h-screen bg-primary text-text-primary">
+    <div className="min-h-screen bg-secondary text-text-primary">
       {/* Mobile sidebar overlay */}
       {sidebarOpen && (
         <div
@@ -128,7 +128,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
 
       {/* Sidebar */}
       <aside
-        className={`fixed top-0 left-0 z-50 h-full w-64 bg-[#0A0E1A] border-r border-border transform transition-transform duration-200 ease-in-out lg:translate-x-0 ${
+        className={`fixed top-0 left-0 z-50 h-full w-64 bg-white border-r border-[#DCE4E7] transform transition-transform duration-200 ease-in-out lg:translate-x-0 ${
           sidebarOpen ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
@@ -137,7 +137,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           <div className="flex items-center justify-between px-6 py-5 border-b border-border">
             <Link href="/app" className="flex items-center gap-3">
               <div className="w-8 h-8 rounded-lg bg-blue flex items-center justify-center">
-                <Plane size={16} className="text-white" />
+                <Building2 size={16} className="text-white" />
               </div>
               <span className="text-lg font-bold text-text-primary">Inspect Practice</span>
             </Link>
@@ -206,7 +206,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
       {/* Main content */}
       <div className="lg:pl-64">
         {/* Top bar */}
-        <header className="sticky top-0 z-30 bg-primary border-b border-border">
+        <header className="sticky top-0 z-30 bg-white border-b border-[#DCE4E7]">
           <div className="flex items-center justify-between px-4 py-3">
             <button
               className="lg:hidden text-text-secondary hover:text-text-primary"
@@ -220,8 +220,8 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
         {/* Page content */}
         <main className="p-4 md:p-6 lg:p-8">
           {impersonation && (
-            <div className="mb-4 flex items-center justify-between gap-3 px-4 py-3 rounded-xl border border-[#F59E0B]/30 bg-[#F59E0B]/10">
-              <div className="flex items-center gap-2.5 text-sm text-[#F59E0B] min-w-0">
+            <div className="mb-4 flex items-center justify-between gap-3 px-4 py-3 rounded-xl border border-[#F5B942]/30 bg-[#F5B942]/10">
+              <div className="flex items-center gap-2.5 text-sm text-[#F5B942] min-w-0">
                 <Eye size={16} className="flex-shrink-0" />
                 <span className="truncate">
                   {`View-as mode — viewing ${impersonation.name}'s dashboard (${impersonation.email})`}
@@ -229,7 +229,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
               </div>
               <button
                 onClick={handleExitImpersonation}
-                className="flex-shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-[#F59E0B] hover:bg-[#D97706] text-white transition-colors"
+                className="flex-shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-[#F5B942] hover:bg-[#E0A93C] text-[#071D2B] transition-colors"
               >
                 <X size={13} />
                 {'Exit view-as'}

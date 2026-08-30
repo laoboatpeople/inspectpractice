@@ -55,7 +55,7 @@ export function StickyCtaBanner() {
         <div className="max-w-5xl mx-auto flex items-center justify-between gap-4">
           <div className="flex-1 min-w-0">
             <p className="text-sm font-medium text-white">🏗️ <strong>{isFr ? "Questions d'entraînement ICC gratuites" : 'Free ICC practice questions'}</strong></p>
-            <p className="text-xs text-[#94A3B8] hidden sm:block mt-0.5">
+            <p className="text-xs text-[#586A73] hidden sm:block mt-0.5">
               {isFr ? 'Testez vos connaissances avec de vraies questions de style ICC à livre ouvert' : 'Test your knowledge with real ICC-style open-book code questions'}
             </p>
           </div>
@@ -70,12 +70,12 @@ export function StickyCtaBanner() {
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder={isFr ? 'Votre courriel' : 'Your email'}
                 required
-                className="w-44 sm:w-56 px-3 py-1.5 text-sm bg-[#1E293B] border border-[#2D3A52] rounded-lg text-white placeholder-[#64748B] focus:outline-none focus:border-[#C8102E]"
+                className="w-44 sm:w-56 px-3 py-1.5 text-sm bg-[#1E293B] border border-[#DCE4E7] rounded-lg text-white placeholder-[#7A8B94] focus:outline-none focus:border-[#176B87]"
               />
               <button
                 type="submit"
                 disabled={status === 'loading'}
-                className="px-4 py-1.5 text-sm font-medium bg-[#C8102E] text-white rounded-lg hover:bg-[#2563EB] transition-colors disabled:opacity-50 shrink-0"
+                className="px-4 py-1.5 text-sm font-medium bg-[#176B87] text-white rounded-lg hover:bg-[#176B87] transition-colors disabled:opacity-50 shrink-0"
               >
                 {status === 'loading' ? '...' : isFr ? 'Obtenir des questions gratuites' : 'Get Free Questions'}
               </button>
@@ -84,7 +84,7 @@ export function StickyCtaBanner() {
 
           <button
             onClick={() => setDismissed(true)}
-            className="text-[#64748B] hover:text-white transition-colors shrink-0"
+            className="text-[#7A8B94] hover:text-white transition-colors shrink-0"
             aria-label={isFr ? 'Fermer' : 'Close'}
           >
             <X size={18} />

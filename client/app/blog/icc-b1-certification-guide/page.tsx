@@ -54,14 +54,14 @@ export default function IccB1CertificationGuidePage() {
           { name: 'How to Get Your ICC B1 Certification', url: 'https://inspectpractice.com/blog/icc-b1-certification-guide' },
         ]}
       />
-      <div className="min-h-screen bg-[#0A0E1A] text-[#F8FAFC]">
-        <nav className="border-b border-white/5 bg-[#0A0E1A]/80 backdrop-blur-md">
+      <div className="min-h-screen bg-[#F4F7F8] text-[#102631]">
+        <nav className="border-b border-[#DCE4E7] bg-[#071D2B]/95 backdrop-blur-md">
           <div className="max-w-3xl mx-auto px-6 py-4 flex items-center justify-between">
             <a href="/" className="flex items-center gap-2">
-              <img src="/logo/logo-main.png?v=3" alt="Inspect Practice" className="h-7 w-auto" />
+              <img src="/logo/logo-main.png?v=4" alt="Inspect Practice" className="h-7 w-auto" />
             </a>
             <div className="flex items-center gap-4">
-              <a href="/blog" className="text-sm text-[#94A3B8] hover:text-white transition-colors">← Blog</a>
+              <a href="/blog" className="text-sm text-[#586A73] hover:text-[#CBEA32] transition-colors">← Blog</a>
             </div>
           </div>
         </nav>
@@ -69,12 +69,12 @@ export default function IccB1CertificationGuidePage() {
         <article className="max-w-3xl mx-auto px-6 pt-16 pb-24">
           <header className="mb-12">
             <div className="flex items-center gap-3 mb-4">
-              <span className="text-[11px] font-medium text-[#3B82F6] bg-[#3B82F6]/10 px-2 py-1 rounded">Certification</span>
-              <span className="text-xs text-[#64748B]">March 15, 2025 *updated August 18, 2026</span>
-              <span className="text-xs text-[#64748B]">· 10 min read</span>
+              <span className="text-[11px] font-medium text-[#176B87] bg-[#176B87]/10 px-2 py-1 rounded">Certification</span>
+              <span className="text-xs text-[#7A8B94]">March 15, 2025 *updated August 18, 2026</span>
+              <span className="text-xs text-[#7A8B94]">· 10 min read</span>
             </div>
             <h1 className="text-3xl md:text-4xl font-bold mb-4">How to Get Your ICC B1 Residential Building Inspector Certification</h1>
-            <p className="text-lg text-[#94A3B8]">
+            <p className="text-lg text-[#586A73]">
               Earning the ICC B1 Residential Building Inspector certification proves you can inspect one- and
               two-family dwellings against the International Residential Code (IRC). The exam is open book, so
               success comes from knowing where to look in the code — not from memorizing it. This guide covers
@@ -84,17 +84,17 @@ export default function IccB1CertificationGuidePage() {
 
           {/* Author byline */}
           <div className="flex items-center gap-3 mb-8 pb-6 border-b border-white/5">
-            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#3B82F6] to-[#06B6D4] flex items-center justify-center text-white font-bold text-sm">
+            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#176B87] to-[#123B52] flex items-center justify-center text-white font-bold text-sm">
               IP
             </div>
             <div>
-              <p className="text-sm font-medium text-[#F8FAFC]">Inspect Practice Team</p>
-              <p className="text-xs text-[#64748B]">ICC exam preparation specialists — helping building inspectors earn their certifications since 2025</p>
+              <p className="text-sm font-medium text-[#102631]">Inspect Practice Team</p>
+              <p className="text-xs text-[#7A8B94]">ICC exam preparation specialists — helping building inspectors earn their certifications since 2025</p>
             </div>
           </div>
 
-          <div className="prose prose-invert max-w-none text-[#CBD5E1] leading-relaxed space-y-6">
-            <h2 className="text-xl font-semibold text-[#F8FAFC] mt-10">What Is the ICC B1 Certification?</h2>
+          <div className="prose prose-invert max-w-none text-[#DCE4E7] leading-relaxed space-y-6">
+            <h2 className="text-xl font-semibold text-[#102631] mt-10">What Is the ICC B1 Certification?</h2>
             <p>
               The International Code Council (ICC) B1 certification is the standard credential for residential
               building inspectors in the United States. B1-certified inspectors are qualified to perform plan
@@ -108,7 +108,7 @@ export default function IccB1CertificationGuidePage() {
               (commercial) certification and the E1, P1, and M1 trade certifications.
             </p>
 
-            <h2 className="text-xl font-semibold text-[#F8FAFC] mt-10">Step 1: Meet the Basic Requirements</h2>
+            <h2 className="text-xl font-semibold text-[#102631] mt-10">Step 1: Meet the Basic Requirements</h2>
             <p>Before you can sit for the B1 exam, make sure you meet these foundational eligibility criteria:</p>
             <ul className="list-disc pl-6 space-y-2">
               <li><strong>No formal education requirement</strong> — ICC certifications do not require a degree. Many inspectors enter the field from construction, home inspection, engineering technology, or code enforcement.</li>
@@ -116,7 +116,7 @@ export default function IccB1CertificationGuidePage() {
               <li><strong>Work experience verification</strong> — some jurisdictions and employers ask for documented field experience; the ICC exam itself does not gate you on it.</li>
             </ul>
 
-            <h2 className="text-xl font-semibold text-[#F8FAFC] mt-10">Step 2: Understand the Exam Format</h2>
+            <h2 className="text-xl font-semibold text-[#102631] mt-10">Step 2: Understand the Exam Format</h2>
             <p>
               The B1 exam is an <strong>open-book, multiple-choice exam</strong> administered by ICC. Knowing the
               format in advance removes most of the exam-day anxiety:
@@ -134,7 +134,7 @@ export default function IccB1CertificationGuidePage() {
               energy efficiency (Ch. 11).
             </p>
 
-            <h2 className="text-xl font-semibold text-[#F8FAFC] mt-10">Step 3: Master Open-Book Code Navigation</h2>
+            <h2 className="text-xl font-semibold text-[#102631] mt-10">Step 3: Master Open-Book Code Navigation</h2>
             <p>
               The B1 exam does not test whether you have memorized the IRC — it tests whether you can find the
               right section quickly. Here is how to build that skill:
@@ -147,12 +147,12 @@ export default function IccB1CertificationGuidePage() {
             </ul>
             <p>
               For a full walkthrough of the code's structure, see our{' '}
-              <a href="/blog/irc-study-guide" className="text-[#3B82F6] hover:text-[#60A5FA] transition-colors">
+              <a href="/blog/irc-study-guide" className="text-[#176B87] hover:text-[#4794B8] transition-colors">
                 IRC study guide
               </a>.
             </p>
 
-            <h2 className="text-xl font-semibold text-[#F8FAFC] mt-10">Step 4: Build a Study Plan Around Practice Questions</h2>
+            <h2 className="text-xl font-semibold text-[#102631] mt-10">Step 4: Build a Study Plan Around Practice Questions</h2>
             <p>
               Because the exam is open book, passive reading is the least efficient way to prepare. The fastest
               path is active practice with exam-style questions that force you to open the code:
@@ -166,13 +166,13 @@ export default function IccB1CertificationGuidePage() {
             <p>
               Inspect Practice mirrors the real B1 format: open-book style questions with code references,
               adaptive difficulty, and full-length simulations. Try{' '}
-              <a href="/free-icc-practice-questions" className="text-[#3B82F6] hover:text-[#60A5FA] transition-colors">
+              <a href="/free-icc-practice-questions" className="text-[#176B87] hover:text-[#4794B8] transition-colors">
                 free ICC practice questions
               </a>{' '}
               to see the format before you commit to a plan.
             </p>
 
-            <h2 className="text-xl font-semibold text-[#F8FAFC] mt-10">Step 5: Register and Take the Exam</h2>
+            <h2 className="text-xl font-semibold text-[#102631] mt-10">Step 5: Register and Take the Exam</h2>
             <p>
               Once you feel ready, register for the B1 exam through the ICC. You can take the exam at an ICC
               computer-based testing center or via ICC's remote proctoring. Bring your current edition of the IRC
@@ -184,7 +184,7 @@ export default function IccB1CertificationGuidePage() {
               <li><strong>Trust your code navigation</strong> — if you practiced lookups, the section will be where you expect it.</li>
             </ul>
 
-            <h2 className="text-xl font-semibold text-[#F8FAFC] mt-10">How Long Does It Take to Get B1?</h2>
+            <h2 className="text-xl font-semibold text-[#102631] mt-10">How Long Does It Take to Get B1?</h2>
             <p>
               Most candidates pass B1 with <strong>4 to 8 weeks</strong> of focused preparation, studying 45–60
               minutes per day. Candidates coming from construction or home inspection backgrounds often need less
@@ -192,7 +192,7 @@ export default function IccB1CertificationGuidePage() {
               language and layout. Plan an extra 2–3 weeks if you are new to the IRC entirely.
             </p>
 
-            <h2 className="text-xl font-semibold text-[#F8FAFC] mt-10">After B1: Your Certification Path</h2>
+            <h2 className="text-xl font-semibold text-[#102631] mt-10">After B1: Your Certification Path</h2>
             <p>
               The B1 certification is the foundation of a broader credential set. Many inspectors go on to add:
             </p>

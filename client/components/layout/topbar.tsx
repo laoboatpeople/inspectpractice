@@ -46,7 +46,7 @@ export function TopBar({ onMenuToggle }: { onMenuToggle?: () => void }) {
   }
 
   return (
-    <header className="h-14 flex items-center justify-between px-4 md:px-6 border-b border-border bg-primary flex-shrink-0">
+    <header className="h-14 flex items-center justify-between px-4 md:px-6 border-b border-[#DCE4E7] bg-white flex-shrink-0">
       {/* Breadcrumb */}
       <div className="flex items-center gap-1.5 text-sm text-text-secondary">
         {onMenuToggle && (

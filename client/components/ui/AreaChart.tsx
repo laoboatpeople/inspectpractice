@@ -25,7 +25,7 @@ export interface AreaChartProps {
   gradientId?: string;
 }
 
-const defaultColors = ['#C8102E', '#10B981', '#F59E0B', '#EF4444', '#8B5CF6', '#4C7FBF'];
+const defaultColors = ['#176B87', '#55A630', '#F5B942', '#D9534F', '#176B87', '#176B87'];
 
 const CustomTooltip: React.FC<{
   active?: boolean;
@@ -144,19 +144,19 @@ const AreaChart: React.FC<AreaChartProps> = ({
             {showGrid && (
               <CartesianGrid
                 strokeDasharray="3 3"
-                stroke="#2D3A52"
+                stroke="#DCE4E7"
                 vertical={false}
               />
             )}
             <XAxis
               dataKey={xAxisKey}
-              stroke="#64748B"
+              stroke="#7A8B94"
               fontSize={12}
               tickLine={false}
               axisLine={false}
             />
             <YAxis
-              stroke="#64748B"
+              stroke="#7A8B94"
               fontSize={12}
               tickLine={false}
               axisLine={false}

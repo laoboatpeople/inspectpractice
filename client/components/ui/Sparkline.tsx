@@ -13,7 +13,7 @@ export interface SparklineProps {
 
 export function Sparkline({
   data,
-  color = '#C8102E',
+  color = '#176B87',
   width = 80,
   height = 32,
   className,

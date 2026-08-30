@@ -37,16 +37,16 @@ export default function ContactPage() {
           { name: 'Contact', url: 'https://inspectpractice.com/contact' },
         ]}
       />
-      <div className="min-h-screen bg-[#0A0E1A] text-[#F8FAFC]">
+      <div className="min-h-screen bg-[#F4F7F8] text-[#102631]">
       {/* Nav */}
-      <nav className="border-b border-white/5 bg-[#0A0E1A]/80 backdrop-blur-md">
+      <nav className="border-b border-[#DCE4E7] bg-[#071D2B]/95 backdrop-blur-md">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2">
-            <img src="/logo/logo-main.png?v=3" alt="Inspect Practice" className="h-7 w-auto" />
+            <img src="/logo/logo-main.png?v=4" alt="Inspect Practice" className="h-7 w-auto" />
           </a>
           <a
             href="/"
-            className="text-sm text-[#94A3B8] hover:text-white transition-colors"
+            className="text-sm text-[#586A73] hover:text-[#CBEA32] transition-colors"
           >
             ← Home
           </a>
@@ -57,7 +57,7 @@ export default function ContactPage() {
       <div className="max-w-lg mx-auto px-6 pt-16 pb-24">
         <div className="text-center mb-10">
           <h1 className="text-3xl md:text-4xl font-bold mb-3">Contact Us</h1>
-          <p className="text-[#94A3B8]">
+          <p className="text-[#586A73]">
             Have a question about ICC exam prep, your account, or the platform? Send us a message and we&apos;ll get back to you.
           </p>
         </div>

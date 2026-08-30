@@ -26,13 +26,13 @@ export default function PricingCard({ name, price, period, description, features
       viewport={{ once: true }}
       className={`relative rounded-2xl p-6 ${
         isFeatured
-          ? 'bg-gradient-to-b from-blue-500/10 to-purple-500/10 border-2 border-blue-500/50 shadow-[0_0_60px-rgba(59,130,246,0.25)]'
-          : 'backdrop-blur-md bg-white/5 border border-white/10'
+          ? 'bg-white border-2 border-[#CBEA32] shadow-[0_0_60px_rgba(203,234,50,0.25)]'
+          : 'bg-white border border-[#DCE4E7] shadow-[0_8px_24px_rgba(7,29,43,0.07)] hover:shadow-[0_12px_32px_rgba(7,29,43,0.12)]'
       }`}
     >
       {isFeatured && (
         <div className="absolute -top-3 left-1/2 -translate-x-1/2 whitespace-nowrap">
-          <div className="px-4 py-1 rounded-full text-[11px] font-semibold text-white/70 border border-white/20 bg-white/[0.04] backdrop-blur-sm tracking-wider uppercase whitespace-nowrap">
+          <div className="px-4 py-1 rounded-full text-[11px] font-bold text-[#071D2B] bg-[#CBEA32] tracking-wider uppercase whitespace-nowrap">
             {badgeText}
           </div>
         </div>
@@ -47,8 +47,8 @@ export default function PricingCard({ name, price, period, description, features
         <ul className="space-y-3 mb-6">
           {features.map((feature, i) => (
             <li key={i} className="flex items-center gap-3 text-sm text-text-secondary">
-              <div className="w-5 h-5 rounded-full bg-green-500/20 flex items-center justify-center flex-shrink-0">
-                <Check className="w-3 h-3 text-green-400" />
+              <div className="w-5 h-5 rounded-full bg-[#55A630]/15 flex items-center justify-center flex-shrink-0">
+                <Check className="w-3 h-3 text-[#55A630]" />
               </div>
               {feature}
             </li>
@@ -57,13 +57,13 @@ export default function PricingCard({ name, price, period, description, features
         {buttonHref ? (
           <Link
             href={buttonHref}
-            className="block w-full text-center py-3 px-6 rounded-lg font-semibold transition-all duration-300 bg-gradient-to-r from-[#C8102E] to-[#4C7FBF] text-white hover:opacity-90 hover:shadow-[0_0_20px_rgba(59,130,246,0.4)]"
+            className="block w-full text-center py-3 px-6 rounded-lg font-semibold transition-all duration-300 bg-[#CBEA32] text-[#071D2B] hover:bg-[#B5D51F] hover:shadow-[0_0_20px_rgba(203,234,50,0.4)]"
           >
             {buttonLabel}
           </Link>
         ) : (
           <button
-            className="w-full py-3 px-6 rounded-lg font-semibold transition-all duration-300 bg-gradient-to-r from-[#C8102E] to-[#4C7FBF] text-white hover:opacity-90 hover:shadow-[0_0_20px_rgba(59,130,246,0.4)]"
+            className="w-full py-3 px-6 rounded-lg font-semibold transition-all duration-300 bg-[#CBEA32] text-[#071D2B] hover:bg-[#B5D51F] hover:shadow-[0_0_20px_rgba(203,234,50,0.4)]"
           >
             {buttonLabel}
           </button>

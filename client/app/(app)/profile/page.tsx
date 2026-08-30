@@ -354,7 +354,7 @@ export default function ProfilePage() {
                   type="text"
                   value={editName}
                   onChange={(e) => setEditName(e.target.value)}
-                  className="w-full bg-[#0A0E1A] text-text-primary rounded-btn px-3 py-2 text-sm border border-border focus:outline-none focus:border-blue transition-colors"
+                  className="w-full bg-[#071D2B] text-text-primary rounded-btn px-3 py-2 text-sm border border-border focus:outline-none focus:border-blue transition-colors"
                   placeholder={t('namePlaceholder')}
                 />
                 <div className="relative">
@@ -363,7 +363,7 @@ export default function ProfilePage() {
                     type="email"
                     value={editEmail}
                     onChange={(e) => setEditEmail(e.target.value)}
-                    className="w-full bg-[#0A0E1A] text-text-primary rounded-btn pl-9 pr-3 py-2 text-sm border border-border focus:outline-none focus:border-blue transition-colors"
+                    className="w-full bg-[#071D2B] text-text-primary rounded-btn pl-9 pr-3 py-2 text-sm border border-border focus:outline-none focus:border-blue transition-colors"
                     placeholder={t('emailPlaceholder')}
                   />
                 </div>
@@ -520,7 +520,7 @@ export default function ProfilePage() {
                   type={showCurPw ? 'text' : 'password'}
                   value={currentPassword}
                   onChange={(e) => setCurrentPassword(e.target.value)}
-                  className="w-full bg-[#0A0E1A] text-text-primary rounded-btn px-4 py-2.5 pr-10 text-sm border border-border focus:outline-none focus:border-blue transition-colors"
+                  className="w-full bg-[#071D2B] text-text-primary rounded-btn px-4 py-2.5 pr-10 text-sm border border-border focus:outline-none focus:border-blue transition-colors"
                   required
                 />
                 <button
@@ -543,7 +543,7 @@ export default function ProfilePage() {
                   type={showNewPw ? 'text' : 'password'}
                   value={newPassword}
                   onChange={(e) => setNewPassword(e.target.value)}
-                  className="w-full bg-[#0A0E1A] text-text-primary rounded-btn px-4 py-2.5 pr-10 text-sm border border-border focus:outline-none focus:border-blue transition-colors"
+                  className="w-full bg-[#071D2B] text-text-primary rounded-btn px-4 py-2.5 pr-10 text-sm border border-border focus:outline-none focus:border-blue transition-colors"
                   required
                   minLength={8}
                 />
@@ -567,7 +567,7 @@ export default function ProfilePage() {
                   type={showConfPw ? 'text' : 'password'}
                   value={confirmPassword}
                   onChange={(e) => setConfirmPassword(e.target.value)}
-                  className="w-full bg-[#0A0E1A] text-text-primary rounded-btn px-4 py-2.5 pr-10 text-sm border border-border focus:outline-none focus:border-blue transition-colors"
+                  className="w-full bg-[#071D2B] text-text-primary rounded-btn px-4 py-2.5 pr-10 text-sm border border-border focus:outline-none focus:border-blue transition-colors"
                   required
                   minLength={8}
                 />

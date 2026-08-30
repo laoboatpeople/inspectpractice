@@ -98,7 +98,7 @@ export default function RelatedStudyPlatforms() {
   const platforms = isFr ? FR_PLATFORMS : EN_PLATFORMS;
 
   return (
-    <div className="mt-12 border-t border-white/10 pt-10">
+    <div className="mt-12 border-t border-[#DCE4E7] pt-10">
       <h2 className="text-xl font-bold mb-5">
         {isFr ? 'Plateformes d\'étude connexes' : 'Related Study Platforms'}
       </h2>
@@ -109,7 +109,7 @@ export default function RelatedStudyPlatforms() {
             href={p.href}
             target="_blank"
             rel="noopener noreferrer"
-            className="group p-5 rounded-xl border border-white/10 bg-white/[0.02] hover:bg-white/[0.05] transition-all"
+            className="group p-5 rounded-xl border border-[#DCE4E7] bg-white shadow-[0_8px_24px_rgba(7,29,43,0.07)] hover:shadow-[0_12px_32px_rgba(7,29,43,0.12)] hover:-translate-y-0.5 transition-all"
             style={{ ['--hover-border' as string]: p.color }}
             onMouseEnter={(e) => {
               (e.currentTarget as HTMLElement).style.borderColor = `${p.color}30`;
@@ -121,7 +121,7 @@ export default function RelatedStudyPlatforms() {
             <h3 className="text-lg font-semibold mb-1 group-hover:!text-[var(--hover-border)] transition-colors" style={{ color: 'inherit' }}>
               <span style={{ color: p.color }}>{p.name}</span>
             </h3>
-            <p className="text-sm text-[#94A3B8] mb-2">{p.desc}</p>
+            <p className="text-sm text-[#586A73] mb-2">{p.desc}</p>
             <span className="text-sm font-medium" style={{ color: p.color }}>
               {p.href.replace('https://', '')} →
             </span>

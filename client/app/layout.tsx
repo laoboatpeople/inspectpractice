@@ -1,8 +1,16 @@
 import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
 import { headers } from 'next/headers';
 import './globals.css';
 import Providers from './providers';
 import { OrganizationJsonLd, WebSiteJsonLd, ProductJsonLd, CourseJsonLd } from '@/components/seo/JsonLd';
+
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700', '800'],
+  variable: '--font-inter',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   title: 'Inspect Practice',
@@ -40,7 +48,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="alternate" hrefLang="en" href="https://inspectpractice.com" />
         <link rel="alternate" hrefLang="x-default" href="https://inspectpractice.com" />
       </head>
-      <body>
+      <body className={inter.variable}>
         <OrganizationJsonLd />
         <WebSiteJsonLd />
         <ProductJsonLd />

@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { Eye, EyeOff, Mail, Lock, AlertCircle, Plane, HelpCircle } from 'lucide-react';
+import { Eye, EyeOff, Mail, Lock, AlertCircle, Building2, HelpCircle } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Input } from '@/components/ui/Input';
 import Captcha from '@/components/Captcha';
@@ -78,7 +78,7 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="min-h-screen bg-primary flex items-center justify-center px-4">
+    <div className="min-h-screen bg-secondary flex items-center justify-center px-4">
       {/* Background gradient orbs */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-[-10%] left-[-10%] w-96 h-96 bg-blue/5 rounded-full blur-3xl" />
@@ -90,7 +90,7 @@ export default function LoginPage() {
         <div className="flex flex-col items-center mb-8">
           <Link href="/" className="flex items-center gap-3 mb-4">
             <div className="w-10 h-10 rounded-lg bg-blue flex items-center justify-center">
-              <Plane size={20} className="text-white" />
+              <Building2 size={20} className="text-white" />
             </div>
             <span className="text-xl font-bold text-text-primary font-inter">Inspect Practice</span>
           </Link>

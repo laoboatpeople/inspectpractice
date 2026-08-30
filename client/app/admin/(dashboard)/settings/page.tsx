@@ -527,7 +527,7 @@ export default function SettingsPage() {
                   value={notifications.adminNotificationEmail}
                   onChange={(e) => setNotifications((prev) => ({ ...prev, adminNotificationEmail: e.target.value }))}
                   className="w-full px-4 py-2.5 border border-border rounded-input text-sm focus:outline-none focus:border-blue"
-                  style={{ backgroundColor: '#1A2035', color: '#F8FAFC' }}
+                  style={{ backgroundColor: '#FFFFFF', color: '#102631' }}
                   placeholder="admin@example.com"
                 />
               </div>

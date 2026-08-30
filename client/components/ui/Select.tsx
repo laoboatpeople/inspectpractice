@@ -91,7 +91,7 @@ const Select = React.forwardRef<HTMLButtonElement, SelectProps>(
             disabled={disabled || loading}
             onClick={() => !disabled && !loading && setIsOpen(prev => !prev)}
             className={cn(
-              'flex h-10 w-full items-center justify-between rounded-input border bg-[#0A0E1A] px-3 py-2 text-sm text-text-primary transition-colors duration-150',
+              'flex h-10 w-full items-center justify-between rounded-input border bg-[#071D2B] px-3 py-2 text-sm text-text-primary transition-colors duration-150',
               'focus:outline-none focus:ring-2 focus:ring-blue focus:ring-offset-2 focus:ring-offset-primary',
               'disabled:cursor-not-allowed disabled:opacity-50',
               error
@@ -124,7 +124,7 @@ const Select = React.forwardRef<HTMLButtonElement, SelectProps>(
           {/* Dropdown — rendered inline, NOT as portal */}
           {isOpen && (
             <div
-              className="absolute top-full left-0 right-0 z-[60] mt-1 max-h-60 overflow-auto rounded-card border border-[#1A2035] bg-[#1A2035] shadow-2xl"
+              className="absolute top-full left-0 right-0 z-[60] mt-1 max-h-60 overflow-auto rounded-card border border-[#FFFFFF] bg-[#FFFFFF] shadow-2xl"
             >
               {options.length === 0 ? (
                 <div className="px-3 py-2 text-sm text-text-tertiary">No options</div>

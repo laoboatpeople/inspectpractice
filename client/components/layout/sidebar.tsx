@@ -56,11 +56,11 @@ export function Sidebar({ mobileOpen, onClose }: { mobileOpen?: boolean; onClose
   }, []);
 
   return (
-    <nav className="flex flex-col h-full bg-[#0A0E1A] border-r border-border">
+    <nav className="flex flex-col h-full bg-white border-r border-[#DCE4E7]">
       {/* Logo */}
-      <div className="flex items-center justify-between gap-3 px-5 py-5 border-b border-border">
+      <div className="flex items-center justify-between gap-3 px-5 py-5 border-b border-[#DCE4E7]">
         <Link href="/app" className="flex items-center gap-3 group">
-          <img src="/logo/logo-main.png?v=3" alt="Inspect Practice" className="h-9 w-auto flex-shrink-0" />
+          <img src="/logo/logo-main.png?v=4" alt="Inspect Practice" className="h-9 w-auto flex-shrink-0" />
           <div>
             <p className="text-sm font-semibold text-text-primary leading-none group-hover:text-blue transition-colors">Inspect Practice</p>
             <p className="text-[10px] text-text-tertiary mt-0.5">ICC Exam Prep</p>
@@ -103,7 +103,7 @@ export function Sidebar({ mobileOpen, onClose }: { mobileOpen?: boolean; onClose
       </div>
 
       {/* Footer user */}
-      <div className="px-5 py-4 border-t border-border">
+      <div className="px-5 py-4 border-t border-[#DCE4E7]">
         <UserMenu
           user={{
             name: user?.name ?? 'Admin',

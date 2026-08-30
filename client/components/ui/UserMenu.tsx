@@ -202,13 +202,13 @@ const UserMenu: React.FC<UserMenuProps> = ({
                 width: '100%',
                 padding: '8px 16px',
                 fontSize: '14px',
-                color: '#EF4444',
+                color: '#D9534F',
                 background: 'none',
                 border: 'none',
                 cursor: 'pointer',
                 textAlign: 'left',
               }}
-              onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = 'rgba(239,68,68,0.1)')}
+              onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = 'rgba(217,83,79,0.1)')}
               onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = 'transparent')}
             >
               <LogOut style={{ width: 16, height: 16, flexShrink: 0 }} />

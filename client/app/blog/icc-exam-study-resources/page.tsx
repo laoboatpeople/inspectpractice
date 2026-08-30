@@ -54,14 +54,14 @@ export default function IccExamStudyResourcesPage() {
           { name: 'ICC Exam Study Resources', url: 'https://inspectpractice.com/blog/icc-exam-study-resources' },
         ]}
       />
-      <div className="min-h-screen bg-[#0A0E1A] text-[#F8FAFC]">
-        <nav className="border-b border-white/5 bg-[#0A0E1A]/80 backdrop-blur-md">
+      <div className="min-h-screen bg-[#F4F7F8] text-[#102631]">
+        <nav className="border-b border-[#DCE4E7] bg-[#071D2B]/95 backdrop-blur-md">
           <div className="max-w-3xl mx-auto px-6 py-4 flex items-center justify-between">
             <a href="/" className="flex items-center gap-2">
-              <img src="/logo/logo-main.png?v=3" alt="Inspect Practice" className="h-7 w-auto" />
+              <img src="/logo/logo-main.png?v=4" alt="Inspect Practice" className="h-7 w-auto" />
             </a>
             <div className="flex items-center gap-4">
-              <a href="/blog" className="text-sm text-[#94A3B8] hover:text-white transition-colors">← Blog</a>
+              <a href="/blog" className="text-sm text-[#586A73] hover:text-[#CBEA32] transition-colors">← Blog</a>
             </div>
           </div>
         </nav>
@@ -69,12 +69,12 @@ export default function IccExamStudyResourcesPage() {
         <article className="max-w-3xl mx-auto px-6 pt-16 pb-24">
           <header className="mb-12">
             <div className="flex items-center gap-3 mb-4">
-              <span className="text-[11px] font-medium text-[#3B82F6] bg-[#3B82F6]/10 px-2 py-1 rounded">Reference</span>
-              <span className="text-xs text-[#64748B]">May 22, 2026 *updated August 18, 2026</span>
-              <span className="text-xs text-[#64748B]">· 10 min read</span>
+              <span className="text-[11px] font-medium text-[#176B87] bg-[#176B87]/10 px-2 py-1 rounded">Reference</span>
+              <span className="text-xs text-[#7A8B94]">May 22, 2026 *updated August 18, 2026</span>
+              <span className="text-xs text-[#7A8B94]">· 10 min read</span>
             </div>
             <h1 className="text-3xl md:text-4xl font-bold mb-4">ICC Exam Study Resources: Best Codes, Books & Tools</h1>
-            <p className="text-lg text-[#94A3B8]">
+            <p className="text-lg text-[#586A73]">
               Whether you are pursuing the B1, B2, E1, P1, or M1 certification, the right resources make the
               difference between months of unfocused reading and a confident pass. Here is everything you need,
               ranked by how much it moves the needle.
@@ -83,17 +83,17 @@ export default function IccExamStudyResourcesPage() {
 
           {/* Author byline */}
           <div className="flex items-center gap-3 mb-8 pb-6 border-b border-white/5">
-            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#3B82F6] to-[#06B6D4] flex items-center justify-center text-white font-bold text-sm">
+            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#176B87] to-[#123B52] flex items-center justify-center text-white font-bold text-sm">
               IP
             </div>
             <div>
-              <p className="text-sm font-medium text-[#F8FAFC]">Inspect Practice Team</p>
-              <p className="text-xs text-[#64748B]">ICC exam preparation specialists — curating the best code-study tools since 2025</p>
+              <p className="text-sm font-medium text-[#102631]">Inspect Practice Team</p>
+              <p className="text-xs text-[#7A8B94]">ICC exam preparation specialists — curating the best code-study tools since 2025</p>
             </div>
           </div>
 
-          <div className="prose prose-invert max-w-none text-[#CBD5E1] leading-relaxed space-y-6">
-            <h2 className="text-xl font-semibold text-[#F8FAFC] mt-10">1. The Codes Themselves (Non-Negotiable)</h2>
+          <div className="prose prose-invert max-w-none text-[#DCE4E7] leading-relaxed space-y-6">
+            <h2 className="text-xl font-semibold text-[#102631] mt-10">1. The Codes Themselves (Non-Negotiable)</h2>
             <p>Every ICC certification exam is open book, and the code is your primary weapon. You must own the current edition of the code for your certification:</p>
             <ul className="list-disc pl-6 space-y-2">
               <li><strong>B1 — International Residential Code (IRC)</strong>: one- and two-family dwellings, townhouses up to 3 stories.</li>
@@ -108,7 +108,7 @@ export default function IccExamStudyResourcesPage() {
               helps you move faster.
             </p>
 
-            <h2 className="text-xl font-semibold text-[#F8FAFC] mt-10">2. Official ICC Study Materials</h2>
+            <h2 className="text-xl font-semibold text-[#102631] mt-10">2. Official ICC Study Materials</h2>
             <p>The ICC publishes exam-specific study guides and practice tests. These are the closest thing to the real exam:</p>
             <ul className="list-disc pl-6 space-y-2">
               <li><strong>ICC Exam Bulletins</strong> — free PDFs that list the exact content areas, number of questions, time limits, and passing scores for each exam. Read yours first; it tells you what to study.</li>
@@ -116,7 +116,7 @@ export default function IccExamStudyResourcesPage() {
               <li><strong>ICC Training Courses</strong> — instructor-led and online courses for each certification. Good structure, but the cost adds up.</li>
             </ul>
 
-            <h2 className="text-xl font-semibold text-[#F8FAFC] mt-10">3. Inspection Field References</h2>
+            <h2 className="text-xl font-semibold text-[#102631] mt-10">3. Inspection Field References</h2>
             <p>Books that teach you how the systems actually go together help you interpret code language:</p>
             <ul className="list-disc pl-6 space-y-2">
               <li><strong>Residential Building Inspector Field Guide</strong> — system-by-system inspection walkthroughs.</li>
@@ -124,10 +124,10 @@ export default function IccExamStudyResourcesPage() {
               <li><strong>Building construction textbooks</strong> — a solid fundamentals text (e.g., "Building Construction Illustrated") builds the mental model behind the code.</li>
             </ul>
 
-            <h2 className="text-xl font-semibold text-[#F8FAFC] mt-10">4. Practice Question Platforms (Where You Should Spend Most of Your Time)</h2>
+            <h2 className="text-xl font-semibold text-[#102631] mt-10">4. Practice Question Platforms (Where You Should Spend Most of Your Time)</h2>
             <p>
               Because the exams are open book, the highest-ROI activity is answering questions with the code in
-              front of you. <a href="/free-icc-practice-questions" className="text-[#3B82F6] hover:text-[#60A5FA] transition-colors">Inspect Practice</a>{' '}
+              front of you. <a href="/free-icc-practice-questions" className="text-[#176B87] hover:text-[#4794B8] transition-colors">Inspect Practice</a>{' '}
               is purpose-built for this: exam-style questions for B1, B2, E1, P1, and M1, each with the exact
               code reference, adaptive difficulty, and timed simulations that mirror the real exam conditions.
             </p>
@@ -137,19 +137,19 @@ export default function IccExamStudyResourcesPage() {
               <li><strong>Simulate under exam conditions</strong> — full-length, timed, open-book sessions at least once a week.</li>
             </ul>
 
-            <h2 className="text-xl font-semibold text-[#F8FAFC] mt-10">5. Free Resources Worth Your Time</h2>
+            <h2 className="text-xl font-semibold text-[#102631] mt-10">5. Free Resources Worth Your Time</h2>
             <ul className="list-disc pl-6 space-y-2">
               <li><strong>ICC website</strong> — exam bulletins, certification FAQs, and continuing education.</li>
               <li><strong>Your jurisdiction's code department</strong> — many municipal building departments publish inspection checklists that mirror the code requirements.</li>
               <li><strong>Inspect Practice's free questions</strong> — try the format before committing to a plan.</li>
             </ul>
 
-            <h2 className="text-xl font-semibold text-[#F8FAFC] mt-10">A Smarter Study Sequence</h2>
+            <h2 className="text-xl font-semibold text-[#102631] mt-10">A Smarter Study Sequence</h2>
             <p>
               Read the exam bulletin → skim the code chapter map → drill practice questions chapter by chapter →
               review explanations (especially references) → take full simulations → target weak chapters → retake
               simulations. For a week-by-week schedule, see our{' '}
-              <a href="/blog/icc-exam-study-plan" className="text-[#3B82F6] hover:text-[#60A5FA] transition-colors">
+              <a href="/blog/icc-exam-study-plan" className="text-[#176B87] hover:text-[#4794B8] transition-colors">
                 12-week ICC study plan
               </a>.
             </p>

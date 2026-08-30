@@ -555,7 +555,7 @@ export default function QuizPage() {
             animate={{ scale: 1 }}
             transition={{ type: 'spring', stiffness: 200, damping: 15 }}
             className={`w-20 h-20 mx-auto rounded-full flex items-center justify-center mb-4 ${
-              passed ? 'bg-green/10' : 'bg-red/10'
+              passed ? 'bg-[#CBEA32]/20' : 'bg-red/10'
             }`}
           >
             {passed ? (
@@ -565,7 +565,7 @@ export default function QuizPage() {
             )}
           </motion.div>
 
-          <h1 className={`text-2xl font-bold mb-2 ${passed ? 'text-green' : 'text-red'}`}>
+          <h1 className={`text-2xl font-bold mb-2 ${passed ? 'text-[#071D2B]' : 'text-red'}`}>
             {passed ? t('quiz_resultPassed') : t('quiz_resultFailed')}
           </h1>
           {examName && (

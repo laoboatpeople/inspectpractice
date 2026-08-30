@@ -175,13 +175,13 @@ export default function AIGeneratorPage() {
                 onChange={(e) => setExamId(e.target.value)}
                 required
                 disabled={loadingExams}
-                className="w-full appearance-none pl-4 pr-10 py-2.5 bg-[#0A0E1A] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors cursor-pointer"
+                className="w-full appearance-none pl-4 pr-10 py-2.5 bg-[#071D2B] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors cursor-pointer"
               >
-                <option value="" className="bg-[#0A0E1A] text-text-primary">
+                <option value="" className="bg-[#071D2B] text-text-primary">
                   {loadingExams ? 'Chargement des examens...' : 'Sélectionnez un examen'}
                 </option>
                 {exams.map((exam) => (
-                  <option key={exam.id} value={exam.id} className="bg-[#0A0E1A] text-text-primary">
+                  <option key={exam.id} value={exam.id} className="bg-[#071D2B] text-text-primary">
                     {exam.code} — {exam.name}
                   </option>
                 ))}
@@ -205,13 +205,13 @@ export default function AIGeneratorPage() {
                 onChange={(e) => setChapterId(e.target.value)}
                 required
                 disabled={!examId || chapters.length === 0}
-                className="w-full appearance-none pl-4 pr-10 py-2.5 bg-[#0A0E1A] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors cursor-pointer disabled:opacity-50"
+                className="w-full appearance-none pl-4 pr-10 py-2.5 bg-[#071D2B] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors cursor-pointer disabled:opacity-50"
               >
-                <option value="" className="bg-[#0A0E1A] text-text-primary">
+                <option value="" className="bg-[#071D2B] text-text-primary">
                   {!examId ? `Sélectionnez d'abord un examen` : chapters.length === 0 ? 'Aucun chapitre trouvé' : 'Sélectionnez un chapitre'}
                 </option>
                 {chapters.map((ch) => (
-                  <option key={ch.id} value={ch.id} className="bg-[#0A0E1A] text-text-primary">
+                  <option key={ch.id} value={ch.id} className="bg-[#071D2B] text-text-primary">
                     Chapitre {ch.number} — {ch.name}
                   </option>
                 ))}
@@ -234,11 +234,11 @@ export default function AIGeneratorPage() {
                   id="type"
                   value={type}
                   onChange={(e) => setType(e.target.value as typeof type)}
-                  className="w-full appearance-none pl-4 pr-10 py-2.5 bg-[#0A0E1A] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors cursor-pointer"
+                  className="w-full appearance-none pl-4 pr-10 py-2.5 bg-[#071D2B] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors cursor-pointer"
                 >
-                  <option value="MCQ" className="bg-[#0A0E1A] text-text-primary">MCQ</option>
-                  <option value="TRUEFALSE" className="bg-[#0A0E1A] text-text-primary">Vrai / Faux</option>
-                  <option value="WRITTEN" className="bg-[#0A0E1A] text-text-primary">Écrite</option>
+                  <option value="MCQ" className="bg-[#071D2B] text-text-primary">MCQ</option>
+                  <option value="TRUEFALSE" className="bg-[#071D2B] text-text-primary">Vrai / Faux</option>
+                  <option value="WRITTEN" className="bg-[#071D2B] text-text-primary">Écrite</option>
                 </select>
                 <ChevronDown
                   size={14}
@@ -256,11 +256,11 @@ export default function AIGeneratorPage() {
                   id="difficulty"
                   value={difficulty}
                   onChange={(e) => setDifficulty(e.target.value as typeof difficulty)}
-                  className="w-full appearance-none pl-4 pr-10 py-2.5 bg-[#0A0E1A] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors cursor-pointer"
+                  className="w-full appearance-none pl-4 pr-10 py-2.5 bg-[#071D2B] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors cursor-pointer"
                 >
-                  <option value="EASY" className="bg-[#0A0E1A] text-text-primary">Facile</option>
-                  <option value="MEDIUM" className="bg-[#0A0E1A] text-text-primary">Moyenne</option>
-                  <option value="HARD" className="bg-[#0A0E1A] text-text-primary">Difficile</option>
+                  <option value="EASY" className="bg-[#071D2B] text-text-primary">Facile</option>
+                  <option value="MEDIUM" className="bg-[#071D2B] text-text-primary">Moyenne</option>
+                  <option value="HARD" className="bg-[#071D2B] text-text-primary">Difficile</option>
                 </select>
                 <ChevronDown
                   size={14}
@@ -283,7 +283,7 @@ export default function AIGeneratorPage() {
               value={count}
               onChange={(e) => setCount(Math.max(1, Math.min(100, parseInt(e.target.value) || 1)))}
               required
-              className="w-full pl-4 pr-4 py-2.5 bg-[#0A0E1A] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors"
+              className="w-full pl-4 pr-4 py-2.5 bg-[#071D2B] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors"
             />
           </div>
 

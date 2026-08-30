@@ -45,7 +45,7 @@ export default function TestLoginPage() {
   };
 
   return (
-    <div className="min-h-screen bg-[#0A0E1A] flex items-center justify-center px-4">
+    <div className="min-h-screen bg-[#071D2B] flex items-center justify-center px-4">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-[-10%] left-[-10%] w-96 h-96 bg-blue/5 rounded-full blur-3xl" />
         <div className="absolute bottom-[-10%] right-[-10%] w-96 h-96 bg-cyan/5 rounded-full blur-3xl" />
@@ -76,7 +76,7 @@ export default function TestLoginPage() {
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="w-full h-10 pl-10 pr-4 rounded-input bg-[#0A0E1A] border border-border text-text-primary text-sm placeholder:text-text-tertiary focus:outline-none focus:ring-2 focus:ring-blue focus:ring-offset-2 focus:ring-offset-card transition-colors"
+                className="w-full h-10 pl-10 pr-4 rounded-input bg-[#071D2B] border border-border text-text-primary text-sm placeholder:text-text-tertiary focus:outline-none focus:ring-2 focus:ring-blue focus:ring-offset-2 focus:ring-offset-card transition-colors"
                 placeholder="your@email.com"
                 required
               />
@@ -91,7 +91,7 @@ export default function TestLoginPage() {
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                className="w-full h-10 pl-10 pr-4 rounded-input bg-[#0A0E1A] border border-border text-text-primary text-sm placeholder:text-text-tertiary focus:outline-none focus:ring-2 focus:ring-blue focus:ring-offset-2 focus:ring-offset-card transition-colors"
+                className="w-full h-10 pl-10 pr-4 rounded-input bg-[#071D2B] border border-border text-text-primary text-sm placeholder:text-text-tertiary focus:outline-none focus:ring-2 focus:ring-blue focus:ring-offset-2 focus:ring-offset-card transition-colors"
                 placeholder="Enter your password"
                 required
               />

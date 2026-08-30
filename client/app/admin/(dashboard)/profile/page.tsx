@@ -233,7 +233,7 @@ export default function ProfilePage() {
                 onChange={(e) => setName(e.target.value)}
                 required
                 className="w-full pl-9 pr-4 py-2.5 border border-border rounded-btn text-sm text-text-primary bg-primary placeholder:text-text-tertiary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors"
-                style={{ backgroundColor: '#0A0E1A', color: '#F8FAFC', WebkitTextFillColor: '#F8FAFC', caretColor: '#F8FAFC' }}
+                style={{ backgroundColor: '#071D2B', color: '#102631', WebkitTextFillColor: '#102631', caretColor: '#102631' }}
               />
             </div>
           </div>
@@ -254,7 +254,7 @@ export default function ProfilePage() {
                 onChange={(e) => setEmail(e.target.value)}
                 required
                 className="w-full pl-9 pr-4 py-2.5 border border-border rounded-btn text-sm text-text-primary bg-primary placeholder:text-text-tertiary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors"
-                style={{ backgroundColor: '#0A0E1A', color: '#F8FAFC', WebkitTextFillColor: '#F8FAFC', caretColor: '#F8FAFC' }}
+                style={{ backgroundColor: '#071D2B', color: '#102631', WebkitTextFillColor: '#102631', caretColor: '#102631' }}
               />
             </div>
           </div>
@@ -312,7 +312,7 @@ export default function ProfilePage() {
                 onChange={(e) => setCurrentPassword(e.target.value)}
                 required
                 className="w-full pl-9 pr-10 py-2.5 border border-border rounded-btn text-sm text-text-primary bg-primary placeholder:text-text-tertiary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors"
-                style={{ backgroundColor: '#0A0E1A', color: '#F8FAFC', WebkitTextFillColor: '#F8FAFC', caretColor: '#F8FAFC' }}
+                style={{ backgroundColor: '#071D2B', color: '#102631', WebkitTextFillColor: '#102631', caretColor: '#102631' }}
               />
               <button
                 type="button"
@@ -342,7 +342,7 @@ export default function ProfilePage() {
                 required
                 minLength={8}
                 className="w-full pl-9 pr-10 py-2.5 border border-border rounded-btn text-sm text-text-primary bg-primary placeholder:text-text-tertiary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors"
-                style={{ backgroundColor: '#0A0E1A', color: '#F8FAFC', WebkitTextFillColor: '#F8FAFC', caretColor: '#F8FAFC' }}
+                style={{ backgroundColor: '#071D2B', color: '#102631', WebkitTextFillColor: '#102631', caretColor: '#102631' }}
               />
             </div>
           </div>
@@ -364,7 +364,7 @@ export default function ProfilePage() {
                 required
                 minLength={8}
                 className="w-full pl-9 pr-10 py-2.5 border border-border rounded-btn text-sm text-text-primary bg-primary placeholder:text-text-tertiary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors"
-                style={{ backgroundColor: '#0A0E1A', color: '#F8FAFC', WebkitTextFillColor: '#F8FAFC', caretColor: '#F8FAFC' }}
+                style={{ backgroundColor: '#071D2B', color: '#102631', WebkitTextFillColor: '#102631', caretColor: '#102631' }}
               />
             </div>
           </div>

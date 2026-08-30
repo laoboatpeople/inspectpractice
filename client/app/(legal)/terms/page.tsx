@@ -22,10 +22,10 @@ export default function TermsPage() {
   const renderContent = (text: string, index: number) => {
     const parts = text.split(/(\*\*[^*]+\*\*)/g);
     return (
-      <p key={index} className="text-[#94A3B8] leading-relaxed mb-4">
+      <p key={index} className="text-[#586A73] leading-relaxed mb-4">
         {parts.map((part, i) => {
           if (part.startsWith('**') && part.endsWith('**')) {
-            return <strong key={i} className="text-[#F8FAFC] font-semibold">{part.slice(2, -2)}</strong>;
+            return <strong key={i} className="text-[#102631] font-semibold">{part.slice(2, -2)}</strong>;
           }
           return part;
         })}
@@ -41,16 +41,16 @@ export default function TermsPage() {
           { name: 'Terms of Service', url: 'https://inspectpractice.com/terms' },
         ]}
       />
-      <div className="min-h-screen bg-[#0A0E1A]">
+      <div className="min-h-screen bg-[#F4F7F8]">
       {/* Simple nav */}
-      <nav className="border-b border-white/10">
+      <nav className="border-b border-[#DCE4E7]">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <img src="/logo/logo-main.png?v=3" alt="Inspect Practice" className="h-8 w-auto" />
+            <img src="/logo/logo-main.png?v=4" alt="Inspect Practice" className="h-8 w-auto" />
           </Link>
           <Link
             href="/"
-            className="flex items-center gap-2 text-sm text-[#94A3B8] hover:text-white transition-colors"
+            className="flex items-center gap-2 text-sm text-[#586A73] hover:text-[#CBEA32] transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
             {tm("nav.home") || "Home"}
@@ -62,11 +62,11 @@ export default function TermsPage() {
       <main className="max-w-4xl mx-auto px-6 py-16">
         <div className="prose prose-invert max-w-none">
           <div className="mb-2">
-            <span className="inline-block px-3 py-1 rounded-full bg-[#C8102E]/10 border border-[#C8102E]/20 text-xs text-[#C8102E] font-medium">
+            <span className="inline-block px-3 py-1 rounded-full bg-[#176B87]/10 border border-[#176B87]/20 text-xs text-[#176B87] font-medium">
               {lastUpdated}
             </span>
           </div>
-          <h1 className="text-3xl md:text-4xl font-bold mb-8 bg-gradient-to-r from-[#C8102E] to-[#4C7FBF] bg-clip-text text-transparent">
+          <h1 className="text-3xl md:text-4xl font-bold mb-8 bg-gradient-to-r from-[#176B87] to-[#176B87] bg-clip-text text-transparent">
             {title}
           </h1>
           <div className="space-y-1">
@@ -76,12 +76,12 @@ export default function TermsPage() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-white/10 py-8">
+      <footer className="border-t border-[#DCE4E7] py-8">
         <div className="max-w-4xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-[#94A3B8]">{tm("footer.copyright")}</p>
+          <p className="text-sm text-[#586A73]">{tm("footer.copyright")}</p>
           <div className="flex items-center gap-4">
-            <Link href="/privacy" className="text-sm text-[#94A3B8] hover:text-white transition-colors">{tm("footer.privacy")}</Link>
-            <Link href="/terms" className="text-sm text-[#94A3B8] hover:text-white transition-colors">{tm("footer.terms")}</Link>
+            <Link href="/privacy" className="text-sm text-[#586A73] hover:text-[#CBEA32] transition-colors">{tm("footer.privacy")}</Link>
+            <Link href="/terms" className="text-sm text-[#586A73] hover:text-[#CBEA32] transition-colors">{tm("footer.terms")}</Link>
           </div>
         </div>
       </footer>

@@ -187,14 +187,14 @@ export default function IccResourcesPage() {
           { name: 'ICC Resources', url: 'https://inspectpractice.com/icc-resources' },
         ]}
       />
-      <div className="min-h-screen bg-[#0A0E1A] text-[#F8FAFC]">
-        <nav className="border-b border-white/5 bg-[#0A0E1A]/80 backdrop-blur-md">
+      <div className="min-h-screen bg-[#F4F7F8] text-[#102631]">
+        <nav className="border-b border-[#DCE4E7] bg-[#071D2B]/95 backdrop-blur-md">
           <div className="max-w-3xl mx-auto px-6 py-4 flex items-center justify-between">
             <a href="/" className="flex items-center gap-2">
-              <img src="/logo/logo-main.png?v=3" alt="Inspect Practice" className="h-7 w-auto" />
+              <img src="/logo/logo-main.png?v=4" alt="Inspect Practice" className="h-7 w-auto" />
             </a>
             <div className="flex items-center gap-4">
-              <a href="/faq" className="text-sm text-[#94A3B8] hover:text-white transition-colors">← FAQ</a>
+              <a href="/faq" className="text-sm text-[#586A73] hover:text-[#CBEA32] transition-colors">← FAQ</a>
             </div>
           </div>
         </nav>
@@ -202,7 +202,7 @@ export default function IccResourcesPage() {
         {/* Header */}
         <header className="max-w-4xl mx-auto px-6 pt-16 pb-10 text-center">
           <h1 className="text-4xl font-bold mb-4">ICC Resources Hub</h1>
-          <p className="text-lg text-[#94A3B8] max-w-2xl mx-auto">
+          <p className="text-lg text-[#586A73] max-w-2xl mx-auto">
             Everything you need to prepare for ICC building inspector certification
             exams — B1, B2, E1, P1 &amp; M1 — in one place.
           </p>
@@ -212,19 +212,19 @@ export default function IccResourcesPage() {
         <div className="max-w-4xl mx-auto px-6 space-y-14 pb-16">
           {sections.map((section) => (
             <section key={section.id} id={section.id}>
-              <h2 className="text-2xl font-bold text-[#F8FAFC] mb-2">{section.title}</h2>
-              <p className="text-sm text-[#94A3B8] mb-6">{section.description}</p>
+              <h2 className="text-2xl font-bold text-[#102631] mb-2">{section.title}</h2>
+              <p className="text-sm text-[#586A73] mb-6">{section.description}</p>
               <div className="grid md:grid-cols-2 gap-4">
                 {section.resources.map((r) => (
                   <a
                     key={r.href}
                     href={r.href}
-                    className="group p-6 rounded-xl border border-white/10 bg-white/[0.02] hover:bg-white/[0.05] hover:border-[#3B82F6]/30 transition-all"
+                    className="group p-6 rounded-xl border border-[#DCE4E7] bg-white hover:bg-white/[0.05] hover:border-[#176B87]/30 transition-all"
                   >
-                    <h3 className="font-semibold text-[#F8FAFC] mb-2 group-hover:text-[#3B82F6] transition-colors">
+                    <h3 className="font-semibold text-[#102631] mb-2 group-hover:text-[#176B87] transition-colors">
                       {r.title}
                     </h3>
-                    <p className="text-sm text-[#94A3B8] leading-relaxed">{r.description}</p>
+                    <p className="text-sm text-[#586A73] leading-relaxed">{r.description}</p>
                   </a>
                 ))}
               </div>
@@ -234,11 +234,11 @@ export default function IccResourcesPage() {
 
         {/* About ICC Certifications */}
         <div className="max-w-4xl mx-auto px-6 pb-16">
-          <div className="rounded-2xl border border-white/10 bg-white/[0.02] p-8">
-            <h2 className="text-2xl font-bold text-[#F8FAFC] mb-4">
+          <div className="rounded-2xl border border-[#DCE4E7] bg-white p-8">
+            <h2 className="text-2xl font-bold text-[#102631] mb-4">
               The ICC Certification System
             </h2>
-            <div className="space-y-4 text-[#CBD5E1] leading-relaxed">
+            <div className="space-y-4 text-[#DCE4E7] leading-relaxed">
               <p>
                 The International Code Council issues certification credentials for
                 building inspectors across the United States. The five core
@@ -278,24 +278,24 @@ export default function IccResourcesPage() {
 
         {/* CTA */}
         <div className="max-w-4xl mx-auto px-6 pb-24">
-          <div className="text-center bg-gradient-to-r from-[#C8102E]/10 to-[#4C7FBF]/10 rounded-2xl p-10">
+          <div className="text-center bg-gradient-to-r from-[#176B87]/10 to-[#176B87]/10 rounded-2xl p-10">
             <h2 className="text-2xl font-bold mb-3">
               Ready to Start Studying?
             </h2>
-            <p className="text-[#94A3B8] mb-6 max-w-xl mx-auto">
+            <p className="text-[#586A73] mb-6 max-w-xl mx-auto">
               Create your free account and start practising with AI-powered open-book
               questions tailored to the ICC certifications. No credit card required.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="/auth/register"
-                className="inline-flex items-center gap-2 px-8 py-3 bg-[#C8102E] hover:bg-[#2563EB] rounded-lg text-sm font-medium transition-colors"
+                className="inline-flex items-center gap-2 px-8 py-3 bg-[#176B87] hover:bg-[#176B87] rounded-lg text-sm font-medium transition-colors"
               >
                 Get Started Free
               </a>
               <a
                 href="/pricing"
-                className="inline-flex items-center gap-2 px-8 py-3 border border-white/10 hover:border-white/20 rounded-lg text-sm font-medium transition-colors"
+                className="inline-flex items-center gap-2 px-8 py-3 border border-[#DCE4E7] hover:border-white/20 rounded-lg text-sm font-medium transition-colors"
               >
                 View Pricing
               </a>

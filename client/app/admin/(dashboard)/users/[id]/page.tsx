@@ -1072,7 +1072,7 @@ export default function UserDetailPage() {
           <button
             onClick={handleImpersonate}
             disabled={impersonating}
-            className="flex items-center gap-1.5 px-3 py-2 text-sm font-medium text-white bg-[#8B5CF6] hover:bg-[#7C3AED] rounded-btn transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            className="flex items-center gap-1.5 px-3 py-2 text-sm font-medium text-white bg-[#176B87] hover:bg-[#7C3AED] rounded-btn transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {impersonating ? <Loader2 size={14} className="animate-spin" /> : <Eye size={14} />}
             Voir comme utilisateur

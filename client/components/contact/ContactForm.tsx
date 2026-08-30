@@ -53,13 +53,13 @@ export default function ContactForm() {
         <div className="w-12 h-12 rounded-full bg-green/10 flex items-center justify-center mx-auto mb-4">
           <CheckCircle className="w-6 h-6 text-green" />
         </div>
-        <h3 className="text-lg font-medium text-[#F8FAFC] mb-2">{isFr ? 'Message envoyé !' : 'Message sent!'}</h3>
-        <p className="text-sm text-[#94A3B8] mb-4">
+        <h3 className="text-lg font-medium text-[#102631] mb-2">{isFr ? 'Message envoyé !' : 'Message sent!'}</h3>
+        <p className="text-sm text-[#586A73] mb-4">
           {isFr ? 'Nous vous répondrons dès que possible.' : 'We\'ll get back to you as soon as possible.'}
         </p>
         <button
           onClick={() => setSuccess(false)}
-          className="text-sm text-[#C8102E] hover:text-[#60A5FA] transition-colors"
+          className="text-sm text-[#176B87] hover:text-[#4794B8] transition-colors"
         >
           {isFr ? 'Envoyer un autre message' : 'Send another message'}
         </button>
@@ -77,38 +77,38 @@ export default function ContactForm() {
       )}
 
       <div>
-        <label className="block text-sm font-medium text-[#94A3B8] mb-1.5">{isFr ? 'Votre nom' : 'Your Name'}</label>
+        <label className="block text-sm font-medium text-[#586A73] mb-1.5">{isFr ? 'Votre nom' : 'Your Name'}</label>
         <input
           type="text"
           value={name}
           onChange={(e) => setName(e.target.value)}
           required
           placeholder={isFr ? 'Jean Dupont' : 'John Smith'}
-          className="w-full px-4 py-2.5 bg-[#0A0E1A] border border-white/10 rounded-lg text-sm text-[#F8FAFC] placeholder:text-[#64748B] focus:outline-none focus:border-[#C8102E]/50 transition-colors"
+          className="w-full px-4 py-2.5 bg-[#071D2B] border border-white/10 rounded-lg text-sm text-[#102631] placeholder:text-[#7A8B94] focus:outline-none focus:border-[#176B87]/50 transition-colors"
         />
       </div>
 
       <div>
-        <label className="block text-sm font-medium text-[#94A3B8] mb-1.5">{isFr ? 'Votre courriel' : 'Your Email'}</label>
+        <label className="block text-sm font-medium text-[#586A73] mb-1.5">{isFr ? 'Votre courriel' : 'Your Email'}</label>
         <input
           type="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
           placeholder={isFr ? 'vous@exemple.com' : 'you@example.com'}
-          className="w-full px-4 py-2.5 bg-[#0A0E1A] border border-white/10 rounded-lg text-sm text-[#F8FAFC] placeholder:text-[#64748B] focus:outline-none focus:border-[#C8102E]/50 transition-colors"
+          className="w-full px-4 py-2.5 bg-[#071D2B] border border-white/10 rounded-lg text-sm text-[#102631] placeholder:text-[#7A8B94] focus:outline-none focus:border-[#176B87]/50 transition-colors"
         />
       </div>
 
       <div>
-        <label className="block text-sm font-medium text-[#94A3B8] mb-1.5">{isFr ? 'Message' : 'Message'}</label>
+        <label className="block text-sm font-medium text-[#586A73] mb-1.5">{isFr ? 'Message' : 'Message'}</label>
         <textarea
           value={message}
           onChange={(e) => setMessage(e.target.value)}
           required
           rows={4}
           placeholder={isFr ? 'Comment pouvons-nous vous aider ?' : 'How can we help?'}
-          className="w-full px-4 py-2.5 bg-[#0A0E1A] border border-white/10 rounded-lg text-sm text-[#F8FAFC] placeholder:text-[#64748B] focus:outline-none focus:border-[#C8102E]/50 transition-colors resize-vertical"
+          className="w-full px-4 py-2.5 bg-[#071D2B] border border-white/10 rounded-lg text-sm text-[#102631] placeholder:text-[#7A8B94] focus:outline-none focus:border-[#176B87]/50 transition-colors resize-vertical"
         />
       </div>
 
@@ -121,7 +121,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={loading || !captchaToken}
-        className="w-full inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#C8102E] hover:bg-[#2563EB] disabled:opacity-50 disabled:cursor-not-allowed rounded-lg text-sm font-medium text-white transition-colors"
+        className="w-full inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#176B87] hover:bg-[#176B87] disabled:opacity-50 disabled:cursor-not-allowed rounded-lg text-sm font-medium text-white transition-colors"
       >
         {loading ? (
           <span className="flex items-center gap-2">

@@ -370,7 +370,7 @@ function ChapterAnalysis({
 function ChapterDonut({ percentage }: { percentage: number }) {
   const isPass = percentage >= 70;
   const isWarn = percentage >= 50 && !isPass;
-  const color = isPass ? '#10B981' : isWarn ? '#F59E0B' : '#EF4444';
+  const color = isPass ? '#55A630' : isWarn ? '#F5B942' : '#D9534F';
   const textColor = isPass ? 'text-green' : isWarn ? 'text-amber' : 'text-red';
   const R = 15.9155; // circumference = 100
   const offset = 100 - Math.min(percentage, 100);

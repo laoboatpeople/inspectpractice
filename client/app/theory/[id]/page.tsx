@@ -63,63 +63,63 @@ export default async function TheoryChapterPage({ params }: { params: Promise<{ 
   const next = chapters.find((ch) => ch.number === chapter.number + 1);
 
   return (
-    <div className="min-h-screen bg-[#061C33] text-[#F6FBFF]">
-      <header className="border-b border-white/5 bg-[#061C33]/80 backdrop-blur-md sticky top-0 z-40">
+    <div className="min-h-screen bg-[#F4F7F8] text-[#102631]">
+      <header className="border-b border-[#DCE4E7] bg-[#071D2B]/95 backdrop-blur-md sticky top-0 z-40">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2" aria-label="InspectPractice home">
-            <img src="/logo/logo-main.png?v=3" alt="InspectPractice" className="h-7 w-auto" />
+            <img src="/logo/logo-main.png?v=4" alt="InspectPractice" className="h-7 w-auto" />
           </Link>
           <nav className="flex items-center gap-4 text-sm">
-            <Link href="/theory" className="text-[#D6EAF7] hover:text-[#F6FBFF] transition-colors">All Chapters</Link>
-            <Link href="/exams" className="text-[#D6EAF7] hover:text-[#F6FBFF] transition-colors">Practice Exams</Link>
-            <Link href="/pricing" className="px-4 py-2 rounded-lg bg-[#4C7FBF] text-[#061C33] font-medium transition-colors">Pricing</Link>
+            <Link href="/theory" className="text-[#DCE4E7] hover:text-[#F4F7F8] transition-colors">All Chapters</Link>
+            <Link href="/exams" className="text-[#DCE4E7] hover:text-[#F4F7F8] transition-colors">Practice Exams</Link>
+            <Link href="/pricing" className="px-4 py-2 rounded-lg bg-[#176B87] text-[#071D2B] font-medium transition-colors">Pricing</Link>
           </nav>
         </div>
       </header>
 
       <main className="max-w-4xl mx-auto px-6 py-10">
-        <nav className="flex items-center gap-2 text-xs text-[#53697D] mb-6" aria-label="Breadcrumb">
-          <Link href="/" className="hover:text-[#F6FBFF] flex items-center gap-1"><Home size={13} /> Home</Link>
+        <nav className="flex items-center gap-2 text-xs text-[#586A73] mb-6" aria-label="Breadcrumb">
+          <Link href="/" className="hover:text-[#F4F7F8] flex items-center gap-1"><Home size={13} /> Home</Link>
           <ChevronRight size={14} />
-          <Link href="/theory" className="hover:text-[#F6FBFF]">Theory</Link>
+          <Link href="/theory" className="hover:text-[#F4F7F8]">Theory</Link>
           <ChevronRight size={14} />
-          <span className="text-[#D6EAF7]">Chapter {chapter.number}</span>
+          <span className="text-[#DCE4E7]">Chapter {chapter.number}</span>
         </nav>
 
         <div className="flex items-start gap-4 mb-8">
-          <div className="w-12 h-12 rounded-xl bg-[#4C7FBF]/10 border border-[#4C7FBF]/20 flex items-center justify-center shrink-0">
-            <BookOpen size={22} className="text-[#4C7FBF]" />
+          <div className="w-12 h-12 rounded-xl bg-[#176B87]/10 border border-[#176B87]/20 flex items-center justify-center shrink-0">
+            <BookOpen size={22} className="text-[#176B87]" />
           </div>
           <div>
-            <div className="text-xs font-medium text-[#4C7FBF] uppercase tracking-wide mb-1">Chapter {ROMAN[chapter.number - 1] || chapter.number}</div>
-            <h1 className="text-2xl md:text-3xl font-bold text-[#F6FBFF] leading-tight">{chapter.name}</h1>
-            <p className="text-sm text-[#53697D] mt-2 max-w-2xl">InspectPractice study guide with diagrams.</p>
+            <div className="text-xs font-medium text-[#176B87] uppercase tracking-wide mb-1">Chapter {ROMAN[chapter.number - 1] || chapter.number}</div>
+            <h1 className="text-2xl md:text-3xl font-bold text-[#F4F7F8] leading-tight">{chapter.name}</h1>
+            <p className="text-sm text-[#586A73] mt-2 max-w-2xl">InspectPractice study guide with diagrams.</p>
           </div>
         </div>
 
-        <div className="bg-[#12294D] border border-white/10 rounded-2xl p-6 md:p-8">
+        <div className="bg-[#12294D] border border-[#DCE4E7] rounded-2xl p-6 md:p-8">
           <TheoryContent content={chapter.content} color="blue" />
         </div>
 
         <div className="mt-8 grid grid-cols-2 gap-4">
           {prev ? (
-            <Link href={`/theory/${prev.id}`} className="group flex items-center gap-2 text-sm text-[#53697D] hover:text-[#F6FBFF] border border-white/10 rounded-xl p-4">
+            <Link href={`/theory/${prev.id}`} className="group flex items-center gap-2 text-sm text-[#586A73] hover:text-[#F4F7F8] border border-[#DCE4E7] rounded-xl p-4">
               <ArrowLeft size={16} className="group-hover:-translate-x-0.5 transition-transform" />
               <span className="truncate"><span className="block text-xs opacity-60">Chapter {prev.number}</span>{prev.name}</span>
             </Link>
           ) : (<span />)}
           {next ? (
-            <Link href={`/theory/${next.id}`} className="group flex items-center justify-end gap-2 text-sm text-[#53697D] hover:text-[#F6FBFF] border border-white/10 rounded-xl p-4 text-right">
+            <Link href={`/theory/${next.id}`} className="group flex items-center justify-end gap-2 text-sm text-[#586A73] hover:text-[#F4F7F8] border border-[#DCE4E7] rounded-xl p-4 text-right">
               <span className="truncate"><span className="block text-xs opacity-60">Chapter {next.number}</span>{next.name}</span>
               <ChevronRight size={16} className="group-hover:translate-x-0.5 transition-transform" />
             </Link>
           ) : null}
         </div>
 
-        <div className="mt-8 bg-gradient-to-r from-[#4C7FBF]/10 to-[#4C7FBF]/5 border border-[#4C7FBF]/20 rounded-2xl p-6 text-center">
-          <h2 className="text-lg font-bold text-[#F6FBFF] mb-2">Ready to test this chapter?</h2>
-          <p className="text-sm text-[#53697D] mb-4">Practice with exam-aligned questions and timed simulations.</p>
-          <Link href="/exams" className="inline-block px-6 py-3 rounded-lg bg-[#4C7FBF] text-white text-sm font-medium transition-colors">Start Practicing Free</Link>
+        <div className="mt-8 bg-gradient-to-r from-[#176B87]/10 to-[#176B87]/5 border border-[#176B87]/20 rounded-2xl p-6 text-center">
+          <h2 className="text-lg font-bold text-[#F4F7F8] mb-2">Ready to test this chapter?</h2>
+          <p className="text-sm text-[#586A73] mb-4">Practice with exam-aligned questions and timed simulations.</p>
+          <Link href="/exams" className="inline-block px-6 py-3 rounded-lg bg-[#176B87] text-white text-sm font-medium transition-colors">Start Practicing Free</Link>
         </div>
       </main>
     </div>

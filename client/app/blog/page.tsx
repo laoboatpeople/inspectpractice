@@ -125,15 +125,15 @@ export default function BlogIndexPage() {
           { name: 'Blog', url: 'https://inspectpractice.com/blog' },
         ]}
       />
-      <div className="min-h-screen bg-[#0A0E1A] text-[#F8FAFC]">
+      <div className="min-h-screen bg-[#F4F7F8] text-[#102631]">
       {/* Nav */}
-      <nav className="border-b border-white/5 bg-[#0A0E1A]/80 backdrop-blur-md">
+      <nav className="border-b border-[#DCE4E7] bg-[#071D2B]/95 backdrop-blur-md">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2">
-            <img src="/logo/logo-main.png?v=3" alt="Inspect Practice" className="h-7 w-auto" />
+            <img src="/logo/logo-main.png?v=4" alt="Inspect Practice" className="h-7 w-auto" />
           </a>
           <div className="flex items-center gap-4">
-            <a href="/" className="text-sm text-[#94A3B8] hover:text-white transition-colors">← Back to Home</a>
+            <a href="/" className="text-sm text-[#586A73] hover:text-[#CBEA32] transition-colors">← Back to Home</a>
           </div>
         </div>
       </nav>
@@ -141,7 +141,7 @@ export default function BlogIndexPage() {
       {/* Header */}
       <div className="max-w-4xl mx-auto px-6 pt-16 pb-8">
         <h1 className="text-4xl font-bold mb-4">ICC Exam Guide</h1>
-        <p className="text-lg text-[#94A3B8] max-w-2xl">
+        <p className="text-lg text-[#586A73] max-w-2xl">
           Expert resources to help you prepare for ICC building inspector exams.
           Each guide covers the B1, B2, E1, P1 &amp; M1 certifications and the open-book
           code navigation skills the exams reward.
@@ -158,7 +158,7 @@ export default function BlogIndexPage() {
         <div className="max-w-4xl mx-auto px-6 py-8 text-center">
           <a
             href="/faq"
-            className="text-sm text-[#94A3B8] hover:text-white transition-colors"
+            className="text-sm text-[#586A73] hover:text-[#CBEA32] transition-colors"
           >
             Visit our FAQ →
           </a>

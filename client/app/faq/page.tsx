@@ -290,16 +290,16 @@ export default function FAQPage() {
           { name: "FAQ", url: "https://inspectpractice.com/faq" },
         ]}
       />
-      <div className="min-h-screen bg-[#0A0E1A] text-[#F8FAFC]">
+      <div className="min-h-screen bg-[#F4F7F8] text-[#102631]">
         {/* Nav */}
-        <nav className="border-b border-white/5 bg-[#0A0E1A]/80 backdrop-blur-md">
+        <nav className="border-b border-[#DCE4E7] bg-[#071D2B]/95 backdrop-blur-md">
           <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
             <a href="/" className="flex items-center gap-2">
-              <img src="/logo/logo-main.png?v=3" alt="Inspect Practice" className="h-7 w-auto" />
+              <img src="/logo/logo-main.png?v=4" alt="Inspect Practice" className="h-7 w-auto" />
             </a>
             <a
               href="/"
-              className="text-sm text-[#94A3B8] hover:text-white transition-colors"
+              className="text-sm text-[#586A73] hover:text-[#CBEA32] transition-colors"
             >
               ← Back to Home
             </a>
@@ -311,7 +311,7 @@ export default function FAQPage() {
           <h1 className="text-4xl font-bold mb-4">
             Frequently Asked Questions
           </h1>
-          <p className="text-lg text-[#94A3B8] max-w-2xl">
+          <p className="text-lg text-[#586A73] max-w-2xl">
             Everything you need to know about Inspect Practice, ICC certification,
             and how our AI-powered platform works.
           </p>
@@ -322,14 +322,14 @@ export default function FAQPage() {
           {faqs.map((faq, i) => (
             <details key={i} className="group py-6 cursor-pointer">
               <summary className="flex items-start justify-between gap-4 list-none">
-                <h2 className="text-lg font-medium text-[#F8FAFC] group-hover:text-[#3B82F6] transition-colors">
+                <h2 className="text-lg font-medium text-[#102631] group-hover:text-[#176B87] transition-colors">
                   {faq.question}
                 </h2>
-                <span className="text-[#3B82F6] text-xl group-open:rotate-180 transition-transform flex-shrink-0">
+                <span className="text-[#176B87] text-xl group-open:rotate-180 transition-transform flex-shrink-0">
                   ▼
                 </span>
               </summary>
-              <div className="mt-4 text-sm text-[#94A3B8] leading-relaxed space-y-3">
+              <div className="mt-4 text-sm text-[#586A73] leading-relaxed space-y-3">
                 {faq.answer.map((block, bi) =>
                   block.type === "ul" ? (
                     <ul key={bi} className="list-disc pl-5 space-y-1.5">
@@ -351,15 +351,15 @@ export default function FAQPage() {
         {/* Contact CTA */}
         <div className="max-w-4xl mx-auto px-6 pb-24">
           <div className="border-t border-white/5 pt-16 text-center">
-            <h2 className="text-2xl font-bold text-[#F8FAFC] mb-2">
+            <h2 className="text-2xl font-bold text-[#102631] mb-2">
               Still have questions?
             </h2>
-            <p className="text-[#94A3B8] mb-6">
+            <p className="text-[#586A73] mb-6">
               Our team is here to help you on your certification journey.
             </p>
             <a
               href="/contact"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-[#C8102E] hover:bg-[#2563EB] rounded-lg text-sm font-medium transition-colors"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-[#176B87] hover:bg-[#176B87] rounded-lg text-sm font-medium transition-colors"
             >
               Contact Us
             </a>

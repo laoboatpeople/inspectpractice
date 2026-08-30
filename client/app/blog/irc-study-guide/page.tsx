@@ -54,14 +54,14 @@ export default function IrcStudyGuidePage() {
           { name: 'IRC Study Guide', url: 'https://inspectpractice.com/blog/irc-study-guide' },
         ]}
       />
-      <div className="min-h-screen bg-[#0A0E1A] text-[#F8FAFC]">
-        <nav className="border-b border-white/5 bg-[#0A0E1A]/80 backdrop-blur-md">
+      <div className="min-h-screen bg-[#F4F7F8] text-[#102631]">
+        <nav className="border-b border-[#DCE4E7] bg-[#071D2B]/95 backdrop-blur-md">
           <div className="max-w-3xl mx-auto px-6 py-4 flex items-center justify-between">
             <a href="/" className="flex items-center gap-2">
-              <img src="/logo/logo-main.png?v=3" alt="Inspect Practice" className="h-7 w-auto" />
+              <img src="/logo/logo-main.png?v=4" alt="Inspect Practice" className="h-7 w-auto" />
             </a>
             <div className="flex items-center gap-4">
-              <a href="/blog" className="text-sm text-[#94A3B8] hover:text-white transition-colors">← Blog</a>
+              <a href="/blog" className="text-sm text-[#586A73] hover:text-[#CBEA32] transition-colors">← Blog</a>
             </div>
           </div>
         </nav>
@@ -69,12 +69,12 @@ export default function IrcStudyGuidePage() {
         <article className="max-w-3xl mx-auto px-6 pt-16 pb-24">
           <header className="mb-12">
             <div className="flex items-center gap-3 mb-4">
-              <span className="text-[11px] font-medium text-[#3B82F6] bg-[#3B82F6]/10 px-2 py-1 rounded">Code Navigation</span>
-              <span className="text-xs text-[#64748B]">April 2, 2025 *updated August 18, 2026</span>
-              <span className="text-xs text-[#64748B]">· 8 min read</span>
+              <span className="text-[11px] font-medium text-[#176B87] bg-[#176B87]/10 px-2 py-1 rounded">Code Navigation</span>
+              <span className="text-xs text-[#7A8B94]">April 2, 2025 *updated August 18, 2026</span>
+              <span className="text-xs text-[#7A8B94]">· 8 min read</span>
             </div>
             <h1 className="text-3xl md:text-4xl font-bold mb-4">IRC Study Guide: How to Navigate the International Residential Code</h1>
-            <p className="text-lg text-[#94A3B8]">
+            <p className="text-lg text-[#586A73]">
               The ICC B1 exam is open book — which means the single most important skill is finding the right
               section fast. This guide maps the entire International Residential Code so you can navigate it the
               way experienced inspectors do.
@@ -83,17 +83,17 @@ export default function IrcStudyGuidePage() {
 
           {/* Author byline */}
           <div className="flex items-center gap-3 mb-8 pb-6 border-b border-white/5">
-            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#3B82F6] to-[#06B6D4] flex items-center justify-center text-white font-bold text-sm">
+            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#176B87] to-[#123B52] flex items-center justify-center text-white font-bold text-sm">
               IP
             </div>
             <div>
-              <p className="text-sm font-medium text-[#F8FAFC]">Inspect Practice Team</p>
-              <p className="text-xs text-[#64748B]">ICC exam preparation specialists — code navigation drills for open-book exams</p>
+              <p className="text-sm font-medium text-[#102631]">Inspect Practice Team</p>
+              <p className="text-xs text-[#7A8B94]">ICC exam preparation specialists — code navigation drills for open-book exams</p>
             </div>
           </div>
 
-          <div className="prose prose-invert max-w-none text-[#CBD5E1] leading-relaxed space-y-6">
-            <h2 className="text-xl font-semibold text-[#F8FAFC] mt-10">Why Navigation Beats Memorization</h2>
+          <div className="prose prose-invert max-w-none text-[#DCE4E7] leading-relaxed space-y-6">
+            <h2 className="text-xl font-semibold text-[#102631] mt-10">Why Navigation Beats Memorization</h2>
             <p>
               Open-book exams change the game entirely. Instead of memorizing hundreds of code requirements, you
               need to know <em>where each requirement lives</em> and how to reach it in under two minutes.
@@ -101,7 +101,7 @@ export default function IrcStudyGuidePage() {
               outperform those who cram.
             </p>
 
-            <h2 className="text-xl font-semibold text-[#F8FAFC] mt-10">The IRC Chapter Map</h2>
+            <h2 className="text-xl font-semibold text-[#102631] mt-10">The IRC Chapter Map</h2>
             <p>The IRC is organized by construction sequence and system. Here is the mental map you need:</p>
             <ul className="list-disc pl-6 space-y-2">
               <li><strong>Chapter 1 — Scope and Administration:</strong> permits, inspections, and enforcement. Know the inspector's authority and the required inspection sequence.</li>
@@ -117,7 +117,7 @@ export default function IrcStudyGuidePage() {
               <li><strong>Chapter 11 — Energy Efficiency:</strong> insulation, air leakage, and fenestration requirements.</li>
             </ul>
 
-            <h2 className="text-xl font-semibold text-[#F8FAFC] mt-10">Understanding Section Numbering</h2>
+            <h2 className="text-xl font-semibold text-[#102631] mt-10">Understanding Section Numbering</h2>
             <p>
               Every IRC section follows the pattern <strong>R + Chapter + Section</strong>. R403 is in Chapter 4
               (Foundations); R905 is in Chapter 9 (Roof Assemblies). Subsections add decimals: R403.1.4 is the
@@ -129,7 +129,7 @@ export default function IrcStudyGuidePage() {
               another chapter — even before you open the book.
             </p>
 
-            <h2 className="text-xl font-semibold text-[#F8FAFC] mt-10">Index-First Strategy</h2>
+            <h2 className="text-xl font-semibold text-[#102631] mt-10">Index-First Strategy</h2>
             <p>The fastest lookup technique on open-book exams is index-first navigation:</p>
             <ul className="list-disc pl-6 space-y-2">
               <li><strong>Read the question, identify the subject</strong> — e.g., "minimum stair width," "guard height," "frost depth."</li>
@@ -142,7 +142,7 @@ export default function IrcStudyGuidePage() {
               minutes per question — index-first navigation comfortably fits in that window.
             </p>
 
-            <h2 className="text-xl font-semibold text-[#F8FAFC] mt-10">High-Weight Sections to Know Cold</h2>
+            <h2 className="text-xl font-semibold text-[#102631] mt-10">High-Weight Sections to Know Cold</h2>
             <p>While the whole code is fair game, these sections appear disproportionately often on B1 exams:</p>
             <ul className="list-disc pl-6 space-y-2">
               <li><strong>R302</strong> — fire-resistant construction and opening protection between units</li>
@@ -153,19 +153,19 @@ export default function IrcStudyGuidePage() {
               <li><strong>R905</strong> — roof covering materials and slopes</li>
             </ul>
 
-            <h2 className="text-xl font-semibold text-[#F8FAFC] mt-10">Drill with Real Practice Questions</h2>
+            <h2 className="text-xl font-semibold text-[#102631] mt-10">Drill with Real Practice Questions</h2>
             <p>
               Reading about navigation is not enough — you need reps. Inspect Practice's B1 question bank is
               built around open-book scenarios: every question includes the exact IRC reference so you learn the
               pattern, and timed simulations replicate the real exam. Start with{' '}
-              <a href="/free-icc-practice-questions" className="text-[#3B82F6] hover:text-[#60A5FA] transition-colors">
+              <a href="/free-icc-practice-questions" className="text-[#176B87] hover:text-[#4794B8] transition-colors">
                 free ICC practice questions
               </a>{' '}
               to practice your lookup speed today.
             </p>
             <p>
               For the full certification roadmap, see our{' '}
-              <a href="/blog/icc-b1-certification-guide" className="text-[#3B82F6] hover:text-[#60A5FA] transition-colors">
+              <a href="/blog/icc-b1-certification-guide" className="text-[#176B87] hover:text-[#4794B8] transition-colors">
                 ICC B1 certification guide
               </a>.
             </p>

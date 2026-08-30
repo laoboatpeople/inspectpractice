@@ -258,13 +258,13 @@ export default function EditQuestionPage() {
                   onChange={(e) => setExamId(e.target.value)}
                   required
                   disabled={loadingExams}
-                  className="w-full appearance-none pl-4 pr-10 py-2.5 bg-[#0A0E1A] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors cursor-pointer"
+                  className="w-full appearance-none pl-4 pr-10 py-2.5 bg-[#071D2B] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors cursor-pointer"
                 >
-                  <option value="" className="bg-[#0A0E1A] text-text-primary">
+                  <option value="" className="bg-[#071D2B] text-text-primary">
                     {loadingExams ? 'Chargement des examens...' : 'Sélectionnez un examen'}
                   </option>
                   {exams.map((exam) => (
-                    <option key={exam.id} value={exam.id} className="bg-[#0A0E1A] text-text-primary">
+                    <option key={exam.id} value={exam.id} className="bg-[#071D2B] text-text-primary">
                       {exam.code} — {exam.name}
                     </option>
                   ))}
@@ -288,13 +288,13 @@ export default function EditQuestionPage() {
                   onChange={(e) => setChapterId(e.target.value)}
                   required
                   disabled={!examId || chapters.length === 0}
-                  className="w-full appearance-none pl-4 pr-10 py-2.5 bg-[#0A0E1A] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors cursor-pointer disabled:opacity-50"
+                  className="w-full appearance-none pl-4 pr-10 py-2.5 bg-[#071D2B] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors cursor-pointer disabled:opacity-50"
                 >
-                  <option value="" className="bg-[#0A0E1A] text-text-primary">
+                  <option value="" className="bg-[#071D2B] text-text-primary">
                     {!examId ? "Sélectionnez d'abord un examen" : chapters.length === 0 ? 'Aucun chapitre trouvé' : 'Sélectionnez un chapitre'}
                   </option>
                   {chapters.map((ch) => (
-                    <option key={ch.id} value={ch.id} className="bg-[#0A0E1A] text-text-primary">
+                    <option key={ch.id} value={ch.id} className="bg-[#071D2B] text-text-primary">
                       Chapitre {ch.number} — {ch.name}
                     </option>
                   ))}
@@ -327,11 +327,11 @@ export default function EditQuestionPage() {
                         setCorrectAnswer('');
                       }
                     }}
-                    className="w-full appearance-none pl-4 pr-10 py-2.5 bg-[#0A0E1A] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors cursor-pointer"
+                    className="w-full appearance-none pl-4 pr-10 py-2.5 bg-[#071D2B] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors cursor-pointer"
                   >
-                    <option value="MCQ" className="bg-[#0A0E1A] text-text-primary">MCQ</option>
-                    <option value="TRUEFALSE" className="bg-[#0A0E1A] text-text-primary">Vrai / Faux</option>
-                    <option value="WRITTEN" className="bg-[#0A0E1A] text-text-primary">Écrite</option>
+                    <option value="MCQ" className="bg-[#071D2B] text-text-primary">MCQ</option>
+                    <option value="TRUEFALSE" className="bg-[#071D2B] text-text-primary">Vrai / Faux</option>
+                    <option value="WRITTEN" className="bg-[#071D2B] text-text-primary">Écrite</option>
                   </select>
                   <ChevronDown
                     size={14}
@@ -349,11 +349,11 @@ export default function EditQuestionPage() {
                     id="difficulty"
                     value={difficulty}
                     onChange={(e) => setDifficulty(e.target.value as Difficulty)}
-                    className="w-full appearance-none pl-4 pr-10 py-2.5 bg-[#0A0E1A] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors cursor-pointer"
+                    className="w-full appearance-none pl-4 pr-10 py-2.5 bg-[#071D2B] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors cursor-pointer"
                   >
-                    <option value="EASY" className="bg-[#0A0E1A] text-text-primary">Facile</option>
-                    <option value="MEDIUM" className="bg-[#0A0E1A] text-text-primary">Moyenne</option>
-                    <option value="HARD" className="bg-[#0A0E1A] text-text-primary">Difficile</option>
+                    <option value="EASY" className="bg-[#071D2B] text-text-primary">Facile</option>
+                    <option value="MEDIUM" className="bg-[#071D2B] text-text-primary">Moyenne</option>
+                    <option value="HARD" className="bg-[#071D2B] text-text-primary">Difficile</option>
                   </select>
                   <ChevronDown
                     size={14}
@@ -374,7 +374,7 @@ export default function EditQuestionPage() {
                 onChange={(e) => setQuestionText(e.target.value)}
                 required
                 rows={4}
-                className="w-full pl-4 pr-4 py-2.5 bg-[#0A0E1A] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors resize-none"
+                className="w-full pl-4 pr-4 py-2.5 bg-[#071D2B] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors resize-none"
                 placeholder="Saisissez le texte de la question..."
               />
             </div>
@@ -404,7 +404,7 @@ export default function EditQuestionPage() {
                         type="text"
                         value={option}
                         onChange={(e) => handleOptionChange(idx, e.target.value)}
-                        className="flex-1 pl-4 pr-4 py-2.5 bg-[#0A0E1A] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors"
+                        className="flex-1 pl-4 pr-4 py-2.5 bg-[#071D2B] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors"
                         placeholder={`Option ${String.fromCharCode(65 + idx)}`}
                       />
                       {options.length > 2 && (
@@ -466,12 +466,12 @@ export default function EditQuestionPage() {
                       value={correctAnswer}
                       onChange={(e) => setCorrectAnswer(e.target.value)}
                       required
-                      className="w-full appearance-none pl-4 pr-10 py-2.5 bg-[#0A0E1A] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors cursor-pointer"
+                      className="w-full appearance-none pl-4 pr-10 py-2.5 bg-[#071D2B] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors cursor-pointer"
                     >
-                      <option value="" className="bg-[#0A0E1A] text-text-primary">Sélectionnez l'option correcte</option>
+                      <option value="" className="bg-[#071D2B] text-text-primary">Sélectionnez l'option correcte</option>
                       {options.map((opt, idx) => (
                         opt.trim() && (
-                          <option key={idx} value={opt} className="bg-[#0A0E1A] text-text-primary">
+                          <option key={idx} value={opt} className="bg-[#071D2B] text-text-primary">
                             {String.fromCharCode(65 + idx)}. {opt}
                           </option>
                         )
@@ -489,7 +489,7 @@ export default function EditQuestionPage() {
                     value={correctAnswer}
                     onChange={(e) => setCorrectAnswer(e.target.value)}
                     required
-                    className="w-full pl-4 pr-4 py-2.5 bg-[#0A0E1A] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors"
+                    className="w-full pl-4 pr-4 py-2.5 bg-[#071D2B] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors"
                     placeholder="Saisissez la réponse correcte"
                   />
                 )}
@@ -506,7 +506,7 @@ export default function EditQuestionPage() {
                 value={explanation}
                 onChange={(e) => setExplanation(e.target.value)}
                 rows={3}
-                className="w-full pl-4 pr-4 py-2.5 bg-[#0A0E1A] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors resize-none"
+                className="w-full pl-4 pr-4 py-2.5 bg-[#071D2B] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-blue/50 focus:border-blue transition-colors resize-none"
                 placeholder="Expliquez pourquoi c'est la réponse correcte..."
               />
             </div>

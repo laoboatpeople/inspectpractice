@@ -65,17 +65,17 @@ export default function BreadcrumbNav() {
 
   return (
     <nav aria-label={isFr ? 'Fil d\'Ariane' : 'Breadcrumb'} className="max-w-4xl mx-auto px-6 pt-6">
-      <ol className="flex items-center gap-2 text-xs text-[#64748B]">
+      <ol className="flex items-center gap-2 text-xs text-[#7A8B94]">
         <li>
-          <Link href={isFr ? '/fr' : '/'} className="hover:text-[#94A3B8] transition-colors">{isFr ? 'Accueil' : 'Home'}</Link>
+          <Link href={isFr ? '/fr' : '/'} className="hover:text-[#586A73] transition-colors">{isFr ? 'Accueil' : 'Home'}</Link>
         </li>
         {breadcrumbs.filter(b => b.href !== '/' && b.href !== '/fr' && b.href !== '/fr/').map((crumb, i) => (
           <li key={crumb.href} className="flex items-center gap-2">
             <span>/</span>
             {i === breadcrumbs.filter(b => b.href !== '/' && b.href !== '/fr' && b.href !== '/fr/').length - 1 ? (
-              <span className="text-[#94A3B8]">{crumb.label}</span>
+              <span className="text-[#586A73]">{crumb.label}</span>
             ) : (
-              <Link href={crumb.href} className="hover:text-[#94A3B8] transition-colors">
+              <Link href={crumb.href} className="hover:text-[#586A73] transition-colors">
                 {crumb.label}
               </Link>
             )}

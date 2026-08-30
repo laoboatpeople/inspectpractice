@@ -179,11 +179,11 @@ function EmailCapture() {
   };
 
   return (
-    <div className="rounded-xl border border-white/10 bg-white/[0.03] p-6">
-      <h3 className="text-lg font-bold text-[#F8FAFC] mb-2">
+    <div className="rounded-xl border border-[#DCE4E7] bg-white p-6">
+      <h3 className="text-lg font-bold text-[#102631] mb-2">
         📥 Get 10 Free ICC Practice Questions
       </h3>
-      <p className="text-sm text-[#94A3B8] mb-4">
+      <p className="text-sm text-[#586A73] mb-4">
         Subscribe to the Inspect Practice newsletter and we&apos;ll send you a free sample pack.
       </p>
       {status === 'success' ? (
@@ -196,12 +196,12 @@ function EmailCapture() {
             onChange={(e) => setEmail(e.target.value)}
             placeholder="your@email.com"
             required
-            className="flex-1 px-4 py-2.5 rounded-lg bg-[#1A2035] border border-white/10 text-[#F8FAFC] text-sm placeholder:text-[#64748B] focus:outline-none focus:border-[#C8102E]"
+            className="flex-1 px-4 py-2.5 rounded-lg bg-[#FFFFFF] border border-[#DCE4E7] text-[#102631] text-sm placeholder:text-[#7A8B94] focus:outline-none focus:border-[#176B87]"
           />
           <button
             type="submit"
             disabled={status === 'loading'}
-            className="px-6 py-2.5 rounded-lg bg-[#C8102E] hover:bg-[#2563EB] text-white text-sm font-medium disabled:opacity-50 transition-colors"
+            className="px-6 py-2.5 rounded-lg bg-[#CBEA32] hover:bg-[#B5D51F] text-[#071D2B] font-semibold text-sm font-medium disabled:opacity-50 transition-colors"
           >
             {status === 'loading' ? 'Sending...' : 'Get Free Sample'}
           </button>
@@ -216,20 +216,20 @@ function EmailCapture() {
 
 function QuestionCard({ q }: { q: typeof questions[0] }) {
   return (
-    <div className="rounded-xl border border-white/10 bg-white/[0.03] p-6">
+    <div className="rounded-xl border border-[#DCE4E7] bg-white p-6">
       <div className="flex items-center gap-2 mb-3">
-        <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#C8102E] text-white text-xs font-bold">
+        <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#176B87] text-white text-xs font-bold">
           {q.id}
         </span>
-        <span className="text-xs font-medium text-[#C8102E] uppercase tracking-wider">{q.topic}</span>
+        <span className="text-xs font-medium text-[#176B87] uppercase tracking-wider">{q.topic}</span>
       </div>
-      <p className="text-sm text-[#F8FAFC] font-medium mb-4">{q.stem}</p>
+      <p className="text-sm text-[#102631] font-medium mb-4">{q.stem}</p>
       <ul className="space-y-2 mb-4">
         {q.options.map((opt, i) => (
           <li
             key={i}
-            className={`text-xs text-[#94A3B8] p-2 rounded ${
-              i === q.correctIndex ? 'border-l-2 border-[#C8102E] bg-[#C8102E]/5' : ''
+            className={`text-xs text-[#586A73] p-2 rounded ${
+              i === q.correctIndex ? 'border-l-2 border-[#176B87] bg-[#176B87]/5' : ''
             }`}
           >
             {opt}
@@ -237,7 +237,7 @@ function QuestionCard({ q }: { q: typeof questions[0] }) {
         ))}
       </ul>
       <details className="group">
-        <summary className="inline-flex items-center gap-1 text-xs font-medium text-[#C8102E] hover:text-[#60A5FA] cursor-pointer list-none">
+        <summary className="inline-flex items-center gap-1 text-xs font-medium text-[#176B87] hover:text-[#4794B8] cursor-pointer list-none">
           <span>▶</span>
           <span>Show Answer</span>
         </summary>
@@ -245,8 +245,8 @@ function QuestionCard({ q }: { q: typeof questions[0] }) {
           <p className="text-xs font-medium text-green-400 mb-1">
             ✅ Correct Answer: {q.options[q.correctIndex]}
           </p>
-          <p className="text-xs text-[#94A3B8]">{q.explanation}</p>
-          <p className="text-xs text-[#64748B] mt-1 italic">Reference: {q.ref}</p>
+          <p className="text-xs text-[#586A73]">{q.explanation}</p>
+          <p className="text-xs text-[#7A8B94] mt-1 italic">Reference: {q.ref}</p>
         </div>
       </details>
     </div>
@@ -255,14 +255,14 @@ function QuestionCard({ q }: { q: typeof questions[0] }) {
 
 export default function FreePracticeQuestionsClient() {
   return (
-    <div className="min-h-screen bg-[#0A0E1A] text-[#F8FAFC]">
+    <div className="min-h-screen bg-[#F4F7F8] text-[#102631]">
       {/* Nav */}
-      <nav className="border-b border-white/5 bg-[#0A0E1A]/80 backdrop-blur-md">
+      <nav className="border-b border-[#DCE4E7] bg-[#071D2B]/95 backdrop-blur-md">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2">
-            <img src="/logo/logo-main.png?v=3" alt="Inspect Practice" className="h-7 w-auto" />
+            <img src="/logo/logo-main.png?v=4" alt="Inspect Practice" className="h-7 w-auto" />
           </a>
-          <a href="/blog" className="text-sm text-[#94A3B8] hover:text-white transition-colors">
+          <a href="/blog" className="text-sm text-[#586A73] hover:text-[#CBEA32] transition-colors">
             ← Back to Blog
           </a>
         </div>
@@ -271,13 +271,13 @@ export default function FreePracticeQuestionsClient() {
       {/* Header */}
       <header className="max-w-4xl mx-auto px-6 pt-16 pb-8 text-center">
         <h1 className="text-4xl font-bold mb-4">Free ICC Practice Questions</h1>
-        <p className="text-lg text-[#94A3B8] max-w-2xl mx-auto mb-6">
+        <p className="text-lg text-[#586A73] max-w-2xl mx-auto mb-6">
           10 realistic open-book questions covering the IRC, IBC, NEC, IPC, and IMC — with the exact code
           reference for every answer. Click to reveal the answer and explanation.
         </p>
         <a
           href="/auth/register"
-          className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-[#C8102E] hover:bg-[#2563EB] text-white text-sm font-medium transition-colors"
+          className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-[#CBEA32] hover:bg-[#B5D51F] text-[#071D2B] font-semibold text-sm font-medium transition-colors"
         >
           Start Your Free Practice →
         </a>
@@ -290,7 +290,7 @@ export default function FreePracticeQuestionsClient() {
 
       {/* Introduction */}
       <section className="max-w-4xl mx-auto px-6 mb-12">
-        <div className="text-sm text-[#94A3B8] leading-relaxed">
+        <div className="text-sm text-[#586A73] leading-relaxed">
           <p>
             These 10 sample questions represent the type of questions you will
             encounter on ICC building inspector exams. Each question covers a
@@ -298,13 +298,13 @@ export default function FreePracticeQuestionsClient() {
             of egress, NEC services, IPC venting, and IMC combustion air.
           </p>
           <p className="mt-4">
-            Click the <strong className="text-[#F8FAFC]">Show Answer</strong> button under each question to see
+            Click the <strong className="text-[#102631]">Show Answer</strong> button under each question to see
             the correct answer, a detailed explanation, and the code
             reference. Use these questions to practice your code-navigation
             skills and identify areas that need more study.
           </p>
           <p className="mt-4">
-            Inspect Practice has <strong className="text-[#F8FAFC]">2,500+ ICC practice questions</strong> covering all
+            Inspect Practice has <strong className="text-[#102631]">2,500+ ICC practice questions</strong> covering all
             five certifications — B1, B2, E1, P1, and M1. Sign up
             for free to access the full question bank with adaptive difficulty,
             timed simulations, and AI-powered explanations.
@@ -321,11 +321,11 @@ export default function FreePracticeQuestionsClient() {
 
       {/* CTA Section */}
       <section className="max-w-4xl mx-auto px-6 mb-16">
-        <div className="rounded-xl border border-white/10 bg-gradient-to-br from-[#C8102E]/10 to-[#4C7FBF]/5 p-8 text-center">
-          <h2 className="text-2xl font-bold text-[#F8FAFC] mb-3">
+        <div className="rounded-xl border border-[#DCE4E7] bg-gradient-to-br from-[#176B87]/10 to-[#176B87]/5 p-8 text-center">
+          <h2 className="text-2xl font-bold text-[#102631] mb-3">
             Ready for 2,500+ Questions?
           </h2>
-          <p className="text-sm text-[#94A3B8] max-w-xl mx-auto mb-6">
+          <p className="text-sm text-[#586A73] max-w-xl mx-auto mb-6">
             Get unlimited access to ICC-style open-book practice questions
             with adaptive difficulty, timed simulations, AI Tutor explanations,
             and detailed progress tracking.
@@ -333,13 +333,13 @@ export default function FreePracticeQuestionsClient() {
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
               href="/auth/register"
-              className="px-6 py-3 rounded-lg bg-[#C8102E] hover:bg-[#2563EB] text-white text-sm font-medium transition-colors"
+              className="px-6 py-3 rounded-lg bg-[#CBEA32] hover:bg-[#B5D51F] text-[#071D2B] font-semibold text-sm font-medium transition-colors"
             >
               Create Free Account
             </a>
             <a
               href="/pricing"
-              className="px-6 py-3 rounded-lg border border-white/10 hover:bg-white/[0.05] text-[#F8FAFC] text-sm font-medium transition-colors"
+              className="px-6 py-3 rounded-lg border border-[#DCE4E7] hover:bg-white/[0.05] text-[#102631] text-sm font-medium transition-colors"
             >
               View Pricing
             </a>
@@ -354,42 +354,42 @@ export default function FreePracticeQuestionsClient() {
 
       {/* Related Resources */}
       <section className="max-w-4xl mx-auto px-6 pb-20">
-        <h2 className="text-xl font-bold text-[#F8FAFC] mb-6">📚 More Study Resources</h2>
+        <h2 className="text-xl font-bold text-[#102631] mb-6">📚 More Study Resources</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <a href="/blog/icc-b1-certification-guide" className="p-5 rounded-xl border border-white/10 bg-white/[0.03] hover:bg-white/[0.06] transition-colors">
-            <h3 className="font-semibold text-[#F8FAFC] mb-1 text-sm">The Complete ICC B1 Certification Guide</h3>
-            <p className="text-xs text-[#64748B]">Everything you need to earn your B1 certification.</p>
+          <a href="/blog/icc-b1-certification-guide" className="p-5 rounded-xl border border-[#DCE4E7] bg-white hover:bg-white/[0.06] transition-colors">
+            <h3 className="font-semibold text-[#102631] mb-1 text-sm">The Complete ICC B1 Certification Guide</h3>
+            <p className="text-xs text-[#7A8B94]">Everything you need to earn your B1 certification.</p>
           </a>
-          <a href="/blog/irc-study-guide" className="p-5 rounded-xl border border-white/10 bg-white/[0.03] hover:bg-white/[0.06] transition-colors">
-            <h3 className="font-semibold text-[#F8FAFC] mb-1 text-sm">IRC Study Guide</h3>
-            <p className="text-xs text-[#64748B]">Master navigation of the International Residential Code.</p>
+          <a href="/blog/irc-study-guide" className="p-5 rounded-xl border border-[#DCE4E7] bg-white hover:bg-white/[0.06] transition-colors">
+            <h3 className="font-semibold text-[#102631] mb-1 text-sm">IRC Study Guide</h3>
+            <p className="text-xs text-[#7A8B94]">Master navigation of the International Residential Code.</p>
           </a>
-          <a href="/blog/icc-exam-structure" className="p-5 rounded-xl border border-white/10 bg-white/[0.03] hover:bg-white/[0.06] transition-colors">
-            <h3 className="font-semibold text-[#F8FAFC] mb-1 text-sm">ICC Exam Structure</h3>
-            <p className="text-xs text-[#64748B]">Questions, time limits, and passing scores for all 5 exams.</p>
+          <a href="/blog/icc-exam-structure" className="p-5 rounded-xl border border-[#DCE4E7] bg-white hover:bg-white/[0.06] transition-colors">
+            <h3 className="font-semibold text-[#102631] mb-1 text-sm">ICC Exam Structure</h3>
+            <p className="text-xs text-[#7A8B94]">Questions, time limits, and passing scores for all 5 exams.</p>
           </a>
-          <a href="/study-checklist" className="p-5 rounded-xl border border-white/10 bg-white/[0.03] hover:bg-white/[0.06] transition-colors">
-            <h3 className="font-semibold text-[#F8FAFC] mb-1 text-sm">30-Day Study Checklist</h3>
-            <p className="text-xs text-[#64748B]">Printable day-by-day ICC exam prep plan.</p>
+          <a href="/study-checklist" className="p-5 rounded-xl border border-[#DCE4E7] bg-white hover:bg-white/[0.06] transition-colors">
+            <h3 className="font-semibold text-[#102631] mb-1 text-sm">30-Day Study Checklist</h3>
+            <p className="text-xs text-[#7A8B94]">Printable day-by-day ICC exam prep plan.</p>
           </a>
         </div>
       </section>
 
       {/* Footer */}
       <footer className="border-t border-white/5 py-8">
-        <div className="max-w-4xl mx-auto px-6 text-center text-xs text-[#64748B]">
+        <div className="max-w-4xl mx-auto px-6 text-center text-xs text-[#7A8B94]">
           <p className="mb-2">
-            <a href="/" className="hover:text-[#94A3B8] transition-colors">Home</a>
+            <a href="/" className="hover:text-[#586A73] transition-colors">Home</a>
             <span className="mx-2">·</span>
-            <a href="/blog" className="hover:text-[#94A3B8] transition-colors">Blog</a>
+            <a href="/blog" className="hover:text-[#586A73] transition-colors">Blog</a>
             <span className="mx-2">·</span>
-            <a href="/about" className="hover:text-[#94A3B8] transition-colors">About</a>
+            <a href="/about" className="hover:text-[#586A73] transition-colors">About</a>
             <span className="mx-2">·</span>
-            <a href="/pricing" className="hover:text-[#94A3B8] transition-colors">Pricing</a>
+            <a href="/pricing" className="hover:text-[#586A73] transition-colors">Pricing</a>
             <span className="mx-2">·</span>
-            <a href="/privacy" className="hover:text-[#94A3B8] transition-colors">Privacy</a>
+            <a href="/privacy" className="hover:text-[#586A73] transition-colors">Privacy</a>
             <span className="mx-2">·</span>
-            <a href="/terms" className="hover:text-[#94A3B8] transition-colors">Terms</a>
+            <a href="/terms" className="hover:text-[#586A73] transition-colors">Terms</a>
           </p>
           <p>&copy; {new Date().getFullYear()} Inspect Practice. All rights reserved. Inspect Practice is not affiliated with the International Code Council.</p>
         </div>

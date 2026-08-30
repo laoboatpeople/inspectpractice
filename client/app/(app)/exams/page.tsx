@@ -17,6 +17,11 @@ import {
   Shield,
   HardHat,
   Info,
+  Home,
+  Building2,
+  Zap,
+  Droplets,
+  Fan,
 } from 'lucide-react';
 import { getStudentExamCategories } from '@/lib/student-api';
 import type { StudentExamCategory } from '@/types/student';
@@ -211,14 +216,16 @@ export default function StudentExamsPage() {
   }
 
   function getExamIcon(code: string, size = 18) {
-    if (code.startsWith('ICC-B1')) return <HardHat size={size} />;
-
-    if (code.startsWith('ICC-E1')) return <Cpu size={size} />;
-    if (code.startsWith('ICC-P1') || code.startsWith('ICC-M1')) return <Shield size={size} />;
+    if (code.startsWith('ICC-B1')) return <Home size={size} />;
+    if (code.startsWith('ICC-B2')) return <Building2 size={size} />;
+    if (code.startsWith('ICC-E1')) return <Zap size={size} />;
+    if (code.startsWith('ICC-P1')) return <Droplets size={size} />;
+    if (code.startsWith('ICC-M1')) return <Fan size={size} />;
     return <BookOpen size={size} />;
   }
 
-  // Icons: HardHat for B1, Cpu for E1, Shield for P1/M1
+  // Icons: Home for B1 (residential), Building2 for B2 (commercial), Zap for E1 (electrical),
+  // Droplets for P1 (plumbing), Fan for M1 (HVAC)
 
   function renderExamCard(category: StudentExamCategory, sectionColor: SectionColor) {
     const colors = SECTION_STYLES[sectionColor];
