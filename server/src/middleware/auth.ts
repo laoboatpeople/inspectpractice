@@ -38,3 +38,22 @@ export function authenticate(req: Request, res: Response, next: NextFunction): v
     res.status(401).json({ message: 'Invalid or expired token' });
   }
 }
+
+/**
+ * Same as authenticate but does not fail when no/invalid token is present.
+ * Sets req.user only when a valid token is provided; always calls next().
+ */
+export function optionalAuth(req: Request, res: Response, next: NextFunction): void {
+  const authHeader = req.headers.authorization;
+  if (authHeader && authHeader.startsWith('Bearer ')) {
+    const parts = authHeader.split(' ');
+    if (parts.length === 2) {
+      try {
+        req.user = jwt.verify(parts[1], env.JWT_SECRET) as JwtPayload;
+      } catch {
+        // ignore invalid token — treat as anonymous
+      }
+    }
+  }
+  next();
+}

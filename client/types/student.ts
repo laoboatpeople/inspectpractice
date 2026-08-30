@@ -15,6 +15,7 @@ export interface StudentExamCategory {
   questionCount: number;
   locked?: boolean;
   simulationLocked?: boolean;
+  practiceLocked?: boolean;
 }
 
 export interface StudentChapter {
@@ -24,6 +25,7 @@ export interface StudentChapter {
   questionCount: number;
   syllabusRef: string | null;
   licenseScope: string;
+  locked?: boolean;
 }
 
 export interface QuizQuestion {

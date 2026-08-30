@@ -437,8 +437,16 @@ export default function StudentExamDetailPage() {
               <motion.div
                 key={chapter.id}
                 variants={itemVariants}
-                className="bg-card border border-border rounded-card px-5 py-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-4 hover:bg-hover/30 transition-colors"
+                className="relative bg-card border border-border rounded-card px-5 py-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-4 hover:bg-hover/30 transition-colors"
               >
+                {chapter.locked && (
+                  <span
+                    className="absolute -top-2 -right-2 flex items-center justify-center w-5 h-5 rounded-full bg-red text-white border-2 border-card shadow-sm"
+                    title={t('app.examDetail.testChapterLocked')}
+                  >
+                    <Lock size={10} />
+                  </span>
+                )}
                 <div className="flex items-center gap-3 min-w-0 flex-1 w-full">
                   <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-blue/10 border border-blue/20 text-xs font-mono font-bold text-blue flex-shrink-0">
                     {chapter.number}
@@ -479,12 +487,16 @@ export default function StudentExamDetailPage() {
                   </span>
                   {chapter.questionCount > 0 && (
                     <button
-                      onClick={() => handleSelectChapter(chapter.id, chapter.questionCount)}
-                      className="flex items-center justify-center gap-1.5 px-3 py-2 bg-cyan/10 border border-cyan/20 text-cyan rounded-btn text-xs font-medium hover:bg-cyan/20 transition-colors whitespace-nowrap"
-                      title={t('app.examDetail.testChapterDesc')}
+                      onClick={chapter.locked ? () => router.push('/subscription') : () => handleSelectChapter(chapter.id, chapter.questionCount)}
+                      className={`flex items-center justify-center gap-1.5 px-3 py-2 rounded-btn text-xs font-medium transition-colors whitespace-nowrap ${
+                        chapter.locked
+                          ? 'bg-red/10 text-red hover:bg-red/20 border border-red/30'
+                          : 'bg-cyan/10 border border-cyan/20 text-cyan hover:bg-cyan/20'
+                      }`}
+                      title={chapter.locked ? t('app.examDetail.testChapterLocked') : t('app.examDetail.testChapterDesc')}
                     >
-                      <Play size={12} />
-                      {t('app.examDetail.testChapter')}
+                      {chapter.locked ? <Lock size={12} /> : <Play size={12} />}
+                      {chapter.locked ? t('app.examDetail.upgradeForAll') : t('app.examDetail.testChapter')}
                     </button>
                   )}
                 </div>
