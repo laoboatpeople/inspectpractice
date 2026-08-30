@@ -41,13 +41,13 @@ export default function RootPage() {
   return (
     <>
       <VideoObjectJsonLd
-        name="Inspect Practice ICC Exam Platform Demo"
-        description="See how Inspect Practice uses AI-powered adaptive learning to help building inspectors pass ICC certification exams."
+        name="Inspect Practice — Dan's ICC B1 Story Demo"
+        description="Dan, a residential building inspector, prepares for the ICC B1 exam with Inspect Practice — practice questions, simulated exams, and the AI tutor. See his journey from failure to certified."
         thumbnailUrl="https://inspectpractice.com/images/og/home.jpg"
-        contentUrl="https://inspectpractice.com/videos/sky-licence-demo-en-mature.mp4"
+        contentUrl="https://inspectpractice.com/videos/inspectpractice-demo-en.mp4"
         embedUrl="https://inspectpractice.com/"
-        uploadDate="2026-05-01T00:00:00Z"
-        duration="PT30S"
+        uploadDate="2026-08-30T00:00:00Z"
+        duration="PT1M8S"
       />
       <BreadcrumbListJsonLd
         items={[

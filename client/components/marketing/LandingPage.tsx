@@ -18,6 +18,7 @@ import TestimonialCard from "@/components/marketing/TestimonialCard";
 import PricingCard from "@/components/marketing/PricingCard";
 
 export default function MarketingLandingPage() {
+  const [showDemo, setShowDemo] = useState(false);
   const msgs: Record<string, unknown> = en;
   const tm = (key: string) => {
     const keys = key.split('.');
@@ -107,13 +108,13 @@ export default function MarketingLandingPage() {
                   {tm("hero.downloadApp")}
                   <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </a>
-                <a
-                  href="#how-it-works"
-                  className="px-8 py-4 rounded-xl font-semibold text-white border border-white/20 hover:bg-white/5 transition-all duration-300 flex items-center justify-center gap-2"
+                <button
+                  onClick={() => setShowDemo(true)}
+                  className="px-8 py-4 rounded-xl font-semibold text-white border border-white/20 hover:bg-white/5 transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer"
                 >
                   <Play className="w-5 h-5" />
                   {tm("hero.watchDemo")}
-                </a>
+                </button>
               </div>
             </div>
 
@@ -653,6 +654,37 @@ export default function MarketingLandingPage() {
       </footer>
 
       {/* Video Demo Modal */}
+      {showDemo && (
+        <div
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-black/80 backdrop-blur-sm"
+          onClick={() => setShowDemo(false)}
+        >
+          <div
+            className="relative w-full max-w-[400px] bg-[#0A0E1A] rounded-2xl overflow-hidden border border-white/10"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              onClick={() => setShowDemo(false)}
+              aria-label="Close demo video"
+              className="absolute top-3 right-3 z-10 w-8 h-8 rounded-full bg-black/50 flex items-center justify-center hover:bg-black/70 transition-colors cursor-pointer"
+            >
+              <X className="w-4 h-4 text-white" />
+            </button>
+            <video
+              className="w-full aspect-[9/16]"
+              controls
+              autoPlay
+              playsInline
+              src="/videos/inspectpractice-demo-en.mp4"
+            />
+            <div className="px-4 pb-3 pt-2 text-center">
+              <span className="text-xs text-[#94A3B8]">
+                Inspect Practice — Dan&apos;s B1 story demo
+              </span>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
