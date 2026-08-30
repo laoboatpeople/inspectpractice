@@ -440,12 +440,14 @@ export default function StudentExamDetailPage() {
                 className="relative bg-card border border-border rounded-card px-5 py-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-4 hover:bg-hover/30 transition-colors"
               >
                 {chapter.locked && (
-                  <span
-                    className="absolute -top-2 -right-2 flex items-center justify-center w-5 h-5 rounded-full bg-red text-white border-2 border-card shadow-sm"
+                  <button
+                    onClick={(e) => { e.stopPropagation(); router.push('/subscription'); }}
+                    className="absolute -top-2 -right-2 flex items-center justify-center w-5 h-5 rounded-full bg-red text-white border-2 border-card shadow-sm cursor-pointer hover:bg-red/80 transition-colors"
                     title={t('app.examDetail.testChapterLocked')}
+                    aria-label={t('app.examDetail.testChapterLocked')}
                   >
                     <Lock size={10} />
-                  </span>
+                  </button>
                 )}
                 <div className="flex items-center gap-3 min-w-0 flex-1 w-full">
                   <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-blue/10 border border-blue/20 text-xs font-mono font-bold text-blue flex-shrink-0">
