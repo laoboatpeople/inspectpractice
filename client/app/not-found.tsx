@@ -14,7 +14,7 @@ export default function NotFound() {
       <nav className="border-b border-[#DCE4E7] bg-[#071D2B]/95 backdrop-blur-md">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <img src="/logo/logo-main.png?v=4" alt="Inspect Practice" className="h-7 w-auto" />
+            <img src="/logo/logo-main-light.png?v=4" alt="Inspect Practice" className="h-7 w-auto" />
           </Link>
         </div>
       </nav>

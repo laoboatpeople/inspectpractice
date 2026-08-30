@@ -46,7 +46,7 @@ export default function PrivacyPage() {
       <nav className="border-b border-[#DCE4E7]">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <img src="/logo/logo-main.png?v=4" alt="Inspect Practice" className="h-8 w-auto" />
+            <img src="/logo/logo-main-light.png?v=4" alt="Inspect Practice" className="h-8 w-auto" />
           </Link>
           <Link
             href="/"

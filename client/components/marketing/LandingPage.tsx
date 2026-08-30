@@ -34,7 +34,7 @@ export default function MarketingLandingPage() {
       <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-[#071D2B]/95 border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <img src="/logo/logo-main.png?v=4" alt="Inspect Practice" className="h-9 w-auto" />
+            <img src="/logo/logo-main-light.png?v=4" alt="Inspect Practice" className="h-9 w-auto" />
           </div>
           <div className="hidden md:flex items-center gap-8">
             <a href="#features" className="text-sm text-white/80 hover:text-[#CBEA32] transition-colors">{tm("nav.features")}</a>
@@ -562,7 +562,7 @@ export default function MarketingLandingPage() {
           <div className="grid md:grid-cols-4 gap-8 mb-12">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <img src="/logo/logo-main.png?v=4" alt="Inspect Practice" className="h-8 w-auto" />
+                <img src="/logo/logo-main-light.png?v=4" alt="Inspect Practice" className="h-8 w-auto" />
               </div>
               <p className="text-sm text-[#A9BDD0]">
                 {tm("footer.tagline")}

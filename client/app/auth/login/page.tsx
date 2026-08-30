@@ -88,11 +88,8 @@ export default function LoginPage() {
       <div className="relative w-full max-w-md">
         {/* Logo */}
         <div className="flex flex-col items-center mb-8">
-          <Link href="/" className="flex items-center gap-3 mb-4">
-            <div className="w-10 h-10 rounded-lg bg-blue flex items-center justify-center">
-              <Building2 size={20} className="text-white" />
-            </div>
-            <span className="text-xl font-bold text-text-primary font-inter">Inspect Practice</span>
+          <Link href="/" className="mb-4">
+            <img src="/logo/logo-main.png?v=4" alt="Inspect Practice" className="h-10 w-auto" />
           </Link>
           <p className="text-sm text-text-secondary mt-1">{t('auth_studentPortal')}</p>
         </div>
