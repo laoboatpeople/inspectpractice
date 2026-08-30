@@ -15,6 +15,18 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Inspect Practice',
   metadataBase: new URL('https://inspectpractice.com'),
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon-16x16.png?v=4', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png?v=4', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon-48x48.png?v=4', sizes: '48x48', type: 'image/png' },
+      { url: '/favicon-96x96.png?v=4', sizes: '96x96', type: 'image/png' },
+      { url: '/favicon-192x192.png?v=4', sizes: '192x192', type: 'image/png' },
+      { url: '/favicon-512x512.png?v=4', sizes: '512x512', type: 'image/png' },
+    ],
+    apple: [{ url: '/favicon-192x192.png?v=4', sizes: '192x192', type: 'image/png' }],
+  },
   alternates: {
     canonical: 'https://inspectpractice.com',
     languages: {
