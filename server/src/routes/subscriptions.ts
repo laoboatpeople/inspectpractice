@@ -30,6 +30,7 @@ router.get('/', requireRoles('ADMIN'), async (req: Request, res: Response): Prom
 
   const where: Record<string, unknown> = {
     status: 'ACTIVE',
+    user: { role: { notIn: ['ADMIN', 'INSTRUCTOR'] } },
   };
 
   if (req.query.status) {
@@ -47,8 +48,10 @@ router.get('/', requireRoles('ADMIN'), async (req: Request, res: Response): Prom
   }
 
   // Fetch all subscriptions (for stats) and paginated slice
+  // Owner/admin accounts are excluded (they are not real customers).
   const [allSubscriptions, paginatedSubscriptions, total] = await Promise.all([
     prisma.subscription.findMany({
+      where: { user: { role: { notIn: ['ADMIN', 'INSTRUCTOR'] } } },
       include: { user: { select: { id: true, name: true, email: true } } },
       orderBy: { createdAt: 'desc' },
     }),

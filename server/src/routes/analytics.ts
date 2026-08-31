@@ -33,7 +33,8 @@ router.get('/', async (_req: Request, res: Response): Promise<void> => {
     prisma.user.count(),
 
     // activeSubscriptions
-    prisma.subscription.count({ where: { status: 'ACTIVE' } }),
+    // activeSubscriptions (exclude owner/admin accounts — not real customers)
+    prisma.subscription.count({ where: { status: 'ACTIVE', user: { role: { notIn: ['ADMIN', 'INSTRUCTOR'] } } } }),
 
     // totalExamsTaken
     prisma.examAttempt.count(),
@@ -124,10 +125,12 @@ router.get('/', async (_req: Request, res: Response): Promise<void> => {
   const topFailedQuestions = questionStats.slice(0, 10);
 
   // revenueByMonth: last 12 months — group active subscriptions by plan per month
+  // Owner/admin accounts are excluded (they are not real customers).
   const subsLast12Months = await prisma.subscription.findMany({
     where: {
       createdAt: { gte: twelveMonthsAgo },
       status: 'ACTIVE',
+      user: { role: { notIn: ['ADMIN', 'INSTRUCTOR'] } },
     },
     select: {
       plan: true,
@@ -190,7 +193,8 @@ router.get('/dashboard', async (req: Request, res: Response): Promise<void> => {
     activeUsersTodayRaw,
   ] = await Promise.all([
     prisma.user.count(),
-    prisma.subscription.count({ where: { status: 'ACTIVE' } }),
+    // activeSubscriptions (exclude owner/admin accounts — not real customers)
+    prisma.subscription.count({ where: { status: 'ACTIVE', user: { role: { notIn: ['ADMIN', 'INSTRUCTOR'] } } } }),
     prisma.examAttempt.count(),
     prisma.examAttempt.findMany({ select: { score: true } }),
     // userGrowth for selected period
@@ -360,9 +364,9 @@ router.get('/dashboard', async (req: Request, res: Response): Promise<void> => {
   questionStats.sort((a, b) => a.passRate - b.passRate);
   const topFailedQuestions = questionStats.slice(0, 10);
 
-  // revenueByMonth
+  // revenueByMonth (owner/admin accounts excluded — not real customers)
   const subsLast12Months = await prisma.subscription.findMany({
-    where: { createdAt: { gte: twelveMonthsAgo }, status: 'ACTIVE' },
+    where: { createdAt: { gte: twelveMonthsAgo }, status: 'ACTIVE', user: { role: { notIn: ['ADMIN', 'INSTRUCTOR'] } } },
     select: { plan: true, createdAt: true },
   });
   const revenueMap: Record<string, { month: string; amount: number }> = {};
