@@ -298,8 +298,8 @@ export default function MarketingLandingPage() {
             <AppMockup title={tm("appPreview.reviewTitle")}>
               <div className="space-y-2">
                 <div className="text-xs text-[#D9534F] font-medium">{tm("appPreview.needsReview")}</div>
-                <div className="text-sm text-[#102631]">{tm("appPreview.hydraulicExplanation")}</div>
-                <div className="text-xs text-[#586A73]">{tm("appPreview.tapToReview")}</div>
+                <div className="text-sm text-white">{tm("appPreview.hydraulicExplanation")}</div>
+                <div className="text-xs text-white/60">{tm("appPreview.tapToReview")}</div>
               </div>
             </AppMockup>
           </div>
