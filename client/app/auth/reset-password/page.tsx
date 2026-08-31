@@ -172,11 +172,8 @@ export default function ResetPasswordPage() {
       </div>
       <div className="relative w-full max-w-md">
         <div className="flex flex-col items-center mb-8">
-          <Link href="/admin" className="flex items-center gap-3 mb-4">
-            <div className="w-12 h-12 rounded-lg bg-accent-blue flex items-center justify-center">
-              <span className="text-white text-lg font-bold">SL</span>
-            </div>
-            <span className="text-2xl font-bold text-text-primary">Inspect Practice</span>
+          <Link href="/" className="mb-4">
+            <img src="/logo/logo-main.png?v=4" alt="Inspect Practice" className="h-10 w-auto" />
           </Link>
         </div>
         <Suspense fallback={<div className="bg-card border border-border rounded-lg p-8 text-center text-text-secondary">Loading...</div>}>

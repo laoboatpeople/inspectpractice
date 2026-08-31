@@ -75,11 +75,8 @@ export default function ForgotPasswordPage() {
       <div className="relative w-full max-w-md">
         {/* Logo */}
         <div className="flex flex-col items-center mb-8">
-          <Link href="/" className="flex items-center gap-3 mb-4">
-            <div className="w-12 h-12 rounded-lg bg-accent-blue flex items-center justify-center">
-              <span className="text-white text-lg font-bold">SL</span>
-            </div>
-            <span className="text-2xl font-bold text-text-primary">Inspect Practice</span>
+          <Link href="/" className="mb-4">
+            <img src="/logo/logo-main.png?v=4" alt="Inspect Practice" className="h-10 w-auto" />
           </Link>
           <p className="text-sm text-text-secondary mt-1">{t('auth_tcAmePlatform')}</p>
         </div>
