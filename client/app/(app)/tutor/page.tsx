@@ -144,6 +144,9 @@ function MessageBubble({
 }) {
   const isUser = message.role === 'user';
   const { t, locale } = useLocale();
+  // Quiz context messages (full question + options + answer) render as a light
+  // card instead of a large solid teal bubble — keeps the chat light/design-consistent.
+  const isQuizContext = isUser && (message.content.includes('Exam question:') || message.content.includes('Options:') || message.content.length > 180);
 
   return (
     <motion.div
@@ -159,7 +162,9 @@ function MessageBubble({
       <div
         className={`max-w-[75%] px-4 py-3 rounded-card text-sm leading-relaxed ${
           isUser
-            ? 'bg-blue text-white rounded-br-sm'
+            ? isQuizContext
+              ? 'bg-card border border-border text-text-primary rounded-br-sm'
+              : 'bg-blue text-white rounded-br-sm'
             : 'bg-card border border-border text-text-primary rounded-bl-sm'
         }`}
       >
@@ -174,7 +179,7 @@ function MessageBubble({
         {message.createdAt && (
           <p
             className={`text-[10px] mt-1.5 ${
-              isUser ? 'text-blue-200' : 'text-text-tertiary'
+              isUser ? (isQuizContext ? 'text-text-tertiary' : 'text-blue-200') : 'text-text-tertiary'
             }`}
           >
             {new Date(message.createdAt).toLocaleTimeString('en-US', {
