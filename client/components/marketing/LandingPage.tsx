@@ -12,7 +12,6 @@ import {
 } from "lucide-react";
 import AppMockup from "@/components/marketing/AppMockup";
 import NewsletterSection from "@/components/marketing/NewsletterSection";
-import RelatedStudyPlatforms from "@/components/marketing/RelatedStudyPlatforms";
 import ScrollReveal from "@/components/ScrollReveal";
 import FeatureCard from "@/components/marketing/FeatureCard";
 import TestimonialCard from "@/components/marketing/TestimonialCard";
@@ -553,8 +552,6 @@ export default function MarketingLandingPage() {
       </section>
 
       <NewsletterSection />
-
-      <RelatedStudyPlatforms />
 
       {/* 11. FOOTER */}
       <footer className="py-12 px-6 bg-[#071D2B] border-t border-white/10">
