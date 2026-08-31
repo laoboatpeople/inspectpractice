@@ -91,7 +91,7 @@ router.get('/exam-categories', authenticate, async (req: Request, res: Response)
   // Sort by displayOrder so FREE plan unlocks the entry exam (ICC-B1)
   exams.sort((a, b) => a.displayOrder - b.displayOrder || a.code.localeCompare(b.code));
 
-  // Free plan: only first category is unlocked; mark others as locked
+  // Free plan: every category is reachable; chapter 1 of each is free (chapter-level lock below)
   const data = exams.map((exam, index) => ({
     id: exam.id,
     code: exam.code,
@@ -105,7 +105,7 @@ router.get('/exam-categories', authenticate, async (req: Request, res: Response)
     randomizeOrder: exam.randomizeOrder,
     chapterCount: exam._count.chapters,
     questionCount: exam._count.questions,
-    locked: isFreePlan && index > 0,
+    locked: false,
     // Official exam simulation (mode=exam) is always paid for FREE users
     simulationLocked: isFreePlan,
     // Practice quiz is FREE for everyone (FREE users get chapter-1-scoped questions)
@@ -225,7 +225,8 @@ router.get('/exams/:examId/quiz', authenticate, async (req: Request, res: Respon
   const exam = await prisma.exam.findUnique({ where: { id: examId, isActive: true } });
   if (!exam) { res.status(404).json({ message: 'Exam not found' }); return; }
 
-  // Subscription guard: FREE users may only access the first exam in sorted order
+  // Subscription guard: FREE users get chapter-1-scoped practice in EVERY category;
+  // official exam simulation and chapters 2+ stay paid (handled below / in chapter lock)
   const userSubscription = await prisma.subscription.findFirst({
     where: { userId: req.user!.id, status: 'ACTIVE' },
     orderBy: { createdAt: 'desc' },
@@ -238,16 +239,6 @@ router.get('/exams/:examId/quiz', authenticate, async (req: Request, res: Respon
     // Official exam simulation is always paid for FREE users (even the first exam)
     if (mode === 'exam') {
       res.status(403).json({ message: 'Upgrade to access the official exam simulation' });
-      return;
-    }
-    const allExams = await prisma.exam.findMany({
-      where: { isActive: true },
-      select: { id: true, code: true },
-    });
-    allExams.sort((a, b) => a.code.localeCompare(b.code));
-    const examIndex = allExams.findIndex(e => e.id === examId);
-    if (examIndex > 0) {
-      res.status(403).json({ message: 'Upgrade to access this exam category' });
       return;
     }
     // FREE plan = first chapter only:
