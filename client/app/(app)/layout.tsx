@@ -107,7 +107,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
     return (
       <div className="min-h-screen bg-secondary flex items-center justify-center">
         <div className="flex flex-col items-center gap-3">
-          <Building2 size={32} className="text-blue animate-pulse" />
+          <img src="/logo/logo-main.png?v=4" alt="Inspect Practice" className="h-10 w-auto animate-pulse" />
           <p className="text-text-secondary text-sm">{t('loading')}</p>
         </div>
       </div>
@@ -136,10 +136,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           {/* Logo */}
           <div className="flex items-center justify-between px-6 py-5 border-b border-border">
             <Link href="/app" className="flex items-center gap-3">
-              <div className="w-8 h-8 rounded-lg bg-blue flex items-center justify-center">
-                <Building2 size={16} className="text-white" />
-              </div>
-              <span className="text-lg font-bold text-text-primary">Inspect Practice</span>
+              <img src="/logo/logo-main.png?v=4" alt="Inspect Practice" className="h-8 w-auto flex-shrink-0" />
             </Link>
             <button
               className="lg:hidden text-text-secondary hover:text-text-primary"
