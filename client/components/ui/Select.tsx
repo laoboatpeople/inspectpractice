@@ -91,13 +91,13 @@ const Select = React.forwardRef<HTMLButtonElement, SelectProps>(
             disabled={disabled || loading}
             onClick={() => !disabled && !loading && setIsOpen(prev => !prev)}
             className={cn(
-              'flex h-10 w-full items-center justify-between rounded-input border bg-[#071D2B] px-3 py-2 text-sm text-text-primary transition-colors duration-150',
-              'focus:outline-none focus:ring-2 focus:ring-blue focus:ring-offset-2 focus:ring-offset-primary',
+              'flex h-10 w-full items-center justify-between rounded-input border bg-card px-3 py-2 text-sm text-text-primary transition-colors duration-150',
+              'focus:outline-none focus:ring-2 focus:ring-blue focus:ring-offset-2 focus:ring-offset-card',
               'disabled:cursor-not-allowed disabled:opacity-50',
               error
                 ? 'border-red focus:ring-red'
                 : 'border-border hover:border-text-tertiary',
-              isOpen && 'ring-2 ring-blue ring-offset-2 ring-offset-primary',
+              isOpen && 'ring-2 ring-blue ring-offset-2 ring-offset-card',
               className
             )}
           >
