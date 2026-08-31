@@ -159,7 +159,7 @@ function getHtmlBody(userName: string, lang: string): string {
           <!-- Logo -->
           <tr>
             <td align="center" style="padding-bottom:32px;">
-              <span style="color:#3B82F6;font-size:20px;font-weight:700;letter-spacing:-0.5px;">🏠 InspectPractice</span>
+              <span style="color:#176B87;font-size:20px;font-weight:700;letter-spacing:-0.5px;">🏠 InspectPractice</span>
             </td>
           </tr>
 
@@ -489,7 +489,7 @@ export async function sendPlanChangeConfirmation(
         <table width="560" cellpadding="0" cellspacing="0" style="max-width:560px;">
           <tr>
             <td align="center" style="padding-bottom:32px;">
-              <span style="color:#3B82F6;font-size:20px;font-weight:700;letter-spacing:-0.5px;">🏠 InspectPractice</span>
+              <span style="color:#176B87;font-size:20px;font-weight:700;letter-spacing:-0.5px;">🏠 InspectPractice</span>
             </td>
           </tr>
           <tr>
