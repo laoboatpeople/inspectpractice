@@ -241,6 +241,17 @@ router.get('/exams/:examId/quiz', authenticate, async (req: Request, res: Respon
       res.status(403).json({ message: 'Upgrade to access the official exam simulation' });
       return;
     }
+    // FREE plan = first category only (sorted by code): reject practice on any other exam
+    const allExams = await prisma.exam.findMany({
+      where: { isActive: true },
+      select: { id: true, code: true },
+    });
+    allExams.sort((a, b) => a.code.localeCompare(b.code));
+    const examIndex = allExams.findIndex(e => e.id === examId);
+    if (examIndex > 0) {
+      res.status(403).json({ message: 'Upgrade to access this exam category' });
+      return;
+    }
     // FREE plan = first chapter only:
     // - chapter-scoped quiz: only chapter 1 is allowed
     // - cross-chapter practice quiz (no chapterId): FREE but scoped to chapter 1

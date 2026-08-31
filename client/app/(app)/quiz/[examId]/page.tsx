@@ -13,6 +13,7 @@ import {
   ArrowLeft,
   AlertCircle,
   AlertTriangle,
+  Lock,
   BookOpen,
   Target,
   Trophy,
@@ -185,6 +186,7 @@ export default function QuizPage() {
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [showFeedback, setShowFeedback] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [upgradeRequired, setUpgradeRequired] = useState(false);
   const [result, setResult] = useState<ExamAttemptResult | null>(null);
   const [highlightQuestionIdx, setHighlightQuestionIdx] = useState<number | null>(null);
   const [showSubmitModal, setShowSubmitModal] = useState(false);
@@ -239,6 +241,7 @@ export default function QuizPage() {
   const loadQuiz = useCallback(async () => {
     setQuizState('loading');
     setError(null);
+    setUpgradeRequired(false);
     setAnswers(new Map());
     setSelectedOption(null);
     setShowFeedback(false);
@@ -271,6 +274,8 @@ export default function QuizPage() {
 
       setQuizState('ready');
     } catch (err) {
+      const status = (err as Error & { status?: number }).status;
+      if (status === 403) setUpgradeRequired(true);
       setError(err instanceof Error ? err.message : t('quiz_failedLoad'));
       setQuizState('ready');
     }
@@ -448,6 +453,8 @@ export default function QuizPage() {
         passingScore,
       }));
     } catch (err) {
+      const status = (err as Error & { status?: number }).status;
+      if (status === 403) setUpgradeRequired(true);
       setError(err instanceof Error ? err.message : t('quiz_failedLoad'));
       setQuizState('ready');
     }
@@ -485,6 +492,34 @@ export default function QuizPage() {
   // ── Error state (no questions) ────────────────────────────
 
   if (error && questions.length === 0) {
+    if (upgradeRequired) {
+      return (
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="flex flex-col items-center justify-center min-h-[60vh] gap-6"
+        >
+          <div className="w-16 h-16 rounded-full bg-[#CBEA32]/15 flex items-center justify-center">
+            <Lock size={28} className="text-[#071D2B]" />
+          </div>
+          <div className="text-center max-w-md">
+            <h2 className="text-xl font-semibold text-text-primary mb-2">Upgrade to access this exam category</h2>
+            <p className="text-text-secondary text-sm">
+              The free plan includes one practice category. Upgrade to unlock all ICC certification exams,
+              full practice and official exam simulations.
+            </p>
+          </div>
+          <div className="flex gap-3">
+            <Button variant="default" onClick={() => router.push('/subscription')} leftIcon={<Lock size={16} />}>
+              View Plans
+            </Button>
+            <Button variant="ghost" onClick={() => router.back()} leftIcon={<ArrowLeft size={16} />}>
+              {t('quiz_backToExams')}
+            </Button>
+          </div>
+        </motion.div>
+      );
+    }
     return (
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -790,10 +825,22 @@ export default function QuizPage() {
         <motion.div
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
-          className="flex items-center gap-2 p-3 mb-4 rounded-lg bg-red/10 border border-red/20 text-red text-sm"
+          className={`flex items-center gap-2 p-3 mb-4 rounded-lg text-sm ${
+            upgradeRequired
+              ? 'bg-[#CBEA32]/15 border border-[#CBEA32]/40 text-[#071D2B]'
+              : 'bg-red/10 border border-red/20 text-red'
+          }`}
         >
           <AlertCircle size={16} className="shrink-0" />
           <span>{error}</span>
+          {upgradeRequired && (
+            <button
+              onClick={() => router.push('/subscription')}
+              className="ml-auto shrink-0 px-3 py-1 rounded-md bg-[#CBEA32] text-[#071D2B] text-xs font-bold hover:bg-[#B5D51F] transition-colors"
+            >
+              View Plans
+            </button>
+          )}
         </motion.div>
       )}
 
