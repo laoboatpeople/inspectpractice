@@ -128,18 +128,18 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
 
       {/* Sidebar */}
       <aside
-        className={`fixed top-0 left-0 z-50 h-full w-64 bg-white border-r border-[#DCE4E7] transform transition-transform duration-200 ease-in-out lg:translate-x-0 ${
+        className={`fixed top-0 left-0 z-50 h-full w-64 bg-[#071D2B] border-r border-white/10 transform transition-transform duration-200 ease-in-out lg:translate-x-0 ${
           sidebarOpen ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
         <div className="flex flex-col h-full">
           {/* Logo */}
-          <div className="flex items-center justify-between px-6 py-5 border-b border-border">
+          <div className="flex items-center justify-between px-6 py-5 border-b border-white/10">
             <Link href="/app" className="flex items-center gap-3">
-              <img src="/logo/logo-main.png?v=4" alt="Inspect Practice" className="h-8 w-auto flex-shrink-0" />
+              <img src="/logo/logo-main-light.png?v=4" alt="Inspect Practice" className="h-8 w-auto flex-shrink-0" />
             </Link>
             <button
-              className="lg:hidden text-text-secondary hover:text-text-primary"
+              className="lg:hidden text-white/70 hover:text-white"
               onClick={() => setSidebarOpen(false)}
             >
               <X size={20} />
@@ -164,8 +164,8 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
                   onClick={() => setSidebarOpen(false)}
                   className={`flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors ${
                     isActive
-                      ? 'bg-blue/10 text-blue'
-                      : 'text-text-secondary hover:text-text-primary hover:bg-hover'
+                      ? 'bg-[#CBEA32]/15 text-[#CBEA32]'
+                      : 'text-white/70 hover:text-white hover:bg-white/10'
                   }`}
                 >
                   <Icon size={18} />
@@ -177,21 +177,21 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           </nav>
 
           {/* User section */}
-          <div className="border-t border-border px-4 py-4">
+          <div className="border-t border-white/10 px-4 py-4">
             <div className="flex items-center gap-3 mb-3">
-              <div className="w-8 h-8 rounded-full bg-blue/20 flex items-center justify-center">
-                <User size={14} className="text-blue" />
+              <div className="w-8 h-8 rounded-full bg-[#CBEA32]/20 flex items-center justify-center">
+                <User size={14} className="text-[#CBEA32]" />
               </div>
               <div className="flex-1 min-w-0">
-                <p className="text-sm font-medium text-text-primary truncate">
+                <p className="text-sm font-medium text-white truncate">
                   {user.name}
                 </p>
-                <p className="text-xs text-text-tertiary truncate">{user.email}</p>
+                <p className="text-xs text-white/50 truncate">{user.email}</p>
               </div>
             </div>
             <button
               onClick={handleLogout}
-              className="flex items-center gap-2 w-full px-3 py-2 rounded-lg text-sm text-text-secondary hover:text-red hover:bg-red/5 transition-colors"
+              className="flex items-center gap-2 w-full px-3 py-2 rounded-lg text-sm text-white/70 hover:text-red-400 hover:bg-red/10 transition-colors"
             >
               <LogOut size={16} />
               <span>{t('signOut')}</span>
@@ -203,10 +203,10 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
       {/* Main content */}
       <div className="lg:pl-64">
         {/* Top bar */}
-        <header className="sticky top-0 z-30 bg-white border-b border-[#DCE4E7]">
+        <header className="sticky top-0 z-30 bg-[#071D2B] border-b border-white/10">
           <div className="flex items-center justify-between px-4 py-3">
             <button
-              className="lg:hidden text-text-secondary hover:text-text-primary"
+              className="lg:hidden text-white/70 hover:text-white"
               onClick={() => setSidebarOpen(true)}
             >
               <Menu size={22} />

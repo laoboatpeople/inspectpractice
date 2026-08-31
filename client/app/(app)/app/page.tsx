@@ -62,6 +62,35 @@ function TableSkeleton() {
   );
 }
 
+// ─── Page banner ──────────────────────────────────────────────
+
+function PageBanner({ title, subtitle, action }: { title: string; subtitle?: string; action?: React.ReactNode }) {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: -8 }}
+      animate={{ opacity: 1, y: 0 }}
+      className="relative overflow-hidden rounded-2xl px-6 py-6 md:px-8"
+      style={{ background: 'linear-gradient(135deg, #071D2B 0%, #0D3043 55%, #176B87 100%)' }}
+    >
+      <div
+        className="absolute inset-0 opacity-[0.07]"
+        style={{
+          backgroundImage:
+            'linear-gradient(rgba(255,255,255,0.6) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.6) 1px, transparent 1px)',
+          backgroundSize: '28px 28px',
+        }}
+      />
+      <div className="relative flex items-center justify-between gap-4 flex-wrap">
+        <div>
+          <h1 className="text-xl md:text-2xl font-bold text-white">{title}</h1>
+          {subtitle && <p className="text-sm text-white/70 mt-1">{subtitle}</p>}
+        </div>
+        {action}
+      </div>
+    </motion.div>
+  );
+}
+
 // ─── Stat Card ──────────────────────────────────────────────────
 
 interface StatCardProps {
@@ -527,16 +556,7 @@ export default function DashboardPage() {
   if (loading) {
     return (
       <div className="space-y-6">
-        {/* Page heading */}
-        <div className="flex items-center justify-between">
-          <div>
-            <h1 className="text-xl font-bold text-text-primary">{t('dashboard')}</h1>
-            <p className="text-sm text-text-secondary mt-0.5">
-              {t('subtitle')}
-            </p>
-          </div>
-        </div>
-
+        <PageBanner title={t('dashboard')} subtitle={t('subtitle')} />
         {/* Skeleton stat cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           <StatCardSkeleton />
@@ -555,14 +575,7 @@ export default function DashboardPage() {
   if (error) {
     return (
       <div className="space-y-6">
-        <div className="flex items-center justify-between">
-          <div>
-            <h1 className="text-xl font-bold text-text-primary">{t('dashboard')}</h1>
-            <p className="text-sm text-text-secondary mt-0.5">
-              {t('subtitle')}
-            </p>
-          </div>
-        </div>
+        <PageBanner title={t('dashboard')} subtitle={t('subtitle')} />
         <ErrorState message={error} onRetry={loadStats} />
       </div>
     );
@@ -593,28 +606,20 @@ export default function DashboardPage() {
 
   return (
     <div className="space-y-6">
-      {/* Page heading */}
-      <motion.div
-        initial={{ opacity: 0, y: -8 }}
-        animate={{ opacity: 1, y: 0 }}
-        className="flex items-center justify-between"
-      >
-        <div>
-          <h1 className="text-xl font-bold text-text-primary">{t('dashboard')}</h1>
-          <p className="text-sm text-text-secondary mt-0.5">
-            {t('subtitle')}
-          </p>
-        </div>
-        <Button
-          variant="outline"
-          size="sm"
-          onClick={() => setShowResetModal(true)}
-          className="shrink-0 border-red/30 text-red hover:bg-red/10 hover:border-red/40"
-        >
-          <Trash2 size={14} className="mr-1.5" />
-          {t('resetStats')}
-        </Button>
-      </motion.div>
+      {/* Page banner */}
+      <PageBanner
+        title={t('dashboard')}
+        subtitle={t('subtitle')}
+        action={
+          <button
+            onClick={() => setShowResetModal(true)}
+            className="shrink-0 inline-flex items-center px-3.5 py-2 rounded-lg text-sm font-medium border border-white/30 text-white hover:bg-white/10 hover:border-white/50 transition-colors"
+          >
+            <Trash2 size={14} className="mr-1.5" />
+            {t('resetStats')}
+          </button>
+        }
+      />
 
       {/* Stat cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
