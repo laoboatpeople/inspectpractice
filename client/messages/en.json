@@ -174,7 +174,7 @@
       "price": "$0",
       "period": "forever",
       "desc": "Try before you buy.",
-      "feature1": "1 ICC certification category",
+      "feature1": "First chapter of every exam",
       "feature2": "Basic stats tracking",
       "feature3": "Standard explanations",
       "feature4": "50 messages AI Tutor"
@@ -347,7 +347,7 @@
       "tryAgain": "Try again",
       "footer": "All plans include access to Inspect Practice exam preparation. Subscription automatically renews for Monthly plan. Cancel anytime.",
       "features": {
-        "oneCategory": "1 exam category",
+        "oneCategory": "First chapter of every exam",
         "basicStats": "Basic stats tracking",
         "standardExplanations": "Standard explanations",
         "unlimitedExams": "Unlimited practice exams",

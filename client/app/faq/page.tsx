@@ -125,7 +125,7 @@ const faqs = [
       {
         type: "ul",
         items: [
-          "FREE — limited access to one exam category",
+          "FREE — first chapter of every exam category in practice mode",
           "MONTHLY — $29.99 per month, full access to all exams and features",
           "YEARLY — $99 per year (2 months free vs Monthly)",
           "LIFETIME — $199 one-time payment for permanent access to all current and future content",

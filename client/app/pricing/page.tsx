@@ -42,9 +42,9 @@ const plans = [
     period: 'forever',
     description: 'Try before you commit. Get a feel for the platform with limited access.',
     features: [
-      { included: true, text: '1 exam category' },
+      { included: true, text: 'First chapter of every exam' },
       { included: true, text: 'Basic progress stats' },
-      { included: true, text: 'Limited question pool' },
+      { included: true, text: 'Practice questions from every exam (chapter 1)' },
       { included: false, text: 'All exam categories' },
       { included: false, text: 'AI adaptive difficulty' },
       { included: false, text: 'Unlimited practice exams' },
@@ -120,7 +120,7 @@ const pricingFaqs = [
   {
     question: 'Is there a free trial for paid plans?',
     answer:
-      'The Free plan is our trial. You can use it indefinitely with access to one exam category and basic features. When you are ready for full access, upgrade to Monthly, Yearly, or Lifetime. No credit card is required to start with the Free plan.',
+      'The Free plan is our trial. You can use it indefinitely with the first chapter of every exam category in practice mode and basic features. When you are ready for full access, upgrade to Monthly, Yearly, or Lifetime. No credit card is required to start with the Free plan.',
   },
   {
     question: 'What payment methods are accepted?',
