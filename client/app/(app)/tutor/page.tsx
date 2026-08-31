@@ -611,7 +611,7 @@ export default function TutorPage() {
           </div>
         </div>
       ) : (
-        <aside className={`fixed top-0 left-0 z-50 h-full w-72 bg-[#071D2B] border-r border-border transform transition-transform duration-200 ease-in-out lg:translate-x-0 lg:static lg:flex lg:flex-col ${
+        <aside className={`fixed top-0 left-0 z-50 h-full w-72 bg-card border-r border-border transform transition-transform duration-200 ease-in-out lg:translate-x-0 lg:static lg:flex lg:flex-col ${
           showMobileSessions ? 'translate-x-0' : '-translate-x-full'
         }`}>
           {/* Back to results */}
@@ -663,7 +663,7 @@ export default function TutorPage() {
       )}
 
       {/* Chat area */}
-      <div className="flex-1 flex flex-col bg-primary min-w-0 pt-[52px] lg:pt-0">
+      <div className="flex-1 flex flex-col bg-secondary min-w-0 pt-[52px] lg:pt-0">
         {activeSessionId === null && messages.length === 0 && !error && !showNewChatInput && !limitReached ? (
           <EmptyChatState onNewChat={handleNewChat} />
         ) : error && messages.length === 0 && !limitReached ? (
@@ -746,7 +746,7 @@ export default function TutorPage() {
                       : t('sendPlaceholder')
                   }
                   disabled={sending || limitReached}
-                  className="flex-1 h-10 px-4 py-2.5 rounded-input bg-[#071D2B] border border-border text-text-primary text-sm placeholder:text-text-tertiary focus:outline-none focus:ring-2 focus:ring-blue focus:ring-offset-2 focus:ring-offset-primary transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="flex-1 h-10 px-4 py-2.5 rounded-input bg-card border border-border text-text-primary text-sm placeholder:text-text-tertiary focus:outline-none focus:ring-2 focus:ring-blue focus:ring-offset-2 focus:ring-offset-secondary transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                 />
                 <button
                   onClick={handleSend}
@@ -810,7 +810,7 @@ export default function TutorPage() {
               onChange={(e) => setFeedbackComment(e.target.value)}
               placeholder={t('feedbackCommentPlaceholder')}
               rows={3}
-              className="w-full px-3 py-2.5 rounded-input bg-[#071D2B] border border-border text-text-primary text-sm placeholder:text-text-tertiary focus:outline-none focus:ring-2 focus:ring-blue focus:ring-offset-2 focus:ring-offset-primary transition-colors resize-none"
+              className="w-full px-3 py-2.5 rounded-input bg-card border border-border text-text-primary text-sm placeholder:text-text-tertiary focus:outline-none focus:ring-2 focus:ring-blue focus:ring-offset-2 focus:ring-offset-secondary transition-colors resize-none"
             />
 
             {feedbackError && (
