@@ -29,7 +29,7 @@ export default function AppMockup({ children, title }: AppMockupProps) {
             {/* Content */}
             <div className="p-4">
               {title && (
-                <div className="text-xs text-text-secondary mb-2 text-center">{title}</div>
+                <div className="text-xs text-white/70 mb-2 text-center">{title}</div>
               )}
               {children}
             </div>

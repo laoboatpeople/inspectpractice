@@ -131,13 +131,13 @@ export default function MarketingLandingPage() {
             >
               <AppMockup title={tm("appPreview.mockupChapter")}>
                 <div className="space-y-3">
-                  <div className="text-xs text-[#176B87] font-medium">{tm("appPreview.questionLabel").replace("{current}", "12").replace("{total}", "50")}</div>
-                  <div className="text-sm text-[#102631] font-medium leading-relaxed">
+                  <div className="text-xs text-[#CBEA32] font-medium">{tm("appPreview.questionLabel").replace("{current}", "12").replace("{total}", "50")}</div>
+                  <div className="text-sm text-white font-medium leading-relaxed">
                     {tm("appPreview.mockupQuestion")}
                   </div>
                   <div className="space-y-2 mt-3">
                     {['a', 'b', 'c', 'd'].map((key, i) => (
-                      <div key={i} className={`p-2 rounded-lg text-xs ${i === 0 ? 'bg-[#176B87]/10 border border-[#176B87]/40 text-[#176B87] font-medium' : 'bg-[#F4F7F8] text-[#586A73]'}`}>
+                      <div key={i} className={`p-2 rounded-lg text-xs ${i === 0 ? 'bg-[#176B87] border border-[#176B87]/60 text-white font-medium' : 'bg-[#F4F7F8] text-[#586A73]'}`}>
                         {tm(`appPreview.answers.${key}`)}
                       </div>
                     ))}
@@ -269,7 +269,7 @@ export default function MarketingLandingPage() {
             <AppMockup title={tm("appPreview.quizTitle")}>
               <div className="space-y-2">
                 <div className="text-xs text-[#55A630] font-medium">{tm("appPreview.correct")}</div>
-                <div className="text-sm text-[#102631] font-medium">{tm("appPreview.wingSparExplanation")}</div>
+                <div className="text-sm text-white font-medium">{tm("appPreview.wingSparExplanation")}</div>
               </div>
             </AppMockup>
             
@@ -279,18 +279,18 @@ export default function MarketingLandingPage() {
                 <div className="h-2 bg-[#E8EEF0] rounded-full overflow-hidden">
                   <div className="h-full w-3/4 bg-gradient-to-r from-[#176B87] to-[#176B87] rounded-full" />
                 </div>
-                <div className="text-xs text-[#586A73] mt-2">{tm("appPreview.chapterLabel")}</div>
+                <div className="text-xs text-white/60 mt-2">{tm("appPreview.chapterLabel")}</div>
               </div>
             </AppMockup>
             
             <AppMockup title={tm("appPreview.analyticsTitle")}>
               <div className="space-y-2">
-                <div className="text-xs text-[#586A73] mb-2">{tm("appPreview.yourProgress")}</div>
-                <div className="text-2xl font-bold text-[#102631]">78%</div>
+                <div className="text-xs text-white/60 mb-2">{tm("appPreview.yourProgress")}</div>
+                <div className="text-2xl font-bold text-white">78%</div>
                 <div className="text-xs text-[#55A630]">{tm("appPreview.plusTwelve")}</div>
                 <div className="mt-3 space-y-1">
-                  <div className="flex justify-between text-xs"><span className="text-[#586A73]">{tm("appPreview.accuracy")}</span><span className="text-[#102631] font-semibold">82%</span></div>
-                  <div className="flex justify-between text-xs"><span className="text-[#586A73]">{tm("appPreview.speed")}</span><span className="text-[#102631] font-semibold">{tm("appPreview.good")}</span></div>
+                  <div className="flex justify-between text-xs"><span className="text-white/60">{tm("appPreview.accuracy")}</span><span className="text-white font-semibold">82%</span></div>
+                  <div className="flex justify-between text-xs"><span className="text-white/60">{tm("appPreview.speed")}</span><span className="text-white font-semibold">{tm("appPreview.good")}</span></div>
                 </div>
               </div>
             </AppMockup>
