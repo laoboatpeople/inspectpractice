@@ -45,6 +45,12 @@ const EN_PLATFORMS = [
     name: 'Sky107',
     desc: 'Getting your FAA Part 107 drone licence instead? Sky107 prepares you for the FAA UAG written test with 60-question exam simulations and practice questions.',
   },
+  {
+    href: 'https://ccmapractice.com',
+    color: '#20C7C9',
+    name: 'CCMAPractice',
+    desc: 'Preparing for the NHA CCMA certification exam instead? CCMAPractice covers the Certified Clinical Medical Assistant exam blueprint with AI-powered practice questions, theory and exam simulations.',
+  },
 ];
 
 const FR_PLATFORMS = [
@@ -89,6 +95,12 @@ const FR_PLATFORMS = [
     color: '#F59E0B',
     name: 'Sky107',
     desc: "Vous obtenez plutôt votre permis de drone FAA Part 107? Sky107 vous prépare à l'examen écrit FAA UAG avec des simulations de 60 questions et des questions pratiques.",
+  },
+  {
+    href: 'https://ccmapractice.com',
+    color: '#20C7C9',
+    name: 'CCMAPractice',
+    desc: "Vous préparez plutôt l'examen de certification CCMA (assistant médical clinique)? CCMAPractice couvre le blueprint de l'examen NHA CCMA avec des questions pratiques propulsées par l'IA, la théorie et des simulations d'examen.",
   },
 ];
 
