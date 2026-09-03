@@ -318,7 +318,7 @@ export default function SettingsPage() {
                 type="text"
                 value={org.name}
                 onChange={(e) => setOrg((prev) => ({ ...prev, name: e.target.value }))}
-                className="w-full px-4 py-2.5 bg-primary border border-border rounded-input text-sm text-text-primary placeholder:text-text-tertiary focus:outline-none focus:border-blue"
+                className="w-full px-4 py-2.5 bg-white border border-border rounded-input text-sm text-text-primary placeholder:text-text-tertiary focus:outline-none focus:border-blue"
               />
             </div>
             <div>
@@ -332,7 +332,7 @@ export default function SettingsPage() {
                 type="email"
                 value={org.email}
                 onChange={(e) => setOrg((prev) => ({ ...prev, email: e.target.value }))}
-                className="w-full px-4 py-2.5 bg-primary border border-border rounded-input text-sm text-text-primary placeholder:text-text-tertiary focus:outline-none focus:border-blue"
+                className="w-full px-4 py-2.5 bg-white border border-border rounded-input text-sm text-text-primary placeholder:text-text-tertiary focus:outline-none focus:border-blue"
               />
             </div>
             <div>
@@ -345,7 +345,7 @@ export default function SettingsPage() {
               <select
                 value={org.timezone}
                 onChange={(e) => setOrg((prev) => ({ ...prev, timezone: e.target.value }))}
-                className="w-full px-4 py-2.5 bg-primary border border-border rounded-input text-sm text-text-primary focus:outline-none focus:border-blue"
+                className="w-full px-4 py-2.5 bg-white border border-border rounded-input text-sm text-text-primary focus:outline-none focus:border-blue"
               >
                 {TIMEZONES.map((tz) => (
                   <option key={tz} value={tz}>{tz}</option>
@@ -385,7 +385,7 @@ export default function SettingsPage() {
                 onChange={(e) =>
                   setExamDefaults((prev) => ({ ...prev, passingScore: parseInt(e.target.value) || 70 }))
                 }
-                className="w-full px-4 py-2.5 bg-primary border border-border rounded-input text-sm text-text-primary focus:outline-none focus:border-blue"
+                className="w-full px-4 py-2.5 bg-white border border-border rounded-input text-sm text-text-primary focus:outline-none focus:border-blue"
               />
             </div>
             <div>
@@ -403,7 +403,7 @@ export default function SettingsPage() {
                 onChange={(e) =>
                   setExamDefaults((prev) => ({ ...prev, timeLimit: parseInt(e.target.value) || 60 }))
                 }
-                className="w-full px-4 py-2.5 bg-primary border border-border rounded-input text-sm text-text-primary focus:outline-none focus:border-blue"
+                className="w-full px-4 py-2.5 bg-white border border-border rounded-input text-sm text-text-primary focus:outline-none focus:border-blue"
               />
             </div>
             <div>
@@ -418,7 +418,7 @@ export default function SettingsPage() {
                 onChange={(e) =>
                   setExamDefaults((prev) => ({ ...prev, questionsPerSimulation: parseInt(e.target.value) || 50 }))
                 }
-                className="w-full px-4 py-2.5 bg-primary border border-border rounded-input text-sm text-text-primary focus:outline-none focus:border-blue"
+                className="w-full px-4 py-2.5 bg-white border border-border rounded-input text-sm text-text-primary focus:outline-none focus:border-blue"
               />
             </div>
             <div className="flex items-center justify-between py-2.5">
@@ -569,7 +569,7 @@ export default function SettingsPage() {
                   onChange={(e) =>
                     setSecurity((prev) => ({ ...prev, sessionTimeout: parseInt(e.target.value) || 60 }))
                   }
-                  className="w-full px-4 py-2.5 bg-primary border border-border rounded-input text-sm text-text-primary focus:outline-none focus:border-blue"
+                  className="w-full px-4 py-2.5 bg-white border border-border rounded-input text-sm text-text-primary focus:outline-none focus:border-blue"
                 />
               </div>
             </div>
@@ -596,7 +596,7 @@ export default function SettingsPage() {
                   {data.security.apiKeys.map((k) => (
                     <div
                       key={k.id}
-                      className="flex items-center justify-between px-4 py-3 bg-primary border border-border rounded-btn"
+                      className="flex items-center justify-between px-4 py-3 bg-white border border-border rounded-btn"
                     >
                       <div>
                         <p className="text-sm text-text-primary font-medium">{k.name}</p>
@@ -744,7 +744,7 @@ export default function SettingsPage() {
                 placeholder={resetStep === 1 ? 'Type RESET to confirm' : 'Type RESET again'}
                 value={resetConfirmText}
                 onChange={(e) => setResetConfirmText(e.target.value)}
-                className="w-full px-4 py-2.5 bg-primary border border-red/30 rounded-input text-sm text-text-primary placeholder:text-text-tertiary focus:outline-none focus:border-red mb-4"
+                className="w-full px-4 py-2.5 bg-white border border-red/30 rounded-input text-sm text-text-primary placeholder:text-text-tertiary focus:outline-none focus:border-red mb-4"
               />
             )}
 

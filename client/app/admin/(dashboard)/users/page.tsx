@@ -632,7 +632,7 @@ function EditUserModal({ user, onClose, onSuccess }: EditUserModalProps) {
                   onChange={(e) => setNewPassword(e.target.value)}
                   minLength={8}
                   autoComplete="new-password"
-                  className="w-full px-3 py-2 border border-border rounded-md text-sm bg-[#0B3344] text-text-primary placeholder-text-tertiary focus:outline-none focus:border-blue/50 pr-10"
+                  className="w-full px-3 py-2 border border-border rounded-md text-sm bg-white text-text-primary placeholder-text-tertiary focus:outline-none focus:border-blue/50 pr-10"
                 />
                 <button type="button" onClick={() => setShowPassword(!showPassword)} className="absolute right-3 top-[30px] text-text-tertiary hover:text-text-secondary">
                   {showPassword ? <EyeOff size={14} /> : <Eye size={14} />}
@@ -646,7 +646,7 @@ function EditUserModal({ user, onClose, onSuccess }: EditUserModalProps) {
                   value={confirmPassword}
                   onChange={(e) => setConfirmPassword(e.target.value)}
                   autoComplete="new-password"
-                  className="w-full px-3 py-2 border border-border rounded-md text-sm bg-[#0B3344] text-text-primary placeholder-text-tertiary focus:outline-none focus:border-blue/50"
+                  className="w-full px-3 py-2 border border-border rounded-md text-sm bg-white text-text-primary placeholder-text-tertiary focus:outline-none focus:border-blue/50"
                 />
               </div>
               {newPassword && confirmPassword && newPassword !== confirmPassword && (

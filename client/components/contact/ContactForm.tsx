@@ -84,7 +84,7 @@ export default function ContactForm() {
           onChange={(e) => setName(e.target.value)}
           required
           placeholder={isFr ? 'Jean Dupont' : 'John Smith'}
-          className="w-full px-4 py-2.5 bg-[#0B3344] border border-white/10 rounded-lg text-sm text-[#102631] placeholder:text-[#7A8B94] focus:outline-none focus:border-[#145A73]/50 transition-colors"
+          className="w-full px-4 py-2.5 bg-white border border-[#DCE4E7] rounded-lg text-sm text-[#102631] placeholder:text-[#9AA7AE] focus:outline-none focus:border-[#145A73] focus:ring-2 focus:ring-[#145A73]/15 transition-colors"
         />
       </div>
 
@@ -96,7 +96,7 @@ export default function ContactForm() {
           onChange={(e) => setEmail(e.target.value)}
           required
           placeholder={isFr ? 'vous@exemple.com' : 'you@example.com'}
-          className="w-full px-4 py-2.5 bg-[#0B3344] border border-white/10 rounded-lg text-sm text-[#102631] placeholder:text-[#7A8B94] focus:outline-none focus:border-[#145A73]/50 transition-colors"
+          className="w-full px-4 py-2.5 bg-white border border-[#DCE4E7] rounded-lg text-sm text-[#102631] placeholder:text-[#9AA7AE] focus:outline-none focus:border-[#145A73] focus:ring-2 focus:ring-[#145A73]/15 transition-colors"
         />
       </div>
 
@@ -108,7 +108,7 @@ export default function ContactForm() {
           required
           rows={4}
           placeholder={isFr ? 'Comment pouvons-nous vous aider ?' : 'How can we help?'}
-          className="w-full px-4 py-2.5 bg-[#0B3344] border border-white/10 rounded-lg text-sm text-[#102631] placeholder:text-[#7A8B94] focus:outline-none focus:border-[#145A73]/50 transition-colors resize-vertical"
+          className="w-full px-4 py-2.5 bg-white border border-[#DCE4E7] rounded-lg text-sm text-[#102631] placeholder:text-[#9AA7AE] focus:outline-none focus:border-[#145A73] focus:ring-2 focus:ring-[#145A73]/15 transition-colors resize-vertical"
         />
       </div>
 

@@ -76,7 +76,7 @@ export default function TestLoginPage() {
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="w-full h-10 pl-10 pr-4 rounded-input bg-[#0B3344] border border-border text-text-primary text-sm placeholder:text-text-tertiary focus:outline-none focus:ring-2 focus:ring-blue focus:ring-offset-2 focus:ring-offset-card transition-colors"
+                className="w-full h-10 pl-10 pr-4 rounded-input bg-white border border-border text-text-primary text-sm placeholder:text-text-tertiary focus:outline-none focus:ring-2 focus:ring-blue focus:ring-offset-2 focus:ring-offset-card transition-colors"
                 placeholder="your@email.com"
                 required
               />
@@ -91,7 +91,7 @@ export default function TestLoginPage() {
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                className="w-full h-10 pl-10 pr-4 rounded-input bg-[#0B3344] border border-border text-text-primary text-sm placeholder:text-text-tertiary focus:outline-none focus:ring-2 focus:ring-blue focus:ring-offset-2 focus:ring-offset-card transition-colors"
+                className="w-full h-10 pl-10 pr-4 rounded-input bg-white border border-border text-text-primary text-sm placeholder:text-text-tertiary focus:outline-none focus:ring-2 focus:ring-blue focus:ring-offset-2 focus:ring-offset-card transition-colors"
                 placeholder="Enter your password"
                 required
               />
