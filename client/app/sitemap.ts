@@ -16,7 +16,7 @@ function fileMtime(relPath: string): Date {
 const EN_SLUGS = [
   'icc-b1-certification-guide', 'irc-study-guide', 'ai-icc-exam-preparation',
   'icc-exam-structure', 'icc-exam-study-resources', 'icc-exam-study-plan',
-  'icc-study-mistakes', 'icc-study-techniques',
+  'icc-study-mistakes', 'icc-study-techniques', 'nhie-home-inspector-exam',
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -36,6 +36,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/free-icc-practice-questions`, lastModified: fileMtime('free-icc-practice-questions'), changeFrequency: 'weekly', priority: 0.9 },
     { url: `${base}/icc-certification-guide`, lastModified: fileMtime('icc-certification-guide'), changeFrequency: 'weekly', priority: 1.0 },
     { url: `${base}/nhie-certification-guide`, lastModified: fileMtime('nhie-certification-guide'), changeFrequency: 'weekly', priority: 1.0 },
+    { url: `${base}/free-nhie-practice-questions`, lastModified: fileMtime('free-nhie-practice-questions'), changeFrequency: 'weekly', priority: 0.9 },
   ];
 
   const enBlog = EN_SLUGS.map((slug) => ({

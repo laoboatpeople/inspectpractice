@@ -112,6 +112,15 @@ const posts = [
     readTime: '12 min read',
     category: 'Study Skills',
   },
+  {
+    slug: 'nhie-home-inspector-exam',
+    title: 'NHIE Home Inspector Exam: The Complete Guide for 2026',
+    description:
+      'Everything home inspectors need to know about the EBPHI National Home Inspector Examination: exam structure, the 70/20/10 domain split, scoring, state requirements, and how to prepare.',
+    date: 'September 3, 2026',
+    readTime: '8 min read',
+    category: 'Home Inspection',
+  },
 ];
 
 const categories = ['All', ...Array.from(new Set(posts.map((p) => p.category)))];

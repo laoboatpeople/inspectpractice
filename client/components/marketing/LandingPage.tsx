@@ -122,6 +122,17 @@ export default function MarketingLandingPage() {
                   {tm("hero.watchDemo")}
                 </button>
               </div>
+
+              {/* NHIE guide link */}
+              <div className="mt-6 text-center lg:text-left">
+                <a
+                  href="/nhie-certification-guide"
+                  className="inline-flex items-center gap-2 text-sm text-white/70 hover:text-[#CBEA32] transition-colors"
+                >
+                  <Sparkles className="w-4 h-4 text-[#CBEA32]" />
+                  {tm("hero.nhieGuideLink")}
+                </a>
+              </div>
             </div>
 
             {/* Right - App mockup placeholder */}

@@ -1,0 +1,74 @@
+[
+  {
+    "ch": 1,
+    "q": "A swimming pool is enclosed by a fence. You notice that the fence has a gate that opens outward from the pool area. The gate is equipped with a self-latching mechanism. What is the most important detail to check regarding the latch?",
+    "options": [
+      "The latch should be on the pool side of the gate.",
+      "The latch should be at least 54 inches above the ground.",
+      "The latch should be a keyed lock for adult supervision.",
+      "The latch should be on the outside of the gate, away from the pool."
+    ],
+    "answer": "D",
+    "explanation": "The latch should be on the outside, not accessible from the pool side, to prevent a child in the pool from opening the gate."
+  },
+  {
+    "ch": 1,
+    "q": "A property has a steep slope behind the house. You notice that the slope has no retaining wall and shows signs of minor erosion. What is the MOST critical potential hazard?",
+    "options": [
+      "The slope is likely to erode and undermine the house's foundation.",
+      "The slope will cause water to pool at the base of the house.",
+      "The slope may fail and cause a mudslide or landslide that could damage the house.",
+      "The slope is a fire hazard due to dry vegetation."
+    ],
+    "answer": "C",
+    "explanation": "An unretained steep slope is a potential landslide hazard. Erosion is a warning sign of slope instability, which can lead to catastrophic failure."
+  },
+  {
+    "ch": 5,
+    "q": "At a main panel, you note that the electric utility's service entrance conductors are connected to the service disconnect, and a bare copper conductor runs from the neutral/ground bar to a ground rod. The panel is bonded to the water pipe. Which of the following is a critical missing component?",
+    "options": [
+      "A grounding electrode conductor for the water pipe",
+      "A main bonding jumper",
+      "A separate equipment grounding bar",
+      "A service neutral conductor"
+    ],
+    "answer": "A",
+    "explanation": "The water pipe ground requires a grounding electrode conductor sized per code, connected to the panel's ground bus. Without it, the water pipe isn't an effective electrode, compromising fault current path and safety."
+  },
+  {
+    "ch": 5,
+    "q": "While inspecting a panel, you notice two neutral wires from different circuits are connected to the same neutral bus bar terminal. What is the primary safety issue?",
+    "options": [
+      "This is an acceptable practice but causes cosmetic issues",
+      "It creates a potential for overloading the neutral conductor",
+      "It prevents the breaker from tripping on overload",
+      "It causes a short circuit between the two circuits"
+    ],
+    "answer": "B",
+    "explanation": "Double-lugging neutrals can overload the shared neutral if the circuits are on different phases, creating a fire hazard."
+  },
+  {
+    "ch": 13,
+    "q": "A homeowner has installed a carbon monoxide (CO) alarm in the garage, near the floor, to detect CO from a car. What is the inspector's best advice?",
+    "options": [
+      "The alarm is correctly placed because CO is heavier than air.",
+      "The alarm should be relocated to a bedroom or living area, not the garage.",
+      "The alarm is unnecessary because CO detectors are only required near fuel-burning appliances.",
+      "The alarm should be mounted on the ceiling because CO rises with warm air."
+    ],
+    "answer": "B",
+    "explanation": "CO alarms are for protecting occupants in sleeping and living areas; garage placement doesn't alert occupants and may cause nuisance alarms from vehicle exhaust."
+  },
+  {
+    "ch": 15,
+    "q": "After completing an inspection, the inspector realizes they inadvertently omitted a visible crack in the foundation from the report. What is the most ethical course of action?",
+    "options": [
+      "Issue a revised report and inform the client of the correction",
+      "Wait until the client asks about the crack before addressing it",
+      "Add the crack to the report without notifying the client",
+      "Ignore the omission because the report was already delivered"
+    ],
+    "answer": "A",
+    "explanation": "Professional integrity requires correcting errors promptly and transparently. Withholding or silently correcting undermines trust and could lead to liability."
+  }
+]
