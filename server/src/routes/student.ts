@@ -298,11 +298,52 @@ router.get('/exams/:examId/quiz', authenticate, async (req: Request, res: Respon
     },
   });
 
-  if (questions.length === 0) { res.json({ data: [], exam: { id: exam.id, name: exam.name, passingScore: exam.passingScore } }); return; }
+  // Draw helper: shuffle a pool and keep N (randomized every call).
+  const draw = (qs: typeof questions, n: number) =>
+    qs.sort(() => Math.random() - 0.5).slice(0, Math.min(n, qs.length));
 
-  // Shuffle and pick
-  const shuffled = questions.sort(() => Math.random() - 0.5);
-  const selected = shuffled.slice(0, Math.min(count, shuffled.length));
+  let selected = draw(questions, count);
+
+  // Official exam simulation for NHIE follows the EBPHI blueprint:
+  // property & building inspection 70%, analysis of findings & reporting 20%,
+  // professional responsibilities 10%. A plain random draw would only match
+  // that ratio statistically, so stratify the pool per section instead.
+  if (mode === 'exam' && exam.code === 'NHIE' && !chapterId) {
+    const sectionNames = ['Analysis of Findings and Reporting', 'Professional Responsibilities'];
+    const chapters = await prisma.chapter.findMany({
+      where: { examId, isActive: true },
+      select: { id: true, name: true },
+    });
+    const sectionIds = new Set(
+      chapters.filter(c => sectionNames.includes(c.name)).map(c => c.id)
+    );
+    const analysisId = chapters.find(c => c.name === sectionNames[0])?.id;
+    const profId = chapters.find(c => c.name === sectionNames[1])?.id;
+    const propertyIds = chapters.filter(c => !sectionIds.has(c.id)).map(c => c.id);
+
+    const nAnalysis = Math.round(count * 0.2);
+    const nProf = Math.round(count * 0.1);
+    const nProperty = count - nAnalysis - nProf;
+
+    const propertyPool = questions.filter(q => q.chapterId && propertyIds.includes(q.chapterId));
+    const analysisPool = questions.filter(q => q.chapterId === analysisId);
+    const profPool = questions.filter(q => q.chapterId === profId);
+
+    selected = [
+      ...draw(propertyPool, nProperty),
+      ...draw(analysisPool, nAnalysis),
+      ...draw(profPool, nProf),
+    ];
+    // Fill shortfall from the full pool if any section has fewer questions
+    // than the blueprint requires (bank should be balanced, but be safe).
+    if (selected.length < Math.min(count, questions.length)) {
+      const usedIds = new Set(selected.map(q => q.id));
+      const remaining = draw(questions.filter(q => !usedIds.has(q.id)), count - selected.length);
+      selected = [...selected, ...remaining];
+    }
+  }
+
+  if (questions.length === 0) { res.json({ data: [], exam: { id: exam.id, name: exam.name, passingScore: exam.passingScore } }); return; }
 
   // Transform to mobile format (include correctAnswer for practice grading)
   const data = selected.map(q => {
