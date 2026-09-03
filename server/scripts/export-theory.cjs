@@ -12,12 +12,13 @@ require('dotenv').config({ path: path.join(__dirname, '..', '.env'), override: t
 async function main() {
   const prisma = new PrismaClient();
   const rows = await prisma.$queryRawUnsafe(
-    `SELECT id AS id, number AS number, name AS name, theory_content AS content
-     FROM chapters WHERE is_active = true ORDER BY number`
+    `SELECT c.id AS id, c.number AS number, c.name AS name, c.theory_content AS content, e.code AS code
+     FROM chapters c JOIN exams e ON e.id = c.exam_id
+     WHERE c.is_active = true ORDER BY e.code, c.number`
   );
   const out = rows
     .filter((r) => r && r.id && r.content && r.content.trim().length > 0)
-    .map((r) => ({ id: String(r.id), number: Number(r.number) || 0, name: String(r.name || 'Chapter'), content: r.content }));
+    .map((r) => ({ id: String(r.id), number: Number(r.number) || 0, name: String(r.name || 'Chapter'), content: r.content, code: String(r.code || '') }));
   const target = path.join(__dirname, '..', '..', 'client', 'src', 'data', 'theory-data.json');
   fs.mkdirSync(path.dirname(target), { recursive: true });
   fs.writeFileSync(target, JSON.stringify(out));

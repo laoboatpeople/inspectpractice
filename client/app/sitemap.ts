@@ -39,40 +39,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/free-nhie-practice-questions`, lastModified: fileMtime('free-nhie-practice-questions'), changeFrequency: 'weekly', priority: 0.9 },
   ];
 
-  const enBlog = EN_SLUGS.map((slug) => ({
+  const enBlog: MetadataRoute.Sitemap = EN_SLUGS.map((slug) => ({
     url: `${base}/blog/${slug}`,
     lastModified: fileMtime(`blog/${slug}`),
     changeFrequency: 'monthly' as const,
     priority: (
       slug === 'icc-b1-certification-guide' || slug === 'icc-exam-structure' || slug === 'irc-study-guide' ? 0.9 :
+      slug === 'nhie-home-inspector-exam' ? 0.9 :
       slug === 'icc-exam-study-resources' || slug === 'icc-exam-study-plan' ? 0.8 :
       0.7
     ),
   }));
 
-  const frBlog = EN_SLUGS.map((slug) => ({
-    url: `${base}/fr/blog/${slug}`,
-    lastModified: fileMtime(`fr/blog/${slug}`),
+  const theoryChapters: MetadataRoute.Sitemap = theoryData.map((ch) => ({
+    url: `${base}/theory/${ch.id}`,
+    lastModified: new Date(),
     changeFrequency: 'monthly' as const,
-    priority: (
-      slug === 'icc-b1-certification-guide' || slug === 'icc-exam-structure' || slug === 'irc-study-guide' ? 0.9 :
-      slug === 'icc-exam-study-resources' || slug === 'icc-exam-study-plan' ? 0.8 :
-      0.7
-    ),
+    priority: 0.9,
   }));
 
-  const frPages: MetadataRoute.Sitemap = [
-    { url: `${base}/fr`, lastModified: fileMtime('fr'), changeFrequency: 'weekly', priority: 0.9 },
-    { url: `${base}/fr/about`, lastModified: fileMtime('fr/about'), changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${base}/fr/pricing`, lastModified: fileMtime('fr/pricing'), changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${base}/fr/contact`, lastModified: fileMtime('fr/contact'), changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${base}/fr/faq`, lastModified: fileMtime('fr/faq'), changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${base}/fr/privacy`, lastModified: fileMtime('fr/privacy'), changeFrequency: 'monthly', priority: 0.5 },
-    { url: `${base}/fr/terms`, lastModified: fileMtime('fr/terms'), changeFrequency: 'monthly', priority: 0.5 },
-    { url: `${base}/fr/blog`, lastModified: fileMtime('fr/blog'), changeFrequency: 'weekly', priority: 0.8 },
-  ];
-
-  const theoryChapters: MetadataRoute.Sitemap = theoryData.map((ch) => ({ url: `${base}/theory/${ch.id}`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.9 }));
-
-  return [...theoryChapters, ...staticPages, ...enBlog, ...frPages, ...frBlog];
+  return [...theoryChapters, ...staticPages, ...enBlog];
 }

@@ -10,6 +10,7 @@ type TheoryChapter = {
   name: string;
   id: string;
   content: string;
+  code?: string;
 };
 
 const chapters = theoryData as TheoryChapter[];
@@ -34,7 +35,8 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   const { id } = await params;
   const chapter = chapters.find((ch) => ch.id === id);
   if (!chapter) return {};
-  const title = `${chapter.name} — ICC Study Guide | InspectPractice`;
+  const guideLabel = chapter.code === 'NHIE' ? 'NHIE Study Guide' : 'ICC Study Guide';
+  const title = `${chapter.name} — ${guideLabel} | InspectPractice`;
   const description = excerpt(chapter.content);
   return {
     title,
