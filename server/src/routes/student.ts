@@ -1,6 +1,7 @@
 import { Router, Request, Response } from 'express';
 import { z } from 'zod';
 import { prisma } from '../config/database';
+import { dbIdSchema } from '../config/dbId';
 import { Difficulty, QStatus } from '@prisma/client';
 import { authenticate, optionalAuth } from '../middleware/auth';
 import { aiService } from '../services/ai.service';
@@ -377,9 +378,9 @@ router.post('/tutor/explain', async (req: Request, res: Response): Promise<void>
  */
 router.post('/exam-attempts', authenticate, async (req: Request, res: Response): Promise<void> => {
   const schema = z.object({
-    examId: z.string().uuid('Invalid exam ID'),
+    examId: dbIdSchema,
     answers: z.array(z.object({
-      questionId: z.string().uuid(),
+      questionId: dbIdSchema,
       userAnswer: z.string(),
     })).min(1, 'At least one answer is required'),
     totalQuestions: z.number().int().min(1).optional(),

@@ -1,6 +1,7 @@
 import { Router, Request, Response } from 'express';
 import { z } from 'zod';
 import { prisma } from '../config/database';
+import { dbIdSchema } from '../config/dbId';
 import { sendTheoryFeedbackNotification } from '../services/email';
 
 const router = Router();
@@ -11,7 +12,7 @@ const router = Router();
  * Body: { chapterId, rating, comment? }
  */
 const theoryFeedbackSchema = z.object({
-  chapterId: z.string().uuid(),
+  chapterId: dbIdSchema,
   rating: z.enum(['up', 'down']),
   comment: z.string().max(2000).optional(),
 });

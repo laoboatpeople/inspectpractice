@@ -1,6 +1,7 @@
 import { Router, Request, Response } from 'express';
 import { z } from 'zod';
 import { prisma } from '../config/database';
+import { dbIdSchema } from '../config/dbId';
 import { authenticate } from '../middleware/auth';
 import { requireRoles } from '../middleware/roleGuard';
 import { aiService } from '../services/ai.service';
@@ -87,9 +88,9 @@ router.get('/pending', requireRoles('ADMIN', 'INSTRUCTOR'), async (req: Request,
  */
 router.put('/approve-all', requireRoles('ADMIN', 'INSTRUCTOR'), async (req: Request, res: Response): Promise<void> => {
   const schema = z.object({
-    ids: z.array(z.string().uuid()).min(1).optional(),
-    examId: z.string().uuid().optional(),
-    chapterId: z.string().uuid().optional(),
+    ids: z.array(dbIdSchema).min(1).optional(),
+    examId: dbIdSchema.optional(),
+    chapterId: dbIdSchema.optional(),
     difficulty: z.enum(['EASY', 'MEDIUM', 'HARD']).optional(),
     type: z.enum(['MCQ', 'TRUEFALSE', 'WRITTEN']).optional(),
   });
@@ -146,8 +147,8 @@ router.put('/approve-all', requireRoles('ADMIN', 'INSTRUCTOR'), async (req: Requ
  */
 router.post('/generate', requireRoles('ADMIN', 'INSTRUCTOR'), async (req: Request, res: Response): Promise<void> => {
   const schema = z.object({
-    examId: z.string().uuid(),
-    chapterId: z.string().uuid(),
+    examId: dbIdSchema,
+    chapterId: dbIdSchema,
     type: z.enum(['MCQ', 'TRUEFALSE', 'WRITTEN']),
     difficulty: z.enum(['EASY', 'MEDIUM', 'HARD']),
     count: z.number().int().min(1).max(100).default(10),
@@ -197,12 +198,12 @@ router.post('/generate', requireRoles('ADMIN', 'INSTRUCTOR'), async (req: Reques
  */
 router.post('/chat-generate', requireRoles('ADMIN', 'INSTRUCTOR'), async (req: Request, res: Response): Promise<void> => {
   const schema = z.object({
-    contentIds: z.array(z.string().uuid()).min(0).max(10).default([]),
+    contentIds: z.array(dbIdSchema).min(0).max(10).default([]),
     instructions: z.string().min(3).max(5000),
     urls: z.array(z.string().url()).max(20).optional(),
     sessionId: z.string().uuid().optional(),
-    examId: z.string().uuid().optional(),
-    chapterId: z.string().uuid().optional(),
+    examId: dbIdSchema.optional(),
+    chapterId: dbIdSchema.optional(),
     type: z.enum(['MCQ', 'TRUEFALSE', 'WRITTEN', 'MIXED']).default('MCQ'),
     difficulty: z.enum(['EASY', 'MEDIUM', 'HARD', 'MIXED']).default('MEDIUM'),
     count: z.number().int().min(1).max(500).default(5),
@@ -938,9 +939,9 @@ router.post('/chat-save', requireRoles('ADMIN', 'INSTRUCTOR'), async (req: Reque
 
   const schema = z.object({
     questions: z.array(questionSchema).min(1).max(50),
-    examId: z.string().uuid(),
-    chapterId: z.string().uuid(),
-    contentIds: z.array(z.string().uuid()).optional(),
+    examId: dbIdSchema,
+    chapterId: dbIdSchema,
+    contentIds: z.array(dbIdSchema).optional(),
   });
 
   const parsed = schema.safeParse(req.body);

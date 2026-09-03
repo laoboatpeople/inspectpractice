@@ -3,6 +3,7 @@ import { z } from 'zod';
 import { authenticate } from '../middleware/auth';
 import { chatService } from '../services/chat.service';
 import { prisma } from '../config/database';
+import { dbIdSchema } from '../config/dbId';
 import { sendTutorFeedbackNotification } from '../services/email';
 
 const router = Router();
@@ -17,8 +18,8 @@ router.use(authenticate);
 
 const sendSchema = z.object({
   message: z.string().min(1).max(2000),
-  examId: z.string().uuid().optional(),
-  chapterId: z.string().uuid().optional(),
+  examId: dbIdSchema.optional(),
+  chapterId: dbIdSchema.optional(),
   sessionId: z.string().uuid().optional(),
   locale: z.string().optional(),
 });

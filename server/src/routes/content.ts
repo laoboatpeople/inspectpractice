@@ -3,6 +3,7 @@ import { z } from 'zod';
 import * as path from 'path';
 import { IncomingMessage } from 'http';
 import { prisma } from '../config/database';
+import { dbIdSchema } from '../config/dbId';
 import { env } from '../config/env';
 import { authenticate } from '../middleware/auth';
 import { requireRoles } from '../middleware/roleGuard';
@@ -87,8 +88,8 @@ router.post('/upload', requireRoles('ADMIN', 'INSTRUCTOR'), upload.single('file'
   }
 
   const schema = z.object({
-    examId: z.string().uuid().optional(),
-    chapterId: z.string().uuid().optional(),
+    examId: dbIdSchema.optional(),
+    chapterId: dbIdSchema.optional(),
   });
 
   const parsed = schema.safeParse(req.body);
@@ -160,8 +161,8 @@ router.get('/:id', requireRoles('ADMIN', 'INSTRUCTOR'), async (req: Request, res
  */
 router.put('/:id', requireRoles('ADMIN', 'INSTRUCTOR'), async (req: Request, res: Response): Promise<void> => {
   const schema = z.object({
-    examId: z.string().uuid().nullable().optional(),
-    chapterId: z.string().uuid().nullable().optional(),
+    examId: dbIdSchema.nullable().optional(),
+    chapterId: dbIdSchema.nullable().optional(),
   });
 
   const parsed = schema.safeParse(req.body);

@@ -1,6 +1,7 @@
 import { Router, Request, Response } from 'express';
 import { z } from 'zod';
 import { prisma } from '../config/database';
+import { dbIdSchema } from '../config/dbId';
 import { authenticate } from '../middleware/auth';
 import { requireRoles } from '../middleware/roleGuard';
 import { chaptersService } from '../services/chapters.service';
@@ -12,7 +13,7 @@ router.use(authenticate);
 // ─── Validation schemas ───────────────────────────────────────────
 
 const createSchema = z.object({
-  examId: z.string().uuid('Invalid exam ID'),
+  examId: dbIdSchema,
   number: z.number().int().min(1, 'Chapter number must be at least 1'),
   name: z.string().min(1, 'Name is required').max(200),
 });
