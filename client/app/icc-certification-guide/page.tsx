@@ -218,7 +218,12 @@ export default function IccCertificationGuidePage() {
               <a href="/blog/icc-exam-study-plan" className="text-[#176B87] hover:text-[#4794B8] transition-colors">
                 12-week study plan
               </a>{' '}
-              that fits your schedule.
+              that fits your schedule. Preparing for the private home inspection side instead? Inspect
+              Practice also covers the{' '}
+              <a href="/nhie-certification-guide" className="text-[#176B87] hover:text-[#4794B8] transition-colors">
+                NHIE national home inspector exam
+              </a>
+              .
             </p>
           </div>
 

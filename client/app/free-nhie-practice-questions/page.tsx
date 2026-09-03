@@ -28,6 +28,14 @@ export const metadata: Metadata = {
       'Sample NHIE home inspector exam questions with answers and explanations. Full 15-chapter bank available with Inspect Practice.',
     url: 'https://inspectpractice.com/free-nhie-practice-questions',
     type: 'website',
+    images: [
+      {
+        url: 'https://inspectpractice.com/images/og/free-nhie-practice-questions.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Free NHIE Practice Questions — Inspect Practice',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',

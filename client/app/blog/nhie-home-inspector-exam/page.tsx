@@ -14,6 +14,14 @@ export const metadata: Metadata = {
       'NHIE structure, scoring, state requirements and how to prepare. Plus how Inspect Practice covers all 15 NHIE chapters with 1,200 questions.',
     url: 'https://inspectpractice.com/blog/nhie-home-inspector-exam',
     type: 'article',
+    images: [
+      {
+        url: 'https://inspectpractice.com/images/og/blog-nhie-home-inspector-exam.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'NHIE Home Inspector Exam Guide — Inspect Practice',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
@@ -114,7 +122,11 @@ export default function NhieBlogPostPage() {
             <h2 className="text-xl font-semibold text-[#102631] mt-10">NHIE vs ICC B1: Two Different Careers</h2>
             <p>
               Both credentials involve inspecting buildings and both are offered on Inspect Practice, but they
-              prepare you for different roles. The <strong>ICC B1</strong> credential qualifies municipal-style
+              prepare you for different roles. The{' '}
+              <a href="/icc-certification-guide" className="text-[#176B87] hover:text-[#4794B8] transition-colors">
+                ICC B1 credential
+              </a>{' '}
+              qualifies municipal-style
               building inspectors who verify code compliance during construction — it is an open-book exam
               based on the IRC. The <strong>NHIE</strong> qualifies private home inspectors who assess the
               condition of existing homes for transactions — a closed-book exam of general knowledge. Because

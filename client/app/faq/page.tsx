@@ -268,6 +268,33 @@ const faqs = [
       },
     ],
   },
+  {
+    question: "What is the NHIE?",
+    answer: [
+      {
+        type: "p",
+        text: "The NHIE (National Home Inspector Examination) is the national competency exam for home inspectors, developed and administered by the Examination Board of Professional Home Inspectors (EBPHI). It is accepted or required by roughly 30 U.S. states and several Canadian provinces for home inspector licensing.",
+      },
+    ],
+  },
+  {
+    question: "Is the NHIE open book?",
+    answer: [
+      {
+        type: "p",
+        text: "No. Unlike ICC certification exams, the NHIE is a closed-book exam — you cannot bring reference books into the testing room, and calculators are not permitted. You have four hours, and the passing scaled score is 500 (on the 200-800 scale, roughly 70% raw). You may retake after a 30-day wait.",
+      },
+    ],
+  },
+  {
+    question: "Does Inspect Practice cover the NHIE?",
+    answer: [
+      {
+        type: "p",
+        text: "Yes. Inspect Practice covers the NHIE with 1,200 exam-style questions across the 15 official chapters (site, exterior, roofing, structural, electrical, cooling, heating, insulation, exhaust, plumbing, interior, fireplaces, life safety, reporting and professional responsibilities), full English theory with animated diagrams, simulations and the AI tutor. The first chapter is free.",
+      },
+    ],
+  },
 ];
 
 const answerPlain = (faq: (typeof faqs)[number]) =>

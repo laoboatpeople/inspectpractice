@@ -19,6 +19,14 @@ export const metadata: Metadata = {
       'Pass the EBPHI National Home Inspector Exam with Inspect Practice: NHIE structure, exam day rules, 15-chapter curriculum and career insights.',
     url: 'https://inspectpractice.com/nhie-certification-guide',
     type: 'article',
+    images: [
+      {
+        url: 'https://inspectpractice.com/images/og/nhie-certification-guide.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Complete NHIE Guide — Inspect Practice',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
@@ -183,7 +191,10 @@ export default function NhieCertificationGuidePage() {
             <h2 className="text-xl font-semibold text-[#102631] mt-10">NHIE vs ICC B1</h2>
             <p>
               Both credentials involve inspecting buildings, but they serve different roles. An{' '}
-              <strong>ICC B1</strong> inspector works as a code official — often for a municipality — verifying
+              <a href="/icc-certification-guide" className="text-[#176B87] hover:text-[#4794B8] transition-colors">
+                ICC B1 inspector
+              </a>{' '}
+              works as a code official — often for a municipality — verifying
               that construction complies with the IRC, using an open-book code exam. An{' '}
               <strong>NHIE home inspector</strong> works privately, inspecting existing homes for buyers and
               reporting on condition rather than code compliance, on a closed-book general-knowledge exam.
