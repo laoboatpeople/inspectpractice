@@ -719,34 +719,28 @@ CRITIQUE : Réponds directement avec le contenu théorique. Aucun préambule, au
 
 Voici les questions et explications sources :\n\n${frMaterial}`;
 
-    const [enResponse, frResponse] = await Promise.all([
-      openai.chat.completions.create({
-        model: process.env.OPENAI_MODEL || 'deepseek-chat',
-        messages: [
-          { role: 'system', content: 'You are an expert ICC textbook author creating study material for building inspectors.' },
-          { role: 'user', content: enPrompt },
-        ],
-        temperature: 0.4,
-        max_tokens: 16384,
-      }),
-      openai.chat.completions.create({
-        model: process.env.OPENAI_MODEL || 'deepseek-chat',
-        messages: [
-          { role: 'system', content: 'Tu es un auteur expert de manuel ICC créant du matériel d\'étude pour les inspecteurs en bâtiment.' },
-          { role: 'user', content: frPrompt },
-        ],
-        temperature: 0.4,
-        max_tokens: 16384,
-      }),
-    ]);
+    // EN-only platform (US market): only English theory is generated (no FR network call, ~2x tokens saved)
+    const enResponse = await openai.chat.completions.create({
+      model: process.env.OPENAI_MODEL || 'deepseek-chat',
+      messages: [
+        { role: 'system', content: 'You are an expert ICC textbook author creating study material for building inspectors.' },
+        { role: 'user', content: enPrompt },
+      ],
+      temperature: 0.4,
+      max_tokens: 16384,
+    });
+    // French response intentionally skipped on this platform; frPrompt/frMaterial kept for fork lineage
+    const frResponse = null as unknown as { choices: { message: { content: string | null } }[] };
+    void frPrompt;
+    void frMaterial;
 
     const en = enResponse.choices[0]?.message?.content?.trim() ?? '';
-    const fr = frResponse.choices[0]?.message?.content?.trim() ?? '';
+    const fr = frResponse?.choices?.[0]?.message?.content?.trim() ?? '';
 
-    // Save to chapter
+    // Save to chapter (theoryContentFr cleared: EN-only)
     await prisma.chapter.update({
       where: { id: chapterId },
-      data: { theoryContent: en, theoryContentFr: fr },
+      data: { theoryContent: en, theoryContentFr: fr || null },
     });
 
     console.log(`[AI] Generated theory for ${examCode} / Ch.${chapter.number}`);
