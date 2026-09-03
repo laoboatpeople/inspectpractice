@@ -155,7 +155,10 @@ interface AnswerRecord {
 // ─── Helpers ─────────────────────────────────────────────────
 
 function isUUID(str: string): boolean {
-  return /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(str);
+  // Accept UUIDs with or without dashes — some exam ids are stored dashless
+  // (e.g. NHIE), and treating a 32-hex id as an exam *code* breaks quiz links.
+  return /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(str) ||
+         /^[0-9a-f]{32}$/i.test(str);
 }
 
 // ─── Page ───────────────────────────────────────────────────
