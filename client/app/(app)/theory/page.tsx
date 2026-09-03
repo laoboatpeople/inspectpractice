@@ -845,18 +845,18 @@ export default function TheoryPage() {
   const searchInputRef = useRef<HTMLInputElement>(null);
 
   // ─── Licence rating filter (same pattern as /exams) ────
-  const [licenseFilter, setLicenseFilter] = useState<'ALL' | 'B1' | 'B2' | 'E1' | 'P1' | 'M1'>(() => {
+  const [licenseFilter, setLicenseFilter] = useState<'ALL' | 'B1' | 'B2' | 'E1' | 'P1' | 'M1' | 'NHIE'>(() => {
     if (typeof window !== 'undefined') {
       const p = new URLSearchParams(window.location.search).get('license');
-      if (p && ['B1', 'B2', 'E1', 'P1', 'M1', 'ALL'].includes(p)) return p as any;
+      if (p && ['B1', 'B2', 'E1', 'P1', 'M1', 'NHIE', 'ALL'].includes(p)) return p as any;
       const s = sessionStorage.getItem('theory_license');
-      if (s && ['B1', 'B2', 'E1', 'P1', 'M1'].includes(s)) return s as any;
+      if (s && ['B1', 'B2', 'E1', 'P1', 'M1', 'NHIE'].includes(s)) return s as any;
     }
     return 'ALL';
   });
 
   // Persist licence filter in URL (?license=) + sessionStorage so it survives back-navigation
-  const selectLicense = (r: 'ALL' | 'B1' | 'B2' | 'E1' | 'P1' | 'M1') => {
+  const selectLicense = (r: 'ALL' | 'B1' | 'B2' | 'E1' | 'P1' | 'M1' | 'NHIE') => {
     setLicenseFilter(r);
     if (r === 'ALL') sessionStorage.removeItem('theory_license');
     else sessionStorage.setItem('theory_license', r);
@@ -1077,7 +1077,7 @@ export default function TheoryPage() {
       {/* Licence rating filter — same pattern as /exams */}
       {!loading && categories.length > 0 && (
         <div className="flex flex-wrap items-center gap-2 mt-4">
-          {(['ALL', 'B1', 'B2', 'E1', 'P1', 'M1'] as const).map((r) => (
+          {(['ALL', 'B1', 'B2', 'E1', 'P1', 'M1', 'NHIE'] as const).map((r) => (
             <button
               key={r}
               onClick={() => selectLicense(r)}
