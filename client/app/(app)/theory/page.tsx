@@ -1028,6 +1028,13 @@ export default function TheoryPage() {
       color: 'purple' as SectionColor,
       codeFilter: (code: string) => code.startsWith('ICC-M1'),
     },
+    {
+      key: 'nhie',
+      title: t('licenseNHIE'),
+      subtitle: t('licenseNHIESub'),
+      color: 'blue' as SectionColor,
+      codeFilter: (code: string) => code.startsWith('NHIE'),
+    },
   ];
 
   const totalQuestions = categories.reduce((sum, c) => sum + c.questionCount, 0);
