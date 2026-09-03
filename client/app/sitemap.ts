@@ -35,6 +35,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/icc-resources`, lastModified: fileMtime('icc-resources'), changeFrequency: 'weekly', priority: 0.9 },
     { url: `${base}/free-icc-practice-questions`, lastModified: fileMtime('free-icc-practice-questions'), changeFrequency: 'weekly', priority: 0.9 },
     { url: `${base}/icc-certification-guide`, lastModified: fileMtime('icc-certification-guide'), changeFrequency: 'weekly', priority: 1.0 },
+    { url: `${base}/nhie-certification-guide`, lastModified: fileMtime('nhie-certification-guide'), changeFrequency: 'weekly', priority: 1.0 },
   ];
 
   const enBlog = EN_SLUGS.map((slug) => ({

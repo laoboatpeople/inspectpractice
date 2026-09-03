@@ -17,6 +17,7 @@ const routes: Record<string, string> = {
   '/free-icc-practice-questions': 'Free Practice Questions',
   '/icc-resources': 'Resources',
   '/icc-certification-guide': 'ICC Certification Guide',
+  '/nhie-certification-guide': 'NHIE Certification Guide',
   // French
   '/fr': 'Accueil',
   '/fr/faq': 'FAQ',

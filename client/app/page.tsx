@@ -3,7 +3,7 @@ import MarketingLandingPage from "@/components/marketing/LandingPage";
 import { VideoObjectJsonLd, BreadcrumbListJsonLd, FAQPageJsonLd, LearningResourceJsonLd, HowToJsonLd } from '@/components/seo/JsonLd';
 
 export const metadata: Metadata = {
-  title: 'Inspect Practice — Pass Your ICC Building Inspector Exam',
+  title: 'Inspect Practice — Pass Your ICC or NHIE Exam',
   description:    'AI-curated ICC exam prep for building inspector certifications — B1, B2, E1, P1, M1 & NHIE. Open-book code navigation drills matched to your weak areas from 7,200+ practice questions.',
   alternates: {
     canonical: 'https://inspectpractice.com',
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Inspect Practice — Pass Your ICC Building Inspector Exam',
+    title: 'Inspect Practice — Pass Your ICC or NHIE Exam',
     description:
       'AI-curated ICC exam prep platform covering B1, B2, E1, P1, M1 & NHIE. Open-book code navigation questions matched to your weak areas for smarter studying.',
     url: 'https://inspectpractice.com',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Inspect Practice — Pass Your ICC Building Inspector Exam',
+    title: 'Inspect Practice — Pass Your ICC or NHIE Exam',
     description:
       'AI-curated ICC exam prep platform covering B1, B2, E1, P1, M1 & NHIE. Questions matched to your weak areas for smarter studying.',
     images: ['https://inspectpractice.com/images/og/home.jpg'],
@@ -88,6 +88,10 @@ export default function RootPage() {
             question: 'What are the pass rates for ICC exams?',
             answer: 'ICC exam pass rates vary by certification and code edition. Using structured practice with platforms like Inspect Practice significantly improves your chances by building code-navigation speed and identifying knowledge gaps before exam day.',
           },
+          {
+            question: 'Does Inspect Practice cover the NHIE home inspector exam?',
+            answer: 'Yes. In addition to the five ICC building inspector certifications (B1, B2, E1, P1, M1), Inspect Practice covers the EBPHI National Home Inspector Exam (NHIE) with 1,200 practice questions across 15 chapters — site conditions, exterior, roofing, structural, electrical, cooling, heating, insulation, exhaust, plumbing, interior, fireplaces, life safety, reporting and professional responsibilities — plus full EN theory and the AI tutor.',
+          },
         ]}
       />
       <HowToJsonLd
@@ -107,7 +111,7 @@ export default function RootPage() {
         name="ICC Building Inspector Certification Guide"
         description="Complete guide to becoming an ICC-certified building inspector in the United States. Covers B1, B2, E1, P1, and M1 certifications, the International Codes, and career outlook."
         educationalLevel="Professional"
-        teaches={['ICC B1 Certification', 'ICC B2 Certification', 'ICC E1 Certification', 'ICC P1 Certification', 'ICC M1 Certification', 'International Codes']}
+        teaches={['ICC B1 Certification', 'ICC B2 Certification', 'ICC E1 Certification', 'ICC P1 Certification', 'ICC M1 Certification', 'NHIE Home Inspector Certification', 'International Codes']}
         resourceType="Guide"
       />
       <MarketingLandingPage />

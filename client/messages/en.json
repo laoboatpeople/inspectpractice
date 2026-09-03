@@ -9,19 +9,19 @@
     "signIn": "Sign In"
   },
   "hero": {
-    "badge": "ICC B1 · B2 · E1 · P1 · M1",
-    "headline1": "Pass Your ICC Building Inspector Exam",
+    "badge": "ICC B1 · B2 · E1 · P1 · M1 · NHIE",
+    "headline1": "Pass Your Building Inspector Exam",
     "headline2": "with AI That Curates Questions to Your Weak Spots",
-    "subheadline": "Inspect Practice covers the full ICC certification curriculum — Residential Building Inspector (B1), Commercial (B2), Electrical (E1), Plumbing (P1) and Mechanical (M1) — with AI that learns what you struggle with and serves you the right practice questions. Open-book code navigation drills plus thousands of exam-style questions, on any device.",
+    "subheadline": "Inspect Practice covers the full ICC certification curriculum — Residential Building Inspector (B1), Commercial (B2), Electrical (E1), Plumbing (P1) and Mechanical (M1) — plus the EBPHI National Home Inspector Exam (NHIE), with AI that learns what you struggle with and serves you the right practice questions.",
     "bullets": {
       "aiExams": "AI curates questions to your weak areas",
       "anywhere": "Study anywhere",
       "platforms": "Available on all devices",
-      "transportCanada": "B1, B2, E1, P1 & M1 certifications"
+      "transportCanada": "B1, B2, E1, P1, M1 & NHIE certifications"
     },
     "downloadApp": "Start Free",
     "watchDemo": "Watch Demo",
-    "valueProp": "2,500+ ICC-aligned questions across B1, B2, E1, P1 & M1",
+    "valueProp": "7,200+ practice questions across ICC B1, B2, E1, P1, M1 & NHIE",
     "trustedBy": "Trusted by building inspectors across the U.S.",
     "appRating": "User Rating",
     "passRate": "Pass Rate"
@@ -61,7 +61,7 @@
     "subtitle": "Powerful tools built for serious building inspectors.",
     "exams": {
       "title": "Realistic Practice Exams",
-      "desc": "Simulate real ICC open-book exams for B1 (IRC), B2 (IBC), E1 (NEC + IRC electrical), P1 (IPC + IRC plumbing), and M1 (IMC + IRC mechanical) — all with timed, chapter-based practice tests."
+      "desc": "Simulate real ICC open-book exams for B1 (IRC), B2 (IBC), E1 (NEC + IRC electrical), P1 (IPC + IRC plumbing), and M1 (IMC + IRC mechanical) — all with timed, chapter-based practice tests. NHIE practice covers general home inspection knowledge — site, structural, electrical, plumbing, HVAC, reporting and professional responsibilities."
     },
     "analytics": {
       "title": "Performance Analytics",
@@ -139,7 +139,7 @@
     "student": "New Inspectors",
     "studentDesc": "Career changers and newcomers preparing for their first ICC certification.",
     "apprentice": "Home Inspectors",
-    "homeInspectorDesc": "Home inspectors adding ICC credentials for rental and compliance work.",
+    "homeInspectorDesc": "Home inspectors preparing for the NHIE national exam or adding ICC credentials for rental and compliance work.",
     "schools": "Training Programs",
     "schoolsDesc": "Institutions and departments looking for a modern, scalable training tool.",
     "tc": "ICC Exam Prep",
@@ -184,7 +184,7 @@
       "price": "$29.99",
       "period": "/month",
       "desc": "Everything you need to pass.",
-      "feature1": "All 5 certifications (B1, B2, E1, P1, M1)",
+      "feature1": "All 6 certifications (B1, B2, E1, P1, M1 & NHIE)",
       "feature2": "Timed simulation exams",
       "feature3": "Review & analytics dashboard",
       "feature4": "Unlimited AI Tutor"
@@ -193,9 +193,9 @@
       "name": "Pro Yearly",
       "price": "$99",
       "period": "/year",
-      "desc": "2 months free vs Monthly. Best value for serious ICC candidates.",
+      "desc": "2 months free vs Monthly. Best value for serious building inspection candidates.",
       "badge": "Best Value",
-      "feature1": "All 5 certifications (B1, B2, E1, P1, M1)",
+      "feature1": "All 6 certifications (B1, B2, E1, P1, M1 & NHIE)",
       "feature2": "Timed simulation exams",
       "feature3": "Review & analytics dashboard",
       "feature4": "Unlimited AI Tutor"
@@ -212,13 +212,13 @@
     "cta": "Get Started"
   },
   "finalCta": {
-    "headline": "Ready to pass your ICC exam faster?",
+    "headline": "Ready to pass your ICC or NHIE exam?",
     "subheadline": "Join the next generation of building inspectors training with AI.",
     "startFree": "Start Free",
     "viewPricing": "View Pricing"
   },
   "footer": {
-    "tagline": "AI-powered ICC exam preparation for the next generation of building inspectors.",
+    "tagline": "AI-powered ICC & NHIE exam preparation for the next generation of building inspectors.",
     "product": "Product",
     "company": "Company",
     "legal": "Legal",
