@@ -30,7 +30,7 @@ export default function MarketingLandingPage() {
   return (
     <div className="min-h-screen bg-[#F4F7F8] text-[#102631] font-sans overflow-x-hidden">
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-[#071D2B]/95 border-b border-white/10">
+      <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-[#0B3344]/95 border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <img src="/logo/logo-main-light.png?v=4" alt="Inspect Practice" className="h-9 w-auto" />
@@ -45,7 +45,7 @@ export default function MarketingLandingPage() {
             <a href="#testimonials" className="text-sm text-white/80 hover:text-[#CBEA32] transition-colors">{tm("nav.testimonials")}</a>
           </div>
           <div className="flex items-center gap-3">
-            <a href="/auth/login" className="px-4 py-2 bg-[#CBEA32] hover:bg-[#B5D51F] text-[#071D2B] rounded-lg text-sm font-semibold transition-colors">
+            <a href="/auth/login" className="px-4 py-2 bg-[#CBEA32] hover:bg-[#B5D51F] text-[#0B3344] rounded-lg text-sm font-semibold transition-colors">
               {tm("nav.signIn")}
             </a>
           </div>
@@ -53,7 +53,7 @@ export default function MarketingLandingPage() {
       </nav>
 
       {/* 1. HERO SECTION */}
-      <section className="relative pt-40 pb-24 px-6 overflow-hidden bg-gradient-to-br from-[#071D2B] via-[#0D3043] to-[#176B87]">
+      <section className="relative pt-40 pb-24 px-6 overflow-hidden bg-gradient-to-br from-[#0B3344] via-[#11475C] to-[#145A73]">
         {/* Subtle blueprint grid overlay */}
         <div
           className="absolute inset-0 opacity-[0.06]"
@@ -64,7 +64,7 @@ export default function MarketingLandingPage() {
           }}
         />
         <div className="absolute top-20 left-1/2 -translate-x-1/2 w-[800px] h-[600px] bg-[#CBEA32]/10 rounded-full blur-[120px]" />
-        <div className="absolute top-40 right-20 w-[400px] h-[400px] bg-[#176B87]/30 rounded-full blur-[100px]" />
+        <div className="absolute top-40 right-20 w-[400px] h-[400px] bg-[#145A73]/30 rounded-full blur-[100px]" />
 
         <div className="relative z-10 max-w-7xl mx-auto">
           <div className="flex flex-col lg:flex-row items-center gap-12">
@@ -108,7 +108,7 @@ export default function MarketingLandingPage() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <a
                   href="/auth/login"
-                  className="group px-8 py-4 bg-[#CBEA32] hover:bg-[#B5D51F] text-[#071D2B] rounded-xl font-semibold hover:shadow-[0_0_30px_rgba(203,234,50,0.35)] transition-all duration-300 flex items-center justify-center gap-2"
+                  className="group px-8 py-4 bg-[#CBEA32] hover:bg-[#B5D51F] text-[#0B3344] rounded-xl font-semibold hover:shadow-[0_0_30px_rgba(203,234,50,0.35)] transition-all duration-300 flex items-center justify-center gap-2"
                 >
                   <LogIn className="w-5 h-5" />
                   {tm("hero.downloadApp")}
@@ -147,7 +147,7 @@ export default function MarketingLandingPage() {
                   </div>
                   <div className="space-y-2 mt-3">
                     {['a', 'b', 'c', 'd'].map((key, i) => (
-                      <div key={i} className={`p-2 rounded-lg text-xs ${i === 0 ? 'bg-[#176B87] border border-[#176B87]/60 text-white font-medium' : 'bg-[#F4F7F8] text-[#586A73]'}`}>
+                      <div key={i} className={`p-2 rounded-lg text-xs ${i === 0 ? 'bg-[#145A73] border border-[#145A73]/60 text-white font-medium' : 'bg-[#F4F7F8] text-[#586A73]'}`}>
                         {tm(`appPreview.answers.${key}`)}
                       </div>
                     ))}
@@ -239,7 +239,7 @@ export default function MarketingLandingPage() {
 
           <div className="relative flex flex-col md:flex-row items-center justify-center gap-8 md:gap-4">
             {/* Connector line */}
-            <div className="hidden md:block absolute top-16 left-1/4 right-1/4 h-0.5 bg-gradient-to-r from-[#176B87] via-[#176B87] to-[#176B87]" />
+            <div className="hidden md:block absolute top-16 left-1/4 right-1/4 h-0.5 bg-gradient-to-r from-[#145A73] via-[#145A73] to-[#145A73]" />
             
             {[
               { num: "1", titleKey: "step1", descKey: "step1Desc" },
@@ -248,7 +248,7 @@ export default function MarketingLandingPage() {
             ].map((item, i) => (
               <ScrollReveal key={i} className="relative flex-1 max-w-sm text-center">
                 <div className="relative z-10">
-                  <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-gradient-to-br from-[#176B87] to-[#123B52] flex items-center justify-center text-2xl font-bold text-white shadow-[0_0_40px_rgba(23,107,135,0.25)]">
+                  <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-gradient-to-br from-[#145A73] to-[#10455B] flex items-center justify-center text-2xl font-bold text-white shadow-[0_0_40px_rgba(20, 90, 115,0.25)]">
                     {item.num}
                   </div>
                   <h3 className="text-xl font-bold text-[#102631] mb-2">{tm(`howItWorks.${item.titleKey}`)}</h3>
@@ -287,7 +287,7 @@ export default function MarketingLandingPage() {
               <div className="space-y-2">
                 <div className="text-xs text-[#F5B942] mb-2">{tm("appPreview.generating")}</div>
                 <div className="h-2 bg-[#E8EEF0] rounded-full overflow-hidden">
-                  <div className="h-full w-3/4 bg-gradient-to-r from-[#176B87] to-[#176B87] rounded-full" />
+                  <div className="h-full w-3/4 bg-gradient-to-r from-[#145A73] to-[#145A73] rounded-full" />
                 </div>
                 <div className="text-xs text-white/60 mt-2">{tm("appPreview.chapterLabel")}</div>
               </div>
@@ -318,15 +318,15 @@ export default function MarketingLandingPage() {
 
       {/* 6. AI SECTION */}
       <section className="py-20 px-6 relative overflow-hidden bg-[#FFFFFF]">
-        <div className="absolute top-0 left-1/4 w-[500px] h-[500px] bg-[#176B87]/5 rounded-full blur-[150px]" />
+        <div className="absolute top-0 left-1/4 w-[500px] h-[500px] bg-[#145A73]/5 rounded-full blur-[150px]" />
         <div className="absolute bottom-0 right-1/4 w-[500px] h-[500px] bg-[#CBEA32]/10 rounded-full blur-[150px]" />
         
         <div className="relative z-10 max-w-7xl mx-auto">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <ScrollReveal className="flex-1">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#176B87]/10 border border-[#176B87]/20 mb-6">
-                <Zap className="w-4 h-4 text-[#176B87]" />
-                <span className="text-sm text-[#176B87] font-medium">{tm("ai.title")}</span>
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#145A73]/10 border border-[#145A73]/20 mb-6">
+                <Zap className="w-4 h-4 text-[#145A73]" />
+                <span className="text-sm text-[#145A73] font-medium">{tm("ai.title")}</span>
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#102631]">
                 {tm("ai.title")}
@@ -344,8 +344,8 @@ export default function MarketingLandingPage() {
                   { titleKey: "curated" },
                 ].map((item, i) => (
                   <ScrollReveal key={i} className="flex items-start gap-3">
-                    <div className="w-6 h-6 rounded-full bg-[#176B87]/10 flex items-center justify-center flex-shrink-0 mt-0.5">
-                      <Check className="w-4 h-4 text-[#176B87]" />
+                    <div className="w-6 h-6 rounded-full bg-[#145A73]/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <Check className="w-4 h-4 text-[#145A73]" />
                     </div>
                     <div>
                       <h4 className="text-[#102631] font-medium">{tm(`ai.${item.titleKey}`)}</h4>
@@ -357,11 +357,11 @@ export default function MarketingLandingPage() {
 
             <ScrollReveal className="flex-1 flex justify-center">
               <div className="relative w-80 h-80">
-                <div className="absolute inset-0 bg-gradient-to-br from-[#176B87] to-[#123B52] rounded-3xl rotate-6 opacity-15" />
-                <div className="absolute inset-0 bg-gradient-to-br from-[#176B87] to-[#123B52] rounded-3xl -rotate-3 opacity-25" />
+                <div className="absolute inset-0 bg-gradient-to-br from-[#145A73] to-[#10455B] rounded-3xl rotate-6 opacity-15" />
+                <div className="absolute inset-0 bg-gradient-to-br from-[#145A73] to-[#10455B] rounded-3xl -rotate-3 opacity-25" />
                 <div className="relative w-full h-full bg-[#FFFFFF] rounded-3xl border border-[#DCE4E7] shadow-[0_8px_24px_rgba(7,29,43,0.07)] flex items-center justify-center backdrop-blur-sm">
                   <div className="text-center p-8">
-                    <div className="w-20 h-20 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-[#176B87] to-[#123B52] flex items-center justify-center">
+                    <div className="w-20 h-20 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-[#145A73] to-[#10455B] flex items-center justify-center">
                       <Brain className="w-10 h-10 text-white" />
                     </div>
                     <h3 className="text-xl font-bold text-[#102631] mb-2">{tm("ai.title")}</h3>
@@ -370,7 +370,7 @@ export default function MarketingLandingPage() {
                       {[0, 1, 2, 3].map((i) => (
                         <div
                           key={i}
-                          className="w-2 h-2 rounded-full bg-[#176B87] animate-pulse"
+                          className="w-2 h-2 rounded-full bg-[#145A73] animate-pulse"
                           style={{ animationDelay: `${i * 0.15}s` }}
                         />
                       ))}
@@ -404,12 +404,12 @@ export default function MarketingLandingPage() {
             ].map((item, i) => (
               <ScrollReveal
                 key={i}
-                className="p-6 rounded-2xl bg-[#FFFFFF] border border-[#DCE4E7] shadow-[0_8px_24px_rgba(7,29,43,0.07)] hover:shadow-[0_12px_32px_rgba(7,29,43,0.12)] hover:-translate-y-0.5 hover:border-[#176B87]/40 transition-all duration-300 group"
+                className="p-6 rounded-2xl bg-[#FFFFFF] border border-[#DCE4E7] shadow-[0_8px_24px_rgba(7,29,43,0.07)] hover:shadow-[0_12px_32px_rgba(7,29,43,0.12)] hover:-translate-y-0.5 hover:border-[#145A73]/40 transition-all duration-300 group"
               >
-                <div className="w-12 h-12 rounded-xl bg-[#176B87]/10 flex items-center justify-center mb-4">
-                  <item.icon className="w-6 h-6 text-[#176B87] group-hover:text-[#CBEA32] transition-colors" />
+                <div className="w-12 h-12 rounded-xl bg-[#145A73]/10 flex items-center justify-center mb-4">
+                  <item.icon className="w-6 h-6 text-[#145A73] group-hover:text-[#CBEA32] transition-colors" />
                 </div>
-                <h3 className="text-lg font-bold text-[#102631] mb-2 group-hover:text-[#176B87] transition-colors">{tm(`builtFor.${item.titleKey}`)}</h3>
+                <h3 className="text-lg font-bold text-[#102631] mb-2 group-hover:text-[#145A73] transition-colors">{tm(`builtFor.${item.titleKey}`)}</h3>
                 <p className="text-sm text-[#586A73]">{tm(`builtFor.${item.descKey}`)}</p>
               </ScrollReveal>
             ))}
@@ -436,7 +436,7 @@ export default function MarketingLandingPage() {
               school=""
               quote={tm("testimonials.cards.t1.quote")}
               index={0}
-              color="#176B87"
+              color="#145A73"
             />
             <TestimonialCard
               name={tm("testimonials.cards.t2.name")}
@@ -452,7 +452,7 @@ export default function MarketingLandingPage() {
               school=""
               quote={tm("testimonials.cards.t3.quote")}
               index={2}
-              color="#176B87"
+              color="#145A73"
             />
           </div>
         </div>
@@ -520,7 +520,7 @@ export default function MarketingLandingPage() {
           <div className="text-center mt-10">
             <a
               href="/pricing"
-              className="inline-flex items-center gap-2 text-sm text-[#586A73] hover:text-[#176B87] transition-colors group"
+              className="inline-flex items-center gap-2 text-sm text-[#586A73] hover:text-[#145A73] transition-colors group"
             >
               View detailed plan comparison
               <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -530,7 +530,7 @@ export default function MarketingLandingPage() {
       </section>
 
       {/* 10. FINAL CTA */}
-      <section id="final-cta" className="py-20 px-6 relative overflow-hidden bg-gradient-to-r from-[#071D2B] via-[#0D3043] to-[#176B87]">
+      <section id="final-cta" className="py-20 px-6 relative overflow-hidden bg-gradient-to-r from-[#0B3344] via-[#11475C] to-[#145A73]">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#CBEA32]/10 rounded-full blur-[120px]" />
         
         <div className="relative z-10 max-w-4xl mx-auto text-center">
@@ -545,7 +545,7 @@ export default function MarketingLandingPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="/auth/login"
-                className="group px-8 py-4 bg-[#CBEA32] text-[#071D2B] rounded-xl font-semibold hover:bg-[#B5D51F] hover:shadow-[0_0_40px_rgba(203,234,50,0.35)] transition-all duration-300 flex items-center justify-center gap-3"
+                className="group px-8 py-4 bg-[#CBEA32] text-[#0B3344] rounded-xl font-semibold hover:bg-[#B5D51F] hover:shadow-[0_0_40px_rgba(203,234,50,0.35)] transition-all duration-300 flex items-center justify-center gap-3"
               >
                 <LogIn className="w-6 h-6" />
                 {tm("finalCta.startFree")}
@@ -565,7 +565,7 @@ export default function MarketingLandingPage() {
       <NewsletterSection />
 
       {/* 11. FOOTER */}
-      <footer className="py-12 px-6 bg-[#071D2B] border-t border-white/10">
+      <footer className="py-12 px-6 bg-[#0B3344] border-t border-white/10">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8 mb-12">
             <div>
@@ -653,7 +653,7 @@ export default function MarketingLandingPage() {
           onClick={() => setShowDemo(false)}
         >
           <div
-            className="relative w-full max-w-[400px] bg-[#071D2B] rounded-2xl overflow-hidden border border-white/10"
+            className="relative w-full max-w-[400px] bg-[#0B3344] rounded-2xl overflow-hidden border border-white/10"
             onClick={(e) => e.stopPropagation()}
           >
             <button

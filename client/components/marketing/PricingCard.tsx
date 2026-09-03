@@ -32,7 +32,7 @@ export default function PricingCard({ name, price, period, description, features
     >
       {isFeatured && (
         <div className="absolute -top-3 left-1/2 -translate-x-1/2 whitespace-nowrap">
-          <div className="px-4 py-1 rounded-full text-[11px] font-bold text-[#071D2B] bg-[#CBEA32] tracking-wider uppercase whitespace-nowrap">
+          <div className="px-4 py-1 rounded-full text-[11px] font-bold text-[#0B3344] bg-[#CBEA32] tracking-wider uppercase whitespace-nowrap">
             {badgeText}
           </div>
         </div>
@@ -57,13 +57,13 @@ export default function PricingCard({ name, price, period, description, features
         {buttonHref ? (
           <Link
             href={buttonHref}
-            className="block w-full text-center py-3 px-6 rounded-lg font-semibold transition-all duration-300 bg-[#CBEA32] text-[#071D2B] hover:bg-[#B5D51F] hover:shadow-[0_0_20px_rgba(203,234,50,0.4)]"
+            className="block w-full text-center py-3 px-6 rounded-lg font-semibold transition-all duration-300 bg-[#CBEA32] text-[#0B3344] hover:bg-[#B5D51F] hover:shadow-[0_0_20px_rgba(203,234,50,0.4)]"
           >
             {buttonLabel}
           </Link>
         ) : (
           <button
-            className="w-full py-3 px-6 rounded-lg font-semibold transition-all duration-300 bg-[#CBEA32] text-[#071D2B] hover:bg-[#B5D51F] hover:shadow-[0_0_20px_rgba(203,234,50,0.4)]"
+            className="w-full py-3 px-6 rounded-lg font-semibold transition-all duration-300 bg-[#CBEA32] text-[#0B3344] hover:bg-[#B5D51F] hover:shadow-[0_0_20px_rgba(203,234,50,0.4)]"
           >
             {buttonLabel}
           </button>

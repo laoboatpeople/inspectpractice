@@ -66,15 +66,15 @@ export default async function TheoryChapterPage({ params }: { params: Promise<{ 
 
   return (
     <div className="min-h-screen bg-[#F4F7F8] text-[#102631]">
-      <header className="border-b border-[#DCE4E7] bg-[#071D2B]/95 backdrop-blur-md sticky top-0 z-40">
+      <header className="border-b border-[#DCE4E7] bg-[#0B3344]/95 backdrop-blur-md sticky top-0 z-40">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2" aria-label="InspectPractice home">
-            <img src="/logo/logo-main-light.png?v=4" alt="InspectPractice" className="h-7 w-auto" />
+            <img src="/logo/logo-main-light.png?v=5" alt="InspectPractice" className="h-7 w-auto" />
           </Link>
           <nav className="flex items-center gap-4 text-sm">
             <Link href="/theory" className="text-[#DCE4E7] hover:text-[#F4F7F8] transition-colors">All Chapters</Link>
             <Link href="/exams" className="text-[#DCE4E7] hover:text-[#F4F7F8] transition-colors">Practice Exams</Link>
-            <Link href="/pricing" className="px-4 py-2 rounded-lg bg-[#176B87] text-[#071D2B] font-medium transition-colors">Pricing</Link>
+            <Link href="/pricing" className="px-4 py-2 rounded-lg bg-[#145A73] text-[#0B3344] font-medium transition-colors">Pricing</Link>
           </nav>
         </div>
       </header>
@@ -89,11 +89,11 @@ export default async function TheoryChapterPage({ params }: { params: Promise<{ 
         </nav>
 
         <div className="flex items-start gap-4 mb-8">
-          <div className="w-12 h-12 rounded-xl bg-[#176B87]/10 border border-[#176B87]/20 flex items-center justify-center shrink-0">
-            <BookOpen size={22} className="text-[#176B87]" />
+          <div className="w-12 h-12 rounded-xl bg-[#145A73]/10 border border-[#145A73]/20 flex items-center justify-center shrink-0">
+            <BookOpen size={22} className="text-[#145A73]" />
           </div>
           <div>
-            <div className="text-xs font-medium text-[#176B87] uppercase tracking-wide mb-1">Chapter {ROMAN[chapter.number - 1] || chapter.number}</div>
+            <div className="text-xs font-medium text-[#145A73] uppercase tracking-wide mb-1">Chapter {ROMAN[chapter.number - 1] || chapter.number}</div>
             <h1 className="text-2xl md:text-3xl font-bold text-[#F4F7F8] leading-tight">{chapter.name}</h1>
             <p className="text-sm text-[#586A73] mt-2 max-w-2xl">InspectPractice study guide with diagrams.</p>
           </div>
@@ -118,10 +118,10 @@ export default async function TheoryChapterPage({ params }: { params: Promise<{ 
           ) : null}
         </div>
 
-        <div className="mt-8 bg-gradient-to-r from-[#176B87]/10 to-[#176B87]/5 border border-[#176B87]/20 rounded-2xl p-6 text-center">
+        <div className="mt-8 bg-gradient-to-r from-[#145A73]/10 to-[#145A73]/5 border border-[#145A73]/20 rounded-2xl p-6 text-center">
           <h2 className="text-lg font-bold text-[#F4F7F8] mb-2">Ready to test this chapter?</h2>
           <p className="text-sm text-[#586A73] mb-4">Practice with exam-aligned questions and timed simulations.</p>
-          <Link href="/exams" className="inline-block px-6 py-3 rounded-lg bg-[#176B87] text-white text-sm font-medium transition-colors">Start Practicing Free</Link>
+          <Link href="/exams" className="inline-block px-6 py-3 rounded-lg bg-[#145A73] text-white text-sm font-medium transition-colors">Start Practicing Free</Link>
         </div>
       </main>
     </div>

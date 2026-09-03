@@ -46,10 +46,10 @@ export default function NewsletterSection() {
 
   return (
     <section className="py-16 px-6 relative bg-[#F4F7F8]">
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#176B87]/5 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#145A73]/5 to-transparent" />
       <div className="relative z-10 max-w-xl mx-auto text-center">
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#176B87]/10 border border-[#176B87]/20 mb-6">
-          <Mail className="w-4 h-4 text-[#176B87]" />
+        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#145A73]/10 border border-[#145A73]/20 mb-6">
+          <Mail className="w-4 h-4 text-[#145A73]" />
           <span className="text-sm text-[#586A73]">{isFr ? 'Infolettre' : 'Newsletter'}</span>
         </div>
 
@@ -78,13 +78,13 @@ export default function NewsletterSection() {
                 placeholder={isFr ? 'vous@courriel.com' : 'you@email.com'}
                 required
                 disabled={status === "loading"}
-                className="w-full pl-11 pr-4 py-3 rounded-xl bg-white border border-[#DCE4E7] text-[#102631] placeholder-[#7A8B94] focus:outline-none focus:border-[#176B87]/50 focus:ring-1 focus:ring-[#176B87]/30 transition-all duration-200 disabled:opacity-50"
+                className="w-full pl-11 pr-4 py-3 rounded-xl bg-white border border-[#DCE4E7] text-[#102631] placeholder-[#7A8B94] focus:outline-none focus:border-[#145A73]/50 focus:ring-1 focus:ring-[#145A73]/30 transition-all duration-200 disabled:opacity-50"
               />
             </div>
             <button
               type="submit"
               disabled={status === "loading"}
-              className="px-6 py-3 bg-[#CBEA32] hover:bg-[#B5D51F] text-[#071D2B] rounded-xl font-semibold transition-all duration-200 disabled:opacity-50 flex items-center justify-center gap-2 whitespace-nowrap"
+              className="px-6 py-3 bg-[#CBEA32] hover:bg-[#B5D51F] text-[#0B3344] rounded-xl font-semibold transition-all duration-200 disabled:opacity-50 flex items-center justify-center gap-2 whitespace-nowrap"
             >
               {status === "loading" ? (
                 <>

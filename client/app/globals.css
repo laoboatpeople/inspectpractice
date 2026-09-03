@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --bg-primary: #071D2B;
+  --bg-primary: #0B3344;
   --bg-secondary: #F4F7F8;
   --bg-card: #FFFFFF;
   --bg-hover: #F4F7F8;
@@ -11,8 +11,8 @@
   --text-primary: #102631;
   --text-secondary: #586A73;
   --text-tertiary: #7A8B94;
-  --accent-blue: #176B87;
-  --accent-cyan: #123B52;
+  --accent-blue: #145A73;
+  --accent-cyan: #10455B;
   --accent-green: #55A630;
   --accent-amber: #F5B942;
   --accent-red: #D9534F;
@@ -81,7 +81,7 @@ a { color: inherit; text-decoration: none; }
 }
 .card-glow:hover {
   border-color: var(--accent-blue);
-  box-shadow: 0 0 20px rgba(23, 107, 135, 0.1);
+  box-shadow: 0 0 20px rgba(20, 90, 115, 0.12);
 }
 
 /* Theory diagrams: scale SVGs to the text column width instead of

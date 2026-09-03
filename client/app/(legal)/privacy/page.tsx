@@ -46,7 +46,7 @@ export default function PrivacyPage() {
       <nav className="border-b border-[#DCE4E7]">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <img src="/logo/logo-main-light.png?v=4" alt="Inspect Practice" className="h-8 w-auto" />
+            <img src="/logo/logo-main-light.png?v=5" alt="Inspect Practice" className="h-8 w-auto" />
           </Link>
           <Link
             href="/"
@@ -62,11 +62,11 @@ export default function PrivacyPage() {
       <main className="max-w-4xl mx-auto px-6 py-16">
         <div className="prose prose-invert max-w-none">
           <div className="mb-2">
-            <span className="inline-block px-3 py-1 rounded-full bg-[#176B87]/10 border border-[#176B87]/20 text-xs text-[#176B87] font-medium">
+            <span className="inline-block px-3 py-1 rounded-full bg-[#145A73]/10 border border-[#145A73]/20 text-xs text-[#145A73] font-medium">
               {lastUpdated}
             </span>
           </div>
-          <h1 className="text-3xl md:text-4xl font-bold mb-8 bg-gradient-to-r from-[#176B87] to-[#176B87] bg-clip-text text-transparent">
+          <h1 className="text-3xl md:text-4xl font-bold mb-8 bg-gradient-to-r from-[#145A73] to-[#145A73] bg-clip-text text-transparent">
             {title}
           </h1>
           <div className="space-y-1">

@@ -70,7 +70,7 @@ function PageBanner({ title, subtitle, action }: { title: string; subtitle?: str
       initial={{ opacity: 0, y: -8 }}
       animate={{ opacity: 1, y: 0 }}
       className="relative overflow-hidden rounded-2xl px-6 py-6 md:px-8"
-      style={{ background: 'linear-gradient(135deg, #071D2B 0%, #0D3043 55%, #176B87 100%)' }}
+      style={{ background: 'linear-gradient(135deg, #0B3344 0%, #11475C 55%, #145A73 100%)' }}
     >
       <div
         className="absolute inset-0 opacity-[0.07]"

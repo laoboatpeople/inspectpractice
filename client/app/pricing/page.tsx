@@ -156,10 +156,10 @@ export default function PricingPage() {
       />
       <div className="min-h-screen bg-[#F4F7F8] text-[#102631]">
         {/* Nav */}
-        <nav className="border-b border-[#DCE4E7] bg-[#071D2B]/95 backdrop-blur-md">
+        <nav className="border-b border-[#DCE4E7] bg-[#0B3344]/95 backdrop-blur-md">
           <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
             <a href="/" className="flex items-center gap-2">
-              <img src="/logo/logo-main-light.png?v=4" alt="Inspect Practice" className="h-7 w-auto" />
+              <img src="/logo/logo-main-light.png?v=5" alt="Inspect Practice" className="h-7 w-auto" />
             </a>
             <a href="/" className="text-sm text-[#586A73] hover:text-[#CBEA32] transition-colors">
               ← Back to Home
@@ -170,7 +170,7 @@ export default function PricingPage() {
         {/* Header */}
         <div className="max-w-6xl mx-auto px-6 pt-20 pb-16">
           <div className="text-center mb-16">
-            <span className="text-[11px] font-medium text-[#176B87] bg-[#176B87]/10 px-3 py-1.5 rounded-full uppercase tracking-wider">
+            <span className="text-[11px] font-medium text-[#145A73] bg-[#145A73]/10 px-3 py-1.5 rounded-full uppercase tracking-wider">
               Pricing
             </span>
             <h1 className="text-4xl md:text-5xl font-bold mt-6 mb-6">
@@ -189,7 +189,7 @@ export default function PricingPage() {
                 key={plan.name}
                 className={`relative rounded-2xl p-8 flex flex-col ${
                   plan.highlighted
-                    ? 'bg-gradient-to-b from-[#176B87]/10 to-[#176B87]/10 border-2 border-[#176B87]/40'
+                    ? 'bg-gradient-to-b from-[#145A73]/10 to-[#145A73]/10 border-2 border-[#145A73]/40'
                     : 'bg-white border border-[#DCE4E7]'
                 }`}
               >
@@ -213,7 +213,7 @@ export default function PricingPage() {
                   {plan.features.map((feature, i) => (
                     <li key={i} className="flex items-start gap-3 text-sm">
                       {feature.included ? (
-                        <svg className="w-5 h-5 text-[#176B87] shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <svg className="w-5 h-5 text-[#145A73] shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                           <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                         </svg>
                       ) : (
@@ -230,7 +230,7 @@ export default function PricingPage() {
 
                 <a
                   href="/auth/login"
-                  className="inline-flex items-center justify-center w-full py-3 rounded-lg text-sm font-medium transition-colors bg-[#CBEA32] hover:bg-[#B5D51F] text-[#071D2B] font-semibold"
+                  className="inline-flex items-center justify-center w-full py-3 rounded-lg text-sm font-medium transition-colors bg-[#CBEA32] hover:bg-[#B5D51F] text-[#0B3344] font-semibold"
                 >
                   {plan.cta}
                 </a>
@@ -247,8 +247,8 @@ export default function PricingPage() {
                   <tr className="border-b border-[#DCE4E7]">
                     <th className="text-left py-4 pr-6 text-sm font-medium text-[#586A73]">Feature</th>
                     <th className="text-center py-4 px-4 text-sm font-medium text-[#586A73]">Free</th>
-                    <th className="text-center py-4 px-4 text-sm font-medium text-[#176B87]">Monthly</th>
-                    <th className="text-center py-4 px-4 text-sm font-medium text-[#176B87]">Yearly</th>
+                    <th className="text-center py-4 px-4 text-sm font-medium text-[#145A73]">Monthly</th>
+                    <th className="text-center py-4 px-4 text-sm font-medium text-[#145A73]">Yearly</th>
                     <th className="text-center py-4 px-4 text-sm font-medium text-[#586A73]">Lifetime</th>
                   </tr>
                 </thead>
@@ -284,7 +284,7 @@ export default function PricingPage() {
               {pricingFaqs.map((faq, i) => (
                 <details key={i} className="group py-5 cursor-pointer">
                   <summary className="flex items-start justify-between gap-4 list-none">
-                    <span className="text-base font-medium text-[#102631] group-hover:text-[#176B87] transition-colors">
+                    <span className="text-base font-medium text-[#102631] group-hover:text-[#145A73] transition-colors">
                       {faq.question}
                     </span>
                     <svg
@@ -305,7 +305,7 @@ export default function PricingPage() {
 
           {/* Final CTA */}
           <div className="text-center pb-20">
-            <div className="bg-gradient-to-r from-[#176B87]/10 to-[#176B87]/10 rounded-2xl p-10">
+            <div className="bg-gradient-to-r from-[#145A73]/10 to-[#145A73]/10 rounded-2xl p-10">
               <h2 className="text-2xl font-bold mb-3">Still Not Sure?</h2>
               <p className="text-[#586A73] mb-6 max-w-xl mx-auto">
                 Start with the Free plan — no credit card required. Experience Inspect Practice
@@ -313,7 +313,7 @@ export default function PricingPage() {
               </p>
               <a
                 href="/auth/login"
-                className="inline-flex items-center gap-2 px-8 py-3 bg-[#176B87] hover:bg-[#176B87] rounded-lg text-sm font-medium transition-colors"
+                className="inline-flex items-center gap-2 px-8 py-3 bg-[#145A73] hover:bg-[#145A73] rounded-lg text-sm font-medium transition-colors"
               >
                 Get Started Free
               </a>

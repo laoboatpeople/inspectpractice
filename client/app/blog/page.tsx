@@ -136,10 +136,10 @@ export default function BlogIndexPage() {
       />
       <div className="min-h-screen bg-[#F4F7F8] text-[#102631]">
       {/* Nav */}
-      <nav className="border-b border-[#DCE4E7] bg-[#071D2B]/95 backdrop-blur-md">
+      <nav className="border-b border-[#DCE4E7] bg-[#0B3344]/95 backdrop-blur-md">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2">
-            <img src="/logo/logo-main-light.png?v=4" alt="Inspect Practice" className="h-7 w-auto" />
+            <img src="/logo/logo-main-light.png?v=5" alt="Inspect Practice" className="h-7 w-auto" />
           </a>
           <div className="flex items-center gap-4">
             <a href="/" className="text-sm text-[#586A73] hover:text-[#CBEA32] transition-colors">← Back to Home</a>

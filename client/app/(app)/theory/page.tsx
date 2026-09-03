@@ -515,7 +515,7 @@ function ChapterSection({ chapter, color, preselected, onContentLoaded }: { chap
                       onChange={(e) => setFeedbackComment(e.target.value)}
                       placeholder={t('feedbackCommentPlaceholder')}
                       rows={3}
-                      className="w-full px-3 py-2.5 rounded-input bg-[#071D2B] border border-border text-text-primary text-sm placeholder:text-text-tertiary focus:outline-none focus:ring-2 focus:ring-blue focus:ring-offset-2 focus:ring-offset-primary transition-colors resize-none"
+                      className="w-full px-3 py-2.5 rounded-input bg-[#0B3344] border border-border text-text-primary text-sm placeholder:text-text-tertiary focus:outline-none focus:ring-2 focus:ring-blue focus:ring-offset-2 focus:ring-offset-primary transition-colors resize-none"
                     />
 
                     {feedbackError && (

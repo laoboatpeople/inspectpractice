@@ -1031,7 +1031,7 @@ export default function AIQuestionsPage() {
               <select
                 value={selectedExamId}
                 onChange={(e) => { setSelectedExamId(e.target.value); setSelectedChapterId(''); }}
-                className="w-full px-3 py-2 bg-[#071D2B] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-purple/50"
+                className="w-full px-3 py-2 bg-[#0B3344] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-purple/50"
               >
                 <option value="">Mode aperçu (pas d'enregistrement automatique)</option>
                 {exams.map((exam) => (
@@ -1044,7 +1044,7 @@ export default function AIQuestionsPage() {
                 value={selectedChapterId}
                 onChange={(e) => setSelectedChapterId(e.target.value)}
                 disabled={!selectedExamId}
-                className="w-full px-3 py-2 bg-[#071D2B] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-purple/50 disabled:opacity-50"
+                className="w-full px-3 py-2 bg-[#0B3344] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-purple/50 disabled:opacity-50"
               >
                 <option value="">Sélectionnez un chapitre...</option>
                 {chapters.map((ch) => (
@@ -1062,7 +1062,7 @@ export default function AIQuestionsPage() {
                 placeholder='Décrivez les questions à générer (ex: "Créez 5 questions QCM sur la corrosion")...'
                 disabled={sending}
                 rows={2}
-                className="w-full px-4 py-3 bg-[#071D2B] border border-border rounded-btn text-sm text-text-primary placeholder-text-tertiary focus:outline-none focus:ring-2 focus:ring-purple/50 focus:border-purple resize-none transition-colors disabled:opacity-50"
+                className="w-full px-4 py-3 bg-[#0B3344] border border-border rounded-btn text-sm text-text-primary placeholder-text-tertiary focus:outline-none focus:ring-2 focus:ring-purple/50 focus:border-purple resize-none transition-colors disabled:opacity-50"
               />
             </div>
             <button
@@ -1115,7 +1115,7 @@ export default function AIQuestionsPage() {
                   <select
                     value={selectedExamId}
                     onChange={(e) => { setSelectedExamId(e.target.value); setSelectedChapterId(''); }}
-                    className="w-full px-3 py-2 bg-[#071D2B] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-purple/50"
+                    className="w-full px-3 py-2 bg-[#0B3344] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-purple/50"
                   >
                     <option value="">Sélectionnez un examen...</option>
                     {exams.map((exam) => (
@@ -1130,7 +1130,7 @@ export default function AIQuestionsPage() {
                     value={selectedChapterId}
                     onChange={(e) => setSelectedChapterId(e.target.value)}
                     disabled={!selectedExamId}
-                    className="w-full px-3 py-2 bg-[#071D2B] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-purple/50 disabled:opacity-50"
+                    className="w-full px-3 py-2 bg-[#0B3344] border border-border rounded-btn text-sm text-text-primary focus:outline-none focus:ring-2 focus:ring-purple/50 disabled:opacity-50"
                   >
                     <option value="">Sélectionnez un chapitre...</option>
                     {chapters.map((ch) => (

@@ -40,10 +40,10 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-[#F4F7F8] text-[#102631]">
       {/* Nav */}
-      <nav className="border-b border-[#DCE4E7] bg-[#071D2B]/95 backdrop-blur-md">
+      <nav className="border-b border-[#DCE4E7] bg-[#0B3344]/95 backdrop-blur-md">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2">
-            <img src="/logo/logo-main-light.png?v=4" alt="Inspect Practice" className="h-7 w-auto" />
+            <img src="/logo/logo-main-light.png?v=5" alt="Inspect Practice" className="h-7 w-auto" />
           </a>
           <a href="/" className="text-sm text-[#586A73] hover:text-[#CBEA32] transition-colors">
             ← Back to Home
@@ -54,7 +54,7 @@ export default function AboutPage() {
       {/* Header */}
       <div className="max-w-4xl mx-auto px-6 pt-20 pb-16">
         <div className="text-center mb-16">
-          <span className="text-[11px] font-medium text-[#176B87] bg-[#176B87]/10 px-3 py-1.5 rounded-full uppercase tracking-wider">
+          <span className="text-[11px] font-medium text-[#145A73] bg-[#145A73]/10 px-3 py-1.5 rounded-full uppercase tracking-wider">
             About
           </span>
           <h1 className="text-4xl md:text-5xl font-bold mt-6 mb-6">
@@ -71,7 +71,7 @@ export default function AboutPage() {
         <section className="mb-16">
           <div className="bg-white rounded-2xl p-8 md:p-10">
             <h2 className="text-2xl font-bold mb-6 flex items-center gap-3">
-              <span className="w-8 h-8 rounded-lg bg-[#176B87]/20 flex items-center justify-center text-[#176B87]">★</span>
+              <span className="w-8 h-8 rounded-lg bg-[#145A73]/20 flex items-center justify-center text-[#145A73]">★</span>
               Our Mission
             </h2>
             <p className="text-[#DCE4E7] leading-relaxed mb-4">
@@ -105,7 +105,7 @@ export default function AboutPage() {
         <section className="mb-16">
           <div className="bg-white rounded-2xl p-8 md:p-10">
             <h2 className="text-2xl font-bold mb-6 flex items-center gap-3">
-              <span className="w-8 h-8 rounded-lg bg-[#176B87]/20 flex items-center justify-center text-[#176B87]">◆</span>
+              <span className="w-8 h-8 rounded-lg bg-[#145A73]/20 flex items-center justify-center text-[#145A73]">◆</span>
               Our Platform
             </h2>
             <p className="text-[#DCE4E7] leading-relaxed mb-4">
@@ -127,8 +127,8 @@ export default function AboutPage() {
             </p>
             <div className="grid md:grid-cols-2 gap-4 mt-8">
               <div className="bg-white rounded-xl p-6">
-                <div className="w-10 h-10 rounded-lg bg-[#176B87]/20 flex items-center justify-center mb-3">
-                  <svg className="w-5 h-5 text-[#176B87]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <div className="w-10 h-10 rounded-lg bg-[#145A73]/20 flex items-center justify-center mb-3">
+                  <svg className="w-5 h-5 text-[#145A73]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                   </svg>
                 </div>
@@ -141,8 +141,8 @@ export default function AboutPage() {
                 </p>
               </div>
               <div className="bg-white rounded-xl p-6">
-                <div className="w-10 h-10 rounded-lg bg-[#176B87]/20 flex items-center justify-center mb-3">
-                  <svg className="w-5 h-5 text-[#176B87]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <div className="w-10 h-10 rounded-lg bg-[#145A73]/20 flex items-center justify-center mb-3">
+                  <svg className="w-5 h-5 text-[#145A73]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                   </svg>
                 </div>
@@ -155,8 +155,8 @@ export default function AboutPage() {
                 </p>
               </div>
               <div className="bg-white rounded-xl p-6">
-                <div className="w-10 h-10 rounded-lg bg-[#176B87]/20 flex items-center justify-center mb-3">
-                  <svg className="w-5 h-5 text-[#176B87]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <div className="w-10 h-10 rounded-lg bg-[#145A73]/20 flex items-center justify-center mb-3">
+                  <svg className="w-5 h-5 text-[#145A73]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
                   </svg>
                 </div>
@@ -192,12 +192,12 @@ export default function AboutPage() {
               Our Founder
             </h2>
             <div className="flex flex-col md:flex-row gap-8 items-start">
-              <div className="w-32 h-32 rounded-2xl bg-gradient-to-br from-[#176B87] to-[#176B87] flex items-center justify-center text-white text-4xl font-bold shrink-0">
+              <div className="w-32 h-32 rounded-2xl bg-gradient-to-br from-[#145A73] to-[#145A73] flex items-center justify-center text-white text-4xl font-bold shrink-0">
                 CO
               </div>
               <div>
                 <h3 className="text-xl font-bold mb-2">Chuck Onekeo</h3>
-                <p className="text-sm text-[#176B87] font-medium mb-4">
+                <p className="text-sm text-[#145A73] font-medium mb-4">
                   Programmer &amp; AI Specialist — Founder of Inspect Practice
                 </p>
                 <p className="text-[#DCE4E7] leading-relaxed mb-4">
@@ -234,7 +234,7 @@ export default function AboutPage() {
         <section className="mb-16">
           <div className="bg-white rounded-2xl p-8 md:p-10">
             <h2 className="text-2xl font-bold mb-6 flex items-center gap-3">
-              <span className="w-8 h-8 rounded-lg bg-[#176B87]/20 flex items-center justify-center text-[#176B87]">⚡</span>
+              <span className="w-8 h-8 rounded-lg bg-[#145A73]/20 flex items-center justify-center text-[#145A73]">⚡</span>
               Why We Built This
             </h2>
             <p className="text-[#DCE4E7] leading-relaxed mb-4">
@@ -257,23 +257,23 @@ export default function AboutPage() {
             </p>
             <ul className="space-y-3 text-[#DCE4E7]">
               <li className="flex items-start gap-3">
-                <span className="text-[#176B87] mt-1.5">▸</span>
+                <span className="text-[#145A73] mt-1.5">▸</span>
                 <span><strong className="text-[#102631]">Scarcity of practice questions</strong> — Most candidates report that finding enough realistic practice questions is their biggest challenge. We built a bank of 7,200+ questions covering the five ICC certifications and the NHIE.</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-[#176B87] mt-1.5">▸</span>
+                <span className="text-[#145A73] mt-1.5">▸</span>
                 <span><strong className="text-[#102631]">One-size-fits-all study materials</strong> — Every candidate learns differently. Our adaptive AI tailors the difficulty and focus of every study session to the individual&apos;s performance.</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-[#176B87] mt-1.5">▸</span>
+                <span className="text-[#145A73] mt-1.5">▸</span>
                 <span><strong className="text-[#102631]">Lack of exam simulation tools</strong> — Candidates need timed, realistic practice to build confidence. Our exam mode replicates the actual open-book ICC testing environment.</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-[#176B87] mt-1.5">▸</span>
+                <span className="text-[#145A73] mt-1.5">▸</span>
                 <span><strong className="text-[#102631]">No visibility into progress</strong> — Without analytics, candidates don&apos;t know what to focus on. Our platform provides detailed performance metrics for every chapter and topic.</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-[#176B87] mt-1.5">▸</span>
+                <span className="text-[#145A73] mt-1.5">▸</span>
                 <span><strong className="text-[#102631]">No mobile study options</strong> — Inspectors are busy professionals. Inspect Practice is available on mobile, tablet, and desktop so you can study anytime, anywhere.</span>
               </li>
             </ul>
@@ -284,7 +284,7 @@ export default function AboutPage() {
         <section className="mb-16">
           <div className="bg-white rounded-2xl p-8 md:p-10">
             <h2 className="text-2xl font-bold mb-6 flex items-center gap-3">
-              <span className="w-8 h-8 rounded-lg bg-[#176B87]/20 flex items-center justify-center text-[#176B87]">♥</span>
+              <span className="w-8 h-8 rounded-lg bg-[#145A73]/20 flex items-center justify-center text-[#145A73]">♥</span>
               Our Commitment
             </h2>
             <p className="text-[#DCE4E7] leading-relaxed mb-4">
@@ -293,8 +293,8 @@ export default function AboutPage() {
             </p>
             <div className="grid md:grid-cols-3 gap-6 mt-6">
               <div className="bg-white rounded-xl p-6 text-center">
-                <div className="w-12 h-12 rounded-full bg-[#176B87]/20 flex items-center justify-center mx-auto mb-4">
-                  <span className="text-[#176B87] text-2xl font-bold">Q</span>
+                <div className="w-12 h-12 rounded-full bg-[#145A73]/20 flex items-center justify-center mx-auto mb-4">
+                  <span className="text-[#145A73] text-2xl font-bold">Q</span>
                 </div>
                 <h3 className="font-semibold mb-2">Quality Content</h3>
                 <p className="text-sm text-[#586A73] leading-relaxed">
@@ -304,8 +304,8 @@ export default function AboutPage() {
                 </p>
               </div>
               <div className="bg-white rounded-xl p-6 text-center">
-                <div className="w-12 h-12 rounded-full bg-[#176B87]/20 flex items-center justify-center mx-auto mb-4">
-                  <span className="text-[#176B87] text-2xl font-bold">$</span>
+                <div className="w-12 h-12 rounded-full bg-[#145A73]/20 flex items-center justify-center mx-auto mb-4">
+                  <span className="text-[#145A73] text-2xl font-bold">$</span>
                 </div>
                 <h3 className="font-semibold mb-2">Fair Pricing</h3>
                 <p className="text-sm text-[#586A73] leading-relaxed">
@@ -315,8 +315,8 @@ export default function AboutPage() {
                 </p>
               </div>
               <div className="bg-white rounded-xl p-6 text-center">
-                <div className="w-12 h-12 rounded-full bg-[#176B87]/20 flex items-center justify-center mx-auto mb-4">
-                  <span className="text-[#176B87] text-2xl font-bold">S</span>
+                <div className="w-12 h-12 rounded-full bg-[#145A73]/20 flex items-center justify-center mx-auto mb-4">
+                  <span className="text-[#145A73] text-2xl font-bold">S</span>
                 </div>
                 <h3 className="font-semibold mb-2">Student Success</h3>
                 <p className="text-sm text-[#586A73] leading-relaxed">
@@ -340,7 +340,7 @@ export default function AboutPage() {
 
         {/* CTA */}
         <div className="text-center pb-20">
-          <div className="bg-gradient-to-r from-[#176B87]/10 to-[#176B87]/10 rounded-2xl p-10">
+          <div className="bg-gradient-to-r from-[#145A73]/10 to-[#145A73]/10 rounded-2xl p-10">
             <h2 className="text-2xl font-bold mb-3">Ready to Pass Your ICC Exam?</h2>
             <p className="text-[#586A73] mb-6 max-w-xl mx-auto">
               Join thousands of inspectors preparing with Inspect Practice. Start
@@ -349,7 +349,7 @@ export default function AboutPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="/auth/login"
-                className="inline-flex items-center gap-2 px-8 py-3 bg-[#176B87] hover:bg-[#176B87] rounded-lg text-sm font-medium transition-colors"
+                className="inline-flex items-center gap-2 px-8 py-3 bg-[#145A73] hover:bg-[#145A73] rounded-lg text-sm font-medium transition-colors"
               >
                 Get Started Free
               </a>

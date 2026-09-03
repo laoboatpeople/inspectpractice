@@ -19,9 +19,9 @@ export default function AppMockup({ children, title }: AppMockupProps) {
       {/* Phone frame */}
       <div className="relative w-[280px] mx-auto">
         {/* Phone body */}
-        <div className="bg-[#FFFFFF] rounded-[40px] p-2 border border-[#DCE4E7] shadow-[0_0_60px-rgba(23,107,135,0.15)]">
+        <div className="bg-[#FFFFFF] rounded-[40px] p-2 border border-[#DCE4E7] shadow-[0_0_60px-rgba(20, 90, 115,0.15)]">
           {/* Screen */}
-          <div className="bg-[#071D2B] rounded-[32px] overflow-hidden">
+          <div className="bg-[#0B3344] rounded-[32px] overflow-hidden">
             {/* Notch */}
             <div className="h-6 bg-[#FFFFFF] flex justify-center items-center">
               <div className="w-20 h-4 bg-black rounded-full" />

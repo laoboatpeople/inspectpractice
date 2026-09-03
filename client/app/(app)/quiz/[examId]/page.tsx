@@ -503,7 +503,7 @@ export default function QuizPage() {
           className="flex flex-col items-center justify-center min-h-[60vh] gap-6"
         >
           <div className="w-16 h-16 rounded-full bg-[#CBEA32]/15 flex items-center justify-center">
-            <Lock size={28} className="text-[#071D2B]" />
+            <Lock size={28} className="text-[#0B3344]" />
           </div>
           <div className="text-center max-w-md">
             <h2 className="text-xl font-semibold text-text-primary mb-2">Upgrade to access this exam category</h2>
@@ -603,7 +603,7 @@ export default function QuizPage() {
             )}
           </motion.div>
 
-          <h1 className={`text-2xl font-bold mb-2 ${passed ? 'text-[#071D2B]' : 'text-red'}`}>
+          <h1 className={`text-2xl font-bold mb-2 ${passed ? 'text-[#0B3344]' : 'text-red'}`}>
             {passed ? t('quiz_resultPassed') : t('quiz_resultFailed')}
           </h1>
           {examName && (
@@ -830,7 +830,7 @@ export default function QuizPage() {
           animate={{ opacity: 1, y: 0 }}
           className={`flex items-center gap-2 p-3 mb-4 rounded-lg text-sm ${
             upgradeRequired
-              ? 'bg-[#CBEA32]/15 border border-[#CBEA32]/40 text-[#071D2B]'
+              ? 'bg-[#CBEA32]/15 border border-[#CBEA32]/40 text-[#0B3344]'
               : 'bg-red/10 border border-red/20 text-red'
           }`}
         >
@@ -839,7 +839,7 @@ export default function QuizPage() {
           {upgradeRequired && (
             <button
               onClick={() => router.push('/subscription')}
-              className="ml-auto shrink-0 px-3 py-1 rounded-md bg-[#CBEA32] text-[#071D2B] text-xs font-bold hover:bg-[#B5D51F] transition-colors"
+              className="ml-auto shrink-0 px-3 py-1 rounded-md bg-[#CBEA32] text-[#0B3344] text-xs font-bold hover:bg-[#B5D51F] transition-colors"
             >
               View Plans
             </button>

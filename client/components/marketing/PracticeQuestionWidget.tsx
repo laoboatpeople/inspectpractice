@@ -185,7 +185,7 @@ export default function PracticeQuestionWidget() {
 
   return (
     <section className="py-20 px-6 relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-[#176B87]/5 via-transparent to-[#176B87]/5" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#145A73]/5 via-transparent to-[#145A73]/5" />
       <div className="relative z-10 max-w-3xl mx-auto">
         {/* Heading */}
         <motion.div
@@ -197,7 +197,7 @@ export default function PracticeQuestionWidget() {
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-3">
             🔥{' '}
-            <span className="bg-gradient-to-r from-[#176B87] to-[#176B87] bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-[#145A73] to-[#145A73] bg-clip-text text-transparent">
               {isFr ? 'Essayez une vraie question ICC' : 'Try a Real ICC Question'}
             </span>
           </h2>
@@ -218,10 +218,10 @@ export default function PracticeQuestionWidget() {
         >
           {/* Topic badge */}
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-[#176B87]/20 text-[#176B87] text-xs font-bold">
+            <span className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-[#145A73]/20 text-[#145A73] text-xs font-bold">
               ?
             </span>
-            <span className="text-xs font-semibold text-[#176B87] uppercase tracking-wider">
+            <span className="text-xs font-semibold text-[#145A73] uppercase tracking-wider">
               {question.topic}
             </span>
           </div>
@@ -235,11 +235,11 @@ export default function PracticeQuestionWidget() {
           <div className="space-y-3">
             {question.options.map((opt, idx) => {
               let optionStyle =
-                'border border-[#DCE4E7] bg-white hover:border-[#176B87]/40 hover:bg-[#F4F7F8]';
+                'border border-[#DCE4E7] bg-white hover:border-[#145A73]/40 hover:bg-[#F4F7F8]';
 
               if (!answered) {
                 optionStyle =
-                  'border border-[#DCE4E7] bg-white hover:border-[#176B87]/40 hover:bg-[#F4F7F8] cursor-pointer';
+                  'border border-[#DCE4E7] bg-white hover:border-[#145A73]/40 hover:bg-[#F4F7F8] cursor-pointer';
               } else if (idx === question.correctIndex) {
                 optionStyle = 'border border-green bg-green/10';
               } else if (idx === selectedIndex && !isCorrect) {
@@ -317,7 +317,7 @@ export default function PracticeQuestionWidget() {
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
                 <a
                   href="/auth/register"
-                  className="group inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-[#176B87] to-[#176B87] text-white text-sm font-semibold hover:shadow-[0_0_25px_rgba(23,107,135,0.3)] transition-all duration-300"
+                  className="group inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-[#145A73] to-[#145A73] text-white text-sm font-semibold hover:shadow-[0_0_25px_rgba(20, 90, 115,0.3)] transition-all duration-300"
                 >
                   {isFr ? 'Envie d\'en voir plus ? → Commencer gratuitement' : 'Want to see more? → Start Free'}
                   <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />

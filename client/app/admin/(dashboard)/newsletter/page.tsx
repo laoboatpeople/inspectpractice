@@ -152,7 +152,7 @@ export default function NewsletterPage() {
       {/* Add Modal */}
       {showAdd && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60">
-          <div className="bg-[#071D2B] border border-border rounded-xl p-6 w-full max-w-md mx-4">
+          <div className="bg-[#0B3344] border border-border rounded-xl p-6 w-full max-w-md mx-4">
             <div className="flex items-center justify-between mb-4">
               <h2 className="text-lg font-bold text-text-primary">Add Subscriber</h2>
               <button onClick={() => setShowAdd(false)} className="text-text-secondary hover:text-text-primary">

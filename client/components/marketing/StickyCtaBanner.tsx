@@ -70,12 +70,12 @@ export function StickyCtaBanner() {
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder={isFr ? 'Votre courriel' : 'Your email'}
                 required
-                className="w-44 sm:w-56 px-3 py-1.5 text-sm bg-[#1E293B] border border-[#DCE4E7] rounded-lg text-white placeholder-[#7A8B94] focus:outline-none focus:border-[#176B87]"
+                className="w-44 sm:w-56 px-3 py-1.5 text-sm bg-[#1E293B] border border-[#DCE4E7] rounded-lg text-white placeholder-[#7A8B94] focus:outline-none focus:border-[#145A73]"
               />
               <button
                 type="submit"
                 disabled={status === 'loading'}
-                className="px-4 py-1.5 text-sm font-medium bg-[#176B87] text-white rounded-lg hover:bg-[#176B87] transition-colors disabled:opacity-50 shrink-0"
+                className="px-4 py-1.5 text-sm font-medium bg-[#145A73] text-white rounded-lg hover:bg-[#145A73] transition-colors disabled:opacity-50 shrink-0"
               >
                 {status === 'loading' ? '...' : isFr ? 'Obtenir des questions gratuites' : 'Get Free Questions'}
               </button>

@@ -81,7 +81,7 @@ export default function RegisterPage() {
       <div className="relative w-full max-w-md">
         <div className="flex flex-col items-center mb-8">
           <Link href="/" className="mb-4">
-            <img src="/logo/logo-main.png?v=4" alt="Inspect Practice" className="h-10 w-auto" />
+            <img src="/logo/logo-main.png?v=5" alt="Inspect Practice" className="h-10 w-auto" />
           </Link>
           <p className="text-sm text-text-secondary mt-1">{t('auth_createStudentAccount')}</p>
         </div>

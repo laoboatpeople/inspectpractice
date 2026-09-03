@@ -321,10 +321,10 @@ export default function FAQPage() {
       />
       <div className="min-h-screen bg-[#F4F7F8] text-[#102631]">
         {/* Nav */}
-        <nav className="border-b border-[#DCE4E7] bg-[#071D2B]/95 backdrop-blur-md">
+        <nav className="border-b border-[#DCE4E7] bg-[#0B3344]/95 backdrop-blur-md">
           <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
             <a href="/" className="flex items-center gap-2">
-              <img src="/logo/logo-main-light.png?v=4" alt="Inspect Practice" className="h-7 w-auto" />
+              <img src="/logo/logo-main-light.png?v=5" alt="Inspect Practice" className="h-7 w-auto" />
             </a>
             <a
               href="/"
@@ -351,10 +351,10 @@ export default function FAQPage() {
           {faqs.map((faq, i) => (
             <details key={i} className="group py-6 cursor-pointer">
               <summary className="flex items-start justify-between gap-4 list-none">
-                <h2 className="text-lg font-medium text-[#102631] group-hover:text-[#176B87] transition-colors">
+                <h2 className="text-lg font-medium text-[#102631] group-hover:text-[#145A73] transition-colors">
                   {faq.question}
                 </h2>
-                <span className="text-[#176B87] text-xl group-open:rotate-180 transition-transform flex-shrink-0">
+                <span className="text-[#145A73] text-xl group-open:rotate-180 transition-transform flex-shrink-0">
                   ▼
                 </span>
               </summary>
@@ -388,7 +388,7 @@ export default function FAQPage() {
             </p>
             <a
               href="/contact"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-[#176B87] hover:bg-[#176B87] rounded-lg text-sm font-medium transition-colors"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-[#145A73] hover:bg-[#145A73] rounded-lg text-sm font-medium transition-colors"
             >
               Contact Us
             </a>

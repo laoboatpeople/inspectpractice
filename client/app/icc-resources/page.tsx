@@ -188,10 +188,10 @@ export default function IccResourcesPage() {
         ]}
       />
       <div className="min-h-screen bg-[#F4F7F8] text-[#102631]">
-        <nav className="border-b border-[#DCE4E7] bg-[#071D2B]/95 backdrop-blur-md">
+        <nav className="border-b border-[#DCE4E7] bg-[#0B3344]/95 backdrop-blur-md">
           <div className="max-w-3xl mx-auto px-6 py-4 flex items-center justify-between">
             <a href="/" className="flex items-center gap-2">
-              <img src="/logo/logo-main-light.png?v=4" alt="Inspect Practice" className="h-7 w-auto" />
+              <img src="/logo/logo-main-light.png?v=5" alt="Inspect Practice" className="h-7 w-auto" />
             </a>
             <div className="flex items-center gap-4">
               <a href="/faq" className="text-sm text-[#586A73] hover:text-[#CBEA32] transition-colors">← FAQ</a>
@@ -219,9 +219,9 @@ export default function IccResourcesPage() {
                   <a
                     key={r.href}
                     href={r.href}
-                    className="group p-6 rounded-xl border border-[#DCE4E7] bg-white hover:bg-white/[0.05] hover:border-[#176B87]/30 transition-all"
+                    className="group p-6 rounded-xl border border-[#DCE4E7] bg-white hover:bg-white/[0.05] hover:border-[#145A73]/30 transition-all"
                   >
-                    <h3 className="font-semibold text-[#102631] mb-2 group-hover:text-[#176B87] transition-colors">
+                    <h3 className="font-semibold text-[#102631] mb-2 group-hover:text-[#145A73] transition-colors">
                       {r.title}
                     </h3>
                     <p className="text-sm text-[#586A73] leading-relaxed">{r.description}</p>
@@ -278,7 +278,7 @@ export default function IccResourcesPage() {
 
         {/* CTA */}
         <div className="max-w-4xl mx-auto px-6 pb-24">
-          <div className="text-center bg-gradient-to-r from-[#176B87]/10 to-[#176B87]/10 rounded-2xl p-10">
+          <div className="text-center bg-gradient-to-r from-[#145A73]/10 to-[#145A73]/10 rounded-2xl p-10">
             <h2 className="text-2xl font-bold mb-3">
               Ready to Start Studying?
             </h2>
@@ -289,7 +289,7 @@ export default function IccResourcesPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="/auth/register"
-                className="inline-flex items-center gap-2 px-8 py-3 bg-[#176B87] hover:bg-[#176B87] rounded-lg text-sm font-medium transition-colors"
+                className="inline-flex items-center gap-2 px-8 py-3 bg-[#145A73] hover:bg-[#145A73] rounded-lg text-sm font-medium transition-colors"
               >
                 Get Started Free
               </a>

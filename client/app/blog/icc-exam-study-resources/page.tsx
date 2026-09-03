@@ -55,10 +55,10 @@ export default function IccExamStudyResourcesPage() {
         ]}
       />
       <div className="min-h-screen bg-[#F4F7F8] text-[#102631]">
-        <nav className="border-b border-[#DCE4E7] bg-[#071D2B]/95 backdrop-blur-md">
+        <nav className="border-b border-[#DCE4E7] bg-[#0B3344]/95 backdrop-blur-md">
           <div className="max-w-3xl mx-auto px-6 py-4 flex items-center justify-between">
             <a href="/" className="flex items-center gap-2">
-              <img src="/logo/logo-main-light.png?v=4" alt="Inspect Practice" className="h-7 w-auto" />
+              <img src="/logo/logo-main-light.png?v=5" alt="Inspect Practice" className="h-7 w-auto" />
             </a>
             <div className="flex items-center gap-4">
               <a href="/blog" className="text-sm text-[#586A73] hover:text-[#CBEA32] transition-colors">← Blog</a>
@@ -69,7 +69,7 @@ export default function IccExamStudyResourcesPage() {
         <article className="max-w-3xl mx-auto px-6 pt-16 pb-24">
           <header className="mb-12">
             <div className="flex items-center gap-3 mb-4">
-              <span className="text-[11px] font-medium text-[#176B87] bg-[#176B87]/10 px-2 py-1 rounded">Reference</span>
+              <span className="text-[11px] font-medium text-[#145A73] bg-[#145A73]/10 px-2 py-1 rounded">Reference</span>
               <span className="text-xs text-[#7A8B94]">May 22, 2026 *updated August 18, 2026</span>
               <span className="text-xs text-[#7A8B94]">· 10 min read</span>
             </div>
@@ -83,7 +83,7 @@ export default function IccExamStudyResourcesPage() {
 
           {/* Author byline */}
           <div className="flex items-center gap-3 mb-8 pb-6 border-b border-white/5">
-            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#176B87] to-[#123B52] flex items-center justify-center text-white font-bold text-sm">
+            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#145A73] to-[#10455B] flex items-center justify-center text-white font-bold text-sm">
               IP
             </div>
             <div>
@@ -127,7 +127,7 @@ export default function IccExamStudyResourcesPage() {
             <h2 className="text-xl font-semibold text-[#102631] mt-10">4. Practice Question Platforms (Where You Should Spend Most of Your Time)</h2>
             <p>
               Because the exams are open book, the highest-ROI activity is answering questions with the code in
-              front of you. <a href="/free-icc-practice-questions" className="text-[#176B87] hover:text-[#4794B8] transition-colors">Inspect Practice</a>{' '}
+              front of you. <a href="/free-icc-practice-questions" className="text-[#145A73] hover:text-[#4794B8] transition-colors">Inspect Practice</a>{' '}
               is purpose-built for this: exam-style questions for B1, B2, E1, P1, and M1, each with the exact
               code reference, adaptive difficulty, and timed simulations that mirror the real exam conditions.
             </p>
@@ -149,7 +149,7 @@ export default function IccExamStudyResourcesPage() {
               Read the exam bulletin → skim the code chapter map → drill practice questions chapter by chapter →
               review explanations (especially references) → take full simulations → target weak chapters → retake
               simulations. For a week-by-week schedule, see our{' '}
-              <a href="/blog/icc-exam-study-plan" className="text-[#176B87] hover:text-[#4794B8] transition-colors">
+              <a href="/blog/icc-exam-study-plan" className="text-[#145A73] hover:text-[#4794B8] transition-colors">
                 12-week ICC study plan
               </a>.
             </p>

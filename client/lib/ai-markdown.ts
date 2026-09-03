@@ -165,13 +165,13 @@ export function renderAIResponse(content: string): string {
   // Display math \[ ... \]
   html = html.replace(/\\\[([\s\S]*?)\\\]/g, (_m, math: string) => {
     const cleaned = cleanLatex(math);
-    return `<pre class="bg-[#071D2B] border border-border p-3 rounded-lg my-2.5 text-sm font-mono overflow-x-auto text-text-primary">${cleaned}</pre>`;
+    return `<pre class="bg-[#0B3344] border border-border p-3 rounded-lg my-2.5 text-sm font-mono overflow-x-auto text-text-primary">${cleaned}</pre>`;
   });
 
   // Inline math \( ... \)
   html = html.replace(/\\\(([\s\S]*?)\\\)/g, (_m, math: string) => {
     const cleaned = cleanLatex(math);
-    return `<code class="bg-[#071D2B] px-2 py-0.5 rounded text-xs font-mono text-text-primary">${cleaned}</code>`;
+    return `<code class="bg-[#0B3344] px-2 py-0.5 rounded text-xs font-mono text-text-primary">${cleaned}</code>`;
   });
 
   // ── Markdown tables: | a | b | with --- separator → real <table> ──
@@ -193,7 +193,7 @@ export function renderAIResponse(content: string): string {
     let t = '<div class="overflow-x-auto my-2.5"><table class="w-full text-xs border-collapse">';
     if (header) {
       t += '<thead><tr>' + cells(header)
-        .map((c) => `<th class="border border-border bg-[#071D2B] px-2 py-1.5 text-left font-semibold text-text-primary">${c}</th>`)
+        .map((c) => `<th class="border border-border bg-[#0B3344] px-2 py-1.5 text-left font-semibold text-text-primary">${c}</th>`)
         .join('') + '</tr></thead>';
     }
     t += '<tbody>';

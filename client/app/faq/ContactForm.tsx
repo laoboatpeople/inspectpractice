@@ -51,7 +51,7 @@ export default function ContactForm() {
         </p>
         <button
           onClick={() => setSuccess(false)}
-          className="text-sm text-[#176B87] hover:text-[#4794B8] transition-colors"
+          className="text-sm text-[#145A73] hover:text-[#4794B8] transition-colors"
         >
           Send another message
         </button>
@@ -76,7 +76,7 @@ export default function ContactForm() {
           onChange={(e) => setName(e.target.value)}
           required
           placeholder="John Smith"
-          className="w-full px-4 py-2.5 bg-[#071D2B] border border-[#DCE4E7] rounded-lg text-sm text-[#102631] placeholder:text-[#7A8B94] focus:outline-none focus:border-[#176B87]/50 transition-colors"
+          className="w-full px-4 py-2.5 bg-[#0B3344] border border-[#DCE4E7] rounded-lg text-sm text-[#102631] placeholder:text-[#7A8B94] focus:outline-none focus:border-[#145A73]/50 transition-colors"
         />
       </div>
 
@@ -88,7 +88,7 @@ export default function ContactForm() {
           onChange={(e) => setEmail(e.target.value)}
           required
           placeholder="you@example.com"
-          className="w-full px-4 py-2.5 bg-[#071D2B] border border-[#DCE4E7] rounded-lg text-sm text-[#102631] placeholder:text-[#7A8B94] focus:outline-none focus:border-[#176B87]/50 transition-colors"
+          className="w-full px-4 py-2.5 bg-[#0B3344] border border-[#DCE4E7] rounded-lg text-sm text-[#102631] placeholder:text-[#7A8B94] focus:outline-none focus:border-[#145A73]/50 transition-colors"
         />
       </div>
 
@@ -100,14 +100,14 @@ export default function ContactForm() {
           required
           rows={4}
           placeholder="How can we help?"
-          className="w-full px-4 py-2.5 bg-[#071D2B] border border-[#DCE4E7] rounded-lg text-sm text-[#102631] placeholder:text-[#7A8B94] focus:outline-none focus:border-[#176B87]/50 transition-colors resize-vertical"
+          className="w-full px-4 py-2.5 bg-[#0B3344] border border-[#DCE4E7] rounded-lg text-sm text-[#102631] placeholder:text-[#7A8B94] focus:outline-none focus:border-[#145A73]/50 transition-colors resize-vertical"
         />
       </div>
 
       <button
         type="submit"
         disabled={loading}
-        className="w-full inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#176B87] hover:bg-[#176B87] disabled:opacity-50 disabled:cursor-not-allowed rounded-lg text-sm font-medium text-white transition-colors"
+        className="w-full inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#145A73] hover:bg-[#145A73] disabled:opacity-50 disabled:cursor-not-allowed rounded-lg text-sm font-medium text-white transition-colors"
       >
         {loading ? (
           <span className="flex items-center gap-2">

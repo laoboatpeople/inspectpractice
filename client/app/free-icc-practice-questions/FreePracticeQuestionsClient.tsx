@@ -196,12 +196,12 @@ function EmailCapture() {
             onChange={(e) => setEmail(e.target.value)}
             placeholder="your@email.com"
             required
-            className="flex-1 px-4 py-2.5 rounded-lg bg-[#FFFFFF] border border-[#DCE4E7] text-[#102631] text-sm placeholder:text-[#7A8B94] focus:outline-none focus:border-[#176B87]"
+            className="flex-1 px-4 py-2.5 rounded-lg bg-[#FFFFFF] border border-[#DCE4E7] text-[#102631] text-sm placeholder:text-[#7A8B94] focus:outline-none focus:border-[#145A73]"
           />
           <button
             type="submit"
             disabled={status === 'loading'}
-            className="px-6 py-2.5 rounded-lg bg-[#CBEA32] hover:bg-[#B5D51F] text-[#071D2B] font-semibold text-sm font-medium disabled:opacity-50 transition-colors"
+            className="px-6 py-2.5 rounded-lg bg-[#CBEA32] hover:bg-[#B5D51F] text-[#0B3344] font-semibold text-sm font-medium disabled:opacity-50 transition-colors"
           >
             {status === 'loading' ? 'Sending...' : 'Get Free Sample'}
           </button>
@@ -218,10 +218,10 @@ function QuestionCard({ q }: { q: typeof questions[0] }) {
   return (
     <div className="rounded-xl border border-[#DCE4E7] bg-white p-6">
       <div className="flex items-center gap-2 mb-3">
-        <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#176B87] text-white text-xs font-bold">
+        <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#145A73] text-white text-xs font-bold">
           {q.id}
         </span>
-        <span className="text-xs font-medium text-[#176B87] uppercase tracking-wider">{q.topic}</span>
+        <span className="text-xs font-medium text-[#145A73] uppercase tracking-wider">{q.topic}</span>
       </div>
       <p className="text-sm text-[#102631] font-medium mb-4">{q.stem}</p>
       <ul className="space-y-2 mb-4">
@@ -229,7 +229,7 @@ function QuestionCard({ q }: { q: typeof questions[0] }) {
           <li
             key={i}
             className={`text-xs text-[#586A73] p-2 rounded ${
-              i === q.correctIndex ? 'border-l-2 border-[#176B87] bg-[#176B87]/5' : ''
+              i === q.correctIndex ? 'border-l-2 border-[#145A73] bg-[#145A73]/5' : ''
             }`}
           >
             {opt}
@@ -237,7 +237,7 @@ function QuestionCard({ q }: { q: typeof questions[0] }) {
         ))}
       </ul>
       <details className="group">
-        <summary className="inline-flex items-center gap-1 text-xs font-medium text-[#176B87] hover:text-[#4794B8] cursor-pointer list-none">
+        <summary className="inline-flex items-center gap-1 text-xs font-medium text-[#145A73] hover:text-[#4794B8] cursor-pointer list-none">
           <span>▶</span>
           <span>Show Answer</span>
         </summary>
@@ -257,10 +257,10 @@ export default function FreePracticeQuestionsClient() {
   return (
     <div className="min-h-screen bg-[#F4F7F8] text-[#102631]">
       {/* Nav */}
-      <nav className="border-b border-[#DCE4E7] bg-[#071D2B]/95 backdrop-blur-md">
+      <nav className="border-b border-[#DCE4E7] bg-[#0B3344]/95 backdrop-blur-md">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2">
-            <img src="/logo/logo-main-light.png?v=4" alt="Inspect Practice" className="h-7 w-auto" />
+            <img src="/logo/logo-main-light.png?v=5" alt="Inspect Practice" className="h-7 w-auto" />
           </a>
           <a href="/blog" className="text-sm text-[#586A73] hover:text-[#CBEA32] transition-colors">
             ← Back to Blog
@@ -277,7 +277,7 @@ export default function FreePracticeQuestionsClient() {
         </p>
         <a
           href="/auth/register"
-          className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-[#CBEA32] hover:bg-[#B5D51F] text-[#071D2B] font-semibold text-sm font-medium transition-colors"
+          className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-[#CBEA32] hover:bg-[#B5D51F] text-[#0B3344] font-semibold text-sm font-medium transition-colors"
         >
           Start Your Free Practice →
         </a>
@@ -321,7 +321,7 @@ export default function FreePracticeQuestionsClient() {
 
       {/* CTA Section */}
       <section className="max-w-4xl mx-auto px-6 mb-16">
-        <div className="rounded-xl border border-[#DCE4E7] bg-gradient-to-br from-[#176B87]/10 to-[#176B87]/5 p-8 text-center">
+        <div className="rounded-xl border border-[#DCE4E7] bg-gradient-to-br from-[#145A73]/10 to-[#145A73]/5 p-8 text-center">
           <h2 className="text-2xl font-bold text-[#102631] mb-3">
             Ready for 7,200+ Questions?
           </h2>
@@ -333,7 +333,7 @@ export default function FreePracticeQuestionsClient() {
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
               href="/auth/register"
-              className="px-6 py-3 rounded-lg bg-[#CBEA32] hover:bg-[#B5D51F] text-[#071D2B] font-semibold text-sm font-medium transition-colors"
+              className="px-6 py-3 rounded-lg bg-[#CBEA32] hover:bg-[#B5D51F] text-[#0B3344] font-semibold text-sm font-medium transition-colors"
             >
               Create Free Account
             </a>

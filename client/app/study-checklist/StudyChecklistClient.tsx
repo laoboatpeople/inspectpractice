@@ -355,12 +355,12 @@ function EmailCapture({ variant }: { variant: 'top' | 'bottom' }) {
             onChange={(e) => setEmail(e.target.value)}
             placeholder="your@email.com"
             required
-            className="flex-1 px-4 py-2.5 rounded-lg bg-[#FFFFFF] border border-[#DCE4E7] text-[#102631] text-sm placeholder:text-[#7A8B94] focus:outline-none focus:border-[#176B87]"
+            className="flex-1 px-4 py-2.5 rounded-lg bg-[#FFFFFF] border border-[#DCE4E7] text-[#102631] text-sm placeholder:text-[#7A8B94] focus:outline-none focus:border-[#145A73]"
           />
           <button
             type="submit"
             disabled={status === 'loading'}
-            className="px-6 py-2.5 rounded-lg bg-[#CBEA32] hover:bg-[#B5D51F] text-[#071D2B] font-semibold text-sm font-medium disabled:opacity-50 transition-colors"
+            className="px-6 py-2.5 rounded-lg bg-[#CBEA32] hover:bg-[#B5D51F] text-[#0B3344] font-semibold text-sm font-medium disabled:opacity-50 transition-colors"
           >
             {status === 'loading' ? 'Sending...' : 'Get PDF'}
           </button>
@@ -387,7 +387,7 @@ function WeekSection({
   return (
     <div className="mb-12">
       <div className="flex items-center gap-3 mb-2">
-        <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-[#176B87] text-white text-sm font-bold">
+        <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-[#145A73] text-white text-sm font-bold">
           {week}
         </span>
         <h2 className="text-2xl font-bold text-[#102631]">
@@ -401,7 +401,7 @@ function WeekSection({
             key={d.day}
             className="flex items-start gap-4 p-4 rounded-lg border border-white/5 bg-white hover:bg-white transition-colors"
           >
-            <div className="flex-shrink-0 w-10 h-10 rounded-full bg-white border border-[#DCE4E7] flex items-center justify-center text-sm font-semibold text-[#176B87]">
+            <div className="flex-shrink-0 w-10 h-10 rounded-full bg-white border border-[#DCE4E7] flex items-center justify-center text-sm font-semibold text-[#145A73]">
               {d.day}
             </div>
             <div className="flex-1 min-w-0">
@@ -409,7 +409,7 @@ function WeekSection({
               <ul className="space-y-1">
                 {d.tasks.map((task, i) => (
                   <li key={i} className="flex items-start gap-2 text-xs text-[#586A73]">
-                    <span className="text-[#176B87] mt-1">☐</span>
+                    <span className="text-[#145A73] mt-1">☐</span>
                     <span>{task}</span>
                   </li>
                 ))}
@@ -426,10 +426,10 @@ export default function StudyChecklistClient({ faqs }: Props) {
   return (
     <div className="min-h-screen bg-[#F4F7F8] text-[#102631]">
       {/* Nav */}
-      <nav className="border-b border-[#DCE4E7] bg-[#071D2B]/95 backdrop-blur-md">
+      <nav className="border-b border-[#DCE4E7] bg-[#0B3344]/95 backdrop-blur-md">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2">
-            <img src="/logo/logo-main-light.png?v=4" alt="Inspect Practice" className="h-7 w-auto" />
+            <img src="/logo/logo-main-light.png?v=5" alt="Inspect Practice" className="h-7 w-auto" />
           </a>
           <a href="/" className="text-sm text-[#586A73] hover:text-[#CBEA32] transition-colors">
             ← Back to Home
@@ -469,7 +469,7 @@ export default function StudyChecklistClient({ faqs }: Props) {
             (IBC), E1 (NEC + IRC electrical), P1 (IPC + IRC plumbing), or M1
             (IMC + IRC mechanical), this plan provides the foundation you need.
             Use it alongside{' '}
-            <Link href="/" className="text-[#176B87] hover:text-[#4794B8]">
+            <Link href="/" className="text-[#145A73] hover:text-[#4794B8]">
               Inspect Practice
             </Link>{' '}
             for daily practice questions, AI Tutor explanations, and progress
@@ -477,11 +477,11 @@ export default function StudyChecklistClient({ faqs }: Props) {
           </p>
           <p className="mt-4">
             Not sure which certification is right for you? Read our{' '}
-            <Link href="/blog/icc-b1-certification-guide" className="text-[#176B87] hover:text-[#4794B8]">
+            <Link href="/blog/icc-b1-certification-guide" className="text-[#145A73] hover:text-[#4794B8]">
               ICC B1 certification guide
             </Link>
             . Need a refresher on the code&apos;s structure? Check the{' '}
-            <Link href="/blog/irc-study-guide" className="text-[#176B87] hover:text-[#4794B8]">
+            <Link href="/blog/irc-study-guide" className="text-[#145A73] hover:text-[#4794B8]">
               IRC study guide
             </Link>
             .
@@ -536,23 +536,23 @@ export default function StudyChecklistClient({ faqs }: Props) {
           </h3>
           <ul className="space-y-3 text-sm text-[#586A73]">
             <li className="flex gap-3">
-              <span className="text-[#176B87] flex-shrink-0">1.</span>
+              <span className="text-[#145A73] flex-shrink-0">1.</span>
               <span><strong className="text-[#DCE4E7]">Consistency over intensity:</strong> Studying 2 hours every day is vastly more effective than cramming 8 hours on weekends.</span>
             </li>
             <li className="flex gap-3">
-              <span className="text-[#176B87] flex-shrink-0">2.</span>
+              <span className="text-[#145A73] flex-shrink-0">2.</span>
               <span><strong className="text-[#DCE4E7]">Always study with the code open:</strong> The exam is open book — every practice question is a navigation drill.</span>
             </li>
             <li className="flex gap-3">
-              <span className="text-[#176B87] flex-shrink-0">3.</span>
+              <span className="text-[#145A73] flex-shrink-0">3.</span>
               <span><strong className="text-[#DCE4E7]">Track your weak areas:</strong> After every quiz, log the chapters you got wrong. Spend the next day reviewing them.</span>
             </li>
             <li className="flex gap-3">
-              <span className="text-[#176B87] flex-shrink-0">4.</span>
+              <span className="text-[#145A73] flex-shrink-0">4.</span>
               <span><strong className="text-[#DCE4E7]">Simulate real exam conditions:</strong> In Week 4, take simulations in a quiet room with no phone, a strict timer, and only your code book.</span>
             </li>
             <li className="flex gap-3">
-              <span className="text-[#176B87] flex-shrink-0">5.</span>
+              <span className="text-[#145A73] flex-shrink-0">5.</span>
               <span><strong className="text-[#DCE4E7]">Use the Inspect Practice AI Tutor:</strong> When a code requirement doesn&apos;t click, ask the AI Tutor to explain it in plain language.</span>
             </li>
           </ul>
@@ -572,7 +572,7 @@ export default function StudyChecklistClient({ faqs }: Props) {
             >
               <summary className="flex items-center justify-between p-5 cursor-pointer text-[#102631] font-medium text-sm hover:bg-white/[0.06] transition-colors">
                 <span>{faq.question}</span>
-                <span className="text-[#176B87] text-lg group-open:rotate-180 transition-transform">▼</span>
+                <span className="text-[#145A73] text-lg group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <div className="px-5 pb-5 text-sm text-[#586A73] leading-relaxed border-t border-white/5 pt-4">
                 {faq.answer}

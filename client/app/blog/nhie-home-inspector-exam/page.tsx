@@ -51,10 +51,10 @@ export default function NhieBlogPostPage() {
         ]}
       />
       <div className="min-h-screen bg-[#F4F7F8] text-[#102631]">
-        <nav className="border-b border-[#DCE4E7] bg-[#071D2B]/95 backdrop-blur-md">
+        <nav className="border-b border-[#DCE4E7] bg-[#0B3344]/95 backdrop-blur-md">
           <div className="max-w-3xl mx-auto px-6 py-4 flex items-center justify-between">
             <a href="/" className="flex items-center gap-2">
-              <img src="/logo/logo-main-light.png?v=4" alt="Inspect Practice" className="h-7 w-auto" />
+              <img src="/logo/logo-main-light.png?v=5" alt="Inspect Practice" className="h-7 w-auto" />
             </a>
             <div className="flex items-center gap-4">
               <a href="/blog" className="text-sm text-[#586A73] hover:text-[#CBEA32] transition-colors">← Blog</a>
@@ -65,7 +65,7 @@ export default function NhieBlogPostPage() {
         <article className="max-w-3xl mx-auto px-6 pt-16 pb-24">
           <header className="mb-12">
             <div className="flex items-center gap-3 mb-4">
-              <span className="text-[11px] font-medium text-[#176B87] bg-[#176B87]/10 px-2 py-1 rounded">Home Inspection</span>
+              <span className="text-[11px] font-medium text-[#145A73] bg-[#145A73]/10 px-2 py-1 rounded">Home Inspection</span>
               <span className="text-xs text-[#7A8B94]">September 3, 2026</span>
               <span className="text-xs text-[#7A8B94]">· 8 min read</span>
             </div>
@@ -123,7 +123,7 @@ export default function NhieBlogPostPage() {
             <p>
               Both credentials involve inspecting buildings and both are offered on Inspect Practice, but they
               prepare you for different roles. The{' '}
-              <a href="/icc-certification-guide" className="text-[#176B87] hover:text-[#4794B8] transition-colors">
+              <a href="/icc-certification-guide" className="text-[#145A73] hover:text-[#4794B8] transition-colors">
                 ICC B1 credential
               </a>{' '}
               qualifies municipal-style
@@ -145,11 +145,11 @@ export default function NhieBlogPostPage() {
             <p>
               Inspect Practice covers the entire NHIE outline — 15 chapters with 1,200 exam-style questions,
               English theory with animated diagrams, timed simulations and an AI tutor. Try six{' '}
-              <a href="/free-nhie-practice-questions" className="text-[#176B87] hover:text-[#4794B8] transition-colors">
+              <a href="/free-nhie-practice-questions" className="text-[#145A73] hover:text-[#4794B8] transition-colors">
                 free NHIE practice questions
               </a>{' '}
               or read the{' '}
-              <a href="/nhie-certification-guide" className="text-[#176B87] hover:text-[#4794B8] transition-colors">
+              <a href="/nhie-certification-guide" className="text-[#145A73] hover:text-[#4794B8] transition-colors">
                 complete NHIE certification guide
               </a>{' '}
               with the full chapter-by-chapter breakdown.

@@ -107,7 +107,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
     return (
       <div className="min-h-screen bg-secondary flex items-center justify-center">
         <div className="flex flex-col items-center gap-3">
-          <img src="/logo/logo-main.png?v=4" alt="Inspect Practice" className="h-10 w-auto animate-pulse" />
+          <img src="/logo/logo-main.png?v=5" alt="Inspect Practice" className="h-10 w-auto animate-pulse" />
           <p className="text-text-secondary text-sm">{t('loading')}</p>
         </div>
       </div>
@@ -128,7 +128,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
 
       {/* Sidebar */}
       <aside
-        className={`fixed top-0 left-0 z-50 h-full w-64 bg-[#071D2B] border-r border-white/10 transform transition-transform duration-200 ease-in-out lg:translate-x-0 ${
+        className={`fixed top-0 left-0 z-50 h-full w-64 bg-[#0B3344] border-r border-white/10 transform transition-transform duration-200 ease-in-out lg:translate-x-0 ${
           sidebarOpen ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
@@ -136,7 +136,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           {/* Logo */}
           <div className="flex items-center justify-between px-6 py-5 border-b border-white/10">
             <Link href="/app" className="flex items-center gap-3">
-              <img src="/logo/logo-main-light.png?v=4" alt="Inspect Practice" className="h-8 w-auto flex-shrink-0" />
+              <img src="/logo/logo-main-light.png?v=5" alt="Inspect Practice" className="h-8 w-auto flex-shrink-0" />
             </Link>
             <button
               className="lg:hidden text-white/70 hover:text-white"
@@ -203,7 +203,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
       {/* Main content */}
       <div className="lg:pl-64">
         {/* Top bar */}
-        <header className="sticky top-0 z-30 bg-[#071D2B] border-b border-white/10">
+        <header className="sticky top-0 z-30 bg-[#0B3344] border-b border-white/10">
           <div className="flex items-center justify-between px-4 py-3">
             <button
               className="lg:hidden text-white/70 hover:text-white"
@@ -226,7 +226,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
               </div>
               <button
                 onClick={handleExitImpersonation}
-                className="flex-shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-[#F5B942] hover:bg-[#E0A93C] text-[#071D2B] transition-colors"
+                className="flex-shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-[#F5B942] hover:bg-[#E0A93C] text-[#0B3344] transition-colors"
               >
                 <X size={13} />
                 {'Exit view-as'}

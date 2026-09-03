@@ -40,7 +40,7 @@ export default function BlogFilter({ posts, categories, basePath }: BlogFilterPr
               onClick={() => setActiveCategory(cat)}
               className={`text-xs font-medium px-3 py-1.5 rounded-full transition-all ${
                 activeCategory === cat
-                  ? 'bg-[#176B87] text-white'
+                  ? 'bg-[#145A73] text-white'
                   : 'bg-white/5 text-[#586A73] hover:text-white hover:bg-white/10'
               }`}
             >
@@ -61,16 +61,16 @@ export default function BlogFilter({ posts, categories, basePath }: BlogFilterPr
           <Link
             key={post.slug}
             href={`${basePath}/${post.slug}`}
-            className="block p-6 rounded-xl border border-white/10 bg-white/[0.02] hover:bg-white/[0.05] hover:border-[#176B87]/30 transition-all group"
+            className="block p-6 rounded-xl border border-white/10 bg-white/[0.02] hover:bg-white/[0.05] hover:border-[#145A73]/30 transition-all group"
           >
             <div className="flex items-center gap-3 mb-3">
-              <span className="text-[11px] font-medium text-[#176B87] bg-[#176B87]/10 px-2 py-1 rounded">
+              <span className="text-[11px] font-medium text-[#145A73] bg-[#145A73]/10 px-2 py-1 rounded">
                 {post.category}
               </span>
               <span className="text-xs text-[#7A8B94]">{post.date}</span>
               <span className="text-xs text-[#7A8B94]">· {post.readTime}</span>
             </div>
-            <h2 className="text-xl font-semibold mb-2 group-hover:text-[#176B87] transition-colors">
+            <h2 className="text-xl font-semibold mb-2 group-hover:text-[#145A73] transition-colors">
               {post.title}
             </h2>
             <p className="text-sm text-[#586A73] leading-relaxed">

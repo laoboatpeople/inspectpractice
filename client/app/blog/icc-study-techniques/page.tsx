@@ -55,10 +55,10 @@ export default function IccStudyTechniquesPage() {
         ]}
       />
       <div className="min-h-screen bg-[#F4F7F8] text-[#102631]">
-        <nav className="border-b border-[#DCE4E7] bg-[#071D2B]/95 backdrop-blur-md">
+        <nav className="border-b border-[#DCE4E7] bg-[#0B3344]/95 backdrop-blur-md">
           <div className="max-w-3xl mx-auto px-6 py-4 flex items-center justify-between">
             <a href="/" className="flex items-center gap-2">
-              <img src="/logo/logo-main-light.png?v=4" alt="Inspect Practice" className="h-7 w-auto" />
+              <img src="/logo/logo-main-light.png?v=5" alt="Inspect Practice" className="h-7 w-auto" />
             </a>
             <div className="flex items-center gap-4">
               <a href="/blog" className="text-sm text-[#586A73] hover:text-[#CBEA32] transition-colors">← Blog</a>
@@ -69,7 +69,7 @@ export default function IccStudyTechniquesPage() {
         <article className="max-w-3xl mx-auto px-6 pt-16 pb-24">
           <header className="mb-12">
             <div className="flex items-center gap-3 mb-4">
-              <span className="text-[11px] font-medium text-[#176B87] bg-[#176B87]/10 px-2 py-1 rounded">Study Skills</span>
+              <span className="text-[11px] font-medium text-[#145A73] bg-[#145A73]/10 px-2 py-1 rounded">Study Skills</span>
               <span className="text-xs text-[#7A8B94]">May 23, 2026 *updated August 18, 2026</span>
               <span className="text-xs text-[#7A8B94]">· 12 min read</span>
             </div>
@@ -83,7 +83,7 @@ export default function IccStudyTechniquesPage() {
 
           {/* Author byline */}
           <div className="flex items-center gap-3 mb-8 pb-6 border-b border-white/5">
-            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#176B87] to-[#123B52] flex items-center justify-center text-white font-bold text-sm">
+            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#145A73] to-[#10455B] flex items-center justify-center text-white font-bold text-sm">
               IP
             </div>
             <div>
@@ -167,11 +167,11 @@ export default function IccStudyTechniquesPage() {
             <h2 className="text-xl font-semibold text-[#102631] mt-10">Put It All Together</h2>
             <p>
               Combine these techniques with a structured schedule — see our{' '}
-              <a href="/blog/icc-exam-study-plan" className="text-[#176B87] hover:text-[#4794B8] transition-colors">
+              <a href="/blog/icc-exam-study-plan" className="text-[#145A73] hover:text-[#4794B8] transition-colors">
                 12-week ICC exam study plan
               </a>{' '}
               — and start drilling with{' '}
-              <a href="/free-icc-practice-questions" className="text-[#176B87] hover:text-[#4794B8] transition-colors">
+              <a href="/free-icc-practice-questions" className="text-[#145A73] hover:text-[#4794B8] transition-colors">
                 free ICC practice questions
               </a>{' '}
               to build your lookup speed today.

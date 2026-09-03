@@ -117,10 +117,10 @@ export default function IccCertificationGuidePage() {
         resourceType="Guide"
       />
       <div className="min-h-screen bg-[#F4F7F8] text-[#102631]">
-        <nav className="border-b border-[#DCE4E7] bg-[#071D2B]/95 backdrop-blur-md">
+        <nav className="border-b border-[#DCE4E7] bg-[#0B3344]/95 backdrop-blur-md">
           <div className="max-w-3xl mx-auto px-6 py-4 flex items-center justify-between">
             <a href="/" className="flex items-center gap-2">
-              <img src="/logo/logo-main-light.png?v=4" alt="Inspect Practice" className="h-7 w-auto" />
+              <img src="/logo/logo-main-light.png?v=5" alt="Inspect Practice" className="h-7 w-auto" />
             </a>
             <div className="flex items-center gap-4">
               <a href="/faq" className="text-sm text-[#586A73] hover:text-[#CBEA32] transition-colors">← FAQ</a>
@@ -131,7 +131,7 @@ export default function IccCertificationGuidePage() {
         <article className="max-w-3xl mx-auto px-6 pt-16 pb-24">
           <header className="mb-12">
             <div className="flex items-center gap-3 mb-4">
-              <span className="text-[11px] font-medium text-[#176B87] bg-[#176B87]/10 px-2 py-1 rounded">Certification</span>
+              <span className="text-[11px] font-medium text-[#145A73] bg-[#145A73]/10 px-2 py-1 rounded">Certification</span>
               <span className="text-xs text-[#7A8B94]">July 7, 2026 *updated August 18, 2026</span>
               <span className="text-xs text-[#7A8B94]">· 12 min read</span>
             </div>
@@ -190,7 +190,7 @@ export default function IccCertificationGuidePage() {
             <p>
               Inspect Practice covers all five certifications with code-referenced questions, adaptive
               difficulty, and timed simulations. Start with{' '}
-              <a href="/free-icc-practice-questions" className="text-[#176B87] hover:text-[#4794B8] transition-colors">
+              <a href="/free-icc-practice-questions" className="text-[#145A73] hover:text-[#4794B8] transition-colors">
                 free ICC practice questions
               </a>{' '}
               to see the format.
@@ -207,20 +207,20 @@ export default function IccCertificationGuidePage() {
             <h2 className="text-xl font-semibold text-[#102631] mt-10">Ready to Start?</h2>
             <p>
               Follow the full{' '}
-              <a href="/blog/icc-b1-certification-guide" className="text-[#176B87] hover:text-[#4794B8] transition-colors">
+              <a href="/blog/icc-b1-certification-guide" className="text-[#145A73] hover:text-[#4794B8] transition-colors">
                 B1 certification guide
               </a>,{' '}
               learn the{' '}
-              <a href="/blog/irc-study-guide" className="text-[#176B87] hover:text-[#4794B8] transition-colors">
+              <a href="/blog/irc-study-guide" className="text-[#145A73] hover:text-[#4794B8] transition-colors">
                 IRC navigation system
               </a>,{' '}
               and build a{' '}
-              <a href="/blog/icc-exam-study-plan" className="text-[#176B87] hover:text-[#4794B8] transition-colors">
+              <a href="/blog/icc-exam-study-plan" className="text-[#145A73] hover:text-[#4794B8] transition-colors">
                 12-week study plan
               </a>{' '}
               that fits your schedule. Preparing for the private home inspection side instead? Inspect
               Practice also covers the{' '}
-              <a href="/nhie-certification-guide" className="text-[#176B87] hover:text-[#4794B8] transition-colors">
+              <a href="/nhie-certification-guide" className="text-[#145A73] hover:text-[#4794B8] transition-colors">
                 NHIE national home inspector exam
               </a>
               .

@@ -312,30 +312,30 @@ export default function SubscriptionsPage() {
               placeholder="Rechercher par nom ou email..."
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              className="w-full pl-9 pr-4 py-2 bg-[#071D2B] border border-[#DCE4E7] rounded-input text-sm text-white placeholder:text-text-tertiary focus:outline-none focus:border-blue"
+              className="w-full pl-9 pr-4 py-2 bg-[#0B3344] border border-[#DCE4E7] rounded-input text-sm text-white placeholder:text-text-tertiary focus:outline-none focus:border-blue"
             />
           </div>
 
           <select
             value={filterStatus}
             onChange={(e) => { setFilterStatus(e.target.value); setPage(1); }}
-            className="px-3 py-2 bg-[#071D2B] border border-[#DCE4E7] rounded-input text-sm text-white focus:outline-none focus:border-blue"
+            className="px-3 py-2 bg-[#0B3344] border border-[#DCE4E7] rounded-input text-sm text-white focus:outline-none focus:border-blue"
           >
-            <option value="" className="bg-[#071D2B] text-white">Tous les statuts</option>
-            <option value="ACTIVE" className="bg-[#071D2B] text-white">Actif</option>
-            <option value="PAST_DUE" className="bg-[#071D2B] text-white">En retard</option>
-            <option value="CANCELLED" className="bg-[#071D2B] text-white">Annulé</option>
+            <option value="" className="bg-[#0B3344] text-white">Tous les statuts</option>
+            <option value="ACTIVE" className="bg-[#0B3344] text-white">Actif</option>
+            <option value="PAST_DUE" className="bg-[#0B3344] text-white">En retard</option>
+            <option value="CANCELLED" className="bg-[#0B3344] text-white">Annulé</option>
           </select>
 
           <select
             value={filterPlan}
             onChange={(e) => { setFilterPlan(e.target.value); setPage(1); }}
-            className="px-3 py-2 bg-[#071D2B] border border-[#DCE4E7] rounded-input text-sm text-white focus:outline-none focus:border-blue"
+            className="px-3 py-2 bg-[#0B3344] border border-[#DCE4E7] rounded-input text-sm text-white focus:outline-none focus:border-blue"
           >
-            <option value="" className="bg-[#071D2B] text-white">Tous les plans</option>
-            <option value="FREE" className="bg-[#071D2B] text-white">Gratuit</option>
-            <option value="MONTHLY" className="bg-[#071D2B] text-white">Mensuel</option>
-            <option value="LIFETIME" className="bg-[#071D2B] text-white">À vie</option>
+            <option value="" className="bg-[#0B3344] text-white">Tous les plans</option>
+            <option value="FREE" className="bg-[#0B3344] text-white">Gratuit</option>
+            <option value="MONTHLY" className="bg-[#0B3344] text-white">Mensuel</option>
+            <option value="LIFETIME" className="bg-[#0B3344] text-white">À vie</option>
           </select>
         </div>
 

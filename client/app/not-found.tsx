@@ -11,10 +11,10 @@ export default function NotFound() {
   return (
     <div className="min-h-screen bg-[#F4F7F8] text-[#102631] flex flex-col">
       {/* Nav */}
-      <nav className="border-b border-[#DCE4E7] bg-[#071D2B]/95 backdrop-blur-md">
+      <nav className="border-b border-[#DCE4E7] bg-[#0B3344]/95 backdrop-blur-md">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <img src="/logo/logo-main-light.png?v=4" alt="Inspect Practice" className="h-7 w-auto" />
+            <img src="/logo/logo-main-light.png?v=5" alt="Inspect Practice" className="h-7 w-auto" />
           </Link>
         </div>
       </nav>
@@ -22,7 +22,7 @@ export default function NotFound() {
       {/* 404 Content */}
       <div className="flex-1 flex items-center justify-center px-6">
         <div className="text-center max-w-lg">
-          <div className="text-8xl font-bold bg-gradient-to-r from-[#176B87] to-[#176B87] bg-clip-text text-transparent mb-4">
+          <div className="text-8xl font-bold bg-gradient-to-r from-[#145A73] to-[#145A73] bg-clip-text text-transparent mb-4">
             404
           </div>
           <h1 className="text-2xl font-bold mb-3">Page Not Found</h1>
@@ -49,7 +49,7 @@ export default function NotFound() {
             </Link>
           </div>
           <div className="mt-8 flex justify-center gap-4">
-            <Link href="/auth/login" className="px-6 py-3 rounded-lg bg-[#CBEA32] hover:bg-[#B5D51F] text-[#071D2B] font-semibold text-sm font-medium transition-colors">
+            <Link href="/auth/login" className="px-6 py-3 rounded-lg bg-[#CBEA32] hover:bg-[#B5D51F] text-[#0B3344] font-semibold text-sm font-medium transition-colors">
               Get Started Free
             </Link>
             <Link href="/contact" className="px-6 py-3 rounded-lg border border-[#DCE4E7] hover:bg-white/[0.05] text-[#102631] text-sm font-medium transition-colors">

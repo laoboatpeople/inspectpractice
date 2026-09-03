@@ -56,7 +56,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
       )}
 
       {/* Sidebar — hidden on mobile unless toggled */}
-      <aside className={`fixed lg:static inset-y-0 left-0 z-50 w-60 transform transition-transform duration-200 ease-in-out lg:translate-x-0 flex-shrink-0 bg-[#071D2B] border-r border-border ${
+      <aside className={`fixed lg:static inset-y-0 left-0 z-50 w-60 transform transition-transform duration-200 ease-in-out lg:translate-x-0 flex-shrink-0 bg-[#0B3344] border-r border-border ${
         sidebarOpen ? 'translate-x-0' : '-translate-x-full'
       }`}>
         <Sidebar mobileOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />

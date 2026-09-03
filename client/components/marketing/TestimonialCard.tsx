@@ -22,7 +22,7 @@ export default function TestimonialCard({ name, role, school, quote, index, colo
       viewport={{ once: true }}
       className="relative p-6 rounded-2xl bg-white border border-[#DCE4E7] shadow-[0_8px_24px_rgba(7,29,43,0.07)] hover:shadow-[0_12px_32px_rgba(7,29,43,0.12)] transition-all duration-300"
     >
-      <div className="absolute top-6 right-6 text-6xl text-[#176B87]/10 font-serif">&quot;</div>
+      <div className="absolute top-6 right-6 text-6xl text-[#145A73]/10 font-serif">&quot;</div>
       <div className="relative z-10">
         <div className="flex items-center gap-4 mb-4">
           <div 
