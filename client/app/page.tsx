@@ -4,7 +4,7 @@ import { VideoObjectJsonLd, BreadcrumbListJsonLd, FAQPageJsonLd, LearningResourc
 
 export const metadata: Metadata = {
   title: 'Inspect Practice — Pass Your ICC Building Inspector Exam',
-  description:    'AI-curated ICC exam prep for building inspector certifications — B1, B2, E1, P1 & M1. Open-book code navigation drills matched to your weak areas from 2,500+ practice questions.',
+  description:    'AI-curated ICC exam prep for building inspector certifications — B1, B2, E1, P1, M1 & NHIE. Open-book code navigation drills matched to your weak areas from 7,200+ practice questions.',
   alternates: {
     canonical: 'https://inspectpractice.com',
     languages: {
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Inspect Practice — Pass Your ICC Building Inspector Exam',
     description:
-      'AI-curated ICC exam prep platform covering B1, B2, E1, P1 & M1. Open-book code navigation questions matched to your weak areas for smarter studying.',
+      'AI-curated ICC exam prep platform covering B1, B2, E1, P1, M1 & NHIE. Open-book code navigation questions matched to your weak areas for smarter studying.',
     url: 'https://inspectpractice.com',
     type: 'website',
     locale: 'en_US',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Inspect Practice — Pass Your ICC Building Inspector Exam',
     description:
-      'AI-curated ICC exam prep platform covering B1, B2, E1, P1 & M1. Questions matched to your weak areas for smarter studying.',
+      'AI-curated ICC exam prep platform covering B1, B2, E1, P1, M1 & NHIE. Questions matched to your weak areas for smarter studying.',
     images: ['https://inspectpractice.com/images/og/home.jpg'],
   },
 };

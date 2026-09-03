@@ -304,7 +304,7 @@ export default function FreePracticeQuestionsClient() {
             skills and identify areas that need more study.
           </p>
           <p className="mt-4">
-            Inspect Practice has <strong className="text-[#102631]">2,500+ ICC practice questions</strong> covering all
+            Inspect Practice has <strong className="text-[#102631]">7,200+ ICC practice questions</strong> covering all
             five certifications — B1, B2, E1, P1, and M1. Sign up
             for free to access the full question bank with adaptive difficulty,
             timed simulations, and AI-powered explanations.
@@ -323,7 +323,7 @@ export default function FreePracticeQuestionsClient() {
       <section className="max-w-4xl mx-auto px-6 mb-16">
         <div className="rounded-xl border border-[#DCE4E7] bg-gradient-to-br from-[#176B87]/10 to-[#176B87]/5 p-8 text-center">
           <h2 className="text-2xl font-bold text-[#102631] mb-3">
-            Ready for 2,500+ Questions?
+            Ready for 7,200+ Questions?
           </h2>
           <p className="text-sm text-[#586A73] max-w-xl mx-auto mb-6">
             Get unlimited access to ICC-style open-book practice questions

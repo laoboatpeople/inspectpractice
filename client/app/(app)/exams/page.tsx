@@ -22,6 +22,7 @@ import {
   Zap,
   Droplets,
   Fan,
+  Search,
 } from 'lucide-react';
 import { getStudentExamCategories } from '@/lib/student-api';
 import type { StudentExamCategory } from '@/types/student';
@@ -44,7 +45,7 @@ const cardVariants = {
   },
 } as const;
 
-type SectionColor = 'blue' | 'amber' | 'cyan' | 'purple';
+type SectionColor = 'blue' | 'amber' | 'cyan' | 'purple' | 'green';
 
 const SECTION_STYLES: Record<SectionColor, { bg: string; border: string; text: string; bar: string }> = {
   blue: {
@@ -52,6 +53,12 @@ const SECTION_STYLES: Record<SectionColor, { bg: string; border: string; text: s
     border: 'border-blue/20',
     text: 'text-blue',
     bar: 'bg-blue',
+  },
+  green: {
+    bg: 'bg-green/10',
+    border: 'border-green/20',
+    text: 'text-green',
+    bar: 'bg-green',
   },
   amber: {
     bg: 'bg-amber/10',
@@ -150,6 +157,15 @@ export default function StudentExamsPage() {
       color: 'purple',
       codeFilter: (code: string) => code.startsWith('ICC-P1') || code.startsWith('ICC-M1'),
     },
+    {
+      key: 'nhie',
+      title: t('licenseNHIE'),
+      subtitle: t('licenseNHIESub'),
+      icon: <Search size={16} />,
+      iconBig: <Search size={22} />,
+      color: 'green',
+      codeFilter: (code: string) => code.startsWith('NHIE'),
+    },
   ] as const;
 
   useEffect(() => {
@@ -159,18 +175,18 @@ export default function StudentExamsPage() {
   const [categories, setCategories] = useState<StudentExamCategory[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [ratingFilter, setRatingFilter] = useState<'ALL' | 'B1' | 'B2' | 'E1' | 'P1' | 'M1'>(() => {
+  const [ratingFilter, setRatingFilter] = useState<'ALL' | 'B1' | 'B2' | 'E1' | 'P1' | 'M1' | 'NHIE'>(() => {
     if (typeof window !== 'undefined') {
       const p = new URLSearchParams(window.location.search).get('rating');
-      if (p && ['B1', 'B2', 'E1', 'P1', 'M1', 'ALL'].includes(p)) return p as any;
+      if (p && ['B1', 'B2', 'E1', 'P1', 'M1', 'NHIE', 'ALL'].includes(p)) return p as any;
       const s = sessionStorage.getItem('exams_rating');
-      if (s && ['B1', 'B2', 'E1', 'P1', 'M1'].includes(s)) return s as any;
+      if (s && ['B1', 'B2', 'E1', 'P1', 'M1', 'NHIE'].includes(s)) return s as any;
     }
     return 'ALL';
   });
 
   // Persist rating filter in URL (?rating=) + sessionStorage so it survives back-navigation
-  const selectRating = (r: 'ALL' | 'B1' | 'B2' | 'E1' | 'P1' | 'M1') => {
+  const selectRating = (r: 'ALL' | 'B1' | 'B2' | 'E1' | 'P1' | 'M1' | 'NHIE') => {
     setRatingFilter(r);
     if (r === 'ALL') sessionStorage.removeItem('exams_rating');
     else sessionStorage.setItem('exams_rating', r);
@@ -188,6 +204,7 @@ export default function StudentExamsPage() {
     if (ratingFilter === 'E1') return code.startsWith('ICC-E1');
     if (ratingFilter === 'P1') return code.startsWith('ICC-P1');
     if (ratingFilter === 'M1') return code.startsWith('ICC-M1');
+    if (ratingFilter === 'NHIE') return code.startsWith('NHIE');
     return true;
   }, [ratingFilter]);
 
@@ -212,6 +229,7 @@ export default function StudentExamsPage() {
     if (code.startsWith('ICC-B2')) return 'amber';
     if (code.startsWith('ICC-E1')) return 'cyan';
     if (code.startsWith('ICC-P1') || code.startsWith('ICC-M1')) return 'purple';
+    if (code.startsWith('NHIE')) return 'green';
     return 'blue';
   }
 
@@ -221,6 +239,7 @@ export default function StudentExamsPage() {
     if (code.startsWith('ICC-E1')) return <Zap size={size} />;
     if (code.startsWith('ICC-P1')) return <Droplets size={size} />;
     if (code.startsWith('ICC-M1')) return <Fan size={size} />;
+    if (code.startsWith('NHIE')) return <Search size={size} />;
     return <BookOpen size={size} />;
   }
 
@@ -336,7 +355,7 @@ export default function StudentExamsPage() {
       {!loading && !error && categories.length > 0 && (
         <div className="mb-8">
           <div className="flex flex-wrap items-center gap-2 mb-4">
-            {(['ALL', 'B1', 'B2', 'E1', 'P1', 'M1'] as const).map((r) => (
+            {(['ALL', 'B1', 'B2', 'E1', 'P1', 'M1', 'NHIE'] as const).map((r) => (
               <button
                 key={r}
                 onClick={() => selectRating(r)}
@@ -372,6 +391,9 @@ export default function StudentExamsPage() {
               </span>
               <span className="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-purple/10 border border-purple/20 text-text-primary">
                 <span className="font-bold text-purple">M1</span> {t('examPathM1')}
+              </span>
+              <span className="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-green/10 border border-green/20 text-text-primary">
+                <span className="font-bold text-green">NHIE</span> {t('examPathNHIE')}
               </span>
             </div>
           </div>

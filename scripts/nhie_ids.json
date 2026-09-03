@@ -1,0 +1,95 @@
+{
+  "exam": "d872dadaadeb42259642bccb1b9b3d55",
+  "chapters": {
+    "1": {
+      "id": "32b11d3204d54c38838acd5023da4ee2",
+      "name": "Site Conditions and Grounds",
+      "weight": 5,
+      "target": 60
+    },
+    "2": {
+      "id": "9ddc39bf54db4cc7951f222856fd60a5",
+      "name": "Building Exterior Components",
+      "weight": 5,
+      "target": 60
+    },
+    "3": {
+      "id": "9d0df9d183da42c7baa319a8498fea1e",
+      "name": "Roof Components",
+      "weight": 6,
+      "target": 72
+    },
+    "4": {
+      "id": "045de7aa2784421db6ee0a1e58e34641",
+      "name": "Structural Components",
+      "weight": 6,
+      "target": 72
+    },
+    "5": {
+      "id": "d00ca33780504e4cafadf94913fa552f",
+      "name": "Electrical Systems",
+      "weight": 7,
+      "target": 84
+    },
+    "6": {
+      "id": "f05c2a39376c4874943be0aa61a239c2",
+      "name": "Cooling Systems",
+      "weight": 4,
+      "target": 48
+    },
+    "7": {
+      "id": "c7e3c6be4b7e44b588d4a8429b4e85b7",
+      "name": "Heating Systems",
+      "weight": 5,
+      "target": 60
+    },
+    "8": {
+      "id": "67f5d34c176f4bd89c4b88f9b872803a",
+      "name": "Insulation, Moisture Management and Ventilation Systems",
+      "weight": 5,
+      "target": 60
+    },
+    "9": {
+      "id": "ad1e31f18e7443e99afb848dce83a51f",
+      "name": "Mechanical Exhaust Systems",
+      "weight": 5,
+      "target": 60
+    },
+    "10": {
+      "id": "f1ca23a03e2b4b12bbe0478a79c5f6a8",
+      "name": "Plumbing and Fuel Distribution Systems",
+      "weight": 6,
+      "target": 72
+    },
+    "11": {
+      "id": "4f60e354e4d74fa78b761ec31aea86d6",
+      "name": "Interior Components",
+      "weight": 4,
+      "target": 48
+    },
+    "12": {
+      "id": "63e1ab06a2f84609ba239d41e86154f5",
+      "name": "Fireplaces, Fuel-Burning Appliances and Chimney and Vent Systems",
+      "weight": 6,
+      "target": 72
+    },
+    "13": {
+      "id": "b5e3ad9519804bbb9f04522c62eb1a7a",
+      "name": "Life Safety Equipment and Systems",
+      "weight": 6,
+      "target": 72
+    },
+    "14": {
+      "id": "ea447606f22149958e1d41135a106f58",
+      "name": "Analysis of Findings and Reporting",
+      "weight": 20,
+      "target": 240
+    },
+    "15": {
+      "id": "5e9bb602af0f43f1b2c90bedd0ded755",
+      "name": "Professional Responsibilities",
+      "weight": 10,
+      "target": 120
+    }
+  }
+}

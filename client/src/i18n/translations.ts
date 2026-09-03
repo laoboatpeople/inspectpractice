@@ -188,6 +188,8 @@ export const translations = {
     licenseMSub: 'B2 Commercial Building Inspector — IBC: 8 chapters covering occupancy, construction types, fire protection, egress and accessibility',
     licenseESub: 'E1 Residential Electrical Inspector — NEC: 8 chapters covering wiring, protection, equipment and IRC electrical',
     licenseSSub: 'P1 Residential Plumbing Inspector — IPC and M1 Residential Mechanical Inspector — IMC: 16 chapters covering fixtures, water supply, drainage, vents, traps, ventilation, ducts, combustion air, chimneys and appliances',
+    licenseNHIE: 'NHIE — National Home Inspector Exam',
+    licenseNHIESub: 'NHIE National Home Inspector Exam (EBPHI): 15 chapters covering site conditions, exterior, roofing, structural, electrical, cooling, heating, insulation, exhaust, plumbing, interior, fireplaces, life safety, reporting and professional responsibilities',
     licenseP1: 'P1 — Residential Plumbing',
     licenseP1Sub: 'P1 Residential Plumbing Inspector — IPC: 8 chapters covering fixtures, water supply, drainage, vents and traps',
     licenseM1: 'M1 — Residential Mechanical',
@@ -249,6 +251,7 @@ export const translations = {
     examPathE1: 'E1 — Residential Electrical Inspector (NEC + IRC)',
     examPathP1: 'P1 — Residential Plumbing Inspector (IPC + IRC)',
     examPathM1: 'M1 — Residential Mechanical Inspector (IMC + IRC)',
+    examPathNHIE: 'NHIE — National Home Inspector Exam (EBPHI)',
     examPathNote: 'Select your certification to see the official ICC exam you must pass.',
 
     // Exam Detail page
@@ -612,6 +615,8 @@ export const translations = {
     licenseMSub: 'Inspecteur en bâtiment commercial B2 — IBC : 8 chapitres couvrant l\'occupation, les types de construction, la protection incendie, les sorties et l\'accessibilité',
     licenseESub: 'Inspecteur électrique résidentiel E1 — NEC : 8 chapitres couvrant le câblage, la protection, l\'équipement et l\'électrique IRC',
     licenseSSub: 'Inspecteur en plomberie résidentielle P1 — IPC et inspecteur en mécanique résidentielle M1 — IMC : 16 chapitres couvrant les appareils, l\'alimentation en eau, l\'évacuation, les évents, les siphons, la ventilation, les conduits, l\'air de combustion, les cheminées et les appareils de chauffage',
+    licenseNHIE: "NHIE — Examen national d'inspecteur en bâtiment",
+    licenseNHIESub: "NHIE — Examen national d'inspecteur en bâtiment (EBPHI) : 15 chapitres couvrant les conditions du site, l'extérieur, la toiture, la structure, l'électricité, le refroidissement, le chauffage, l'isolation, les systèmes d'évacuation, la plomberie, l'intérieur, les foyers, la sécurité-incendie, la rédaction de rapports et les responsabilités professionnelles",
     licenseP1: 'P1 — Plomberie résidentielle',
     licenseP1Sub: 'Inspecteur en plomberie résidentielle P1 — IPC : 8 chapitres couvrant les appareils, l\'alimentation en eau, le drainage, les évents et les siphons',
     licenseM1: 'M1 — Mécanique résidentielle',
@@ -673,6 +678,7 @@ export const translations = {
     examPathE1: 'E1 — Inspecteur en électricité (NEC + IRC)',
     examPathP1: 'P1 — Inspecteur en plomberie (IPC + IRC)',
     examPathM1: 'M1 — Inspecteur en mécanique (IMC + IRC)',
+    examPathNHIE: "NHIE — Examen national d'inspecteur en bâtiment (EBPHI)",
     examPathNote: 'Choisis ta certification pour voir l\'examen officiel ICC à réussir.',
 
     // Exam Detail page

@@ -1,0 +1,197 @@
+{
+  "1": [
+    {
+      "num": 1,
+      "title": "**site conditions**",
+      "weight": 5,
+      "seeds": [
+        "**Vegetation, Grade, Drainage and**",
+        "**Driveways, Patios, and Walkways** 1\\. Common types, materials, and terminology 2. Applicable construction standards and installation methods 3\\. Typical defects (e.g., large cracks, improper slope, settlement/upheaval) 4\\. Common safety issues (e.g., trip hazards, slippery surfaces)",
+        "**Pool and Spa Access Barriers** 1\\. Applicable safety standards and terminology 2. Common safety issues (e.g., fencing, latches, alarms)"
+      ]
+    }
+  ],
+  "2": [
+    {
+      "num": 2,
+      "title": "**building exterior components**",
+      "weight": 5,
+      "seeds": [
+        "**Wall Cladding, Flashing, Trim, Eaves,**",
+        "**Exterior Doors and Windows** 1\\. Common types, materials, and terminology 2. Applicable construction standards and installation methods 3\\. Typical defects (e.g., decayed wood, missing flashings, cracked glass) 4\\. Common safety issues (e.g., safety glazing, egress, interior-keyed deadbolt)",
+        "**Decks, Balconies, Stoops, Stairs, Steps,**",
+        "**Garage Vehicle Doors and Operators** 1\\. Common types, materials, and terminology 2. Applicable construction standards and installation methods 3\\. Typical defects (e.g., damaged rollers, broken springs) 4\\. Common safety issues (e.g., missing/misaligned/malfunctioning obstruction sensors, improper adjustment of automatic reverse)"
+      ]
+    }
+  ],
+  "3": [
+    {
+      "num": 3,
+      "title": "**roof components**",
+      "weight": 6,
+      "seeds": [
+        "**Roof Coverings** 1\\. Common types, materials, and terminology 2. Applicable construction standards and installation methods 3\\. Typical repair methods and materials 4. Typical defects (e.g., improper installation, damage, deterioration)",
+        "**Roof Drainage Systems** 1\\. Common types, materials, and terminology 2. Applicable construction standards and installation methods 3\\. Typical defects (e.g., ponding, improper slope, overflowing/leaking)",
+        "**Roof Flashings** 1\\. Common types, materials, and terminology 2. Applicable construction standards and installation methods 3\\. Typical defects (e.g., separation, improper material transitions, missing/damaged flashing)",
+        "**Skylights and Other Roof Penetrations** 1\\. Common types, materials, and terminology 2. Applicable construction standards and installation methods 3\\. Typical defects (e.g., leakage, improper flashing installation, deteriorated boot/collar)"
+      ]
+    }
+  ],
+  "4": [
+    {
+      "num": 4,
+      "title": "**structural components**",
+      "weight": 6,
+      "seeds": [
+        "**Foundation** 1\\. Common types, materials, and terminology 2. Applicable construction standards and installation methods 3\\. Typical modifications, repairs, upgrades and retrofit methods and materials 4\\. Typical defects (e.g., cracks, settlement, water entry) 5\\. Soil types and conditions and how they affect foundations 6\\. Applied forces and how they affect foundation systems (e.g., seismic, loads, hydrostatic pressure) 7\\. Water management (e.g., waterproofing, foundation drains, sump pumps)",
+        "**Floor Structure** 1\\. Common types, materials, and terminology 2. Applicable construction standards and installation methods 3\\. Typical modifications, repairs, upgrade and retrofit methods and materials 4\\. Typical defects (e.g., improper cuts and notches in structural members, decayed or damaged structural members, undersized columns or pier supports) 5\\. Applied forces and how they affect floor systems (e.g., wind, seismic, loads)",
+        "**Walls and Vertical Support Structures** 1\\. Common types, materials, and terminology 2. Applicable construction standards and installation methods 3\\. Typical modifications, repairs, upgrade and retrofit methods and materials 4\\. Typical defects (e.g., decayed or damaged structural members, earth to wood contact, lack of fire separation) 5\\. Applied forces and how they affect the wall structure (e.g., wind, seismic, loads)",
+        "**Roof and Ceiling Structures** 1\\. Common types, materials, and terminology 2. Applicable construction standards and installation methods 3\\. Typical modifications, repairs, upgrade and retrofit methods and materials 4\\. Typical defects (e.g., sagging rafters, modified/damaged trusses) 5\\. Applied forces and how they affect roof/ceiling structures (e.g., wind, seismic, loads"
+      ]
+    }
+  ],
+  "5": [
+    {
+      "num": 5,
+      "title": "**electrical systems**",
+      "weight": 7,
+      "seeds": [
+        "**Electrical Service (Laterals, Drops,**",
+        "**Components of Service Panels and**",
+        "**Wiring Methods** 1\\. Common types (e.g., non-metallic sheathed cable, armored cable, conduit), materials and terminology 2\\. Applicable construction standards and installation methods 3\\. Typical modifications, repairs, and upgrade methods and materials 4\\. Considerations related to solid-conductor aluminum branch circuit wiring 5\\. Outdated electrical wiring system (e.g., knob and tube wiring, cloth-covered cable) 6\\. Typical defects (e.g., improper use of or lack of junction boxes, unprotected non-metallic sheathed cable, lack of proper support) 7\\. Common safety issues (e.g., open splices",
+        "**Devices, Equipment and Fixtures** 1\\. Common types, materials, and terminology 2. Applicable construction standards and installation methods 3\\. Typical modifications, repairs, upgrade and retrofit methods and materials 4\\. Equipment grounding and bonding 5. Wiring, operation and location of typical devices and equipment (e.g., receptacles and lights, appliances, AFCI and GFCI protection) 6\\. Typical defects (e.g., reverse polarity, open equipment grounds, non-functional GFCI or AFCI protection) 7\\. Common safety issues (e.g., absence of AFCI or GFCI, ungrounded receptacle)",
+        "**Alternative Energy Systems (e.g.,**",
+        "**Electric Vehicle Service Equipment** 1\\. Common types, materials, and terminology 2. Applicable construction standards and installation methods 3\\. Common safety issues"
+      ]
+    }
+  ],
+  "6": [
+    {
+      "num": 6,
+      "title": "**cooling systems**",
+      "weight": 4,
+      "seeds": [
+        "**Cooling** 1\\. Common types, materials, and terminology 2. Applicable construction standards and installation methods and normal operation procedures 3\\. Principles of refrigerant cycle (e.g., theory of heat transfer, air conditioning, heat pumps) 4\\. Condensate control and disposal 5. Typical defects (e.g., missing suction line insulation, condensation and/or rust on components, restriction of air flow at the condensing unit) 6\\. Common safety issues (e.g., missing or damaged disconnect, damaged wiring",
+        "**Distribution Systems** 1\\. Common types, materials, and terminology 2. Applicable construction standards and installation methods 3\\. Typical defects (e.g., damaged or disconnected ducts, dirty air filter, lack of duct support)"
+      ]
+    }
+  ],
+  "7": [
+    {
+      "num": 7,
+      "title": "**heating systems**",
+      "weight": 5,
+      "seeds": [
+        "**Heating** 1\\. Common types, materials, and terminology 2. Applicable construction standards, installation methods, and normal operation procedures 3\\. Principles of heating system operation 4. Connections to and controls for energy source 5. Condensate control and disposal 6. By-products of combustion (e.g., H2O, CO2, CO, NO2), their generation and how and when they become a safety hazard 7\\. Typical defects (e.g., dirty fan, misfiring burner, short cycling) 8\\. Common safety issues (e.g., inadequate combustion air, loose flue connections, flame rollout)",
+        "**Distribution Systems** 1\\. Common types, materials, and terminology 2. Applicable construction standards and installation methods 3\\. Typical defects (e.g., damaged or disconnected ducts, clogged, missing or damaged filters, leaking pipes)",
+        "**Vent Systems** 1\\. Common types, materials, and terminology 2. Applicable construction standards and installation methods 3\\. Principles of vent system operation 4. Typical defects (e.g., improperly sloped vent, improper vent materials, inadequate clearance to combustible material) 5\\. Common safety issues (e.g., back drafting/spillage, separated vent, venting too close to operable window"
+      ]
+    }
+  ],
+  "8": [
+    {
+      "num": 8,
+      "title": "**insulation, moisture management systems and ventilation systems** in conditioned and unconditioned spaces",
+      "weight": 5,
+      "seeds": [
+        "**Thermal Insulation** 1\\. Common types, materials, and terminology 2. Applicable construction standards and installation methods 3\\. Principles of heat transfer and energy conservation 4\\. Recommended insulation levels 5\\. Typical defects (e.g., exposed paper backing, improper clearances, inadequate air sealing) 6\\. Common health and safety issues (e.g., excessive moisture, infestations, fire hazards)",
+        "**Moisture Management** 1\\. Common types, methods, materials, and terminology 2\\. Applicable construction standards and installation methods 3\\. Principles of moisture generation, relative humidity, and moisture movement in buildings (e.g., attic air bypasses, occupant use) 4\\. Effects of moisture vapor on building components, occupants, and indoor air quality 5\\. Moisture control systems (e.g., humidifiers/dehumidifiers, vapor retarders) 6\\. Typical causes (e.g., missing or insufficient ventilation, missing/improperly installed insulation)",
+        "**Ventilation Systems of Attics, Crawl**"
+      ]
+    }
+  ],
+  "9": [
+    {
+      "num": 9,
+      "title": "**mechanical exhaust systems**",
+      "weight": 5,
+      "seeds": [
+        "**Mechanical Exhaust Systems (e.g.,**",
+        "**Indoor Air Management Systems (e.g.,**"
+      ]
+    }
+  ],
+  "10": [
+    {
+      "num": 10,
+      "title": "**plumbing and fuel distribution systems**",
+      "weight": 6,
+      "seeds": [
+        "**Water Supply Distribution System** 1\\. Common types, materials, and terminology 2. Applicable construction standards and installation methods 3\\. Typical modification, repair, upgrade and retrofit methods and materials 4\\. Typical defects (e.g., cross-connection, dissimilar metals, obsolete materials) 5\\. Common water pressure/functional flow problems that affect water distribution system performance (e.g., hard water build-up, galvanized piping, pressure reducing valves)",
+        "**Fixtures and Faucets** 1\\. Common types, materials, and terminology 2. Applicable construction standards and installation methods 3\\. Typical modification, repair, upgrade and retrofit methods and materials 4\\. Typical defects (e.g., leaks, fixture attachment) 5. Common safety issues (e.g., absence of anti- scald valve, hot/cold reverse)",
+        "**Drain, Waste and Vent Systems** 1\\. Common types, materials, and terminology 2. Applicable construction standards and installation methods 3\\. Typical modification, repair, upgrade and retrofit methods and materials (e.g., joining different piping materials, sizing) 4\\. Principles and usage of traps and vents 5. Differences between public and private disposal systems 6\\. Typical defects (e.g., deterioration, inadequate venting, improper slope)"
+      ]
+    }
+  ],
+  "11": [
+    {
+      "num": 11,
+      "title": "**interior components**",
+      "weight": 4,
+      "seeds": [
+        "**Walls, Ceiling, Floors, Doors and**",
+        "**Steps, Stairways, Landings and**",
+        "**Installed Countertops and Cabinets** 1\\. Common types, materials, and terminology 2. Applicable construction standards and installation methods 3\\. Typical defects (e.g., missing knobs, damaged surfaces, loose doors/drawers) 4\\. Common safety issues (e.g., improperly secured cabinets and countertops, unsecured islands)"
+      ]
+    }
+  ],
+  "12": [
+    {
+      "num": 12,
+      "title": "**fireplaces, fuel-burning appliances and their chimney and vent systems**",
+      "weight": 6,
+      "seeds": [
+        "**Solid Fuel-burning (e.g., wood, pellet,**",
+        "**Gas and Liquid Fuel-burning (e.g.,**"
+      ]
+    }
+  ],
+  "13": [
+    {
+      "num": 13,
+      "title": "common **life safety equipment and systems**",
+      "weight": 6,
+      "seeds": []
+    }
+  ],
+  "14": [
+    {
+      "num": 1,
+      "title": "",
+      "weight": 4,
+      "seeds": []
+    },
+    {
+      "num": 2,
+      "title": "",
+      "weight": 4,
+      "seeds": []
+    },
+    {
+      "num": 3,
+      "title": "",
+      "weight": 6,
+      "seeds": []
+    },
+    {
+      "num": 4,
+      "title": "",
+      "weight": 6,
+      "seeds": []
+    }
+  ],
+  "15": [
+    {
+      "num": 1,
+      "title": "",
+      "weight": 5,
+      "seeds": []
+    },
+    {
+      "num": 2,
+      "title": "",
+      "weight": 5,
+      "seeds": []
+    }
+  ]
+}

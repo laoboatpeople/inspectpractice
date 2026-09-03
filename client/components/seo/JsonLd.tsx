@@ -12,7 +12,7 @@ export function OrganizationJsonLd() {
     name: 'Inspect Practice',
     url: 'https://inspectpractice.com',
     description:
-      'AI-powered exam preparation platform for ICC building inspector certifications (B1, B2, E1, P1 & M1) covering the International Residential Code, International Building Code, NEC, IPC, and IMC.',
+      'AI-powered exam preparation platform for ICC building inspector certifications (B1, B2, E1, P1, M1 & NHIE) covering the International Residential Code, International Building Code, NEC, IPC, and IMC.',
     areaServed: 'US',
     knowsAbout: [
       'ICC Certification Exam',
@@ -52,7 +52,7 @@ export function WebSiteJsonLd() {
     name: 'Inspect Practice',
     url: 'https://inspectpractice.com',
     description:
-      'AI-powered exam preparation for ICC building inspector certifications — B1, B2, E1, P1 & M1.',
+      'AI-powered exam preparation for ICC building inspector certifications — B1, B2, E1, P1, M1 & NHIE.',
     inLanguage: ['en', 'fr'],
     potentialAction: {
       '@type': 'SearchAction',
@@ -202,7 +202,7 @@ export function ProductJsonLd() {
     '@context': 'https://schema.org',
     '@type': 'Product',
     name: 'Inspect Practice ICC Exam Prep',
-    description: 'AI-powered exam preparation for ICC building inspector certifications — B1, B2, E1, P1 & M1',
+    description: 'AI-powered exam preparation for ICC building inspector certifications — B1, B2, E1, P1, M1 & NHIE',
     url: 'https://inspectpractice.com',
     image: 'https://inspectpractice.com/images/og/home.jpg',
     brand: {
@@ -303,7 +303,7 @@ export function CourseJsonLd() {
     '@type': 'Course',
     name: 'ICC Building Inspector Certification Exam Preparation Course',
     description:
-      'Comprehensive exam preparation for ICC building inspector certifications (B1, B2, E1, P1 & M1) — covering the International Residential Code (IRC), International Building Code (IBC), NEC, IPC, and IMC. Topics include building planning, foundations, walls, roofing, means of egress, and trade inspections.',
+      'Comprehensive exam preparation for ICC building inspector certifications (B1, B2, E1, P1, M1 & NHIE) — covering the International Residential Code (IRC), International Building Code (IBC), NEC, IPC, and IMC. Topics include building planning, foundations, walls, roofing, means of egress, and trade inspections.',
     provider: {
       '@type': 'Organization',
       name: 'Inspect Practice',

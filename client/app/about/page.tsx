@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'About Inspect Practice — ICC Exam Prep Platform',
   description:
-    'AI-powered exam prep for ICC building inspector certifications. 2,500+ code-referenced questions to help you pass your B1, B2, E1, P1 & M1 exams.',
+    'AI-powered exam prep for ICC building inspector certifications. 7,200+ code-referenced questions to help you pass your B1, B2, E1, P1 & M1 exams.',
   alternates: {
     canonical: 'https://inspectpractice.com/about',
     languages: {
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'About Inspect Practice — ICC Exam Prep Platform',
     description:
-      'Learn about Inspect Practice: our mission to help building inspectors pass ICC certification exams with our AI-powered platform and 2,500+ questions.',
+      'Learn about Inspect Practice: our mission to help building inspectors pass ICC certification exams with our AI-powered platform and 7,200+ questions.',
     url: 'https://inspectpractice.com/about',
     type: 'website',
     images: [
@@ -119,7 +119,7 @@ export default function AboutPage() {
               open-book exam experience.
             </p>
             <p className="text-[#DCE4E7] leading-relaxed mb-4">
-              Our question bank contains over 2,500 AI-generated, expert-reviewed
+              Our question bank contains over 7,200 AI-generated, expert-reviewed
               questions covering the relevant chapters of each code. Every question
               is tagged by code, chapter, topic, difficulty level, and exact code
               reference — making it easy for candidates to target their weak areas
@@ -258,7 +258,7 @@ export default function AboutPage() {
             <ul className="space-y-3 text-[#DCE4E7]">
               <li className="flex items-start gap-3">
                 <span className="text-[#176B87] mt-1.5">▸</span>
-                <span><strong className="text-[#102631]">Scarcity of practice questions</strong> — Most candidates report that finding enough realistic practice questions is their biggest challenge. We built a bank of 2,500+ questions covering all five ICC certifications.</span>
+                <span><strong className="text-[#102631]">Scarcity of practice questions</strong> — Most candidates report that finding enough realistic practice questions is their biggest challenge. We built a bank of 7,200+ questions covering the five ICC certifications and the NHIE.</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-[#176B87] mt-1.5">▸</span>

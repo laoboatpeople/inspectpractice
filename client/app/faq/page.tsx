@@ -11,7 +11,7 @@ const faqs = [
       },
       {
         type: "p",
-        text: "It covers all five core ICC inspector certifications:",
+        text: "It covers all five core ICC inspector certifications plus the NHIE national home inspector exam:",
       },
       {
         type: "ul",
@@ -21,6 +21,7 @@ const faqs = [
           "E1 — Residential Electrical Inspector (NEC)",
           "P1 — Residential Plumbing Inspector (IPC)",
           "M1 — Residential Mechanical Inspector (IMC)",
+          "NHIE — National Home Inspector Exam (EBPHI)",
         ],
       },
       {
@@ -34,7 +35,7 @@ const faqs = [
     answer: [
       {
         type: "p",
-        text: "Inspect Practice covers all five core ICC inspector certifications:",
+        text: "Inspect Practice covers all five core ICC inspector certifications plus the NHIE national home inspector exam:",
       },
       {
         type: "ul",
@@ -44,6 +45,7 @@ const faqs = [
           "E1 — NEC + IRC electrical chapters",
           "P1 — IPC + IRC plumbing chapters",
           "M1 — IMC + IRC mechanical chapters",
+          "NHIE — National Home Inspector Exam (EBPHI)",
         ],
       },
     ],
@@ -138,7 +140,7 @@ const faqs = [
     answer: [
       {
         type: "p",
-        text: "Inspect Practice includes a comprehensive question bank of over 2,500 questions covering B1, B2, E1, P1, and M1.",
+        text: "Inspect Practice includes a comprehensive question bank of over 7,200 questions covering B1, B2, E1, P1, and M1.",
       },
       {
         type: "ul",

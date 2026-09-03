@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Pricing — Inspect Practice ICC Exam Prep',
     description:
-      'Flexible plans for ICC exam prep: Free, Monthly $29.99/mo, Yearly $99/yr, or Lifetime $199. AI-powered study with 2,500+ questions. Start free, upgrade anytime.',
+      'Flexible plans for ICC exam prep: Free, Monthly $29.99/mo, Yearly $99/yr, or Lifetime $199. AI-powered study with 7,200+ questions. Start free, upgrade anytime.',
     url: 'https://inspectpractice.com/pricing',
     type: 'website',
     images: [
@@ -66,7 +66,7 @@ const plans = [
       { included: true, text: 'Unlimited practice exams' },
       { included: true, text: 'Unlimited AI Tutor' },
       { included: true, text: 'Detailed analytics' },
-      { included: true, text: 'Full question bank (2,500+)' },
+      { included: true, text: 'Full question bank (7,200+)' },
       { included: true, text: 'Progress tracking' },
       { included: false, text: 'Lifetime updates' },
     ],
@@ -84,7 +84,7 @@ const plans = [
       { included: true, text: 'Unlimited practice exams' },
       { included: true, text: 'Unlimited AI Tutor' },
       { included: true, text: 'Detailed analytics' },
-      { included: true, text: 'Full question bank (2,500+)' },
+      { included: true, text: 'Full question bank (7,200+)' },
       { included: true, text: 'Progress tracking' },
       { included: false, text: 'Lifetime updates' },
     ],
@@ -102,7 +102,7 @@ const plans = [
       { included: true, text: 'Unlimited practice exams' },
       { included: true, text: 'Unlimited AI Tutor' },
       { included: true, text: 'Detailed analytics' },
-      { included: true, text: 'Full question bank (2,500+)' },
+      { included: true, text: 'Full question bank (7,200+)' },
       { included: true, text: 'Progress tracking' },
       { included: true, text: 'All future updates' },
     ],
@@ -255,7 +255,7 @@ export default function PricingPage() {
                 <tbody className="divide-y divide-white/5">
                   {[
                     { feature: 'Exam categories', free: '1', monthly: 'All', yearly: 'All', lifetime: 'All' },
-                    { feature: 'Question bank access', free: 'Limited', monthly: '2,500+', yearly: '2,500+', lifetime: '2,500+' },
+                    { feature: 'Question bank access', free: 'Limited', monthly: '7,200+', yearly: '7,200+', lifetime: '7,200+' },
                     { feature: 'AI adaptive difficulty', free: '—', monthly: '✓', yearly: '✓', lifetime: '✓' },
                     { feature: 'Unlimited practice exams', free: '—', monthly: '✓', yearly: '✓', lifetime: '✓' },
                     { feature: 'AI Tutor', free: '50 msgs', monthly: 'Unlimited', yearly: 'Unlimited', lifetime: 'Unlimited' },
