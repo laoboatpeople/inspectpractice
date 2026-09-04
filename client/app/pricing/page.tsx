@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://inspectpractice.com/images/og/pricing.jpg',
+        url: 'https://inspectpractice.com/images/og/pricing.jpg?v=2',
         width: 1200,
         height: 630,
         alt: 'Inspect Practice ICC Exam Prep Pricing Plans',

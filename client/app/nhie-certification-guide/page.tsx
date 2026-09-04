@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     type: 'article',
     images: [
       {
-        url: 'https://inspectpractice.com/images/og/nhie-certification-guide.jpg',
+        url: 'https://inspectpractice.com/images/og/nhie-certification-guide.jpg?v=2',
         width: 1200,
         height: 630,
         alt: 'Complete NHIE Guide — Inspect Practice',
