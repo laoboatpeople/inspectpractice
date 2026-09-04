@@ -8,7 +8,7 @@ import {
   TrendingUp, MessageCircle, ClipboardCheck, Smartphone, Monitor, 
   Clock, Target, Zap, ChevronRight, Play, Shield,
   Linkedin, Instagram, Check, Briefcase, LogIn, X,
-  GraduationCap, School, Building2
+  GraduationCap, School, Building2, Menu
 } from "lucide-react";
 import AppMockup from "@/components/marketing/AppMockup";
 import NewsletterSection from "@/components/marketing/NewsletterSection";
@@ -19,6 +19,7 @@ import PricingCard from "@/components/marketing/PricingCard";
 
 export default function MarketingLandingPage() {
   const [showDemo, setShowDemo] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
   const msgs: Record<string, unknown> = en;
   const tm = (key: string) => {
     const keys = key.split('.');
@@ -45,11 +46,34 @@ export default function MarketingLandingPage() {
             <a href="#testimonials" className="text-sm text-white/80 hover:text-[#CBEA32] transition-colors">{tm("nav.testimonials")}</a>
           </div>
           <div className="flex items-center gap-3">
-            <a href="/auth/login" className="px-4 py-2 bg-[#CBEA32] hover:bg-[#B5D51F] text-[#0B3344] rounded-lg text-sm font-semibold transition-colors">
+            <a href="/auth/login" className="hidden sm:inline-block px-4 py-2 bg-[#CBEA32] hover:bg-[#B5D51F] text-[#0B3344] rounded-lg text-sm font-semibold transition-colors whitespace-nowrap">
               {tm("nav.signIn")}
             </a>
+            <button
+              onClick={() => setMenuOpen(!menuOpen)}
+              className="md:hidden p-2 rounded-lg border border-white/20 text-white hover:bg-white/10 transition-colors"
+              aria-label="Toggle menu"
+            >
+              {menuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+            </button>
           </div>
         </div>
+        {menuOpen && (
+          <div className="md:hidden border-t border-white/10 bg-[#0B3344]/95 backdrop-blur-md">
+            <div className="px-6 py-4 flex flex-col gap-4">
+              <a href="#features" onClick={() => setMenuOpen(false)} className="text-sm text-white/80 hover:text-[#CBEA32] transition-colors">{tm("nav.features")}</a>
+              <a href="#how-it-works" onClick={() => setMenuOpen(false)} className="text-sm text-white/80 hover:text-[#CBEA32] transition-colors">{tm("nav.howItWorks")}</a>
+              <a href="#pricing" onClick={() => setMenuOpen(false)} className="text-sm text-white/80 hover:text-[#CBEA32] transition-colors">{tm("nav.pricing")}</a>
+              <a href="/blog" onClick={() => setMenuOpen(false)} className="text-sm text-white/80 hover:text-[#CBEA32] transition-colors">Blog</a>
+              <a href="/faq" onClick={() => setMenuOpen(false)} className="text-sm text-white/80 hover:text-[#CBEA32] transition-colors">FAQ</a>
+              <a href="/contact" onClick={() => setMenuOpen(false)} className="text-sm text-white/80 hover:text-[#CBEA32] transition-colors">Contact</a>
+              <a href="#testimonials" onClick={() => setMenuOpen(false)} className="text-sm text-white/80 hover:text-[#CBEA32] transition-colors">{tm("nav.testimonials")}</a>
+              <a href="/auth/login" onClick={() => setMenuOpen(false)} className="sm:hidden px-4 py-2 bg-[#CBEA32] hover:bg-[#B5D51F] text-[#0B3344] rounded-lg text-sm font-semibold text-center transition-colors">
+                {tm("nav.signIn")}
+              </a>
+            </div>
+          </div>
+        )}
       </nav>
 
       {/* 1. HERO SECTION */}
