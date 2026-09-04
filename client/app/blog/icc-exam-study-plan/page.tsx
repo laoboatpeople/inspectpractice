@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     type: 'article',
     images: [
       {
-        url: 'https://inspectpractice.com/images/blog/ame-license-canada.jpg',
+        url: 'https://inspectpractice.com/images/og/home.jpg',
         width: 1200,
         height: 630,
         alt: '12-Week ICC Exam Study Plan',
@@ -45,7 +45,7 @@ export default function IccExamStudyPlanPage() {
         description="A proven 12-week study plan for ICC certification exams. Week-by-week schedule covering the code map, chapter drills, and timed simulations for B1, B2, E1, P1 & M1."
         datePublished="2026-05-22"
         dateModified="2026-08-18"
-        image={["https://inspectpractice.com/images/blog/ame-license-canada.jpg"]}
+        image={["https://inspectpractice.com/images/og/home.jpg"]}
       />
       <BreadcrumbListJsonLd
         items={[

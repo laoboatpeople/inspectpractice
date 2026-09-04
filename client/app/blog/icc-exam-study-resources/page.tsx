@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     type: 'article',
     images: [
       {
-        url: 'https://inspectpractice.com/images/blog/ame-license-canada.jpg',
+        url: 'https://inspectpractice.com/images/og/home.jpg',
         width: 1200,
         height: 630,
         alt: 'ICC Exam Study Resources',
@@ -45,7 +45,7 @@ export default function IccExamStudyResourcesPage() {
         description="Comprehensive list of the best study resources for ICC certification exams — official codes, ICC training materials, practice tests, and Inspect Practice's AI-powered study platform."
         datePublished="2026-05-22"
         dateModified="2026-08-18"
-        image={["https://inspectpractice.com/images/blog/ame-license-canada.jpg"]}
+        image={["https://inspectpractice.com/images/og/home.jpg"]}
       />
       <BreadcrumbListJsonLd
         items={[

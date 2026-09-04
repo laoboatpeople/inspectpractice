@@ -172,8 +172,8 @@ router.post('/register', registerLimiter, async (req: Request, res: Response): P
   // Notify admin of new registration (best-effort)
   if (settings.notifications?.adminNewUserAlert !== false) {
     const adminEmail = settings.notifications?.adminNotificationEmail || 'chuck.onekeo@gmail.com';
-    const adminMsg = `Nouvelle inscription sur Skylicence.cloud (Canada)\n\nEmail: ${email}\nNom: ${name || 'Non fourni'}\nRôle: ${isAdminRequest ? role : 'STUDENT'}\nDate: ${new Date().toLocaleString('fr-CA')}`;
-    sendEmail(adminEmail, `Nouvelle inscription — ${email}`, adminMsg).catch(() => {});
+    const adminMsg = `New signup on InspectPractice\n\nEmail: ${email}\nName: ${name || 'Not provided'}\nRole: ${isAdminRequest ? role : 'STUDENT'}\nDate: ${new Date().toLocaleString('en-US')}`;
+    sendEmail(adminEmail, `New signup — ${email}`, adminMsg).catch(() => {});
   }
 
   const token = signToken({ id: user.id, email: user.email, role: user.role });

@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     type: 'article',
     images: [
       {
-        url: 'https://inspectpractice.com/images/blog/ame-license-canada.jpg',
+        url: 'https://inspectpractice.com/images/og/home.jpg',
         width: 1200,
         height: 630,
         alt: 'ICC Exam Mistakes',
@@ -45,7 +45,7 @@ export default function IccStudyMistakesPage() {
         description="The most common mistakes ICC exam candidates make — from ignoring the exam bulletin to memorizing instead of navigating the code. Learn how to avoid these pitfalls and pass your ICC exam on the first try."
         datePublished="2026-05-22"
         dateModified="2026-08-18"
-        image={["https://inspectpractice.com/images/blog/ame-license-canada.jpg"]}
+        image={["https://inspectpractice.com/images/og/home.jpg"]}
       />
       <BreadcrumbListJsonLd
         items={[

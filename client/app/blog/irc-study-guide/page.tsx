@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     type: 'article',
     images: [
       {
-        url: 'https://inspectpractice.com/images/blog/ame-license-canada.jpg',
+        url: 'https://inspectpractice.com/images/og/home.jpg',
         width: 1200,
         height: 630,
         alt: 'IRC Study Guide',
@@ -45,7 +45,7 @@ export default function IrcStudyGuidePage() {
         description="Master the International Residential Code (IRC) for your ICC B1 exam. Chapter-by-chapter map, section-numbering system, index strategies, and open-book lookup drills."
         datePublished="2025-04-02"
         dateModified="2026-08-18"
-        image={["https://inspectpractice.com/images/blog/ame-license-canada.jpg"]}
+        image={["https://inspectpractice.com/images/og/home.jpg"]}
       />
       <BreadcrumbListJsonLd
         items={[

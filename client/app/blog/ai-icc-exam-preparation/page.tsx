@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     type: 'article',
     images: [
       {
-        url: 'https://inspectpractice.com/images/blog/ame-license-canada.jpg',
+        url: 'https://inspectpractice.com/images/og/home.jpg',
         width: 1200,
         height: 630,
         alt: 'AI and ICC Exam Preparation',
@@ -45,7 +45,7 @@ export default function AiIccExamPreparationPage() {
         description="Discover how artificial intelligence is transforming ICC exam preparation. Adaptive learning, personalized study paths, instant feedback, and AI-powered tutoring for building inspector certifications."
         datePublished="2026-05-16"
         dateModified="2026-08-18"
-        image={["https://inspectpractice.com/images/blog/ame-license-canada.jpg"]}
+        image={["https://inspectpractice.com/images/og/home.jpg"]}
       />
       <BreadcrumbListJsonLd
         items={[

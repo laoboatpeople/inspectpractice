@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     type: 'article',
     images: [
       {
-        url: 'https://inspectpractice.com/images/blog/ame-license-canada.jpg',
+        url: 'https://inspectpractice.com/images/og/home.jpg',
         width: 1200,
         height: 630,
         alt: 'ICC Open-Book Study Techniques',
@@ -45,7 +45,7 @@ export default function IccStudyTechniquesPage() {
         description="Discover 10 proven study techniques for ICC open-book exams. From code navigation drills and index-first lookups to timed simulations — techniques that actually work for B1, B2, E1, P1 & M1."
         datePublished="2026-05-23"
         dateModified="2026-08-18"
-        image={["https://inspectpractice.com/images/blog/ame-license-canada.jpg"]}
+        image={["https://inspectpractice.com/images/og/home.jpg"]}
       />
       <BreadcrumbListJsonLd
         items={[

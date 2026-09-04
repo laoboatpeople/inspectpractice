@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     type: 'article',
     images: [
       {
-        url: 'https://inspectpractice.com/images/blog/ame-license-canada.jpg',
+        url: 'https://inspectpractice.com/images/og/home.jpg',
         width: 1200,
         height: 630,
         alt: 'ICC Exam Structure',
@@ -45,7 +45,7 @@ export default function IccExamStructurePage() {
         description="Complete comparison of all 5 ICC certification exams with a detailed table showing question counts, time limits, passing scores, and main reference codes for the B1, B2, E1, P1 and M1 certifications."
         datePublished="2026-05-20"
         dateModified="2026-08-18"
-        image={["https://inspectpractice.com/images/blog/ame-license-canada.jpg"]}
+        image={["https://inspectpractice.com/images/og/home.jpg"]}
       />
       <BreadcrumbListJsonLd
         items={[

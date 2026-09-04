@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     type: 'article',
     images: [
       {
-        url: 'https://inspectpractice.com/images/blog/ame-license-canada.jpg',
+        url: 'https://inspectpractice.com/images/og/home.jpg',
         width: 1200,
         height: 630,
         alt: 'Complete ICC Certification Guide',
@@ -54,7 +54,7 @@ export default function IccCertificationGuidePage() {
         datePublished="2026-07-07"
         dateModified="2026-08-18"
         url="https://inspectpractice.com/icc-certification-guide"
-        image={['https://inspectpractice.com/images/blog/ame-license-canada.jpg']}
+        image={['https://inspectpractice.com/images/og/home.jpg']}
       />
       <BreadcrumbListJsonLd
         items={[

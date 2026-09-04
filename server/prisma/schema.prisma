@@ -98,7 +98,7 @@ model Subscription {
   @@map("subscriptions")
 }
 
-/// Exam — e.g. TC-AME M1, M2, M3, M4, S1
+/// Exam — e.g. ICC-B1, ICC-B2, ICC-E1, ICC-P1, ICC-M1
 model Exam {
   id          String   @id @default(uuid())
   code        String   @unique
@@ -106,8 +106,8 @@ model Exam {
   name_fr     String?
   description String?
   description_fr String?
-  country     String   @default("CA")
-  licenseType String   @default("TC-AME")
+  country     String   @default("US")
+  licenseType String   @default("ICC")
   isActive    Boolean  @default(true) @map("is_active")
   timeLimit            Int       @default(60)
   passingScore         Float     @default(70.0)

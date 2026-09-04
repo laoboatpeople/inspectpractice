@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     type: 'article',
     images: [
       {
-        url: 'https://inspectpractice.com/images/blog/ame-license-canada.jpg',
+        url: 'https://inspectpractice.com/images/og/home.jpg',
         width: 1200,
         height: 630,
         alt: 'ICC B1 Certification Guide',
@@ -45,7 +45,7 @@ export default function IccB1CertificationGuidePage() {
         description="Complete step-by-step guide to obtaining your ICC B1 Residential Building Inspector certification. Learn eligibility requirements, the open-book IRC exam format, and how to prepare effectively."
         datePublished="2025-03-15"
         dateModified="2026-08-18"
-        image={["https://inspectpractice.com/images/blog/ame-license-canada.jpg"]}
+        image={["https://inspectpractice.com/images/og/home.jpg"]}
       />
       <BreadcrumbListJsonLd
         items={[
