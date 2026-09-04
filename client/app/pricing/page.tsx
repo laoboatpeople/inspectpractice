@@ -1,4 +1,4 @@
-import { FAQPageJsonLd, BreadcrumbListJsonLd } from '@/components/seo/JsonLd';
+import {FAQPageJsonLd, BreadcrumbListJsonLd, ProductJsonLd} from '@/components/seo/JsonLd';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -148,6 +148,7 @@ export default function PricingPage() {
   return (
     <>
       <FAQPageJsonLd questions={pricingFaqs} />
+      <ProductJsonLd />
       <BreadcrumbListJsonLd
         items={[
           { name: 'Home', url: 'https://inspectpractice.com' },

@@ -1,9 +1,21 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import fs from 'fs';
+import path from 'path';
 import { BookOpen, ChevronRight, ArrowLeft, Home } from 'lucide-react';
 import theoryData from '@/src/data/theory-data.json';
 import { TheoryContent } from '@/lib/theory-markdown';
+import {
+  ArticleJsonLd,
+  BreadcrumbListJsonLd,
+  LearningResourceJsonLd,
+} from '@/components/seo/JsonLd';
+
+// Freshness dates derived from the actual content file (stable at build time).
+const THEORY_DATA_MTIME = new Date(
+  fs.statSync(path.join(process.cwd(), 'src/data/theory-data.json')).mtimeMs
+).toISOString().slice(0, 10);
 
 type TheoryChapter = {
   number: number;
@@ -52,6 +64,18 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
       type: 'article',
       locale: 'en',
       siteName: 'InspectPractice',
+      images: [
+        {
+          url: 'https://inspectpractice.com/images/og/theory.jpg',
+          width: 1200,
+          height: 630,
+          alt: `${chapter.name} — ${guideLabel}`,
+        },
+      ],
+    },
+    other: {
+      'article:published_time': THEORY_DATA_MTIME,
+      'article:modified_time': THEORY_DATA_MTIME,
     },
   };
 }
@@ -64,8 +88,32 @@ export default async function TheoryChapterPage({ params }: { params: Promise<{ 
   const prev = chapters.find((ch) => ch.number === chapter.number - 1);
   const next = chapters.find((ch) => ch.number === chapter.number + 1);
 
+  const guideLabel = chapter.code === 'NHIE' ? 'NHIE Study Guide' : 'ICC Study Guide';
+
   return (
-    <div className="min-h-screen bg-[#F4F7F8] text-[#102631]">
+    <>
+      <ArticleJsonLd
+        headline={`${chapter.name} — ${guideLabel}`}
+        description={excerpt(chapter.content)}
+        datePublished={THEORY_DATA_MTIME}
+        dateModified={THEORY_DATA_MTIME}
+        image={['https://inspectpractice.com/images/og/theory.jpg']}
+      />
+      <LearningResourceJsonLd
+        name={`${chapter.name} — ${guideLabel}`}
+        description={excerpt(chapter.content)}
+        educationalLevel="Professional"
+        teaches={['NHIE Exam', 'ICC Exam', 'Home Inspection', chapter.name]}
+        resourceType="StudyGuide"
+      />
+      <BreadcrumbListJsonLd
+        items={[
+          { name: 'Home', url: 'https://inspectpractice.com' },
+          { name: 'Theory', url: 'https://inspectpractice.com/theory' },
+          { name: `Chapter ${chapter.number}: ${chapter.name}`, url: `https://inspectpractice.com/theory/${chapter.id}` },
+        ]}
+      />
+      <div className="min-h-screen bg-[#F4F7F8] text-[#102631]">
       <header className="border-b border-[#DCE4E7] bg-[#0B3344]/95 backdrop-blur-md sticky top-0 z-40">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2" aria-label="InspectPractice home">
@@ -124,6 +172,7 @@ export default async function TheoryChapterPage({ params }: { params: Promise<{ 
           <Link href="/exams" className="inline-block px-6 py-3 rounded-lg bg-[#145A73] text-white text-sm font-medium transition-colors">Start Practicing Free</Link>
         </div>
       </main>
-    </div>
+      </div>
+    </>
   );
 }

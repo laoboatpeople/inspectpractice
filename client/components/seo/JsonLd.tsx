@@ -28,8 +28,6 @@ export function OrganizationJsonLd() {
       'Foundations & Framing',
     ],
     sameAs: [
-      'https://twitter.com/inspectpractice',
-      'https://linkedin.com/company/inspectpractice',
       'https://www.iccsafe.org',
       'https://en.wikipedia.org/wiki/International_Code_Council',
       'https://en.wikipedia.org/wiki/International_Residential_Code',
@@ -54,14 +52,6 @@ export function WebSiteJsonLd() {
     description:
       'AI-powered exam preparation for ICC building inspector certifications — B1, B2, E1, P1, M1 & NHIE.',
     inLanguage: ['en', 'fr'],
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: {
-        '@type': 'EntryPoint',
-        urlTemplate: 'https://inspectpractice.com/search?q={search_term_string}',
-      },
-      'query-input': 'required name=search_term_string',
-    },
   };
 
   return (
@@ -256,34 +246,6 @@ export function ProductJsonLd() {
         itemCondition: 'https://schema.org/NewCondition',
         url: 'https://inspectpractice.com/#pricing',
         sku: 'INSPECTPRACTICE-LIFETIME',
-      },
-    ],
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '5',
-      bestRating: '5',
-      worstRating: '1',
-      ratingCount: '3',
-      reviewCount: '3',
-    },
-    review: [
-      {
-        '@type': 'Review',
-        author: { '@type': 'Person', name: 'Marc Tremblay' },
-        reviewRating: { '@type': 'Rating', ratingValue: '5' },
-        reviewBody: "J'étais perdu dans ma préparation aux examens ICC jusqu'à ce que je trouve Inspect Practice. Les explications IA ont tout rendu clair. Réussi du premier coup !",
-      },
-      {
-        '@type': 'Review',
-        author: { '@type': 'Person', name: 'Sophie Martin' },
-        reviewRating: { '@type': 'Rating', ratingValue: '5' },
-        reviewBody: "Entre mon emploi du temps chargé et mes études, je n'avais jamais le temps de m'asseoir pour réviser. Maintenant je fais des questions sur mon téléphone pendant mes pauses.",
-      },
-      {
-        '@type': 'Review',
-        author: { '@type': 'Person', name: 'Jean-François Côté' },
-        reviewRating: { '@type': 'Rating', ratingValue: '5' },
-        reviewBody: "Les analyses ont montré que j'étais faible en matière de fondations du CRI. J'ai concentré mes révisions là-dessus et j'ai commencé à voir de vraies améliorations.",
       },
     ],
   };

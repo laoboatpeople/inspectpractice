@@ -17,6 +17,66 @@
 - Free ICC Practice Questions: https://inspectpractice.com/free-icc-practice-questions
 - Free NHIE Practice Questions: https://inspectpractice.com/free-nhie-practice-questions
 - Blog: https://inspectpractice.com/blog
+- Theory Hub: https://inspectpractice.com/theory
+## Theory Hub
+- All theory chapters: https://inspectpractice.com/theory
+
+## Theory Chapters (54)
+- [ICC-B1] Code Administration: https://inspectpractice.com/theory/f7e6994a-a115-4ff3-89a2-56ed82d8db62
+- [ICC-B1] Building Planning: https://inspectpractice.com/theory/d4c921d5-cca9-4d4a-9a3c-28ff92c39677
+- [ICC-B1] Footings & Foundations: https://inspectpractice.com/theory/c38cc424-866f-4b35-ba5c-71451e227f55
+- [ICC-B1] Floors: https://inspectpractice.com/theory/e4ac95c4-385e-4ae7-8b87-7bc2d435f7ba
+- [ICC-B1] Walls: https://inspectpractice.com/theory/6565f0f2-e473-4be1-a7df-cd5633bf7cf5
+- [ICC-B1] Roof & Ceiling: https://inspectpractice.com/theory/a03d5148-7ec3-49b7-9651-b05e868fd75d
+- [ICC-B1] Public Safety and Special Construction: https://inspectpractice.com/theory/5d95ca96-7033-4bce-bac2-7e9081c38619
+- [ICC-B2] Code Administration: https://inspectpractice.com/theory/bd37c4aa-5bf7-484e-82b5-2ed1aa023673
+- [ICC-B2] Building Planning & Occupancy: https://inspectpractice.com/theory/cfcdb462-1a04-4007-819d-94d0885ce7fb
+- [ICC-B2] Types of Construction: https://inspectpractice.com/theory/22571b26-43e9-4594-a66a-5dba18c8b391
+- [ICC-B2] Fire Protection Systems: https://inspectpractice.com/theory/43a1758b-ff50-4c81-8d49-2868476504d9
+- [ICC-B2] Means of Egress: https://inspectpractice.com/theory/e22eb980-ac71-4cd0-8f00-8058695d2980
+- [ICC-B2] Interior Finishes & Structures: https://inspectpractice.com/theory/3c7b6fd1-9374-43ed-86be-2c9e6fff125c
+- [ICC-B2] Accessibility: https://inspectpractice.com/theory/9034259d-a4f0-4032-8892-4e58e8a4be08
+- [ICC-B2] Exterior Walls & Roof: https://inspectpractice.com/theory/dd30c7f3-99ca-4673-be64-02c369487676
+- [ICC-E1] Code Administration: https://inspectpractice.com/theory/c4d4f587-c844-43c1-ae84-c21a528eb8d9
+- [ICC-E1] General Requirements: https://inspectpractice.com/theory/9ba7aa32-2368-4f9d-8eae-519127c8ac24
+- [ICC-E1] Wiring & Protection: https://inspectpractice.com/theory/ac562688-87cc-48be-828f-45ecda6872d8
+- [ICC-E1] Wiring Methods & Materials: https://inspectpractice.com/theory/6f2be4cd-7711-4e37-a6d6-2e08079ca3f7
+- [ICC-E1] Equipment & Lamps: https://inspectpractice.com/theory/e1f13ba1-bb0e-4024-be1f-9e47e57e37b8
+- [ICC-E1] Special Occupancies & Equipment: https://inspectpractice.com/theory/4281a626-6e3d-44d7-a7d0-f5dfd8613dfa
+- [ICC-E1] Communications Systems: https://inspectpractice.com/theory/96d3f76a-5b25-4b83-8cf1-0d31160b5a93
+- [ICC-E1] Residential IRC Electrical (E3400-E4200): https://inspectpractice.com/theory/b0ff1a97-baca-4b2a-aeb0-c8c49fdf9873
+- [ICC-P1] Code Administration: https://inspectpractice.com/theory/ad7547c9-f454-4531-abaa-50162094dc10
+- [ICC-P1] General Regulations: https://inspectpractice.com/theory/61f94d4b-7b21-4e93-981b-647a49037849
+- [ICC-P1] Fixtures & Faucets: https://inspectpractice.com/theory/7ebbcb4e-fcb9-4539-8885-23a6c2bce4e8
+- [ICC-P1] Water Heaters: https://inspectpractice.com/theory/45700d98-25d8-4d40-8766-5c3e245c06c6
+- [ICC-P1] Water Supply & Distribution: https://inspectpractice.com/theory/43ca2c27-2371-4292-940c-5984c573989d
+- [ICC-P1] Sanitary Drainage: https://inspectpractice.com/theory/46148860-12e5-469a-8f26-2177f0f2ef87
+- [ICC-P1] Vents: https://inspectpractice.com/theory/c5278196-efcd-4292-bfe9-fc711b6cc998
+- [ICC-P1] Traps, Interceptors & Storm Drainage: https://inspectpractice.com/theory/cd921294-cd2d-4c44-9a35-2400b16dc384
+- [ICC-M1] Code Administration: https://inspectpractice.com/theory/e5650ea0-00a5-4418-b964-5d44ebd754e8
+- [ICC-M1] General Regulations: https://inspectpractice.com/theory/ef32fe94-5d43-4b53-89b9-96aeb4c5efdd
+- [ICC-M1] Ventilation: https://inspectpractice.com/theory/f5545c47-569b-4b1a-9761-e6b733ca2c24
+- [ICC-M1] Exhaust Systems: https://inspectpractice.com/theory/73110f2f-9604-40ff-acb5-1f4d2c36fadd
+- [ICC-M1] Duct Systems: https://inspectpractice.com/theory/f37270b2-06e2-45cb-9566-14702051a733
+- [ICC-M1] Combustion Air: https://inspectpractice.com/theory/2da128ea-69bb-4717-882a-7678b0c270f1
+- [ICC-M1] Chimneys & Vents: https://inspectpractice.com/theory/41b9cbe7-c1e7-4713-a8e2-b18e68838a07
+- [ICC-M1] Appliances & HVAC: https://inspectpractice.com/theory/02397ba4-00ac-4ff5-bafb-09d7c90f8817
+- [NHIE] Site Conditions and Grounds: https://inspectpractice.com/theory/32b11d3204d54c38838acd5023da4ee2
+- [NHIE] Building Exterior Components: https://inspectpractice.com/theory/9ddc39bf54db4cc7951f222856fd60a5
+- [NHIE] Roof Components: https://inspectpractice.com/theory/9d0df9d183da42c7baa319a8498fea1e
+- [NHIE] Structural Components: https://inspectpractice.com/theory/045de7aa2784421db6ee0a1e58e34641
+- [NHIE] Electrical Systems: https://inspectpractice.com/theory/d00ca33780504e4cafadf94913fa552f
+- [NHIE] Cooling Systems: https://inspectpractice.com/theory/f05c2a39376c4874943be0aa61a239c2
+- [NHIE] Heating Systems: https://inspectpractice.com/theory/c7e3c6be4b7e44b588d4a8429b4e85b7
+- [NHIE] Insulation, Moisture Management and Ventilation Systems: https://inspectpractice.com/theory/67f5d34c176f4bd89c4b88f9b872803a
+- [NHIE] Mechanical Exhaust Systems: https://inspectpractice.com/theory/ad1e31f18e7443e99afb848dce83a51f
+- [NHIE] Plumbing and Fuel Distribution Systems: https://inspectpractice.com/theory/f1ca23a03e2b4b12bbe0478a79c5f6a8
+- [NHIE] Interior Components: https://inspectpractice.com/theory/4f60e354e4d74fa78b761ec31aea86d6
+- [NHIE] Fireplaces, Fuel-Burning Appliances and Chimney and Vent Systems: https://inspectpractice.com/theory/63e1ab06a2f84609ba239d41e86154f5
+- [NHIE] Life Safety Equipment and Systems: https://inspectpractice.com/theory/b5e3ad9519804bbb9f04522c62eb1a7a
+- [NHIE] Analysis of Findings and Reporting: https://inspectpractice.com/theory/ea447606f22149958e1d41135a106f58
+- [NHIE] Professional Responsibilities: https://inspectpractice.com/theory/5e9bb602af0f43f1b2c90bedd0ded755
+
 ## Blog Articles (EN)
 - Ai Icc Exam Preparation: https://inspectpractice.com/blog/ai-icc-exam-preparation
 - Icc B1 Certification Guide: https://inspectpractice.com/blog/icc-b1-certification-guide

@@ -2,8 +2,9 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { headers } from 'next/headers';
 import './globals.css';
+import { OrganizationJsonLd, WebSiteJsonLd, CourseJsonLd } from '@/components/seo/JsonLd';
 import Providers from './providers';
-import { OrganizationJsonLd, WebSiteJsonLd, ProductJsonLd, CourseJsonLd } from '@/components/seo/JsonLd';
+
 
 const inter = Inter({
   subsets: ['latin'],
@@ -63,7 +64,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={inter.variable}>
         <OrganizationJsonLd />
         <WebSiteJsonLd />
-        <ProductJsonLd />
         <CourseJsonLd />
         <Providers>{children}</Providers>
       </body>

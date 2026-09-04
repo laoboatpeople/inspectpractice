@@ -22,7 +22,7 @@ import { useLocale } from '@/src/contexts/LocaleContext';
 
 const NAV_ITEMS = [
   { href: '/app', label: 'Dashboard', icon: LayoutDashboard },
-  { href: '/theory', label: 'Theory', icon: BookMarked },
+  { href: '/app/theory', label: 'Theory', icon: BookMarked },
   { href: '/exams', label: 'Exams', icon: BookOpen },
   { href: '/tutor', label: 'AI Tutor', icon: MessageSquare },
   { href: '/subscription', label: 'Subscription', icon: CreditCard },
@@ -149,10 +149,12 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           {/* Nav */}
           <nav className="flex-1 px-3 py-4 space-y-1 overflow-y-auto">
             {NAV_ITEMS.map((item) => {
-              const isActive = pathname.startsWith(item.href);
+              const isActive = item.href === '/app'
+                ? pathname === '/app'
+                : pathname.startsWith(item.href);
               const Icon = item.icon;
               const labelKey = item.href === '/app' ? 'dashboard'
-                : item.href === '/theory' ? 'theory'
+                : item.href === '/app/theory' ? 'theory'
                 : item.href === '/exams' ? 'exams'
                 : item.href === '/tutor' ? 'aiTutor'
                 : item.href === '/subscription' ? 'subscription'
