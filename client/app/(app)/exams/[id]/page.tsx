@@ -299,7 +299,7 @@ export default function StudentExamDetailPage() {
                 onClick={handleStartExamSimulation}
                 className={`relative flex items-center justify-center gap-2 px-6 py-3 rounded-btn text-sm font-semibold transition-all active:scale-[0.98] whitespace-nowrap w-full sm:w-auto shrink-0 ${
                   exam.locked || exam.simulationLocked
-                    ? 'bg-hover text-text-tertiary hover:text-red hover:bg-red/10'
+                    ? 'bg-blue text-white hover:bg-blue/90'
                     : 'bg-gradient-to-r from-purple to-blue text-white shadow-md shadow-purple/25 hover:shadow-purple/40 hover:brightness-110'
                 }`}
               >
